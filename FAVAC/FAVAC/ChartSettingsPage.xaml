@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:cardView="clr-namespace:CardViewNetStandard;assembly=CardViewNetStandard"
+             xmlns:xe="clr-namespace:XamEffects;assembly=XamEffects"
+             mc:Ignorable="d"
+             Title="Chart settings"
+             x:Class="FAVAC.ChartSettingsPage">
+
+    <ContentPage.Content>
+        <ScrollView>
+        <!--<StackLayout>
+            <StackLayout Padding="10">
+                <Frame HasShadow="True" BackgroundColor="AliceBlue">
+                                    <StackLayout>
+                                        <Label Text="A" 
+                   LineBreakMode="NoWrap" 
+                   FontSize="16" />
+                                        <Label Text="b" 
+                   LineBreakMode="NoWrap" 
+                   FontSize="16" />
+                                    </StackLayout>
+
+                                </Frame>
+                            </StackLayout> </StackLayou
+        t>-->
+            <StackLayout Padding="8, 5, 5, 5">
+              
+                <cardView:CardView CardViewOutlineColor="#1E222D">
+                    <cardView:CardView.CardViewContent>
+                        <StackLayout Orientation="Vertical" Padding="10,10,5,10">
+                            <Label Text="Main" FontSize="Title" TextColor="LightBlue"/>
+                            <StackLayout Orientation="Horizontal" >
+                                <Label Text="Trading View mod widget chart" VerticalOptions="Center"/>
+                                <Switch IsToggled="True" x:Name="m_mode" Toggled="m_mode_Toggled" VerticalOptions="Center"/>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal" >
+                                <Label Text="Symbols" VerticalOptions="Center"/>
+                                <Entry x:Name="m_symbols"  Text="EURUSD" VerticalOptions="Center"/>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal" >
+                                <Label Text="Interval" VerticalOptions="Center"/>
+                                <Entry x:Name="m_interval" Text="D" VerticalOptions="Center"/>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal" >
+                                <Label Text="Language" VerticalOptions="Center"/>
+                                <Entry x:Name="m_lang" Text="en" VerticalOptions="Center"/>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="Style of bars" VerticalOptions="Center"/>
+                                <Picker x:Name="m_style" VerticalOptions="Center" Title="bars">
+                                    <Picker.Items>
+                                        <x:String>Bars</x:String>
+                                        <x:String>Candles</x:String>
+                                        <x:String>Line</x:String>
+                                        <x:String>Area</x:String>
+                                        <x:String>Renko</x:String>
+                                        <x:String>Kagi</x:String>
+                                        <x:String>Point and Figure</x:String>
+                                        <x:String>Line Break</x:String>
+                                        <x:String>Heikin Ashi</x:String>
+                                        <x:String>Hollow Candles</x:String>
+                                        <x:String>Baseline</x:String>
+                                        <x:String>Range</x:String>
+                                    </Picker.Items>
+                                </Picker>
+                            </StackLayout>
+                            <StackLayout Orientation="Vertical" >
+                                <BoxView BackgroundColor="LightBlue" HeightRequest="1"/>
+                                <Button Text="RESET" BackgroundColor="Transparent" HorizontalOptions="StartAndExpand"/>
+                            </StackLayout>
+                        </StackLayout>
+                    </cardView:CardView.CardViewContent>
+            </cardView:CardView>
+                <cardView:CardView CardViewOutlineColor="#1E222D"  x:Name="detailed_card">
+                    <cardView:CardView.CardViewContent>
+                        <StackLayout Orientation="Vertical" Padding="10,10,5,10" HorizontalOptions="StartAndExpand">
+                            <Label Text="Detailed" FontSize="Title" TextColor="LightBlue"/>
+                            <StackLayout Orientation="Horizontal" >
+                                <Label Text="Drawer panel" VerticalOptions="Center"/>
+                                <CheckBox x:Name="d_drawer_panel" IsChecked="True"/>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal" >
+                                <Label Text="Save image button" VerticalOptions="Center"/>
+                                <Switch x:Name="d_saveimage" IsToggled="True"/>
+                            </StackLayout>
+                            <BoxView BackgroundColor="LightBlue" HeightRequest="1" />
+                            <Label Text="Right panel" TextColor="LightBlue" FontSize="Medium"/>
+                            <StackLayout Orientation="Horizontal" >
+                                <Label Text="News" VerticalOptions="Center"/>
+                                <Switch x:Name="d_news"/>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal" >
+                                <Label Text="Economic calendar" VerticalOptions="Center"/>
+                                <Switch x:Name="d_economiccalendar"/>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal" >
+                                <Label Text="Hotlist" VerticalOptions="Center"/>
+                                <Switch x:Name="d_hotlist"/>
+                            </StackLayout>
+                            <BoxView BackgroundColor="LightBlue" HeightRequest="1" />
+                            <Label Text="Other" TextColor="LightBlue" FontSize="Medium"/>
+                            <StackLayout Orientation="Horizontal" >
+                                <Label Text="Publish" VerticalOptions="Center"/>
+                                <CheckBox x:Name="d_publish"/>
+                            </StackLayout>
+                            <StackLayout Orientation="Vertical" >
+                                <BoxView BackgroundColor="LightBlue" HeightRequest="1" />
+                                <Button Text="RESET"  HorizontalOptions="StartAndExpand" BackgroundColor="#1E222D"/>
+                            </StackLayout>
+                        </StackLayout>
+                    </cardView:CardView.CardViewContent>
+                </cardView:CardView>
+                <cardView:CardView CardViewOutlineColor="#1E222D" x:Name="theme_card">
+                    <cardView:CardView.CardViewContent  >
+                        <StackLayout Orientation="Vertical" Padding="10,10,5,10" HorizontalOptions="StartAndExpand">
+                            <Label Text="Theme" FontSize="Title" TextColor="LightBlue"/>
+                            <StackLayout Orientation="Horizontal" >
+                                <Label Text="Dark" VerticalOptions="Center"/>
+                                <Switch IsToggled="True" x:Name="o_theme" VerticalOptions="Center"/>
+                            </StackLayout>
+                            <StackLayout Orientation="Vertical"  >
+                                <BoxView BackgroundColor="LightBlue" HeightRequest="1" />
+                                <Button Text="COLOR" BackgroundColor="#1E222D"  HorizontalOptions="StartAndExpand" Clicked="Button_Clicked_1"/>
+                            </StackLayout>
+                        </StackLayout>
+                    </cardView:CardView.CardViewContent>
+                </cardView:CardView>
+                <Button Text="Remove settings" TextColor="Red" BackgroundColor="Transparent" HorizontalOptions="Center" FontSize="Small" Clicked="Button_Clicked"/>
+
+
+
+                <!--<xe:BorderView          DarkSlateBlue DarkSlateBlue
+          HeightRequest="100"
+          WidthRequest="200"
+          HorizontalOptions="Center"
+          VerticalOptions="Center"
+          BackgroundColor="Gray"
+          CornerRadius="5">
+                <Label HorizontalOptions="Center"
+               VerticalOptions="Center"
+               Text="Some content"/>
+            </xe:BorderView>-->
+
+            <!--<cardView:CardView CardViewHeightRequest="100" >
+            <cardView:CardView.CardViewContent>
+                <StackLayout Padding="20">
+                    <Label Text="I have 100 Height"></Label>
+                </StackLayout>
+            </cardView:CardView.CardViewContent>
+        </cardView:CardView>
+            <cardView:CardView CardViewHeightRequest="100" CardViewOutlineColor="Black" CardViewOutlineColorThickness="2">
+                <cardView:CardView.CardViewContent>
+                    <StackLayout >
+                        <Label Text="I have 100 HeightRequest, and a black outline color"></Label>
+                    </StackLayout>
+                </cardView:CardView.CardViewContent>
+            </cardView:CardView>
+            <cardView:CardView CardViewHeightRequest="100" CardViewOutlineColor="Black" CardViewOutlineColorThickness="2"
+				   CardViewInnerFrameOutlineColor="Aqua" CardViewInnerFrameOutlineColorThickness="2">
+                <cardView:CardView.CardViewContent>
+                    <StackLayout >
+                        <Label Text="I have 100 Height, and a black outline color, and an inline outline color Aqua"></Label>
+                    </StackLayout>
+                </cardView:CardView.CardViewContent>
+            </cardView:CardView>-->
+           <!--<cardView:CardView CardViewHeightRequest="100" CardViewOutlineColor="Gray" CardViewOutlineColorThickness="2" CardViewHasShadow="True">
+                <cardView:CardView.CardViewContent>
+                    <StackLayout >
+                        <Label Text="Gray Outline Color with Shadow"></Label>
+                    </StackLayout>
+                </cardView:CardView.CardViewContent>
+            </cardView:CardView>-->
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

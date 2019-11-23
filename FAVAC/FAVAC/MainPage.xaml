@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<xf:BottomBarPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             Title="FAVAC"
+             NavigationPage.HasNavigationBar="True"
+             xmlns:xf="clr-namespace:BottomBar.XamarinForms;assembly=LH.BottomBar.XamarinForms"
+             xmlns:local="clr-namespace:FAVAC"
+             x:Class="FAVAC.MainPage">
+    <!--
+    1. financial quotes
+    2. chart
+    3. news/ideas
+    3. tech. signals
+    4. More
+    -->
+    <local:WatchListPage Title="Watchlist" x:Name="quotes_page"/>
+    <local:MainWebPage Title="Charts" x:Name="chart_page" xf:BottomBarPageExtensions.TabColor="Black" />
+    <local:MainWebPage Title="News/Ideas" x:Name="news_ideas_page" xf:BottomBarPageExtensions.TabColor="DarkBlue"/>
+    <local:AnylazePage Title="Analyze" x:Name="signals_page" xf:BottomBarPageExtensions.TabColor="Aquamarine"/>
+    <local:MainWebPage Title="More" x:Name="more_page" xf:BottomBarPageExtensions.TabColor="Turquoise"/>
+
+</xf:BottomBarPage>
