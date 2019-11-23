@@ -77,7 +77,6 @@ namespace FAVAC
             MessagingCenter.Subscribe<string>(this, "ChangeWebViewKey", newWebViewUrl => Device.BeginInvokeOnMainThread(() =>
             {
                 webView.Source = newWebViewUrl;
-
             }));
         }
     }
