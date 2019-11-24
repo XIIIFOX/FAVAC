@@ -160,7 +160,6 @@ namespace FAVAC
             m_stackofdesign.IsVisible = !m_mode.IsToggled;
             m_stackoflang.IsVisible = m_mode.IsToggled;
         }
-
         private void m_theme_Toggled(object sender, ToggledEventArgs e)
         {
             if (sender == m_theme) o_theme.IsToggled = m_theme.IsToggled; else m_theme.IsToggled = o_theme.IsToggled;
