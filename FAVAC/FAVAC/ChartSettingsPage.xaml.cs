@@ -71,6 +71,9 @@ namespace FAVAC
                 m_mode.IsToggled = Settings.Mode;
                 detailed_card.IsVisible = m_mode.IsToggled;
                 theme_card.IsVisible = m_mode.IsToggled;
+                m_stackofbars.IsVisible = m_mode.IsToggled;
+                m_stackofdesign.IsVisible = !m_mode.IsToggled;
+                m_stackoflang.IsVisible = m_mode.IsToggled;
                 m_symbols.Text = Settings.Symbols;
                 m_interval.Text = Settings.Interval;
                 m_lang.Text = Settings.Language;
@@ -103,17 +106,25 @@ namespace FAVAC
         {
             if (_yes)
             {
-                Settings.Theme = (o_theme.IsToggled) ? "Dark" : "Light";
+                Settings.Theme = (o_theme.IsToggled) ? "dark" : "light";
+                Settings.Theme = (m_theme.IsToggled) ? "dark" : "light";
             }
             else
             {
                 o_theme.IsToggled = (Settings.Theme == "Dark") ? true : false;
+                m_theme.IsToggled = (Settings.Theme == "dark") ? true : false;
             }
         }
 
         void ReadyUrl()
         {
-            _readyUrl = $"https://www.tradingview.com/widgetembed/?frameElementId=tradingview_131313&symbol={Settings.Symbols}&interval={Settings.Interval}&hidesidetoolbar={Settings.DrawerPanel}&symboledit=1&saveimage={Settings.SaveImageButton}&toolbarbg={Settings.ToolBarBg}&theme={Settings.Theme}&style={Settings.StyleOfBars}&timezone=Europe%2FMoscow&locale={Settings.Language}" + ((Settings.News == 0) ? "" : "&news=1&newsvendors=stocktwits") + ((Settings.Hotlist == 0) ? "" : "&hotlist=1") + ((Settings.NewsCalendar == 0) ? "" : "&calendar=1") + ((Settings.Publish) ? "" : "&enablepublishing=true");
+            if (m_mode.IsToggled)
+            {
+                _readyUrl = $"https://www.tradingview.com/widgetembed/?frameElementId=tradingview_131313&symbol={Settings.Symbols}&interval={Settings.Interval}&hidesidetoolbar={Settings.DrawerPanel}&symboledit=1&saveimage={Settings.SaveImageButton}&toolbarbg={Settings.ToolBarBg}&theme={Settings.Theme}&style={Settings.StyleOfBars}&timezone=Europe%2FMoscow&locale={Settings.Language}" + ((Settings.News == 0) ? "" : "&news=1&newsvendors=stocktwits") + ((Settings.Hotlist == 0) ? "" : "&hotlist=1") + ((Settings.NewsCalendar == 0) ? "" : "&calendar=1") + ((Settings.Publish) ? "" : "&enablepublishing=true");
+            } else
+            {
+                _readyUrl = $"https://www.tradingview.com/chart/?symbol={Settings.Symbols}&inteval={Settings.Interval}&theme={Settings.Theme}";
+            }
             Settings.ChartURL = _readyUrl; 
         }
 
@@ -143,7 +154,16 @@ namespace FAVAC
 
         private void m_mode_Toggled(object sender, ToggledEventArgs e)
         {
-            //Loader();
+            detailed_card.IsVisible = m_mode.IsToggled;
+            theme_card.IsVisible = m_mode.IsToggled;
+            m_stackofbars.IsVisible = m_mode.IsToggled;
+            m_stackofdesign.IsVisible = !m_mode.IsToggled;
+            m_stackoflang.IsVisible = m_mode.IsToggled;
+        }
+
+        private void m_theme_Toggled(object sender, ToggledEventArgs e)
+        {
+            if (sender == m_theme) o_theme.IsToggled = m_theme.IsToggled; else m_theme.IsToggled = o_theme.IsToggled;
         }
     }
 }

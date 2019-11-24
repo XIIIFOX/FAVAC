@@ -44,11 +44,15 @@
                                 <Label Text="Interval" VerticalOptions="Center"/>
                                 <Entry x:Name="m_interval" Text="D" VerticalOptions="Center"/>
                             </StackLayout>
-                            <StackLayout Orientation="Horizontal" >
+                            <StackLayout Orientation="Horizontal"  x:Name="m_stackoflang">
                                 <Label Text="Language" VerticalOptions="Center"/>
                                 <Entry x:Name="m_lang" Text="en" VerticalOptions="Center"/>
                             </StackLayout>
-                            <StackLayout Orientation="Horizontal">
+                            <StackLayout Orientation="Horizontal" IsVisible="False" x:Name="m_stackofdesign">
+                                <Label Text="Dark" VerticalOptions="Center"/>
+                                <Switch IsToggled="True" x:Name="m_theme" VerticalOptions="Center" Toggled="m_theme_Toggled"/>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal" x:Name="m_stackofbars">
                                 <Label Text="Style of bars" VerticalOptions="Center"/>
                                 <Picker x:Name="m_style" VerticalOptions="Center" Title="bars">
                                     <Picker.Items>
@@ -119,7 +123,7 @@
                             <Label Text="Theme" FontSize="Title" TextColor="LightBlue"/>
                             <StackLayout Orientation="Horizontal" >
                                 <Label Text="Dark" VerticalOptions="Center"/>
-                                <Switch IsToggled="True" x:Name="o_theme" VerticalOptions="Center"/>
+                                <Switch IsToggled="True" x:Name="o_theme" VerticalOptions="Center" Toggled="m_theme_Toggled"/>
                             </StackLayout>
                             <StackLayout Orientation="Vertical"  >
                                 <BoxView BackgroundColor="LightBlue" HeightRequest="1" />
@@ -143,36 +147,6 @@
                VerticalOptions="Center"
                Text="Some content"/>
             </xe:BorderView>-->
-
-            <!--<cardView:CardView CardViewHeightRequest="100" >
-            <cardView:CardView.CardViewContent>
-                <StackLayout Padding="20">
-                    <Label Text="I have 100 Height"></Label>
-                </StackLayout>
-            </cardView:CardView.CardViewContent>
-        </cardView:CardView>
-            <cardView:CardView CardViewHeightRequest="100" CardViewOutlineColor="Black" CardViewOutlineColorThickness="2">
-                <cardView:CardView.CardViewContent>
-                    <StackLayout >
-                        <Label Text="I have 100 HeightRequest, and a black outline color"></Label>
-                    </StackLayout>
-                </cardView:CardView.CardViewContent>
-            </cardView:CardView>
-            <cardView:CardView CardViewHeightRequest="100" CardViewOutlineColor="Black" CardViewOutlineColorThickness="2"
-				   CardViewInnerFrameOutlineColor="Aqua" CardViewInnerFrameOutlineColorThickness="2">
-                <cardView:CardView.CardViewContent>
-                    <StackLayout >
-                        <Label Text="I have 100 Height, and a black outline color, and an inline outline color Aqua"></Label>
-                    </StackLayout>
-                </cardView:CardView.CardViewContent>
-            </cardView:CardView>-->
-           <!--<cardView:CardView CardViewHeightRequest="100" CardViewOutlineColor="Gray" CardViewOutlineColorThickness="2" CardViewHasShadow="True">
-                <cardView:CardView.CardViewContent>
-                    <StackLayout >
-                        <Label Text="Gray Outline Color with Shadow"></Label>
-                    </StackLayout>
-                </cardView:CardView.CardViewContent>
-            </cardView:CardView>-->
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

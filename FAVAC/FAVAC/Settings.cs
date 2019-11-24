@@ -77,7 +77,7 @@ namespace FAVAC
         //designed
         public static string Theme
         {
-            get { return AppSettings.GetValueOrDefault("theme", "Dark"); }
+            get { return AppSettings.GetValueOrDefault("theme", "dark"); }
             set { AppSettings.AddOrUpdateValue("theme", value); }
         }
         public static string ToolBarBg

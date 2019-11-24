@@ -26,8 +26,6 @@ namespace FAVAC
         {
             InitializeComponent();
 
-            //Theme = BarThemeTypes.DarkWithAlpha;
-
             switch (Device.RuntimePlatform)
             {
                 case Device.Android:
