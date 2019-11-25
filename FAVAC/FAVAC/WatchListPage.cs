@@ -10,6 +10,7 @@ namespace FAVAC
     public class WatchListPage : ContentPage
     {
         readonly WebView webView = new WebView();
+        var currentUrl;
         public WatchListPage()
         {
             switch (Device.RuntimePlatform)
@@ -37,7 +38,7 @@ namespace FAVAC
 
         private void WebView_Navigated(object sender, WebNavigatedEventArgs e)
         {
-            
+            DisplayAlert("test", webView.Uri.toString(), "yes");
         }
     }
 }
