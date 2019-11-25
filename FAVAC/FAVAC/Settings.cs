@@ -85,5 +85,12 @@ namespace FAVAC
             get { return AppSettings.GetValueOrDefault("toolbarbg", "f1f3f6"); }
             set { AppSettings.AddOrUpdateValue("toolbarbg", value); }
         }
+
+        //watchlist
+        public static string Watchlist_Url
+        {
+            get { return AppSettings.GetValueOrDefault("watchlist_url", ""); }
+            set { AppSettings.AddOrUpdateValue("watchlist_url", value);}
+        }
     }
 }
