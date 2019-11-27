@@ -5,10 +5,11 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:cardView="clr-namespace:CardViewNetStandard;assembly=CardViewNetStandard"
              mc:Ignorable="d"
+             Title="MAIN"
              x:Class="FAVAC.AnalyzePage">
     <ContentPage.Content>
-        <ScrollView>
-                <StackLayout Padding="8, 5, 5, 5">
+        <ScrollView >
+            <StackLayout Padding="8, 5, 5, 5" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
                     <cardView:CardView CardViewOutlineColor="#1E222D">
                         <cardView:CardView.CardViewContent>
                             <StackLayout Orientation="Vertical" Padding="20,10,5,10">
@@ -24,7 +25,7 @@
                             </StackLayout>
                         </cardView:CardView.CardViewContent>
                     </cardView:CardView>
-                    <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="EndAndExpand" x:Name="webCards" IsClippedToBounds="True"/>
+                    <StackLayout VerticalOptions="StartAndExpand" HorizontalOptions="FillAndExpand" x:Name="webCards" IsClippedToBounds="True"/>
                 </StackLayout>
             </ScrollView>
         </ContentPage.Content>
