@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:cardView="clr-namespace:CardViewNetStandard;assembly=CardViewNetStandard"
+             mc:Ignorable="d"
+             x:Class="FAVAC.AnalyzePage">
+    <ContentPage.Content>
+        <ScrollView>
+                <StackLayout Padding="8, 5, 5, 5">
+                    <cardView:CardView CardViewOutlineColor="#1E222D">
+                        <cardView:CardView.CardViewContent>
+                            <StackLayout Orientation="Vertical" Padding="20,10,5,10">
+                            <Label Text="SYMBOL INFO" FontSize="Title" FontAttributes="Bold" TextColor="#2196F3"/>
+                                <StackLayout Orientation="Horizontal" >
+                                    <Label Text="SYMBOL" FontSize="Subtitle" VerticalOptions="Center"/>
+                                    <Entry x:Name="m_symbols"  Text="EURUSD" VerticalOptions="Center" ClearButtonVisibility="WhileEditing" Completed="m_symbols_Completed"/>
+                                </StackLayout>
+                                    <StackLayout Orientation="Vertical" >
+                                <BoxView BackgroundColor="#2196F3" HeightRequest="1"/>
+                                    <Button Text="CHART" BackgroundColor="Transparent" HorizontalOptions="StartAndExpand"/>
+                                </StackLayout>
+                            </StackLayout>
+                        </cardView:CardView.CardViewContent>
+                    </cardView:CardView>
+                    <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="EndAndExpand" x:Name="webCards" IsClippedToBounds="True"/>
+                </StackLayout>
+            </ScrollView>
+        </ContentPage.Content>
+</ContentPage>

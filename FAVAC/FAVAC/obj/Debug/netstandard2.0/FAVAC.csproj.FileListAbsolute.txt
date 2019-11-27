@@ -12,3 +12,4 @@ C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC\obj\Debug\netstandard2.0\ref\FAVAC.
 C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC\obj\Debug\netstandard2.0\FAVAC.pdb
 C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC\obj\Debug\netstandard2.0\ChartSettingsPage.xaml.g.cs
 C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC\obj\Debug\netstandard2.0\AnalyzePage.xaml.g.cs
