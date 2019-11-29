@@ -5,7 +5,6 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:cardView="clr-namespace:CardViewNetStandard;assembly=CardViewNetStandard"
              mc:Ignorable="d"
-             Title="MAIN"
              x:Class="FAVAC.AnalyzePage">
     <ContentPage.Content>
         <ScrollView >
@@ -25,8 +24,8 @@
                             </StackLayout>
                         </cardView:CardView.CardViewContent>
                     </cardView:CardView>
-                    <StackLayout VerticalOptions="StartAndExpand" HorizontalOptions="FillAndExpand" x:Name="webCards" IsClippedToBounds="True"/>
-                </StackLayout>
+                <StackLayout VerticalOptions="StartAndExpand" HorizontalOptions="FillAndExpand" x:Name="webCards" IsClippedToBounds="True"/>
+            </StackLayout>
             </ScrollView>
         </ContentPage.Content>
 </ContentPage>

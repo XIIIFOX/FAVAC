@@ -43,13 +43,9 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
-            "BottomNavigationBar": {
-              "target": "Package",
-              "version": "[1.4.0.3, )"
-            },
             "HtmlAgilityPack": {
               "target": "Package",
-              "version": "[1.11.16, )"
+              "version": "[1.11.17, )"
             },
             "LH.BottomNavigationBar.XF": {
               "target": "Package",
