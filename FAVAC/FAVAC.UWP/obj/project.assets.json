@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "UAP,Version=v10.0.16299": {
-      "HtmlAgilityPack/1.11.16": {
+      "HtmlAgilityPack/1.11.17": {
         "type": "package",
         "dependencies": {
           "System.Net.Http": "4.3.2",
@@ -1268,7 +1268,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "HtmlAgilityPack": "1.11.16",
+          "HtmlAgilityPack": "1.11.17",
           "LH.BottomNavigationBar.XF": "1.0.42",
           "Xam.Plugins.Settings": "3.1.1",
           "XamEffects": "1.6.3",
@@ -1285,7 +1285,7 @@
       }
     },
     "UAP,Version=v10.0.16299/win10-arm": {
-      "HtmlAgilityPack/1.11.16": {
+      "HtmlAgilityPack/1.11.17": {
         "type": "package",
         "dependencies": {
           "System.Net.Http": "4.3.2",
@@ -2892,7 +2892,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "HtmlAgilityPack": "1.11.16",
+          "HtmlAgilityPack": "1.11.17",
           "LH.BottomNavigationBar.XF": "1.0.42",
           "Xam.Plugins.Settings": "3.1.1",
           "XamEffects": "1.6.3",
@@ -2909,7 +2909,7 @@
       }
     },
     "UAP,Version=v10.0.16299/win10-arm-aot": {
-      "HtmlAgilityPack/1.11.16": {
+      "HtmlAgilityPack/1.11.17": {
         "type": "package",
         "dependencies": {
           "System.Net.Http": "4.3.2",
@@ -4615,7 +4615,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "HtmlAgilityPack": "1.11.16",
+          "HtmlAgilityPack": "1.11.17",
           "LH.BottomNavigationBar.XF": "1.0.42",
           "Xam.Plugins.Settings": "3.1.1",
           "XamEffects": "1.6.3",
@@ -4632,7 +4632,7 @@
       }
     },
     "UAP,Version=v10.0.16299/win10-arm64-aot": {
-      "HtmlAgilityPack/1.11.16": {
+      "HtmlAgilityPack/1.11.17": {
         "type": "package",
         "dependencies": {
           "System.Net.Http": "4.3.2",
@@ -6335,7 +6335,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "HtmlAgilityPack": "1.11.16",
+          "HtmlAgilityPack": "1.11.17",
           "LH.BottomNavigationBar.XF": "1.0.42",
           "Xam.Plugins.Settings": "3.1.1",
           "XamEffects": "1.6.3",
@@ -6352,7 +6352,7 @@
       }
     },
     "UAP,Version=v10.0.16299/win10-x64": {
-      "HtmlAgilityPack/1.11.16": {
+      "HtmlAgilityPack/1.11.17": {
         "type": "package",
         "dependencies": {
           "System.Net.Http": "4.3.2",
@@ -7959,7 +7959,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "HtmlAgilityPack": "1.11.16",
+          "HtmlAgilityPack": "1.11.17",
           "LH.BottomNavigationBar.XF": "1.0.42",
           "Xam.Plugins.Settings": "3.1.1",
           "XamEffects": "1.6.3",
@@ -7976,7 +7976,7 @@
       }
     },
     "UAP,Version=v10.0.16299/win10-x64-aot": {
-      "HtmlAgilityPack/1.11.16": {
+      "HtmlAgilityPack/1.11.17": {
         "type": "package",
         "dependencies": {
           "System.Net.Http": "4.3.2",
@@ -9682,7 +9682,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "HtmlAgilityPack": "1.11.16",
+          "HtmlAgilityPack": "1.11.17",
           "LH.BottomNavigationBar.XF": "1.0.42",
           "Xam.Plugins.Settings": "3.1.1",
           "XamEffects": "1.6.3",
@@ -9699,7 +9699,7 @@
       }
     },
     "UAP,Version=v10.0.16299/win10-x86": {
-      "HtmlAgilityPack/1.11.16": {
+      "HtmlAgilityPack/1.11.17": {
         "type": "package",
         "dependencies": {
           "System.Net.Http": "4.3.2",
@@ -11306,7 +11306,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "HtmlAgilityPack": "1.11.16",
+          "HtmlAgilityPack": "1.11.17",
           "LH.BottomNavigationBar.XF": "1.0.42",
           "Xam.Plugins.Settings": "3.1.1",
           "XamEffects": "1.6.3",
@@ -11323,7 +11323,7 @@
       }
     },
     "UAP,Version=v10.0.16299/win10-x86-aot": {
-      "HtmlAgilityPack/1.11.16": {
+      "HtmlAgilityPack/1.11.17": {
         "type": "package",
         "dependencies": {
           "System.Net.Http": "4.3.2",
@@ -13029,7 +13029,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "HtmlAgilityPack": "1.11.16",
+          "HtmlAgilityPack": "1.11.17",
           "LH.BottomNavigationBar.XF": "1.0.42",
           "Xam.Plugins.Settings": "3.1.1",
           "XamEffects": "1.6.3",
@@ -13047,14 +13047,14 @@
     }
   },
   "libraries": {
-    "HtmlAgilityPack/1.11.16": {
-      "sha512": "IKHb7W0ak32dLCEiQlaET1m8dfD4NaH3gGUPre1eUCnsOrx0iM/YOytXAiyMXMcAO9p6xNypaXVuNx4a0XKFrQ==",
+    "HtmlAgilityPack/1.11.17": {
+      "sha512": "/aFnzxmvcWj9D2KEH9tEHE4rv5ZOGOTmgWtZK/Wr3ZwU0NrXVwzpPM2O57Roe08N9/h7tvwMD8lqT6KlKPahBg==",
       "type": "package",
-      "path": "htmlagilitypack/1.11.16",
+      "path": "htmlagilitypack/1.11.17",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "htmlagilitypack.1.11.16.nupkg.sha512",
+        "htmlagilitypack.1.11.17.nupkg.sha512",
         "htmlagilitypack.nuspec",
         "lib/Net35/HtmlAgilityPack.dll",
         "lib/Net35/HtmlAgilityPack.pdb",
@@ -21415,7 +21415,7 @@
   "projectFileDependencyGroups": {
     "UAP,Version=v10.0.16299": [
       "FAVAC >= 0.1.0",
-      "HtmlAgilityPack >= 1.11.16",
+      "HtmlAgilityPack >= 1.11.17",
       "LH.BottomNavigationBar.XF >= 1.0.42",
       "Microsoft.NETCore.UniversalWindowsPlatform >= 6.2.9",
       "Xam.Plugins.Settings >= 3.1.1",
@@ -21470,7 +21470,7 @@
         "dependencies": {
           "HtmlAgilityPack": {
             "target": "Package",
-            "version": "[1.11.16, )"
+            "version": "[1.11.17, )"
           },
           "LH.BottomNavigationBar.XF": {
             "target": "Package",

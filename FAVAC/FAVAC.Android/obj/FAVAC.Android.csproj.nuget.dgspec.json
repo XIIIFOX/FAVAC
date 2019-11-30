@@ -48,7 +48,7 @@
             },
             "HtmlAgilityPack": {
               "target": "Package",
-              "version": "[1.11.16, )"
+              "version": "[1.11.17, )"
             },
             "LH.BottomNavigationBar.XF": {
               "target": "Package",
@@ -123,7 +123,7 @@
           "dependencies": {
             "HtmlAgilityPack": {
               "target": "Package",
-              "version": "[1.11.16, )"
+              "version": "[1.11.17, )"
             },
             "LH.BottomNavigationBar.XF": {
               "target": "Package",
