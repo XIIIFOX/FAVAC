@@ -30,17 +30,17 @@
     <AppXManifest Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-28T13:24:39.710</Modified>
+      <Modified>2019-11-30T11:53:02.466</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\bin\x86\Debug\FAVAC.UWP.exe">
       <PackagePath>entrypoint\FAVAC.UWP.exe</PackagePath>
-      <Modified>2019-11-28T13:24:35.238</Modified>
+      <Modified>2019-11-30T11:52:54.803</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pvbk\.nuget\packages\htmlagilitypack\1.11.16\lib\uap10.0\HtmlAgilityPack.dll">
+    <AppxPackagedFile Include="C:\Users\pvbk\.nuget\packages\htmlagilitypack\1.11.17\lib\uap10.0\HtmlAgilityPack.dll">
       <PackagePath>HtmlAgilityPack.dll</PackagePath>
-      <Modified>2019-10-06T11:34:56.000</Modified>
+      <Modified>2019-11-25T16:01:10.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pvbk\.nuget\packages\lh.bottomnavigationbar.xf\1.0.42\lib\netstandard1.4\LH.BottomBar.XamarinForms.dll">
       <PackagePath>LH.BottomBar.XamarinForms.dll</PackagePath>
@@ -96,7 +96,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC\bin\Debug\netstandard2.0\FAVAC.dll">
       <PackagePath>FAVAC.dll</PackagePath>
-      <Modified>2019-11-28T13:27:07.050</Modified>
+      <Modified>2019-11-30T11:55:35.401</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pvbk\.nuget\packages\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
@@ -271,15 +271,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\bin\x86\Debug\Microsoft.UI.Xaml\DensityStyles\Compact.xbf">
       <PackagePath>Microsoft.UI.Xaml\DensityStyles\Compact.xbf</PackagePath>
-      <Modified>2019-11-28T13:24:34.533</Modified>
+      <Modified>2019-11-30T11:52:53.825</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-11-28T13:24:34.534</Modified>
+      <Modified>2019-11-30T11:52:53.826</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-11-28T13:24:34.535</Modified>
+      <Modified>2019-11-30T11:52:53.829</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.17763.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -299,11 +299,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-11-28T13:24:37.144</Modified>
+      <Modified>2019-11-30T11:52:57.279</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\bin\x86\Debug\Core\FAVAC.UWP.exe">
       <PackagePath>FAVAC.UWP.exe</PackagePath>
-      <Modified>2019-11-28T13:24:39.643</Modified>
+      <Modified>2019-11-30T11:53:02.391</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

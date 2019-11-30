@@ -28,7 +28,7 @@
     <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\bin\x86\Debug\FAVAC.UWP.exe">
       <PackagePath>entrypoint\FAVAC.UWP.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pvbk\.nuget\packages\htmlagilitypack\1.11.16\lib\uap10.0\HtmlAgilityPack.dll">
+    <AppxPackagedFile Include="C:\Users\pvbk\.nuget\packages\htmlagilitypack\1.11.17\lib\uap10.0\HtmlAgilityPack.dll">
       <PackagePath>HtmlAgilityPack.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pvbk\.nuget\packages\lh.bottomnavigationbar.xf\1.0.42\lib\netstandard1.4\LH.BottomBar.XamarinForms.dll">
