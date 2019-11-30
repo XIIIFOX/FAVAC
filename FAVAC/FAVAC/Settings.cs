@@ -1,4 +1,13 @@
-﻿using Plugin.Settings;
+﻿//______/\\\_____/\\\\\\\\\\___/\\\\\\\\\\\\\\\_______/\\\\\_______/\\\_______/\\\_
+// __/\\\\\\\___/\\\///////\\\_\/\\\///////////______/\\\///\\\____\///\\\___/\\\/__                                                                                                                                                                                  
+//  _\/////\\\__\///______/\\\__\/\\\_______________/\\\/__\///\\\____\///\\\\\\/____                                                                                                                                                                                 
+//   _____\/\\\_________/\\\//___\/\\\\\\\\\\\______/\\\______\//\\\_____\//\\\\______                                                                                                                                                                                
+//    _____\/\\\________\////\\\__\/\\\///////______\/\\\_______\/\\\______\/\\\\______                                                                                                                                                                               
+//     _____\/\\\___________\//\\\_\/\\\_____________\//\\\______/\\\_______/\\\\\\_____                                                                                                                                                                              
+//      _____\/\\\__/\\\______/\\\__\/\\\______________\///\\\__/\\\_______/\\\////\\\___                                                                                                                                                                             
+//       _____\/\\\_\///\\\\\\\\\/___\/\\\________________\///\\\\\/______/\\\/___\///\\\_                                                                                                                                                                            
+//        _____\///____\/////////_____\///___________________\/////_______\///_______\///__
+using Plugin.Settings;
 using Plugin.Settings.Abstractions;
 namespace FAVAC
 {
@@ -9,12 +18,11 @@ namespace FAVAC
             get { return CrossSettings.Current; }
         }
 
-
+ 
         //Chart URL
         public static string ChartURL
         {
-            get { return AppSettings.GetValueOrDefault("chart_url", "https://www.tradingview.com/widgetembed/?frameElementId=tradingview_131313&symbol=EURUSD&interval=D&hidesidetoolbar=0&symboledit=1&saveimage=1&toolbarbg=f1f3f6&theme=Dark&style=1&timezone=Europe%2FMoscow&locale=en"); }
-            set { AppSettings.AddOrUpdateValue("chart_url", value); }
+            get { return (Mode) ? $"https://www.tradingview.com/widgetembed/?frameElementId=tradingview_131313&symbol={Symbols}&interval={Interval}&hidesidetoolbar={DrawerPanel}&symboledit=1&saveimage={SaveImageButton}&toolbarbg={ToolBarBg}&theme={Theme}&style={StyleOfBars}&timezone=Europe%2FMoscow&locale={Language}" + ((News == 0) ? "" : "&news=1&newsvendors=stocktwits") + ((Hotlist == 0) ? "" : "&hotlist=1") + ((NewsCalendar == 0) ? "" : "&calendar=1") + ((Publish) ? "" : "&enablepublishing=true") : $"https://www.tradingview.com/chart/?symbol={Symbols}&inteval={Interval}&theme={Theme}"; }
         }
 
         //main

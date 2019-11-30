@@ -74,9 +74,9 @@ namespace FAVAC
         {
             base.OnAppearing();
             await progress.ProgressTo(0.9, 900, Easing.SpringIn);
-            MessagingCenter.Subscribe<string>(this, "ChangeWebViewKey", newWebViewUrl => Device.BeginInvokeOnMainThread(() =>
+            MessagingCenter.Subscribe<object>(this, "ChangeWebViewKey", _ => Device.BeginInvokeOnMainThread(() =>
             {
-                webView.Source = newWebViewUrl;
+                webView.Source = Settings.ChartURL;
             }));
         }
     }

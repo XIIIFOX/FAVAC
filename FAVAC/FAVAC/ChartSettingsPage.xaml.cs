@@ -23,7 +23,6 @@ namespace FAVAC
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class ChartSettingsPage : ContentPage
     {
-        string _readyUrl;
         public ChartSettingsPage()
         {
             InitializeComponent();
@@ -46,8 +45,7 @@ namespace FAVAC
             Main_side_save(true);
             Detailed_side_save(true);
             Design_side_save(true);
-            ReadyUrl();
-            MessagingCenter.Send(_readyUrl, "ChangeWebViewKey");
+            MessagingCenter.Send(this, "ChangeWebViewKey");
         }
         void Loader()
         {
@@ -114,18 +112,6 @@ namespace FAVAC
                 o_theme.IsToggled = (Settings.Theme == "Dark") ? true : false;
                 m_theme.IsToggled = (Settings.Theme == "dark") ? true : false;
             }
-        }
-
-        void ReadyUrl()
-        {
-            if (m_mode.IsToggled)
-            {
-                _readyUrl = $"https://www.tradingview.com/widgetembed/?frameElementId=tradingview_131313&symbol={Settings.Symbols}&interval={Settings.Interval}&hidesidetoolbar={Settings.DrawerPanel}&symboledit=1&saveimage={Settings.SaveImageButton}&toolbarbg={Settings.ToolBarBg}&theme={Settings.Theme}&style={Settings.StyleOfBars}&timezone=Europe%2FMoscow&locale={Settings.Language}" + ((Settings.News == 0) ? "" : "&news=1&newsvendors=stocktwits") + ((Settings.Hotlist == 0) ? "" : "&hotlist=1") + ((Settings.NewsCalendar == 0) ? "" : "&calendar=1") + ((Settings.Publish) ? "" : "&enablepublishing=true");
-            } else
-            {
-                _readyUrl = $"https://www.tradingview.com/chart/?symbol={Settings.Symbols}&inteval={Settings.Interval}&theme={Settings.Theme}";
-            }
-            Settings.ChartURL = _readyUrl; 
         }
 
         private async void Button_Clicked_1(object sender, EventArgs e)
