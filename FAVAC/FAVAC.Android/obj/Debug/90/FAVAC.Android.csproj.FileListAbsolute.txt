@@ -704,3 +704,13 @@ C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.Android\obj\Debug\90\android\assets
 C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.Android\obj\Debug\90\android\assets\XamEffects.pdb
 C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.Android\obj\Debug\90\android\src\md5c0c96fe332df7a1ce70ac56531011516\BorderViewRenderer.java
 C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.Android\obj\Debug\90\res\drawable\ic_fullscreen.png
+C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.Android\obj\Debug\90\res\drawable\ic_settings.png
+C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.Android\obj\Debug\90\res\drawable\ic_bitcoin.png
+C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.Android\obj\Debug\90\res\drawable\ic_chart_gantt.png
+C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.Android\obj\Debug\90\res\drawable\ic_chevron_double_up.png
+C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.Android\obj\Debug\90\res\drawable\ic_checkerboard.png
+C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.Android\obj\Debug\90\res\drawable\ic_qrcode_edit.png
+C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.Android\obj\Debug\90\res\drawable\ic_chart_scatter_plot.png
+C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.Android\obj\Debug\90\res\drawable\ic_select.png
+C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.Android\obj\Debug\90\res\drawable\ic_information.png
+C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.Android\obj\Debug\90\res\drawable\ic_share.png

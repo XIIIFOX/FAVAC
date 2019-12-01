@@ -20,6 +20,6 @@
     <local:MainWebPage Title="Charts" x:Name="chart_page" xf:BottomBarPageExtensions.TabColor="Black" />
     <local:NewsIdeasPage Title="News/Ideas" x:Name="news_ideas_page" xf:BottomBarPageExtensions.TabColor="DarkBlue"/>
     <local:AnalyzePage Title="Analyze" x:Name="signals_page" xf:BottomBarPageExtensions.TabColor="#2196F3"/>
-    <local:MainWebPage Title="More" x:Name="more_page" xf:BottomBarPageExtensions.TabColor="Turquoise"/>
+    <local:MorePage Title="More" x:Name="more_page" xf:BottomBarPageExtensions.TabColor="Turquoise"/>
 
 </xf:BottomBarPage>
