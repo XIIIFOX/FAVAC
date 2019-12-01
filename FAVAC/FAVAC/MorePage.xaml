@@ -15,8 +15,7 @@
         </StackLayout></StackLayout>
         
         <ListView x:Name="itemsList"
-              HasUnevenRows="False"
-                  Margin="1"
+              HasUnevenRows="True"
                   SeparatorVisibility="None"
                   BackgroundColor="#212121"
               ItemsSource="{Binding Elements}"
@@ -38,7 +37,7 @@
                   SeparatorVisibility="None"
                   BackgroundColor="#212121"
               ItemsSource="{Binding ElementsOthers}"
-              ItemTapped="itemsList_ItemTapped">
+              ItemTapped="itemsListOther_ItemTapped">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
