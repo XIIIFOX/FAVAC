@@ -94,14 +94,26 @@ namespace FAVAC
             }
         }
 
-        private void TapGestureRecognizer_Tapped(object sender, EventArgs e)
-        {
-
-        }
-
         private void itemsListOther_ItemTapped(object sender, ItemTappedEventArgs e)
         {
-
+            if(e.Item != null) {
+                switch (e.ItemIndex)
+                {
+                    case 0:
+                     await Navigation.PushAsync(new WebViewHand());
+                        MessagingCenter.Send((e.Item as CommonMenuItem).Title + "|https://www.");
+                        break;
+                    case 1:
+                        //
+                        break;
+                }
+            }
         }
+    
+        private void TapGestureRecognizer_Tapped(object sender, EventArgs e)
+        {
+            //
+        }
+
     }
 }
