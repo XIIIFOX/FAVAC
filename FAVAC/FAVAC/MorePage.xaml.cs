@@ -94,7 +94,7 @@ namespace FAVAC
             }
         }
 
-        private void itemsListOther_ItemTapped(object sender, ItemTappedEventArgs e)
+        private async void itemsListOther_ItemTapped(object sender, ItemTappedEventArgs e)
         {
             if(e.Item != null) {
                 switch (e.ItemIndex)
