@@ -12,7 +12,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -41,6 +41,14 @@ namespace FAVAC
                 Priority = 0,
                 Order = ToolbarItemOrder.Primary,
                 IconImageSource = "ic_share.png"
+            };
+
+            toolbarItemShare.Clicked += (s, e) => {
+                Share.RequestAsync(new ShareTextRequest
+                {
+                    Uri = "https://play.google.com/store/apps/dev?id=8434535627357546284",
+                    Title = "Share This App"
+                });
             };
             ToolbarItems.Add(toolbarItemSettings);
             ToolbarItems.Add(toolbarItemShare);
@@ -97,22 +105,28 @@ namespace FAVAC
         private async void itemsListOther_ItemTapped(object sender, ItemTappedEventArgs e)
         {
             if(e.Item != null) {
+                ((ListView)sender).SelectedItem = null;
                 switch (e.ItemIndex)
                 {
                     case 0:
-                     await Navigation.PushAsync(new WebViewHand());
-                        MessagingCenter.Send((e.Item as CommonMenuItem).Title + "|https://www.");
+                        await Browser.OpenAsync(new Uri("https://vk.com"), new BrowserLaunchOptions
+                        {
+                            LaunchMode = BrowserLaunchMode.SystemPreferred,
+                            TitleMode = BrowserTitleMode.Show,
+                            PreferredToolbarColor = Color.AliceBlue,
+                            PreferredControlColor = Color.Violet
+                        });
                         break;
                     case 1:
-                        //
+                        await Navigation.PushAsync(new AboutPage());
                         break;
                 }
             }
         }
     
-        private void TapGestureRecognizer_Tapped(object sender, EventArgs e)
+        private async void TapGestureRecognizer_Tapped(object sender, EventArgs e)
         {
-            //
+            await Navigation.PushAsync(new DataPage());
         }
 
     }

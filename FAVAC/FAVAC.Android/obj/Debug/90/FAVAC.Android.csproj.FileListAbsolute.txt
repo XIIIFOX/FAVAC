@@ -714,3 +714,8 @@ C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.Android\obj\Debug\90\res\drawable\i
 C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.Android\obj\Debug\90\res\drawable\ic_select.png
 C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.Android\obj\Debug\90\res\drawable\ic_information.png
 C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.Android\obj\Debug\90\res\drawable\ic_share.png
+C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.Android\obj\Debug\90\res\drawable\tfox_logo.png
+C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.Android\obj\Debug\90\res\drawable\azure.png
+C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.Android\obj\Debug\90\res\drawable\github.png
+C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.Android\obj\Debug\90\res\drawable\telegram.png
+C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.Android\obj\Debug\90\res\drawable\vk.png

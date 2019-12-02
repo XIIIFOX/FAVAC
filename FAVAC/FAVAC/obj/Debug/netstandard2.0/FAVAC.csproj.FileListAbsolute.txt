@@ -14,3 +14,5 @@ C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC\obj\Debug\netstandard2.0\ChartSetti
 C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC\obj\Debug\netstandard2.0\AnalyzePage.xaml.g.cs
 C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC\obj\Debug\netstandard2.0\MorePage.xaml.g.cs
+C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC\obj\Debug\netstandard2.0\AboutPage.xaml.g.cs
+C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC\obj\Debug\netstandard2.0\DataPage.xaml.g.cs

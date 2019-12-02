@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             NavigationPage.HasNavigationBar="False"
+             x:Class="FAVAC.AboutPage">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="Black" Padding="10">
+            <Image Source="tfox_logo.png" VerticalOptions="Center"/>
+            <Label Text="13FOX" FontSize="Large"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="Center"
+                   FontAttributes="Bold"/>
+            <Label Text="Company 13FOX to help you get education, financial analyst and other financial instruments." FontSize="Body" HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand" HorizontalTextAlignment="Center"/>
+            <StackLayout Orientation="Horizontal" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+                <ImageButton Source="telegram.png" Clicked="ImageButton_Clicked" WidthRequest="36" HeightRequest="36" BackgroundColor="Transparent" TabIndex="0"/>
+                <ImageButton Source="vk.png" Clicked="ImageButton_Clicked" WidthRequest="36" HeightRequest="36" BackgroundColor="Transparent" TabIndex="1"/>
+                <ImageButton Source="github.png" Clicked="ImageButton_Clicked" WidthRequest="36" HeightRequest="36" BackgroundColor="Transparent" TabIndex="2"/>
+                <ImageButton Source="azure.png" Clicked="ImageButton_Clicked" WidthRequest="36" HeightRequest="36" BackgroundColor="Transparent" TabIndex="3"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
