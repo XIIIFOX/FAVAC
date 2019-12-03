@@ -3,13 +3,38 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:cardView="clr-namespace:CardViewNetStandard;assembly=CardViewNetStandard"
              mc:Ignorable="d"
              x:Class="FAVAC.DataPage">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout Padding="8, 5, 5, 5" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+            <cardView:CardView CardViewOutlineColor="#1E222D">
+                <cardView:CardView.CardViewContent>
+                    <StackLayout Orientation="Vertical" Padding="20,10,5,10">
+                        <Label Text="COOMMON DATA" FontSize="Title" FontAttributes="Bold" TextColor="#2196F3"/>
+                        <StackLayout Orientation="Horizontal" >
+                            <Label Text="MAIN CHART" FontSize="Subtitle" VerticalOptions="Center"/>
+                            <Entry x:Name="m_url_data" VerticalOptions="Center" ClearButtonVisibility="WhileEditing"/>
+                        </StackLayout>
+                        <StackLayout Orientation="Vertical" >
+                            <BoxView BackgroundColor="#2196F3" HeightRequest="1"/>
+                            <StackLayout Orientation="Horizontal">
+                                <Button Text="COPY" BackgroundColor="Transparent"  HorizontalOptions="StartAndExpand"/>
+                                <Button Text="SHARE" BackgroundColor="Transparent"  HorizontalOptions="StartAndExpand"/>
+                            </StackLayout>
+                        </StackLayout>
+                    </StackLayout>
+                </cardView:CardView.CardViewContent>
+            </cardView:CardView>
+            <cardView:CardView CardViewOutlineColor="#1E222D">
+                <cardView:CardView.CardViewContent>
+                    <StackLayout x:Name="qr_image" Orientation="Vertical" Padding="20,10,5,10">
+                        <Label Text="QR CODE" FontSize="Title" FontAttributes="Bold" TextColor="#2196F3"/>
+                        <Label Text="All settings data of chart here" FontSize="Subtitle" VerticalOptions="Center"/>
+                        <BoxView BackgroundColor="#2196F3" HeightRequest="1"/>
+                    </StackLayout>
+                </cardView:CardView.CardViewContent>
+            </cardView:CardView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

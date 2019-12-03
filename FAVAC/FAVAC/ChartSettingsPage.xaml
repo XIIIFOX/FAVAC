@@ -30,7 +30,7 @@
               
                 <cardView:CardView CardViewOutlineColor="#1E222D">
                     <cardView:CardView.CardViewContent>
-                        <StackLayout Orientation="Vertical" Padding="10,10,5,10">
+                        <StackLayout Orientation="Vertical" Padding="20,10,5,10">
                             <Label Text="Main" FontSize="Title" TextColor="LightBlue"/>
                             <StackLayout Orientation="Horizontal" >
                                 <Label Text="Trading View mod widget chart" VerticalOptions="Center"/>
@@ -80,7 +80,7 @@
             </cardView:CardView>
                 <cardView:CardView CardViewOutlineColor="#1E222D"  x:Name="detailed_card">
                     <cardView:CardView.CardViewContent>
-                        <StackLayout Orientation="Vertical" Padding="10,10,5,10" HorizontalOptions="StartAndExpand">
+                        <StackLayout Orientation="Vertical"  Padding="20,10,5,10" HorizontalOptions="StartAndExpand">
                             <Label Text="Detailed" FontSize="Title" TextColor="LightBlue"/>
                             <StackLayout Orientation="Horizontal" >
                                 <Label Text="Drawer panel" VerticalOptions="Center"/>
@@ -119,7 +119,7 @@
                 </cardView:CardView>
                 <cardView:CardView CardViewOutlineColor="#1E222D" x:Name="theme_card">
                     <cardView:CardView.CardViewContent  >
-                        <StackLayout Orientation="Vertical" Padding="10,10,5,10" HorizontalOptions="StartAndExpand">
+                        <StackLayout Orientation="Vertical"  Padding="20,10,5,10" HorizontalOptions="StartAndExpand">
                             <Label Text="Theme" FontSize="Title" TextColor="LightBlue"/>
                             <StackLayout Orientation="Horizontal" >
                                 <Label Text="Dark" VerticalOptions="Center"/>

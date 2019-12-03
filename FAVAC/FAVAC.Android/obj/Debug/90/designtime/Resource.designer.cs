@@ -6300,1820 +6300,12 @@ namespace FAVAC.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ViewStubCompat_android_id = global::FAVAC.Droid.Resource.Styleable.ViewStubCompat_android_id;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ViewStubCompat_android_inflatedId = global::FAVAC.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ViewStubCompat_android_layout = global::FAVAC.Droid.Resource.Styleable.ViewStubCompat_android_layout;
-			global::XamEffects.Droid.Resource.Animation.abc_fade_in = global::FAVAC.Droid.Resource.Animation.abc_fade_in;
-			global::XamEffects.Droid.Resource.Animation.abc_fade_out = global::FAVAC.Droid.Resource.Animation.abc_fade_out;
-			global::XamEffects.Droid.Resource.Animation.abc_grow_fade_in_from_bottom = global::FAVAC.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
-			global::XamEffects.Droid.Resource.Animation.abc_popup_enter = global::FAVAC.Droid.Resource.Animation.abc_popup_enter;
-			global::XamEffects.Droid.Resource.Animation.abc_popup_exit = global::FAVAC.Droid.Resource.Animation.abc_popup_exit;
-			global::XamEffects.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom = global::FAVAC.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
-			global::XamEffects.Droid.Resource.Animation.abc_slide_in_bottom = global::FAVAC.Droid.Resource.Animation.abc_slide_in_bottom;
-			global::XamEffects.Droid.Resource.Animation.abc_slide_in_top = global::FAVAC.Droid.Resource.Animation.abc_slide_in_top;
-			global::XamEffects.Droid.Resource.Animation.abc_slide_out_bottom = global::FAVAC.Droid.Resource.Animation.abc_slide_out_bottom;
-			global::XamEffects.Droid.Resource.Animation.abc_slide_out_top = global::FAVAC.Droid.Resource.Animation.abc_slide_out_top;
-			global::XamEffects.Droid.Resource.Animation.design_bottom_sheet_slide_in = global::FAVAC.Droid.Resource.Animation.design_bottom_sheet_slide_in;
-			global::XamEffects.Droid.Resource.Animation.design_bottom_sheet_slide_out = global::FAVAC.Droid.Resource.Animation.design_bottom_sheet_slide_out;
-			global::XamEffects.Droid.Resource.Animation.design_snackbar_in = global::FAVAC.Droid.Resource.Animation.design_snackbar_in;
-			global::XamEffects.Droid.Resource.Animation.design_snackbar_out = global::FAVAC.Droid.Resource.Animation.design_snackbar_out;
-			global::XamEffects.Droid.Resource.Animator.design_appbar_state_list_animator = global::FAVAC.Droid.Resource.Animator.design_appbar_state_list_animator;
-			global::XamEffects.Droid.Resource.Attribute.actionBarDivider = global::FAVAC.Droid.Resource.Attribute.actionBarDivider;
-			global::XamEffects.Droid.Resource.Attribute.actionBarItemBackground = global::FAVAC.Droid.Resource.Attribute.actionBarItemBackground;
-			global::XamEffects.Droid.Resource.Attribute.actionBarPopupTheme = global::FAVAC.Droid.Resource.Attribute.actionBarPopupTheme;
-			global::XamEffects.Droid.Resource.Attribute.actionBarSize = global::FAVAC.Droid.Resource.Attribute.actionBarSize;
-			global::XamEffects.Droid.Resource.Attribute.actionBarSplitStyle = global::FAVAC.Droid.Resource.Attribute.actionBarSplitStyle;
-			global::XamEffects.Droid.Resource.Attribute.actionBarStyle = global::FAVAC.Droid.Resource.Attribute.actionBarStyle;
-			global::XamEffects.Droid.Resource.Attribute.actionBarTabBarStyle = global::FAVAC.Droid.Resource.Attribute.actionBarTabBarStyle;
-			global::XamEffects.Droid.Resource.Attribute.actionBarTabStyle = global::FAVAC.Droid.Resource.Attribute.actionBarTabStyle;
-			global::XamEffects.Droid.Resource.Attribute.actionBarTabTextStyle = global::FAVAC.Droid.Resource.Attribute.actionBarTabTextStyle;
-			global::XamEffects.Droid.Resource.Attribute.actionBarTheme = global::FAVAC.Droid.Resource.Attribute.actionBarTheme;
-			global::XamEffects.Droid.Resource.Attribute.actionBarWidgetTheme = global::FAVAC.Droid.Resource.Attribute.actionBarWidgetTheme;
-			global::XamEffects.Droid.Resource.Attribute.actionButtonStyle = global::FAVAC.Droid.Resource.Attribute.actionButtonStyle;
-			global::XamEffects.Droid.Resource.Attribute.actionDropDownStyle = global::FAVAC.Droid.Resource.Attribute.actionDropDownStyle;
-			global::XamEffects.Droid.Resource.Attribute.actionLayout = global::FAVAC.Droid.Resource.Attribute.actionLayout;
-			global::XamEffects.Droid.Resource.Attribute.actionMenuTextAppearance = global::FAVAC.Droid.Resource.Attribute.actionMenuTextAppearance;
-			global::XamEffects.Droid.Resource.Attribute.actionMenuTextColor = global::FAVAC.Droid.Resource.Attribute.actionMenuTextColor;
-			global::XamEffects.Droid.Resource.Attribute.actionModeBackground = global::FAVAC.Droid.Resource.Attribute.actionModeBackground;
-			global::XamEffects.Droid.Resource.Attribute.actionModeCloseButtonStyle = global::FAVAC.Droid.Resource.Attribute.actionModeCloseButtonStyle;
-			global::XamEffects.Droid.Resource.Attribute.actionModeCloseDrawable = global::FAVAC.Droid.Resource.Attribute.actionModeCloseDrawable;
-			global::XamEffects.Droid.Resource.Attribute.actionModeCopyDrawable = global::FAVAC.Droid.Resource.Attribute.actionModeCopyDrawable;
-			global::XamEffects.Droid.Resource.Attribute.actionModeCutDrawable = global::FAVAC.Droid.Resource.Attribute.actionModeCutDrawable;
-			global::XamEffects.Droid.Resource.Attribute.actionModeFindDrawable = global::FAVAC.Droid.Resource.Attribute.actionModeFindDrawable;
-			global::XamEffects.Droid.Resource.Attribute.actionModePasteDrawable = global::FAVAC.Droid.Resource.Attribute.actionModePasteDrawable;
-			global::XamEffects.Droid.Resource.Attribute.actionModePopupWindowStyle = global::FAVAC.Droid.Resource.Attribute.actionModePopupWindowStyle;
-			global::XamEffects.Droid.Resource.Attribute.actionModeSelectAllDrawable = global::FAVAC.Droid.Resource.Attribute.actionModeSelectAllDrawable;
-			global::XamEffects.Droid.Resource.Attribute.actionModeShareDrawable = global::FAVAC.Droid.Resource.Attribute.actionModeShareDrawable;
-			global::XamEffects.Droid.Resource.Attribute.actionModeSplitBackground = global::FAVAC.Droid.Resource.Attribute.actionModeSplitBackground;
-			global::XamEffects.Droid.Resource.Attribute.actionModeStyle = global::FAVAC.Droid.Resource.Attribute.actionModeStyle;
-			global::XamEffects.Droid.Resource.Attribute.actionModeWebSearchDrawable = global::FAVAC.Droid.Resource.Attribute.actionModeWebSearchDrawable;
-			global::XamEffects.Droid.Resource.Attribute.actionOverflowButtonStyle = global::FAVAC.Droid.Resource.Attribute.actionOverflowButtonStyle;
-			global::XamEffects.Droid.Resource.Attribute.actionOverflowMenuStyle = global::FAVAC.Droid.Resource.Attribute.actionOverflowMenuStyle;
-			global::XamEffects.Droid.Resource.Attribute.actionProviderClass = global::FAVAC.Droid.Resource.Attribute.actionProviderClass;
-			global::XamEffects.Droid.Resource.Attribute.actionViewClass = global::FAVAC.Droid.Resource.Attribute.actionViewClass;
-			global::XamEffects.Droid.Resource.Attribute.activityChooserViewStyle = global::FAVAC.Droid.Resource.Attribute.activityChooserViewStyle;
-			global::XamEffects.Droid.Resource.Attribute.alertDialogButtonGroupStyle = global::FAVAC.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
-			global::XamEffects.Droid.Resource.Attribute.alertDialogCenterButtons = global::FAVAC.Droid.Resource.Attribute.alertDialogCenterButtons;
-			global::XamEffects.Droid.Resource.Attribute.alertDialogStyle = global::FAVAC.Droid.Resource.Attribute.alertDialogStyle;
-			global::XamEffects.Droid.Resource.Attribute.alertDialogTheme = global::FAVAC.Droid.Resource.Attribute.alertDialogTheme;
-			global::XamEffects.Droid.Resource.Attribute.allowStacking = global::FAVAC.Droid.Resource.Attribute.allowStacking;
-			global::XamEffects.Droid.Resource.Attribute.alpha = global::FAVAC.Droid.Resource.Attribute.alpha;
-			global::XamEffects.Droid.Resource.Attribute.arrowHeadLength = global::FAVAC.Droid.Resource.Attribute.arrowHeadLength;
-			global::XamEffects.Droid.Resource.Attribute.arrowShaftLength = global::FAVAC.Droid.Resource.Attribute.arrowShaftLength;
-			global::XamEffects.Droid.Resource.Attribute.autoCompleteTextViewStyle = global::FAVAC.Droid.Resource.Attribute.autoCompleteTextViewStyle;
-			global::XamEffects.Droid.Resource.Attribute.background = global::FAVAC.Droid.Resource.Attribute.background;
-			global::XamEffects.Droid.Resource.Attribute.backgroundSplit = global::FAVAC.Droid.Resource.Attribute.backgroundSplit;
-			global::XamEffects.Droid.Resource.Attribute.backgroundStacked = global::FAVAC.Droid.Resource.Attribute.backgroundStacked;
-			global::XamEffects.Droid.Resource.Attribute.backgroundTint = global::FAVAC.Droid.Resource.Attribute.backgroundTint;
-			global::XamEffects.Droid.Resource.Attribute.backgroundTintMode = global::FAVAC.Droid.Resource.Attribute.backgroundTintMode;
-			global::XamEffects.Droid.Resource.Attribute.barLength = global::FAVAC.Droid.Resource.Attribute.barLength;
-			global::XamEffects.Droid.Resource.Attribute.behavior_autoHide = global::FAVAC.Droid.Resource.Attribute.behavior_autoHide;
-			global::XamEffects.Droid.Resource.Attribute.behavior_hideable = global::FAVAC.Droid.Resource.Attribute.behavior_hideable;
-			global::XamEffects.Droid.Resource.Attribute.behavior_overlapTop = global::FAVAC.Droid.Resource.Attribute.behavior_overlapTop;
-			global::XamEffects.Droid.Resource.Attribute.behavior_peekHeight = global::FAVAC.Droid.Resource.Attribute.behavior_peekHeight;
-			global::XamEffects.Droid.Resource.Attribute.behavior_skipCollapsed = global::FAVAC.Droid.Resource.Attribute.behavior_skipCollapsed;
-			global::XamEffects.Droid.Resource.Attribute.borderWidth = global::FAVAC.Droid.Resource.Attribute.borderWidth;
-			global::XamEffects.Droid.Resource.Attribute.borderlessButtonStyle = global::FAVAC.Droid.Resource.Attribute.borderlessButtonStyle;
-			global::XamEffects.Droid.Resource.Attribute.bottomSheetDialogTheme = global::FAVAC.Droid.Resource.Attribute.bottomSheetDialogTheme;
-			global::XamEffects.Droid.Resource.Attribute.bottomSheetStyle = global::FAVAC.Droid.Resource.Attribute.bottomSheetStyle;
-			global::XamEffects.Droid.Resource.Attribute.buttonBarButtonStyle = global::FAVAC.Droid.Resource.Attribute.buttonBarButtonStyle;
-			global::XamEffects.Droid.Resource.Attribute.buttonBarNegativeButtonStyle = global::FAVAC.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
-			global::XamEffects.Droid.Resource.Attribute.buttonBarNeutralButtonStyle = global::FAVAC.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
-			global::XamEffects.Droid.Resource.Attribute.buttonBarPositiveButtonStyle = global::FAVAC.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
-			global::XamEffects.Droid.Resource.Attribute.buttonBarStyle = global::FAVAC.Droid.Resource.Attribute.buttonBarStyle;
-			global::XamEffects.Droid.Resource.Attribute.buttonGravity = global::FAVAC.Droid.Resource.Attribute.buttonGravity;
-			global::XamEffects.Droid.Resource.Attribute.buttonPanelSideLayout = global::FAVAC.Droid.Resource.Attribute.buttonPanelSideLayout;
-			global::XamEffects.Droid.Resource.Attribute.buttonStyle = global::FAVAC.Droid.Resource.Attribute.buttonStyle;
-			global::XamEffects.Droid.Resource.Attribute.buttonStyleSmall = global::FAVAC.Droid.Resource.Attribute.buttonStyleSmall;
-			global::XamEffects.Droid.Resource.Attribute.buttonTint = global::FAVAC.Droid.Resource.Attribute.buttonTint;
-			global::XamEffects.Droid.Resource.Attribute.buttonTintMode = global::FAVAC.Droid.Resource.Attribute.buttonTintMode;
-			global::XamEffects.Droid.Resource.Attribute.cardBackgroundColor = global::FAVAC.Droid.Resource.Attribute.cardBackgroundColor;
-			global::XamEffects.Droid.Resource.Attribute.cardCornerRadius = global::FAVAC.Droid.Resource.Attribute.cardCornerRadius;
-			global::XamEffects.Droid.Resource.Attribute.cardElevation = global::FAVAC.Droid.Resource.Attribute.cardElevation;
-			global::XamEffects.Droid.Resource.Attribute.cardMaxElevation = global::FAVAC.Droid.Resource.Attribute.cardMaxElevation;
-			global::XamEffects.Droid.Resource.Attribute.cardPreventCornerOverlap = global::FAVAC.Droid.Resource.Attribute.cardPreventCornerOverlap;
-			global::XamEffects.Droid.Resource.Attribute.cardUseCompatPadding = global::FAVAC.Droid.Resource.Attribute.cardUseCompatPadding;
-			global::XamEffects.Droid.Resource.Attribute.checkboxStyle = global::FAVAC.Droid.Resource.Attribute.checkboxStyle;
-			global::XamEffects.Droid.Resource.Attribute.checkedTextViewStyle = global::FAVAC.Droid.Resource.Attribute.checkedTextViewStyle;
-			global::XamEffects.Droid.Resource.Attribute.closeIcon = global::FAVAC.Droid.Resource.Attribute.closeIcon;
-			global::XamEffects.Droid.Resource.Attribute.closeItemLayout = global::FAVAC.Droid.Resource.Attribute.closeItemLayout;
-			global::XamEffects.Droid.Resource.Attribute.collapseContentDescription = global::FAVAC.Droid.Resource.Attribute.collapseContentDescription;
-			global::XamEffects.Droid.Resource.Attribute.collapseIcon = global::FAVAC.Droid.Resource.Attribute.collapseIcon;
-			global::XamEffects.Droid.Resource.Attribute.collapsedTitleGravity = global::FAVAC.Droid.Resource.Attribute.collapsedTitleGravity;
-			global::XamEffects.Droid.Resource.Attribute.collapsedTitleTextAppearance = global::FAVAC.Droid.Resource.Attribute.collapsedTitleTextAppearance;
-			global::XamEffects.Droid.Resource.Attribute.color = global::FAVAC.Droid.Resource.Attribute.color;
-			global::XamEffects.Droid.Resource.Attribute.colorAccent = global::FAVAC.Droid.Resource.Attribute.colorAccent;
-			global::XamEffects.Droid.Resource.Attribute.colorBackgroundFloating = global::FAVAC.Droid.Resource.Attribute.colorBackgroundFloating;
-			global::XamEffects.Droid.Resource.Attribute.colorButtonNormal = global::FAVAC.Droid.Resource.Attribute.colorButtonNormal;
-			global::XamEffects.Droid.Resource.Attribute.colorControlActivated = global::FAVAC.Droid.Resource.Attribute.colorControlActivated;
-			global::XamEffects.Droid.Resource.Attribute.colorControlHighlight = global::FAVAC.Droid.Resource.Attribute.colorControlHighlight;
-			global::XamEffects.Droid.Resource.Attribute.colorControlNormal = global::FAVAC.Droid.Resource.Attribute.colorControlNormal;
-			global::XamEffects.Droid.Resource.Attribute.colorPrimary = global::FAVAC.Droid.Resource.Attribute.colorPrimary;
-			global::XamEffects.Droid.Resource.Attribute.colorPrimaryDark = global::FAVAC.Droid.Resource.Attribute.colorPrimaryDark;
-			global::XamEffects.Droid.Resource.Attribute.colorSwitchThumbNormal = global::FAVAC.Droid.Resource.Attribute.colorSwitchThumbNormal;
-			global::XamEffects.Droid.Resource.Attribute.commitIcon = global::FAVAC.Droid.Resource.Attribute.commitIcon;
-			global::XamEffects.Droid.Resource.Attribute.contentInsetEnd = global::FAVAC.Droid.Resource.Attribute.contentInsetEnd;
-			global::XamEffects.Droid.Resource.Attribute.contentInsetEndWithActions = global::FAVAC.Droid.Resource.Attribute.contentInsetEndWithActions;
-			global::XamEffects.Droid.Resource.Attribute.contentInsetLeft = global::FAVAC.Droid.Resource.Attribute.contentInsetLeft;
-			global::XamEffects.Droid.Resource.Attribute.contentInsetRight = global::FAVAC.Droid.Resource.Attribute.contentInsetRight;
-			global::XamEffects.Droid.Resource.Attribute.contentInsetStart = global::FAVAC.Droid.Resource.Attribute.contentInsetStart;
-			global::XamEffects.Droid.Resource.Attribute.contentInsetStartWithNavigation = global::FAVAC.Droid.Resource.Attribute.contentInsetStartWithNavigation;
-			global::XamEffects.Droid.Resource.Attribute.contentPadding = global::FAVAC.Droid.Resource.Attribute.contentPadding;
-			global::XamEffects.Droid.Resource.Attribute.contentPaddingBottom = global::FAVAC.Droid.Resource.Attribute.contentPaddingBottom;
-			global::XamEffects.Droid.Resource.Attribute.contentPaddingLeft = global::FAVAC.Droid.Resource.Attribute.contentPaddingLeft;
-			global::XamEffects.Droid.Resource.Attribute.contentPaddingRight = global::FAVAC.Droid.Resource.Attribute.contentPaddingRight;
-			global::XamEffects.Droid.Resource.Attribute.contentPaddingTop = global::FAVAC.Droid.Resource.Attribute.contentPaddingTop;
-			global::XamEffects.Droid.Resource.Attribute.contentScrim = global::FAVAC.Droid.Resource.Attribute.contentScrim;
-			global::XamEffects.Droid.Resource.Attribute.controlBackground = global::FAVAC.Droid.Resource.Attribute.controlBackground;
-			global::XamEffects.Droid.Resource.Attribute.counterEnabled = global::FAVAC.Droid.Resource.Attribute.counterEnabled;
-			global::XamEffects.Droid.Resource.Attribute.counterMaxLength = global::FAVAC.Droid.Resource.Attribute.counterMaxLength;
-			global::XamEffects.Droid.Resource.Attribute.counterOverflowTextAppearance = global::FAVAC.Droid.Resource.Attribute.counterOverflowTextAppearance;
-			global::XamEffects.Droid.Resource.Attribute.counterTextAppearance = global::FAVAC.Droid.Resource.Attribute.counterTextAppearance;
-			global::XamEffects.Droid.Resource.Attribute.customNavigationLayout = global::FAVAC.Droid.Resource.Attribute.customNavigationLayout;
-			global::XamEffects.Droid.Resource.Attribute.defaultQueryHint = global::FAVAC.Droid.Resource.Attribute.defaultQueryHint;
-			global::XamEffects.Droid.Resource.Attribute.dialogPreferredPadding = global::FAVAC.Droid.Resource.Attribute.dialogPreferredPadding;
-			global::XamEffects.Droid.Resource.Attribute.dialogTheme = global::FAVAC.Droid.Resource.Attribute.dialogTheme;
-			global::XamEffects.Droid.Resource.Attribute.displayOptions = global::FAVAC.Droid.Resource.Attribute.displayOptions;
-			global::XamEffects.Droid.Resource.Attribute.divider = global::FAVAC.Droid.Resource.Attribute.divider;
-			global::XamEffects.Droid.Resource.Attribute.dividerHorizontal = global::FAVAC.Droid.Resource.Attribute.dividerHorizontal;
-			global::XamEffects.Droid.Resource.Attribute.dividerPadding = global::FAVAC.Droid.Resource.Attribute.dividerPadding;
-			global::XamEffects.Droid.Resource.Attribute.dividerVertical = global::FAVAC.Droid.Resource.Attribute.dividerVertical;
-			global::XamEffects.Droid.Resource.Attribute.drawableSize = global::FAVAC.Droid.Resource.Attribute.drawableSize;
-			global::XamEffects.Droid.Resource.Attribute.drawerArrowStyle = global::FAVAC.Droid.Resource.Attribute.drawerArrowStyle;
-			global::XamEffects.Droid.Resource.Attribute.dropDownListViewStyle = global::FAVAC.Droid.Resource.Attribute.dropDownListViewStyle;
-			global::XamEffects.Droid.Resource.Attribute.dropdownListPreferredItemHeight = global::FAVAC.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
-			global::XamEffects.Droid.Resource.Attribute.editTextBackground = global::FAVAC.Droid.Resource.Attribute.editTextBackground;
-			global::XamEffects.Droid.Resource.Attribute.editTextColor = global::FAVAC.Droid.Resource.Attribute.editTextColor;
-			global::XamEffects.Droid.Resource.Attribute.editTextStyle = global::FAVAC.Droid.Resource.Attribute.editTextStyle;
-			global::XamEffects.Droid.Resource.Attribute.elevation = global::FAVAC.Droid.Resource.Attribute.elevation;
-			global::XamEffects.Droid.Resource.Attribute.errorEnabled = global::FAVAC.Droid.Resource.Attribute.errorEnabled;
-			global::XamEffects.Droid.Resource.Attribute.errorTextAppearance = global::FAVAC.Droid.Resource.Attribute.errorTextAppearance;
-			global::XamEffects.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable = global::FAVAC.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
-			global::XamEffects.Droid.Resource.Attribute.expanded = global::FAVAC.Droid.Resource.Attribute.expanded;
-			global::XamEffects.Droid.Resource.Attribute.expandedTitleGravity = global::FAVAC.Droid.Resource.Attribute.expandedTitleGravity;
-			global::XamEffects.Droid.Resource.Attribute.expandedTitleMargin = global::FAVAC.Droid.Resource.Attribute.expandedTitleMargin;
-			global::XamEffects.Droid.Resource.Attribute.expandedTitleMarginBottom = global::FAVAC.Droid.Resource.Attribute.expandedTitleMarginBottom;
-			global::XamEffects.Droid.Resource.Attribute.expandedTitleMarginEnd = global::FAVAC.Droid.Resource.Attribute.expandedTitleMarginEnd;
-			global::XamEffects.Droid.Resource.Attribute.expandedTitleMarginStart = global::FAVAC.Droid.Resource.Attribute.expandedTitleMarginStart;
-			global::XamEffects.Droid.Resource.Attribute.expandedTitleMarginTop = global::FAVAC.Droid.Resource.Attribute.expandedTitleMarginTop;
-			global::XamEffects.Droid.Resource.Attribute.expandedTitleTextAppearance = global::FAVAC.Droid.Resource.Attribute.expandedTitleTextAppearance;
-			global::XamEffects.Droid.Resource.Attribute.fabSize = global::FAVAC.Droid.Resource.Attribute.fabSize;
-			global::XamEffects.Droid.Resource.Attribute.foregroundInsidePadding = global::FAVAC.Droid.Resource.Attribute.foregroundInsidePadding;
-			global::XamEffects.Droid.Resource.Attribute.gapBetweenBars = global::FAVAC.Droid.Resource.Attribute.gapBetweenBars;
-			global::XamEffects.Droid.Resource.Attribute.goIcon = global::FAVAC.Droid.Resource.Attribute.goIcon;
-			global::XamEffects.Droid.Resource.Attribute.headerLayout = global::FAVAC.Droid.Resource.Attribute.headerLayout;
-			global::XamEffects.Droid.Resource.Attribute.height = global::FAVAC.Droid.Resource.Attribute.height;
-			global::XamEffects.Droid.Resource.Attribute.hideOnContentScroll = global::FAVAC.Droid.Resource.Attribute.hideOnContentScroll;
-			global::XamEffects.Droid.Resource.Attribute.hintAnimationEnabled = global::FAVAC.Droid.Resource.Attribute.hintAnimationEnabled;
-			global::XamEffects.Droid.Resource.Attribute.hintEnabled = global::FAVAC.Droid.Resource.Attribute.hintEnabled;
-			global::XamEffects.Droid.Resource.Attribute.hintTextAppearance = global::FAVAC.Droid.Resource.Attribute.hintTextAppearance;
-			global::XamEffects.Droid.Resource.Attribute.homeAsUpIndicator = global::FAVAC.Droid.Resource.Attribute.homeAsUpIndicator;
-			global::XamEffects.Droid.Resource.Attribute.homeLayout = global::FAVAC.Droid.Resource.Attribute.homeLayout;
-			global::XamEffects.Droid.Resource.Attribute.icon = global::FAVAC.Droid.Resource.Attribute.icon;
-			global::XamEffects.Droid.Resource.Attribute.iconifiedByDefault = global::FAVAC.Droid.Resource.Attribute.iconifiedByDefault;
-			global::XamEffects.Droid.Resource.Attribute.imageButtonStyle = global::FAVAC.Droid.Resource.Attribute.imageButtonStyle;
-			global::XamEffects.Droid.Resource.Attribute.indeterminateProgressStyle = global::FAVAC.Droid.Resource.Attribute.indeterminateProgressStyle;
-			global::XamEffects.Droid.Resource.Attribute.initialActivityCount = global::FAVAC.Droid.Resource.Attribute.initialActivityCount;
-			global::XamEffects.Droid.Resource.Attribute.insetForeground = global::FAVAC.Droid.Resource.Attribute.insetForeground;
-			global::XamEffects.Droid.Resource.Attribute.isLightTheme = global::FAVAC.Droid.Resource.Attribute.isLightTheme;
-			global::XamEffects.Droid.Resource.Attribute.itemBackground = global::FAVAC.Droid.Resource.Attribute.itemBackground;
-			global::XamEffects.Droid.Resource.Attribute.itemIconTint = global::FAVAC.Droid.Resource.Attribute.itemIconTint;
-			global::XamEffects.Droid.Resource.Attribute.itemPadding = global::FAVAC.Droid.Resource.Attribute.itemPadding;
-			global::XamEffects.Droid.Resource.Attribute.itemTextAppearance = global::FAVAC.Droid.Resource.Attribute.itemTextAppearance;
-			global::XamEffects.Droid.Resource.Attribute.itemTextColor = global::FAVAC.Droid.Resource.Attribute.itemTextColor;
-			global::XamEffects.Droid.Resource.Attribute.keylines = global::FAVAC.Droid.Resource.Attribute.keylines;
-			global::XamEffects.Droid.Resource.Attribute.layout = global::FAVAC.Droid.Resource.Attribute.layout;
-			global::XamEffects.Droid.Resource.Attribute.layoutManager = global::FAVAC.Droid.Resource.Attribute.layoutManager;
-			global::XamEffects.Droid.Resource.Attribute.layout_anchor = global::FAVAC.Droid.Resource.Attribute.layout_anchor;
-			global::XamEffects.Droid.Resource.Attribute.layout_anchorGravity = global::FAVAC.Droid.Resource.Attribute.layout_anchorGravity;
-			global::XamEffects.Droid.Resource.Attribute.layout_behavior = global::FAVAC.Droid.Resource.Attribute.layout_behavior;
-			global::XamEffects.Droid.Resource.Attribute.layout_collapseMode = global::FAVAC.Droid.Resource.Attribute.layout_collapseMode;
-			global::XamEffects.Droid.Resource.Attribute.layout_collapseParallaxMultiplier = global::FAVAC.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
-			global::XamEffects.Droid.Resource.Attribute.layout_dodgeInsetEdges = global::FAVAC.Droid.Resource.Attribute.layout_dodgeInsetEdges;
-			global::XamEffects.Droid.Resource.Attribute.layout_insetEdge = global::FAVAC.Droid.Resource.Attribute.layout_insetEdge;
-			global::XamEffects.Droid.Resource.Attribute.layout_keyline = global::FAVAC.Droid.Resource.Attribute.layout_keyline;
-			global::XamEffects.Droid.Resource.Attribute.layout_scrollFlags = global::FAVAC.Droid.Resource.Attribute.layout_scrollFlags;
-			global::XamEffects.Droid.Resource.Attribute.layout_scrollInterpolator = global::FAVAC.Droid.Resource.Attribute.layout_scrollInterpolator;
-			global::XamEffects.Droid.Resource.Attribute.listChoiceBackgroundIndicator = global::FAVAC.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
-			global::XamEffects.Droid.Resource.Attribute.listDividerAlertDialog = global::FAVAC.Droid.Resource.Attribute.listDividerAlertDialog;
-			global::XamEffects.Droid.Resource.Attribute.listItemLayout = global::FAVAC.Droid.Resource.Attribute.listItemLayout;
-			global::XamEffects.Droid.Resource.Attribute.listLayout = global::FAVAC.Droid.Resource.Attribute.listLayout;
-			global::XamEffects.Droid.Resource.Attribute.listMenuViewStyle = global::FAVAC.Droid.Resource.Attribute.listMenuViewStyle;
-			global::XamEffects.Droid.Resource.Attribute.listPopupWindowStyle = global::FAVAC.Droid.Resource.Attribute.listPopupWindowStyle;
-			global::XamEffects.Droid.Resource.Attribute.listPreferredItemHeight = global::FAVAC.Droid.Resource.Attribute.listPreferredItemHeight;
-			global::XamEffects.Droid.Resource.Attribute.listPreferredItemHeightLarge = global::FAVAC.Droid.Resource.Attribute.listPreferredItemHeightLarge;
-			global::XamEffects.Droid.Resource.Attribute.listPreferredItemHeightSmall = global::FAVAC.Droid.Resource.Attribute.listPreferredItemHeightSmall;
-			global::XamEffects.Droid.Resource.Attribute.listPreferredItemPaddingLeft = global::FAVAC.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
-			global::XamEffects.Droid.Resource.Attribute.listPreferredItemPaddingRight = global::FAVAC.Droid.Resource.Attribute.listPreferredItemPaddingRight;
-			global::XamEffects.Droid.Resource.Attribute.logo = global::FAVAC.Droid.Resource.Attribute.logo;
-			global::XamEffects.Droid.Resource.Attribute.logoDescription = global::FAVAC.Droid.Resource.Attribute.logoDescription;
-			global::XamEffects.Droid.Resource.Attribute.maxActionInlineWidth = global::FAVAC.Droid.Resource.Attribute.maxActionInlineWidth;
-			global::XamEffects.Droid.Resource.Attribute.maxButtonHeight = global::FAVAC.Droid.Resource.Attribute.maxButtonHeight;
-			global::XamEffects.Droid.Resource.Attribute.measureWithLargestChild = global::FAVAC.Droid.Resource.Attribute.measureWithLargestChild;
-			global::XamEffects.Droid.Resource.Attribute.menu = global::FAVAC.Droid.Resource.Attribute.menu;
-			global::XamEffects.Droid.Resource.Attribute.multiChoiceItemLayout = global::FAVAC.Droid.Resource.Attribute.multiChoiceItemLayout;
-			global::XamEffects.Droid.Resource.Attribute.navigationContentDescription = global::FAVAC.Droid.Resource.Attribute.navigationContentDescription;
-			global::XamEffects.Droid.Resource.Attribute.navigationIcon = global::FAVAC.Droid.Resource.Attribute.navigationIcon;
-			global::XamEffects.Droid.Resource.Attribute.navigationMode = global::FAVAC.Droid.Resource.Attribute.navigationMode;
-			global::XamEffects.Droid.Resource.Attribute.overlapAnchor = global::FAVAC.Droid.Resource.Attribute.overlapAnchor;
-			global::XamEffects.Droid.Resource.Attribute.paddingBottomNoButtons = global::FAVAC.Droid.Resource.Attribute.paddingBottomNoButtons;
-			global::XamEffects.Droid.Resource.Attribute.paddingEnd = global::FAVAC.Droid.Resource.Attribute.paddingEnd;
-			global::XamEffects.Droid.Resource.Attribute.paddingStart = global::FAVAC.Droid.Resource.Attribute.paddingStart;
-			global::XamEffects.Droid.Resource.Attribute.paddingTopNoTitle = global::FAVAC.Droid.Resource.Attribute.paddingTopNoTitle;
-			global::XamEffects.Droid.Resource.Attribute.panelBackground = global::FAVAC.Droid.Resource.Attribute.panelBackground;
-			global::XamEffects.Droid.Resource.Attribute.panelMenuListTheme = global::FAVAC.Droid.Resource.Attribute.panelMenuListTheme;
-			global::XamEffects.Droid.Resource.Attribute.panelMenuListWidth = global::FAVAC.Droid.Resource.Attribute.panelMenuListWidth;
-			global::XamEffects.Droid.Resource.Attribute.passwordToggleContentDescription = global::FAVAC.Droid.Resource.Attribute.passwordToggleContentDescription;
-			global::XamEffects.Droid.Resource.Attribute.passwordToggleDrawable = global::FAVAC.Droid.Resource.Attribute.passwordToggleDrawable;
-			global::XamEffects.Droid.Resource.Attribute.passwordToggleEnabled = global::FAVAC.Droid.Resource.Attribute.passwordToggleEnabled;
-			global::XamEffects.Droid.Resource.Attribute.passwordToggleTint = global::FAVAC.Droid.Resource.Attribute.passwordToggleTint;
-			global::XamEffects.Droid.Resource.Attribute.passwordToggleTintMode = global::FAVAC.Droid.Resource.Attribute.passwordToggleTintMode;
-			global::XamEffects.Droid.Resource.Attribute.popupMenuStyle = global::FAVAC.Droid.Resource.Attribute.popupMenuStyle;
-			global::XamEffects.Droid.Resource.Attribute.popupTheme = global::FAVAC.Droid.Resource.Attribute.popupTheme;
-			global::XamEffects.Droid.Resource.Attribute.popupWindowStyle = global::FAVAC.Droid.Resource.Attribute.popupWindowStyle;
-			global::XamEffects.Droid.Resource.Attribute.preserveIconSpacing = global::FAVAC.Droid.Resource.Attribute.preserveIconSpacing;
-			global::XamEffects.Droid.Resource.Attribute.pressedTranslationZ = global::FAVAC.Droid.Resource.Attribute.pressedTranslationZ;
-			global::XamEffects.Droid.Resource.Attribute.progressBarPadding = global::FAVAC.Droid.Resource.Attribute.progressBarPadding;
-			global::XamEffects.Droid.Resource.Attribute.progressBarStyle = global::FAVAC.Droid.Resource.Attribute.progressBarStyle;
-			global::XamEffects.Droid.Resource.Attribute.queryBackground = global::FAVAC.Droid.Resource.Attribute.queryBackground;
-			global::XamEffects.Droid.Resource.Attribute.queryHint = global::FAVAC.Droid.Resource.Attribute.queryHint;
-			global::XamEffects.Droid.Resource.Attribute.radioButtonStyle = global::FAVAC.Droid.Resource.Attribute.radioButtonStyle;
-			global::XamEffects.Droid.Resource.Attribute.ratingBarStyle = global::FAVAC.Droid.Resource.Attribute.ratingBarStyle;
-			global::XamEffects.Droid.Resource.Attribute.ratingBarStyleIndicator = global::FAVAC.Droid.Resource.Attribute.ratingBarStyleIndicator;
-			global::XamEffects.Droid.Resource.Attribute.ratingBarStyleSmall = global::FAVAC.Droid.Resource.Attribute.ratingBarStyleSmall;
-			global::XamEffects.Droid.Resource.Attribute.reverseLayout = global::FAVAC.Droid.Resource.Attribute.reverseLayout;
-			global::XamEffects.Droid.Resource.Attribute.rippleColor = global::FAVAC.Droid.Resource.Attribute.rippleColor;
-			global::XamEffects.Droid.Resource.Attribute.scrimAnimationDuration = global::FAVAC.Droid.Resource.Attribute.scrimAnimationDuration;
-			global::XamEffects.Droid.Resource.Attribute.scrimVisibleHeightTrigger = global::FAVAC.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
-			global::XamEffects.Droid.Resource.Attribute.searchHintIcon = global::FAVAC.Droid.Resource.Attribute.searchHintIcon;
-			global::XamEffects.Droid.Resource.Attribute.searchIcon = global::FAVAC.Droid.Resource.Attribute.searchIcon;
-			global::XamEffects.Droid.Resource.Attribute.searchViewStyle = global::FAVAC.Droid.Resource.Attribute.searchViewStyle;
-			global::XamEffects.Droid.Resource.Attribute.seekBarStyle = global::FAVAC.Droid.Resource.Attribute.seekBarStyle;
-			global::XamEffects.Droid.Resource.Attribute.selectableItemBackground = global::FAVAC.Droid.Resource.Attribute.selectableItemBackground;
-			global::XamEffects.Droid.Resource.Attribute.selectableItemBackgroundBorderless = global::FAVAC.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
-			global::XamEffects.Droid.Resource.Attribute.showAsAction = global::FAVAC.Droid.Resource.Attribute.showAsAction;
-			global::XamEffects.Droid.Resource.Attribute.showDividers = global::FAVAC.Droid.Resource.Attribute.showDividers;
-			global::XamEffects.Droid.Resource.Attribute.showText = global::FAVAC.Droid.Resource.Attribute.showText;
-			global::XamEffects.Droid.Resource.Attribute.showTitle = global::FAVAC.Droid.Resource.Attribute.showTitle;
-			global::XamEffects.Droid.Resource.Attribute.singleChoiceItemLayout = global::FAVAC.Droid.Resource.Attribute.singleChoiceItemLayout;
-			global::XamEffects.Droid.Resource.Attribute.spanCount = global::FAVAC.Droid.Resource.Attribute.spanCount;
-			global::XamEffects.Droid.Resource.Attribute.spinBars = global::FAVAC.Droid.Resource.Attribute.spinBars;
-			global::XamEffects.Droid.Resource.Attribute.spinnerDropDownItemStyle = global::FAVAC.Droid.Resource.Attribute.spinnerDropDownItemStyle;
-			global::XamEffects.Droid.Resource.Attribute.spinnerStyle = global::FAVAC.Droid.Resource.Attribute.spinnerStyle;
-			global::XamEffects.Droid.Resource.Attribute.splitTrack = global::FAVAC.Droid.Resource.Attribute.splitTrack;
-			global::XamEffects.Droid.Resource.Attribute.srcCompat = global::FAVAC.Droid.Resource.Attribute.srcCompat;
-			global::XamEffects.Droid.Resource.Attribute.stackFromEnd = global::FAVAC.Droid.Resource.Attribute.stackFromEnd;
-			global::XamEffects.Droid.Resource.Attribute.state_above_anchor = global::FAVAC.Droid.Resource.Attribute.state_above_anchor;
-			global::XamEffects.Droid.Resource.Attribute.state_collapsed = global::FAVAC.Droid.Resource.Attribute.state_collapsed;
-			global::XamEffects.Droid.Resource.Attribute.state_collapsible = global::FAVAC.Droid.Resource.Attribute.state_collapsible;
-			global::XamEffects.Droid.Resource.Attribute.statusBarBackground = global::FAVAC.Droid.Resource.Attribute.statusBarBackground;
-			global::XamEffects.Droid.Resource.Attribute.statusBarScrim = global::FAVAC.Droid.Resource.Attribute.statusBarScrim;
-			global::XamEffects.Droid.Resource.Attribute.subMenuArrow = global::FAVAC.Droid.Resource.Attribute.subMenuArrow;
-			global::XamEffects.Droid.Resource.Attribute.submitBackground = global::FAVAC.Droid.Resource.Attribute.submitBackground;
-			global::XamEffects.Droid.Resource.Attribute.subtitle = global::FAVAC.Droid.Resource.Attribute.subtitle;
-			global::XamEffects.Droid.Resource.Attribute.subtitleTextAppearance = global::FAVAC.Droid.Resource.Attribute.subtitleTextAppearance;
-			global::XamEffects.Droid.Resource.Attribute.subtitleTextColor = global::FAVAC.Droid.Resource.Attribute.subtitleTextColor;
-			global::XamEffects.Droid.Resource.Attribute.subtitleTextStyle = global::FAVAC.Droid.Resource.Attribute.subtitleTextStyle;
-			global::XamEffects.Droid.Resource.Attribute.suggestionRowLayout = global::FAVAC.Droid.Resource.Attribute.suggestionRowLayout;
-			global::XamEffects.Droid.Resource.Attribute.switchMinWidth = global::FAVAC.Droid.Resource.Attribute.switchMinWidth;
-			global::XamEffects.Droid.Resource.Attribute.switchPadding = global::FAVAC.Droid.Resource.Attribute.switchPadding;
-			global::XamEffects.Droid.Resource.Attribute.switchStyle = global::FAVAC.Droid.Resource.Attribute.switchStyle;
-			global::XamEffects.Droid.Resource.Attribute.switchTextAppearance = global::FAVAC.Droid.Resource.Attribute.switchTextAppearance;
-			global::XamEffects.Droid.Resource.Attribute.tabBackground = global::FAVAC.Droid.Resource.Attribute.tabBackground;
-			global::XamEffects.Droid.Resource.Attribute.tabContentStart = global::FAVAC.Droid.Resource.Attribute.tabContentStart;
-			global::XamEffects.Droid.Resource.Attribute.tabGravity = global::FAVAC.Droid.Resource.Attribute.tabGravity;
-			global::XamEffects.Droid.Resource.Attribute.tabIndicatorColor = global::FAVAC.Droid.Resource.Attribute.tabIndicatorColor;
-			global::XamEffects.Droid.Resource.Attribute.tabIndicatorHeight = global::FAVAC.Droid.Resource.Attribute.tabIndicatorHeight;
-			global::XamEffects.Droid.Resource.Attribute.tabMaxWidth = global::FAVAC.Droid.Resource.Attribute.tabMaxWidth;
-			global::XamEffects.Droid.Resource.Attribute.tabMinWidth = global::FAVAC.Droid.Resource.Attribute.tabMinWidth;
-			global::XamEffects.Droid.Resource.Attribute.tabMode = global::FAVAC.Droid.Resource.Attribute.tabMode;
-			global::XamEffects.Droid.Resource.Attribute.tabPadding = global::FAVAC.Droid.Resource.Attribute.tabPadding;
-			global::XamEffects.Droid.Resource.Attribute.tabPaddingBottom = global::FAVAC.Droid.Resource.Attribute.tabPaddingBottom;
-			global::XamEffects.Droid.Resource.Attribute.tabPaddingEnd = global::FAVAC.Droid.Resource.Attribute.tabPaddingEnd;
-			global::XamEffects.Droid.Resource.Attribute.tabPaddingStart = global::FAVAC.Droid.Resource.Attribute.tabPaddingStart;
-			global::XamEffects.Droid.Resource.Attribute.tabPaddingTop = global::FAVAC.Droid.Resource.Attribute.tabPaddingTop;
-			global::XamEffects.Droid.Resource.Attribute.tabSelectedTextColor = global::FAVAC.Droid.Resource.Attribute.tabSelectedTextColor;
-			global::XamEffects.Droid.Resource.Attribute.tabTextAppearance = global::FAVAC.Droid.Resource.Attribute.tabTextAppearance;
-			global::XamEffects.Droid.Resource.Attribute.tabTextColor = global::FAVAC.Droid.Resource.Attribute.tabTextColor;
-			global::XamEffects.Droid.Resource.Attribute.textAllCaps = global::FAVAC.Droid.Resource.Attribute.textAllCaps;
-			global::XamEffects.Droid.Resource.Attribute.textAppearanceLargePopupMenu = global::FAVAC.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
-			global::XamEffects.Droid.Resource.Attribute.textAppearanceListItem = global::FAVAC.Droid.Resource.Attribute.textAppearanceListItem;
-			global::XamEffects.Droid.Resource.Attribute.textAppearanceListItemSecondary = global::FAVAC.Droid.Resource.Attribute.textAppearanceListItemSecondary;
-			global::XamEffects.Droid.Resource.Attribute.textAppearanceListItemSmall = global::FAVAC.Droid.Resource.Attribute.textAppearanceListItemSmall;
-			global::XamEffects.Droid.Resource.Attribute.textAppearancePopupMenuHeader = global::FAVAC.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
-			global::XamEffects.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle = global::FAVAC.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
-			global::XamEffects.Droid.Resource.Attribute.textAppearanceSearchResultTitle = global::FAVAC.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
-			global::XamEffects.Droid.Resource.Attribute.textAppearanceSmallPopupMenu = global::FAVAC.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
-			global::XamEffects.Droid.Resource.Attribute.textColorAlertDialogListItem = global::FAVAC.Droid.Resource.Attribute.textColorAlertDialogListItem;
-			global::XamEffects.Droid.Resource.Attribute.textColorSearchUrl = global::FAVAC.Droid.Resource.Attribute.textColorSearchUrl;
-			global::XamEffects.Droid.Resource.Attribute.theme = global::FAVAC.Droid.Resource.Attribute.theme;
-			global::XamEffects.Droid.Resource.Attribute.thickness = global::FAVAC.Droid.Resource.Attribute.thickness;
-			global::XamEffects.Droid.Resource.Attribute.thumbTextPadding = global::FAVAC.Droid.Resource.Attribute.thumbTextPadding;
-			global::XamEffects.Droid.Resource.Attribute.thumbTint = global::FAVAC.Droid.Resource.Attribute.thumbTint;
-			global::XamEffects.Droid.Resource.Attribute.thumbTintMode = global::FAVAC.Droid.Resource.Attribute.thumbTintMode;
-			global::XamEffects.Droid.Resource.Attribute.tickMark = global::FAVAC.Droid.Resource.Attribute.tickMark;
-			global::XamEffects.Droid.Resource.Attribute.tickMarkTint = global::FAVAC.Droid.Resource.Attribute.tickMarkTint;
-			global::XamEffects.Droid.Resource.Attribute.tickMarkTintMode = global::FAVAC.Droid.Resource.Attribute.tickMarkTintMode;
-			global::XamEffects.Droid.Resource.Attribute.tint = global::FAVAC.Droid.Resource.Attribute.tint;
-			global::XamEffects.Droid.Resource.Attribute.tintMode = global::FAVAC.Droid.Resource.Attribute.tintMode;
-			global::XamEffects.Droid.Resource.Attribute.title = global::FAVAC.Droid.Resource.Attribute.title;
-			global::XamEffects.Droid.Resource.Attribute.titleEnabled = global::FAVAC.Droid.Resource.Attribute.titleEnabled;
-			global::XamEffects.Droid.Resource.Attribute.titleMargin = global::FAVAC.Droid.Resource.Attribute.titleMargin;
-			global::XamEffects.Droid.Resource.Attribute.titleMarginBottom = global::FAVAC.Droid.Resource.Attribute.titleMarginBottom;
-			global::XamEffects.Droid.Resource.Attribute.titleMarginEnd = global::FAVAC.Droid.Resource.Attribute.titleMarginEnd;
-			global::XamEffects.Droid.Resource.Attribute.titleMarginStart = global::FAVAC.Droid.Resource.Attribute.titleMarginStart;
-			global::XamEffects.Droid.Resource.Attribute.titleMarginTop = global::FAVAC.Droid.Resource.Attribute.titleMarginTop;
-			global::XamEffects.Droid.Resource.Attribute.titleMargins = global::FAVAC.Droid.Resource.Attribute.titleMargins;
-			global::XamEffects.Droid.Resource.Attribute.titleTextAppearance = global::FAVAC.Droid.Resource.Attribute.titleTextAppearance;
-			global::XamEffects.Droid.Resource.Attribute.titleTextColor = global::FAVAC.Droid.Resource.Attribute.titleTextColor;
-			global::XamEffects.Droid.Resource.Attribute.titleTextStyle = global::FAVAC.Droid.Resource.Attribute.titleTextStyle;
-			global::XamEffects.Droid.Resource.Attribute.toolbarId = global::FAVAC.Droid.Resource.Attribute.toolbarId;
-			global::XamEffects.Droid.Resource.Attribute.toolbarNavigationButtonStyle = global::FAVAC.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
-			global::XamEffects.Droid.Resource.Attribute.toolbarStyle = global::FAVAC.Droid.Resource.Attribute.toolbarStyle;
-			global::XamEffects.Droid.Resource.Attribute.track = global::FAVAC.Droid.Resource.Attribute.track;
-			global::XamEffects.Droid.Resource.Attribute.trackTint = global::FAVAC.Droid.Resource.Attribute.trackTint;
-			global::XamEffects.Droid.Resource.Attribute.trackTintMode = global::FAVAC.Droid.Resource.Attribute.trackTintMode;
-			global::XamEffects.Droid.Resource.Attribute.useCompatPadding = global::FAVAC.Droid.Resource.Attribute.useCompatPadding;
-			global::XamEffects.Droid.Resource.Attribute.voiceIcon = global::FAVAC.Droid.Resource.Attribute.voiceIcon;
-			global::XamEffects.Droid.Resource.Attribute.windowActionBar = global::FAVAC.Droid.Resource.Attribute.windowActionBar;
-			global::XamEffects.Droid.Resource.Attribute.windowActionBarOverlay = global::FAVAC.Droid.Resource.Attribute.windowActionBarOverlay;
-			global::XamEffects.Droid.Resource.Attribute.windowActionModeOverlay = global::FAVAC.Droid.Resource.Attribute.windowActionModeOverlay;
-			global::XamEffects.Droid.Resource.Attribute.windowFixedHeightMajor = global::FAVAC.Droid.Resource.Attribute.windowFixedHeightMajor;
-			global::XamEffects.Droid.Resource.Attribute.windowFixedHeightMinor = global::FAVAC.Droid.Resource.Attribute.windowFixedHeightMinor;
-			global::XamEffects.Droid.Resource.Attribute.windowFixedWidthMajor = global::FAVAC.Droid.Resource.Attribute.windowFixedWidthMajor;
-			global::XamEffects.Droid.Resource.Attribute.windowFixedWidthMinor = global::FAVAC.Droid.Resource.Attribute.windowFixedWidthMinor;
-			global::XamEffects.Droid.Resource.Attribute.windowMinWidthMajor = global::FAVAC.Droid.Resource.Attribute.windowMinWidthMajor;
-			global::XamEffects.Droid.Resource.Attribute.windowMinWidthMinor = global::FAVAC.Droid.Resource.Attribute.windowMinWidthMinor;
-			global::XamEffects.Droid.Resource.Attribute.windowNoTitle = global::FAVAC.Droid.Resource.Attribute.windowNoTitle;
-			global::XamEffects.Droid.Resource.Boolean.abc_action_bar_embed_tabs = global::FAVAC.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
-			global::XamEffects.Droid.Resource.Boolean.abc_allow_stacked_button_bar = global::FAVAC.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
-			global::XamEffects.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::FAVAC.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
-			global::XamEffects.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark = global::FAVAC.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
-			global::XamEffects.Droid.Resource.Color.abc_background_cache_hint_selector_material_light = global::FAVAC.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
-			global::XamEffects.Droid.Resource.Color.abc_btn_colored_borderless_text_material = global::FAVAC.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
-			global::XamEffects.Droid.Resource.Color.abc_btn_colored_text_material = global::FAVAC.Droid.Resource.Color.abc_btn_colored_text_material;
-			global::XamEffects.Droid.Resource.Color.abc_color_highlight_material = global::FAVAC.Droid.Resource.Color.abc_color_highlight_material;
-			global::XamEffects.Droid.Resource.Color.abc_hint_foreground_material_dark = global::FAVAC.Droid.Resource.Color.abc_hint_foreground_material_dark;
-			global::XamEffects.Droid.Resource.Color.abc_hint_foreground_material_light = global::FAVAC.Droid.Resource.Color.abc_hint_foreground_material_light;
-			global::XamEffects.Droid.Resource.Color.abc_input_method_navigation_guard = global::FAVAC.Droid.Resource.Color.abc_input_method_navigation_guard;
-			global::XamEffects.Droid.Resource.Color.abc_primary_text_disable_only_material_dark = global::FAVAC.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
-			global::XamEffects.Droid.Resource.Color.abc_primary_text_disable_only_material_light = global::FAVAC.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
-			global::XamEffects.Droid.Resource.Color.abc_primary_text_material_dark = global::FAVAC.Droid.Resource.Color.abc_primary_text_material_dark;
-			global::XamEffects.Droid.Resource.Color.abc_primary_text_material_light = global::FAVAC.Droid.Resource.Color.abc_primary_text_material_light;
-			global::XamEffects.Droid.Resource.Color.abc_search_url_text = global::FAVAC.Droid.Resource.Color.abc_search_url_text;
-			global::XamEffects.Droid.Resource.Color.abc_search_url_text_normal = global::FAVAC.Droid.Resource.Color.abc_search_url_text_normal;
-			global::XamEffects.Droid.Resource.Color.abc_search_url_text_pressed = global::FAVAC.Droid.Resource.Color.abc_search_url_text_pressed;
-			global::XamEffects.Droid.Resource.Color.abc_search_url_text_selected = global::FAVAC.Droid.Resource.Color.abc_search_url_text_selected;
-			global::XamEffects.Droid.Resource.Color.abc_secondary_text_material_dark = global::FAVAC.Droid.Resource.Color.abc_secondary_text_material_dark;
-			global::XamEffects.Droid.Resource.Color.abc_secondary_text_material_light = global::FAVAC.Droid.Resource.Color.abc_secondary_text_material_light;
-			global::XamEffects.Droid.Resource.Color.abc_tint_btn_checkable = global::FAVAC.Droid.Resource.Color.abc_tint_btn_checkable;
-			global::XamEffects.Droid.Resource.Color.abc_tint_default = global::FAVAC.Droid.Resource.Color.abc_tint_default;
-			global::XamEffects.Droid.Resource.Color.abc_tint_edittext = global::FAVAC.Droid.Resource.Color.abc_tint_edittext;
-			global::XamEffects.Droid.Resource.Color.abc_tint_seek_thumb = global::FAVAC.Droid.Resource.Color.abc_tint_seek_thumb;
-			global::XamEffects.Droid.Resource.Color.abc_tint_spinner = global::FAVAC.Droid.Resource.Color.abc_tint_spinner;
-			global::XamEffects.Droid.Resource.Color.abc_tint_switch_track = global::FAVAC.Droid.Resource.Color.abc_tint_switch_track;
-			global::XamEffects.Droid.Resource.Color.accent_material_dark = global::FAVAC.Droid.Resource.Color.accent_material_dark;
-			global::XamEffects.Droid.Resource.Color.accent_material_light = global::FAVAC.Droid.Resource.Color.accent_material_light;
-			global::XamEffects.Droid.Resource.Color.background_floating_material_dark = global::FAVAC.Droid.Resource.Color.background_floating_material_dark;
-			global::XamEffects.Droid.Resource.Color.background_floating_material_light = global::FAVAC.Droid.Resource.Color.background_floating_material_light;
-			global::XamEffects.Droid.Resource.Color.background_material_dark = global::FAVAC.Droid.Resource.Color.background_material_dark;
-			global::XamEffects.Droid.Resource.Color.background_material_light = global::FAVAC.Droid.Resource.Color.background_material_light;
-			global::XamEffects.Droid.Resource.Color.bright_foreground_disabled_material_dark = global::FAVAC.Droid.Resource.Color.bright_foreground_disabled_material_dark;
-			global::XamEffects.Droid.Resource.Color.bright_foreground_disabled_material_light = global::FAVAC.Droid.Resource.Color.bright_foreground_disabled_material_light;
-			global::XamEffects.Droid.Resource.Color.bright_foreground_inverse_material_dark = global::FAVAC.Droid.Resource.Color.bright_foreground_inverse_material_dark;
-			global::XamEffects.Droid.Resource.Color.bright_foreground_inverse_material_light = global::FAVAC.Droid.Resource.Color.bright_foreground_inverse_material_light;
-			global::XamEffects.Droid.Resource.Color.bright_foreground_material_dark = global::FAVAC.Droid.Resource.Color.bright_foreground_material_dark;
-			global::XamEffects.Droid.Resource.Color.bright_foreground_material_light = global::FAVAC.Droid.Resource.Color.bright_foreground_material_light;
-			global::XamEffects.Droid.Resource.Color.button_material_dark = global::FAVAC.Droid.Resource.Color.button_material_dark;
-			global::XamEffects.Droid.Resource.Color.button_material_light = global::FAVAC.Droid.Resource.Color.button_material_light;
-			global::XamEffects.Droid.Resource.Color.cardview_dark_background = global::FAVAC.Droid.Resource.Color.cardview_dark_background;
-			global::XamEffects.Droid.Resource.Color.cardview_light_background = global::FAVAC.Droid.Resource.Color.cardview_light_background;
-			global::XamEffects.Droid.Resource.Color.cardview_shadow_end_color = global::FAVAC.Droid.Resource.Color.cardview_shadow_end_color;
-			global::XamEffects.Droid.Resource.Color.cardview_shadow_start_color = global::FAVAC.Droid.Resource.Color.cardview_shadow_start_color;
-			global::XamEffects.Droid.Resource.Color.design_bottom_navigation_shadow_color = global::FAVAC.Droid.Resource.Color.design_bottom_navigation_shadow_color;
-			global::XamEffects.Droid.Resource.Color.design_error = global::FAVAC.Droid.Resource.Color.design_error;
-			global::XamEffects.Droid.Resource.Color.design_fab_shadow_end_color = global::FAVAC.Droid.Resource.Color.design_fab_shadow_end_color;
-			global::XamEffects.Droid.Resource.Color.design_fab_shadow_mid_color = global::FAVAC.Droid.Resource.Color.design_fab_shadow_mid_color;
-			global::XamEffects.Droid.Resource.Color.design_fab_shadow_start_color = global::FAVAC.Droid.Resource.Color.design_fab_shadow_start_color;
-			global::XamEffects.Droid.Resource.Color.design_fab_stroke_end_inner_color = global::FAVAC.Droid.Resource.Color.design_fab_stroke_end_inner_color;
-			global::XamEffects.Droid.Resource.Color.design_fab_stroke_end_outer_color = global::FAVAC.Droid.Resource.Color.design_fab_stroke_end_outer_color;
-			global::XamEffects.Droid.Resource.Color.design_fab_stroke_top_inner_color = global::FAVAC.Droid.Resource.Color.design_fab_stroke_top_inner_color;
-			global::XamEffects.Droid.Resource.Color.design_fab_stroke_top_outer_color = global::FAVAC.Droid.Resource.Color.design_fab_stroke_top_outer_color;
-			global::XamEffects.Droid.Resource.Color.design_snackbar_background_color = global::FAVAC.Droid.Resource.Color.design_snackbar_background_color;
-			global::XamEffects.Droid.Resource.Color.design_tint_password_toggle = global::FAVAC.Droid.Resource.Color.design_tint_password_toggle;
-			global::XamEffects.Droid.Resource.Color.dim_foreground_disabled_material_dark = global::FAVAC.Droid.Resource.Color.dim_foreground_disabled_material_dark;
-			global::XamEffects.Droid.Resource.Color.dim_foreground_disabled_material_light = global::FAVAC.Droid.Resource.Color.dim_foreground_disabled_material_light;
-			global::XamEffects.Droid.Resource.Color.dim_foreground_material_dark = global::FAVAC.Droid.Resource.Color.dim_foreground_material_dark;
-			global::XamEffects.Droid.Resource.Color.dim_foreground_material_light = global::FAVAC.Droid.Resource.Color.dim_foreground_material_light;
-			global::XamEffects.Droid.Resource.Color.foreground_material_dark = global::FAVAC.Droid.Resource.Color.foreground_material_dark;
-			global::XamEffects.Droid.Resource.Color.foreground_material_light = global::FAVAC.Droid.Resource.Color.foreground_material_light;
-			global::XamEffects.Droid.Resource.Color.highlighted_text_material_dark = global::FAVAC.Droid.Resource.Color.highlighted_text_material_dark;
-			global::XamEffects.Droid.Resource.Color.highlighted_text_material_light = global::FAVAC.Droid.Resource.Color.highlighted_text_material_light;
-			global::XamEffects.Droid.Resource.Color.material_blue_grey_800 = global::FAVAC.Droid.Resource.Color.material_blue_grey_800;
-			global::XamEffects.Droid.Resource.Color.material_blue_grey_900 = global::FAVAC.Droid.Resource.Color.material_blue_grey_900;
-			global::XamEffects.Droid.Resource.Color.material_blue_grey_950 = global::FAVAC.Droid.Resource.Color.material_blue_grey_950;
-			global::XamEffects.Droid.Resource.Color.material_deep_teal_200 = global::FAVAC.Droid.Resource.Color.material_deep_teal_200;
-			global::XamEffects.Droid.Resource.Color.material_deep_teal_500 = global::FAVAC.Droid.Resource.Color.material_deep_teal_500;
-			global::XamEffects.Droid.Resource.Color.material_grey_100 = global::FAVAC.Droid.Resource.Color.material_grey_100;
-			global::XamEffects.Droid.Resource.Color.material_grey_300 = global::FAVAC.Droid.Resource.Color.material_grey_300;
-			global::XamEffects.Droid.Resource.Color.material_grey_50 = global::FAVAC.Droid.Resource.Color.material_grey_50;
-			global::XamEffects.Droid.Resource.Color.material_grey_600 = global::FAVAC.Droid.Resource.Color.material_grey_600;
-			global::XamEffects.Droid.Resource.Color.material_grey_800 = global::FAVAC.Droid.Resource.Color.material_grey_800;
-			global::XamEffects.Droid.Resource.Color.material_grey_850 = global::FAVAC.Droid.Resource.Color.material_grey_850;
-			global::XamEffects.Droid.Resource.Color.material_grey_900 = global::FAVAC.Droid.Resource.Color.material_grey_900;
-			global::XamEffects.Droid.Resource.Color.notification_action_color_filter = global::FAVAC.Droid.Resource.Color.notification_action_color_filter;
-			global::XamEffects.Droid.Resource.Color.notification_icon_bg_color = global::FAVAC.Droid.Resource.Color.notification_icon_bg_color;
-			global::XamEffects.Droid.Resource.Color.notification_material_background_media_default_color = global::FAVAC.Droid.Resource.Color.notification_material_background_media_default_color;
-			global::XamEffects.Droid.Resource.Color.primary_dark_material_dark = global::FAVAC.Droid.Resource.Color.primary_dark_material_dark;
-			global::XamEffects.Droid.Resource.Color.primary_dark_material_light = global::FAVAC.Droid.Resource.Color.primary_dark_material_light;
-			global::XamEffects.Droid.Resource.Color.primary_material_dark = global::FAVAC.Droid.Resource.Color.primary_material_dark;
-			global::XamEffects.Droid.Resource.Color.primary_material_light = global::FAVAC.Droid.Resource.Color.primary_material_light;
-			global::XamEffects.Droid.Resource.Color.primary_text_default_material_dark = global::FAVAC.Droid.Resource.Color.primary_text_default_material_dark;
-			global::XamEffects.Droid.Resource.Color.primary_text_default_material_light = global::FAVAC.Droid.Resource.Color.primary_text_default_material_light;
-			global::XamEffects.Droid.Resource.Color.primary_text_disabled_material_dark = global::FAVAC.Droid.Resource.Color.primary_text_disabled_material_dark;
-			global::XamEffects.Droid.Resource.Color.primary_text_disabled_material_light = global::FAVAC.Droid.Resource.Color.primary_text_disabled_material_light;
-			global::XamEffects.Droid.Resource.Color.ripple_material_dark = global::FAVAC.Droid.Resource.Color.ripple_material_dark;
-			global::XamEffects.Droid.Resource.Color.ripple_material_light = global::FAVAC.Droid.Resource.Color.ripple_material_light;
-			global::XamEffects.Droid.Resource.Color.secondary_text_default_material_dark = global::FAVAC.Droid.Resource.Color.secondary_text_default_material_dark;
-			global::XamEffects.Droid.Resource.Color.secondary_text_default_material_light = global::FAVAC.Droid.Resource.Color.secondary_text_default_material_light;
-			global::XamEffects.Droid.Resource.Color.secondary_text_disabled_material_dark = global::FAVAC.Droid.Resource.Color.secondary_text_disabled_material_dark;
-			global::XamEffects.Droid.Resource.Color.secondary_text_disabled_material_light = global::FAVAC.Droid.Resource.Color.secondary_text_disabled_material_light;
-			global::XamEffects.Droid.Resource.Color.switch_thumb_disabled_material_dark = global::FAVAC.Droid.Resource.Color.switch_thumb_disabled_material_dark;
-			global::XamEffects.Droid.Resource.Color.switch_thumb_disabled_material_light = global::FAVAC.Droid.Resource.Color.switch_thumb_disabled_material_light;
-			global::XamEffects.Droid.Resource.Color.switch_thumb_material_dark = global::FAVAC.Droid.Resource.Color.switch_thumb_material_dark;
-			global::XamEffects.Droid.Resource.Color.switch_thumb_material_light = global::FAVAC.Droid.Resource.Color.switch_thumb_material_light;
-			global::XamEffects.Droid.Resource.Color.switch_thumb_normal_material_dark = global::FAVAC.Droid.Resource.Color.switch_thumb_normal_material_dark;
-			global::XamEffects.Droid.Resource.Color.switch_thumb_normal_material_light = global::FAVAC.Droid.Resource.Color.switch_thumb_normal_material_light;
-			global::XamEffects.Droid.Resource.Dimension.abc_action_bar_content_inset_material = global::FAVAC.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
-			global::XamEffects.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::FAVAC.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
-			global::XamEffects.Droid.Resource.Dimension.abc_action_bar_default_height_material = global::FAVAC.Droid.Resource.Dimension.abc_action_bar_default_height_material;
-			global::XamEffects.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material = global::FAVAC.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
-			global::XamEffects.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material = global::FAVAC.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
-			global::XamEffects.Droid.Resource.Dimension.abc_action_bar_elevation_material = global::FAVAC.Droid.Resource.Dimension.abc_action_bar_elevation_material;
-			global::XamEffects.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::FAVAC.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
-			global::XamEffects.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::FAVAC.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
-			global::XamEffects.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::FAVAC.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
-			global::XamEffects.Droid.Resource.Dimension.abc_action_bar_stacked_max_height = global::FAVAC.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
-			global::XamEffects.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::FAVAC.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
-			global::XamEffects.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::FAVAC.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
-			global::XamEffects.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::FAVAC.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
-			global::XamEffects.Droid.Resource.Dimension.abc_action_button_min_height_material = global::FAVAC.Droid.Resource.Dimension.abc_action_button_min_height_material;
-			global::XamEffects.Droid.Resource.Dimension.abc_action_button_min_width_material = global::FAVAC.Droid.Resource.Dimension.abc_action_button_min_width_material;
-			global::XamEffects.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material = global::FAVAC.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
-			global::XamEffects.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height = global::FAVAC.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
-			global::XamEffects.Droid.Resource.Dimension.abc_button_inset_horizontal_material = global::FAVAC.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
-			global::XamEffects.Droid.Resource.Dimension.abc_button_inset_vertical_material = global::FAVAC.Droid.Resource.Dimension.abc_button_inset_vertical_material;
-			global::XamEffects.Droid.Resource.Dimension.abc_button_padding_horizontal_material = global::FAVAC.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
-			global::XamEffects.Droid.Resource.Dimension.abc_button_padding_vertical_material = global::FAVAC.Droid.Resource.Dimension.abc_button_padding_vertical_material;
-			global::XamEffects.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::FAVAC.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
-			global::XamEffects.Droid.Resource.Dimension.abc_config_prefDialogWidth = global::FAVAC.Droid.Resource.Dimension.abc_config_prefDialogWidth;
-			global::XamEffects.Droid.Resource.Dimension.abc_control_corner_material = global::FAVAC.Droid.Resource.Dimension.abc_control_corner_material;
-			global::XamEffects.Droid.Resource.Dimension.abc_control_inset_material = global::FAVAC.Droid.Resource.Dimension.abc_control_inset_material;
-			global::XamEffects.Droid.Resource.Dimension.abc_control_padding_material = global::FAVAC.Droid.Resource.Dimension.abc_control_padding_material;
-			global::XamEffects.Droid.Resource.Dimension.abc_dialog_fixed_height_major = global::FAVAC.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
-			global::XamEffects.Droid.Resource.Dimension.abc_dialog_fixed_height_minor = global::FAVAC.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
-			global::XamEffects.Droid.Resource.Dimension.abc_dialog_fixed_width_major = global::FAVAC.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
-			global::XamEffects.Droid.Resource.Dimension.abc_dialog_fixed_width_minor = global::FAVAC.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
-			global::XamEffects.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::FAVAC.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
-			global::XamEffects.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::FAVAC.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
-			global::XamEffects.Droid.Resource.Dimension.abc_dialog_min_width_major = global::FAVAC.Droid.Resource.Dimension.abc_dialog_min_width_major;
-			global::XamEffects.Droid.Resource.Dimension.abc_dialog_min_width_minor = global::FAVAC.Droid.Resource.Dimension.abc_dialog_min_width_minor;
-			global::XamEffects.Droid.Resource.Dimension.abc_dialog_padding_material = global::FAVAC.Droid.Resource.Dimension.abc_dialog_padding_material;
-			global::XamEffects.Droid.Resource.Dimension.abc_dialog_padding_top_material = global::FAVAC.Droid.Resource.Dimension.abc_dialog_padding_top_material;
-			global::XamEffects.Droid.Resource.Dimension.abc_dialog_title_divider_material = global::FAVAC.Droid.Resource.Dimension.abc_dialog_title_divider_material;
-			global::XamEffects.Droid.Resource.Dimension.abc_disabled_alpha_material_dark = global::FAVAC.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
-			global::XamEffects.Droid.Resource.Dimension.abc_disabled_alpha_material_light = global::FAVAC.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
-			global::XamEffects.Droid.Resource.Dimension.abc_dropdownitem_icon_width = global::FAVAC.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
-			global::XamEffects.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left = global::FAVAC.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
-			global::XamEffects.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right = global::FAVAC.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
-			global::XamEffects.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material = global::FAVAC.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
-			global::XamEffects.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::FAVAC.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
-			global::XamEffects.Droid.Resource.Dimension.abc_edit_text_inset_top_material = global::FAVAC.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
-			global::XamEffects.Droid.Resource.Dimension.abc_floating_window_z = global::FAVAC.Droid.Resource.Dimension.abc_floating_window_z;
-			global::XamEffects.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material = global::FAVAC.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
-			global::XamEffects.Droid.Resource.Dimension.abc_panel_menu_list_width = global::FAVAC.Droid.Resource.Dimension.abc_panel_menu_list_width;
-			global::XamEffects.Droid.Resource.Dimension.abc_progress_bar_height_material = global::FAVAC.Droid.Resource.Dimension.abc_progress_bar_height_material;
-			global::XamEffects.Droid.Resource.Dimension.abc_search_view_preferred_height = global::FAVAC.Droid.Resource.Dimension.abc_search_view_preferred_height;
-			global::XamEffects.Droid.Resource.Dimension.abc_search_view_preferred_width = global::FAVAC.Droid.Resource.Dimension.abc_search_view_preferred_width;
-			global::XamEffects.Droid.Resource.Dimension.abc_seekbar_track_background_height_material = global::FAVAC.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
-			global::XamEffects.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material = global::FAVAC.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
-			global::XamEffects.Droid.Resource.Dimension.abc_select_dialog_padding_start_material = global::FAVAC.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
-			global::XamEffects.Droid.Resource.Dimension.abc_switch_padding = global::FAVAC.Droid.Resource.Dimension.abc_switch_padding;
-			global::XamEffects.Droid.Resource.Dimension.abc_text_size_body_1_material = global::FAVAC.Droid.Resource.Dimension.abc_text_size_body_1_material;
-			global::XamEffects.Droid.Resource.Dimension.abc_text_size_body_2_material = global::FAVAC.Droid.Resource.Dimension.abc_text_size_body_2_material;
-			global::XamEffects.Droid.Resource.Dimension.abc_text_size_button_material = global::FAVAC.Droid.Resource.Dimension.abc_text_size_button_material;
-			global::XamEffects.Droid.Resource.Dimension.abc_text_size_caption_material = global::FAVAC.Droid.Resource.Dimension.abc_text_size_caption_material;
-			global::XamEffects.Droid.Resource.Dimension.abc_text_size_display_1_material = global::FAVAC.Droid.Resource.Dimension.abc_text_size_display_1_material;
-			global::XamEffects.Droid.Resource.Dimension.abc_text_size_display_2_material = global::FAVAC.Droid.Resource.Dimension.abc_text_size_display_2_material;
-			global::XamEffects.Droid.Resource.Dimension.abc_text_size_display_3_material = global::FAVAC.Droid.Resource.Dimension.abc_text_size_display_3_material;
-			global::XamEffects.Droid.Resource.Dimension.abc_text_size_display_4_material = global::FAVAC.Droid.Resource.Dimension.abc_text_size_display_4_material;
-			global::XamEffects.Droid.Resource.Dimension.abc_text_size_headline_material = global::FAVAC.Droid.Resource.Dimension.abc_text_size_headline_material;
-			global::XamEffects.Droid.Resource.Dimension.abc_text_size_large_material = global::FAVAC.Droid.Resource.Dimension.abc_text_size_large_material;
-			global::XamEffects.Droid.Resource.Dimension.abc_text_size_medium_material = global::FAVAC.Droid.Resource.Dimension.abc_text_size_medium_material;
-			global::XamEffects.Droid.Resource.Dimension.abc_text_size_menu_header_material = global::FAVAC.Droid.Resource.Dimension.abc_text_size_menu_header_material;
-			global::XamEffects.Droid.Resource.Dimension.abc_text_size_menu_material = global::FAVAC.Droid.Resource.Dimension.abc_text_size_menu_material;
-			global::XamEffects.Droid.Resource.Dimension.abc_text_size_small_material = global::FAVAC.Droid.Resource.Dimension.abc_text_size_small_material;
-			global::XamEffects.Droid.Resource.Dimension.abc_text_size_subhead_material = global::FAVAC.Droid.Resource.Dimension.abc_text_size_subhead_material;
-			global::XamEffects.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::FAVAC.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
-			global::XamEffects.Droid.Resource.Dimension.abc_text_size_title_material = global::FAVAC.Droid.Resource.Dimension.abc_text_size_title_material;
-			global::XamEffects.Droid.Resource.Dimension.abc_text_size_title_material_toolbar = global::FAVAC.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
-			global::XamEffects.Droid.Resource.Dimension.cardview_compat_inset_shadow = global::FAVAC.Droid.Resource.Dimension.cardview_compat_inset_shadow;
-			global::XamEffects.Droid.Resource.Dimension.cardview_default_elevation = global::FAVAC.Droid.Resource.Dimension.cardview_default_elevation;
-			global::XamEffects.Droid.Resource.Dimension.cardview_default_radius = global::FAVAC.Droid.Resource.Dimension.cardview_default_radius;
-			global::XamEffects.Droid.Resource.Dimension.design_appbar_elevation = global::FAVAC.Droid.Resource.Dimension.design_appbar_elevation;
-			global::XamEffects.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::FAVAC.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
-			global::XamEffects.Droid.Resource.Dimension.design_bottom_navigation_active_text_size = global::FAVAC.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
-			global::XamEffects.Droid.Resource.Dimension.design_bottom_navigation_elevation = global::FAVAC.Droid.Resource.Dimension.design_bottom_navigation_elevation;
-			global::XamEffects.Droid.Resource.Dimension.design_bottom_navigation_height = global::FAVAC.Droid.Resource.Dimension.design_bottom_navigation_height;
-			global::XamEffects.Droid.Resource.Dimension.design_bottom_navigation_item_max_width = global::FAVAC.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
-			global::XamEffects.Droid.Resource.Dimension.design_bottom_navigation_item_min_width = global::FAVAC.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
-			global::XamEffects.Droid.Resource.Dimension.design_bottom_navigation_margin = global::FAVAC.Droid.Resource.Dimension.design_bottom_navigation_margin;
-			global::XamEffects.Droid.Resource.Dimension.design_bottom_navigation_shadow_height = global::FAVAC.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
-			global::XamEffects.Droid.Resource.Dimension.design_bottom_navigation_text_size = global::FAVAC.Droid.Resource.Dimension.design_bottom_navigation_text_size;
-			global::XamEffects.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation = global::FAVAC.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
-			global::XamEffects.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min = global::FAVAC.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
-			global::XamEffects.Droid.Resource.Dimension.design_fab_border_width = global::FAVAC.Droid.Resource.Dimension.design_fab_border_width;
-			global::XamEffects.Droid.Resource.Dimension.design_fab_elevation = global::FAVAC.Droid.Resource.Dimension.design_fab_elevation;
-			global::XamEffects.Droid.Resource.Dimension.design_fab_image_size = global::FAVAC.Droid.Resource.Dimension.design_fab_image_size;
-			global::XamEffects.Droid.Resource.Dimension.design_fab_size_mini = global::FAVAC.Droid.Resource.Dimension.design_fab_size_mini;
-			global::XamEffects.Droid.Resource.Dimension.design_fab_size_normal = global::FAVAC.Droid.Resource.Dimension.design_fab_size_normal;
-			global::XamEffects.Droid.Resource.Dimension.design_fab_translation_z_pressed = global::FAVAC.Droid.Resource.Dimension.design_fab_translation_z_pressed;
-			global::XamEffects.Droid.Resource.Dimension.design_navigation_elevation = global::FAVAC.Droid.Resource.Dimension.design_navigation_elevation;
-			global::XamEffects.Droid.Resource.Dimension.design_navigation_icon_padding = global::FAVAC.Droid.Resource.Dimension.design_navigation_icon_padding;
-			global::XamEffects.Droid.Resource.Dimension.design_navigation_icon_size = global::FAVAC.Droid.Resource.Dimension.design_navigation_icon_size;
-			global::XamEffects.Droid.Resource.Dimension.design_navigation_max_width = global::FAVAC.Droid.Resource.Dimension.design_navigation_max_width;
-			global::XamEffects.Droid.Resource.Dimension.design_navigation_padding_bottom = global::FAVAC.Droid.Resource.Dimension.design_navigation_padding_bottom;
-			global::XamEffects.Droid.Resource.Dimension.design_navigation_separator_vertical_padding = global::FAVAC.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
-			global::XamEffects.Droid.Resource.Dimension.design_snackbar_action_inline_max_width = global::FAVAC.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
-			global::XamEffects.Droid.Resource.Dimension.design_snackbar_background_corner_radius = global::FAVAC.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
-			global::XamEffects.Droid.Resource.Dimension.design_snackbar_elevation = global::FAVAC.Droid.Resource.Dimension.design_snackbar_elevation;
-			global::XamEffects.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::FAVAC.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
-			global::XamEffects.Droid.Resource.Dimension.design_snackbar_max_width = global::FAVAC.Droid.Resource.Dimension.design_snackbar_max_width;
-			global::XamEffects.Droid.Resource.Dimension.design_snackbar_min_width = global::FAVAC.Droid.Resource.Dimension.design_snackbar_min_width;
-			global::XamEffects.Droid.Resource.Dimension.design_snackbar_padding_horizontal = global::FAVAC.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
-			global::XamEffects.Droid.Resource.Dimension.design_snackbar_padding_vertical = global::FAVAC.Droid.Resource.Dimension.design_snackbar_padding_vertical;
-			global::XamEffects.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::FAVAC.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
-			global::XamEffects.Droid.Resource.Dimension.design_snackbar_text_size = global::FAVAC.Droid.Resource.Dimension.design_snackbar_text_size;
-			global::XamEffects.Droid.Resource.Dimension.design_tab_max_width = global::FAVAC.Droid.Resource.Dimension.design_tab_max_width;
-			global::XamEffects.Droid.Resource.Dimension.design_tab_scrollable_min_width = global::FAVAC.Droid.Resource.Dimension.design_tab_scrollable_min_width;
-			global::XamEffects.Droid.Resource.Dimension.design_tab_text_size = global::FAVAC.Droid.Resource.Dimension.design_tab_text_size;
-			global::XamEffects.Droid.Resource.Dimension.design_tab_text_size_2line = global::FAVAC.Droid.Resource.Dimension.design_tab_text_size_2line;
-			global::XamEffects.Droid.Resource.Dimension.disabled_alpha_material_dark = global::FAVAC.Droid.Resource.Dimension.disabled_alpha_material_dark;
-			global::XamEffects.Droid.Resource.Dimension.disabled_alpha_material_light = global::FAVAC.Droid.Resource.Dimension.disabled_alpha_material_light;
-			global::XamEffects.Droid.Resource.Dimension.highlight_alpha_material_colored = global::FAVAC.Droid.Resource.Dimension.highlight_alpha_material_colored;
-			global::XamEffects.Droid.Resource.Dimension.highlight_alpha_material_dark = global::FAVAC.Droid.Resource.Dimension.highlight_alpha_material_dark;
-			global::XamEffects.Droid.Resource.Dimension.highlight_alpha_material_light = global::FAVAC.Droid.Resource.Dimension.highlight_alpha_material_light;
-			global::XamEffects.Droid.Resource.Dimension.hint_alpha_material_dark = global::FAVAC.Droid.Resource.Dimension.hint_alpha_material_dark;
-			global::XamEffects.Droid.Resource.Dimension.hint_alpha_material_light = global::FAVAC.Droid.Resource.Dimension.hint_alpha_material_light;
-			global::XamEffects.Droid.Resource.Dimension.hint_pressed_alpha_material_dark = global::FAVAC.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
-			global::XamEffects.Droid.Resource.Dimension.hint_pressed_alpha_material_light = global::FAVAC.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
-			global::XamEffects.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::FAVAC.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
-			global::XamEffects.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::FAVAC.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
-			global::XamEffects.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::FAVAC.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
-			global::XamEffects.Droid.Resource.Dimension.notification_action_icon_size = global::FAVAC.Droid.Resource.Dimension.notification_action_icon_size;
-			global::XamEffects.Droid.Resource.Dimension.notification_action_text_size = global::FAVAC.Droid.Resource.Dimension.notification_action_text_size;
-			global::XamEffects.Droid.Resource.Dimension.notification_big_circle_margin = global::FAVAC.Droid.Resource.Dimension.notification_big_circle_margin;
-			global::XamEffects.Droid.Resource.Dimension.notification_content_margin_start = global::FAVAC.Droid.Resource.Dimension.notification_content_margin_start;
-			global::XamEffects.Droid.Resource.Dimension.notification_large_icon_height = global::FAVAC.Droid.Resource.Dimension.notification_large_icon_height;
-			global::XamEffects.Droid.Resource.Dimension.notification_large_icon_width = global::FAVAC.Droid.Resource.Dimension.notification_large_icon_width;
-			global::XamEffects.Droid.Resource.Dimension.notification_main_column_padding_top = global::FAVAC.Droid.Resource.Dimension.notification_main_column_padding_top;
-			global::XamEffects.Droid.Resource.Dimension.notification_media_narrow_margin = global::FAVAC.Droid.Resource.Dimension.notification_media_narrow_margin;
-			global::XamEffects.Droid.Resource.Dimension.notification_right_icon_size = global::FAVAC.Droid.Resource.Dimension.notification_right_icon_size;
-			global::XamEffects.Droid.Resource.Dimension.notification_right_side_padding_top = global::FAVAC.Droid.Resource.Dimension.notification_right_side_padding_top;
-			global::XamEffects.Droid.Resource.Dimension.notification_small_icon_background_padding = global::FAVAC.Droid.Resource.Dimension.notification_small_icon_background_padding;
-			global::XamEffects.Droid.Resource.Dimension.notification_small_icon_size_as_large = global::FAVAC.Droid.Resource.Dimension.notification_small_icon_size_as_large;
-			global::XamEffects.Droid.Resource.Dimension.notification_subtext_size = global::FAVAC.Droid.Resource.Dimension.notification_subtext_size;
-			global::XamEffects.Droid.Resource.Dimension.notification_top_pad = global::FAVAC.Droid.Resource.Dimension.notification_top_pad;
-			global::XamEffects.Droid.Resource.Dimension.notification_top_pad_large_text = global::FAVAC.Droid.Resource.Dimension.notification_top_pad_large_text;
-			global::XamEffects.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::FAVAC.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
-			global::XamEffects.Droid.Resource.Drawable.abc_action_bar_item_background_material = global::FAVAC.Droid.Resource.Drawable.abc_action_bar_item_background_material;
-			global::XamEffects.Droid.Resource.Drawable.abc_btn_borderless_material = global::FAVAC.Droid.Resource.Drawable.abc_btn_borderless_material;
-			global::XamEffects.Droid.Resource.Drawable.abc_btn_check_material = global::FAVAC.Droid.Resource.Drawable.abc_btn_check_material;
-			global::XamEffects.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::FAVAC.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
-			global::XamEffects.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::FAVAC.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
-			global::XamEffects.Droid.Resource.Drawable.abc_btn_colored_material = global::FAVAC.Droid.Resource.Drawable.abc_btn_colored_material;
-			global::XamEffects.Droid.Resource.Drawable.abc_btn_default_mtrl_shape = global::FAVAC.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
-			global::XamEffects.Droid.Resource.Drawable.abc_btn_radio_material = global::FAVAC.Droid.Resource.Drawable.abc_btn_radio_material;
-			global::XamEffects.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::FAVAC.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
-			global::XamEffects.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::FAVAC.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
-			global::XamEffects.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::FAVAC.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
-			global::XamEffects.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::FAVAC.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
-			global::XamEffects.Droid.Resource.Drawable.abc_cab_background_internal_bg = global::FAVAC.Droid.Resource.Drawable.abc_cab_background_internal_bg;
-			global::XamEffects.Droid.Resource.Drawable.abc_cab_background_top_material = global::FAVAC.Droid.Resource.Drawable.abc_cab_background_top_material;
-			global::XamEffects.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::FAVAC.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
-			global::XamEffects.Droid.Resource.Drawable.abc_control_background_material = global::FAVAC.Droid.Resource.Drawable.abc_control_background_material;
-			global::XamEffects.Droid.Resource.Drawable.abc_dialog_material_background = global::FAVAC.Droid.Resource.Drawable.abc_dialog_material_background;
-			global::XamEffects.Droid.Resource.Drawable.abc_edit_text_material = global::FAVAC.Droid.Resource.Drawable.abc_edit_text_material;
-			global::XamEffects.Droid.Resource.Drawable.abc_ic_ab_back_material = global::FAVAC.Droid.Resource.Drawable.abc_ic_ab_back_material;
-			global::XamEffects.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::FAVAC.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
-			global::XamEffects.Droid.Resource.Drawable.abc_ic_clear_material = global::FAVAC.Droid.Resource.Drawable.abc_ic_clear_material;
-			global::XamEffects.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::FAVAC.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
-			global::XamEffects.Droid.Resource.Drawable.abc_ic_go_search_api_material = global::FAVAC.Droid.Resource.Drawable.abc_ic_go_search_api_material;
-			global::XamEffects.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::FAVAC.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
-			global::XamEffects.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::FAVAC.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
-			global::XamEffects.Droid.Resource.Drawable.abc_ic_menu_overflow_material = global::FAVAC.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
-			global::XamEffects.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::FAVAC.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
-			global::XamEffects.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::FAVAC.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
-			global::XamEffects.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::FAVAC.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
-			global::XamEffects.Droid.Resource.Drawable.abc_ic_search_api_material = global::FAVAC.Droid.Resource.Drawable.abc_ic_search_api_material;
-			global::XamEffects.Droid.Resource.Drawable.abc_ic_star_black_16dp = global::FAVAC.Droid.Resource.Drawable.abc_ic_star_black_16dp;
-			global::XamEffects.Droid.Resource.Drawable.abc_ic_star_black_36dp = global::FAVAC.Droid.Resource.Drawable.abc_ic_star_black_36dp;
-			global::XamEffects.Droid.Resource.Drawable.abc_ic_star_black_48dp = global::FAVAC.Droid.Resource.Drawable.abc_ic_star_black_48dp;
-			global::XamEffects.Droid.Resource.Drawable.abc_ic_star_half_black_16dp = global::FAVAC.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
-			global::XamEffects.Droid.Resource.Drawable.abc_ic_star_half_black_36dp = global::FAVAC.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
-			global::XamEffects.Droid.Resource.Drawable.abc_ic_star_half_black_48dp = global::FAVAC.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
-			global::XamEffects.Droid.Resource.Drawable.abc_ic_voice_search_api_material = global::FAVAC.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
-			global::XamEffects.Droid.Resource.Drawable.abc_item_background_holo_dark = global::FAVAC.Droid.Resource.Drawable.abc_item_background_holo_dark;
-			global::XamEffects.Droid.Resource.Drawable.abc_item_background_holo_light = global::FAVAC.Droid.Resource.Drawable.abc_item_background_holo_light;
-			global::XamEffects.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha = global::FAVAC.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
-			global::XamEffects.Droid.Resource.Drawable.abc_list_focused_holo = global::FAVAC.Droid.Resource.Drawable.abc_list_focused_holo;
-			global::XamEffects.Droid.Resource.Drawable.abc_list_longpressed_holo = global::FAVAC.Droid.Resource.Drawable.abc_list_longpressed_holo;
-			global::XamEffects.Droid.Resource.Drawable.abc_list_pressed_holo_dark = global::FAVAC.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
-			global::XamEffects.Droid.Resource.Drawable.abc_list_pressed_holo_light = global::FAVAC.Droid.Resource.Drawable.abc_list_pressed_holo_light;
-			global::XamEffects.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::FAVAC.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
-			global::XamEffects.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::FAVAC.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
-			global::XamEffects.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::FAVAC.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
-			global::XamEffects.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light = global::FAVAC.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
-			global::XamEffects.Droid.Resource.Drawable.abc_list_selector_holo_dark = global::FAVAC.Droid.Resource.Drawable.abc_list_selector_holo_dark;
-			global::XamEffects.Droid.Resource.Drawable.abc_list_selector_holo_light = global::FAVAC.Droid.Resource.Drawable.abc_list_selector_holo_light;
-			global::XamEffects.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::FAVAC.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
-			global::XamEffects.Droid.Resource.Drawable.abc_popup_background_mtrl_mult = global::FAVAC.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
-			global::XamEffects.Droid.Resource.Drawable.abc_ratingbar_indicator_material = global::FAVAC.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
-			global::XamEffects.Droid.Resource.Drawable.abc_ratingbar_material = global::FAVAC.Droid.Resource.Drawable.abc_ratingbar_material;
-			global::XamEffects.Droid.Resource.Drawable.abc_ratingbar_small_material = global::FAVAC.Droid.Resource.Drawable.abc_ratingbar_small_material;
-			global::XamEffects.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::FAVAC.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
-			global::XamEffects.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::FAVAC.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
-			global::XamEffects.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::FAVAC.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
-			global::XamEffects.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::FAVAC.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
-			global::XamEffects.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::FAVAC.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
-			global::XamEffects.Droid.Resource.Drawable.abc_seekbar_thumb_material = global::FAVAC.Droid.Resource.Drawable.abc_seekbar_thumb_material;
-			global::XamEffects.Droid.Resource.Drawable.abc_seekbar_tick_mark_material = global::FAVAC.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
-			global::XamEffects.Droid.Resource.Drawable.abc_seekbar_track_material = global::FAVAC.Droid.Resource.Drawable.abc_seekbar_track_material;
-			global::XamEffects.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::FAVAC.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
-			global::XamEffects.Droid.Resource.Drawable.abc_spinner_textfield_background_material = global::FAVAC.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
-			global::XamEffects.Droid.Resource.Drawable.abc_switch_thumb_material = global::FAVAC.Droid.Resource.Drawable.abc_switch_thumb_material;
-			global::XamEffects.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha = global::FAVAC.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
-			global::XamEffects.Droid.Resource.Drawable.abc_tab_indicator_material = global::FAVAC.Droid.Resource.Drawable.abc_tab_indicator_material;
-			global::XamEffects.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::FAVAC.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
-			global::XamEffects.Droid.Resource.Drawable.abc_text_cursor_material = global::FAVAC.Droid.Resource.Drawable.abc_text_cursor_material;
-			global::XamEffects.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::FAVAC.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
-			global::XamEffects.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::FAVAC.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
-			global::XamEffects.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::FAVAC.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
-			global::XamEffects.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::FAVAC.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
-			global::XamEffects.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::FAVAC.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
-			global::XamEffects.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::FAVAC.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
-			global::XamEffects.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::FAVAC.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
-			global::XamEffects.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::FAVAC.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
-			global::XamEffects.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::FAVAC.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
-			global::XamEffects.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::FAVAC.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
-			global::XamEffects.Droid.Resource.Drawable.abc_textfield_search_material = global::FAVAC.Droid.Resource.Drawable.abc_textfield_search_material;
-			global::XamEffects.Droid.Resource.Drawable.abc_vector_test = global::FAVAC.Droid.Resource.Drawable.abc_vector_test;
-			global::XamEffects.Droid.Resource.Drawable.avd_hide_password = global::FAVAC.Droid.Resource.Drawable.avd_hide_password;
-			global::XamEffects.Droid.Resource.Drawable.avd_show_password = global::FAVAC.Droid.Resource.Drawable.avd_show_password;
-			global::XamEffects.Droid.Resource.Drawable.design_bottom_navigation_item_background = global::FAVAC.Droid.Resource.Drawable.design_bottom_navigation_item_background;
-			global::XamEffects.Droid.Resource.Drawable.design_fab_background = global::FAVAC.Droid.Resource.Drawable.design_fab_background;
-			global::XamEffects.Droid.Resource.Drawable.design_ic_visibility = global::FAVAC.Droid.Resource.Drawable.design_ic_visibility;
-			global::XamEffects.Droid.Resource.Drawable.design_ic_visibility_off = global::FAVAC.Droid.Resource.Drawable.design_ic_visibility_off;
-			global::XamEffects.Droid.Resource.Drawable.design_password_eye = global::FAVAC.Droid.Resource.Drawable.design_password_eye;
-			global::XamEffects.Droid.Resource.Drawable.design_snackbar_background = global::FAVAC.Droid.Resource.Drawable.design_snackbar_background;
-			global::XamEffects.Droid.Resource.Drawable.navigation_empty_icon = global::FAVAC.Droid.Resource.Drawable.navigation_empty_icon;
-			global::XamEffects.Droid.Resource.Drawable.notification_action_background = global::FAVAC.Droid.Resource.Drawable.notification_action_background;
-			global::XamEffects.Droid.Resource.Drawable.notification_bg = global::FAVAC.Droid.Resource.Drawable.notification_bg;
-			global::XamEffects.Droid.Resource.Drawable.notification_bg_low = global::FAVAC.Droid.Resource.Drawable.notification_bg_low;
-			global::XamEffects.Droid.Resource.Drawable.notification_bg_low_normal = global::FAVAC.Droid.Resource.Drawable.notification_bg_low_normal;
-			global::XamEffects.Droid.Resource.Drawable.notification_bg_low_pressed = global::FAVAC.Droid.Resource.Drawable.notification_bg_low_pressed;
-			global::XamEffects.Droid.Resource.Drawable.notification_bg_normal = global::FAVAC.Droid.Resource.Drawable.notification_bg_normal;
-			global::XamEffects.Droid.Resource.Drawable.notification_bg_normal_pressed = global::FAVAC.Droid.Resource.Drawable.notification_bg_normal_pressed;
-			global::XamEffects.Droid.Resource.Drawable.notification_icon_background = global::FAVAC.Droid.Resource.Drawable.notification_icon_background;
-			global::XamEffects.Droid.Resource.Drawable.notification_template_icon_bg = global::FAVAC.Droid.Resource.Drawable.notification_template_icon_bg;
-			global::XamEffects.Droid.Resource.Drawable.notification_template_icon_low_bg = global::FAVAC.Droid.Resource.Drawable.notification_template_icon_low_bg;
-			global::XamEffects.Droid.Resource.Drawable.notification_tile_bg = global::FAVAC.Droid.Resource.Drawable.notification_tile_bg;
-			global::XamEffects.Droid.Resource.Drawable.notify_panel_notification_icon_bg = global::FAVAC.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
-			global::XamEffects.Droid.Resource.Id.action0 = global::FAVAC.Droid.Resource.Id.action0;
-			global::XamEffects.Droid.Resource.Id.action_bar = global::FAVAC.Droid.Resource.Id.action_bar;
-			global::XamEffects.Droid.Resource.Id.action_bar_activity_content = global::FAVAC.Droid.Resource.Id.action_bar_activity_content;
-			global::XamEffects.Droid.Resource.Id.action_bar_container = global::FAVAC.Droid.Resource.Id.action_bar_container;
-			global::XamEffects.Droid.Resource.Id.action_bar_root = global::FAVAC.Droid.Resource.Id.action_bar_root;
-			global::XamEffects.Droid.Resource.Id.action_bar_spinner = global::FAVAC.Droid.Resource.Id.action_bar_spinner;
-			global::XamEffects.Droid.Resource.Id.action_bar_subtitle = global::FAVAC.Droid.Resource.Id.action_bar_subtitle;
-			global::XamEffects.Droid.Resource.Id.action_bar_title = global::FAVAC.Droid.Resource.Id.action_bar_title;
-			global::XamEffects.Droid.Resource.Id.action_container = global::FAVAC.Droid.Resource.Id.action_container;
-			global::XamEffects.Droid.Resource.Id.action_context_bar = global::FAVAC.Droid.Resource.Id.action_context_bar;
-			global::XamEffects.Droid.Resource.Id.action_divider = global::FAVAC.Droid.Resource.Id.action_divider;
-			global::XamEffects.Droid.Resource.Id.action_image = global::FAVAC.Droid.Resource.Id.action_image;
-			global::XamEffects.Droid.Resource.Id.action_menu_divider = global::FAVAC.Droid.Resource.Id.action_menu_divider;
-			global::XamEffects.Droid.Resource.Id.action_menu_presenter = global::FAVAC.Droid.Resource.Id.action_menu_presenter;
-			global::XamEffects.Droid.Resource.Id.action_mode_bar_stub = global::FAVAC.Droid.Resource.Id.action_mode_bar_stub;
-			global::XamEffects.Droid.Resource.Id.action_mode_close_button = global::FAVAC.Droid.Resource.Id.action_mode_close_button;
-			global::XamEffects.Droid.Resource.Id.action_text = global::FAVAC.Droid.Resource.Id.action_text;
-			global::XamEffects.Droid.Resource.Id.actions = global::FAVAC.Droid.Resource.Id.actions;
-			global::XamEffects.Droid.Resource.Id.activity_chooser_view_content = global::FAVAC.Droid.Resource.Id.activity_chooser_view_content;
-			global::XamEffects.Droid.Resource.Id.add = global::FAVAC.Droid.Resource.Id.add;
-			global::XamEffects.Droid.Resource.Id.alertTitle = global::FAVAC.Droid.Resource.Id.alertTitle;
-			global::XamEffects.Droid.Resource.Id.all = global::FAVAC.Droid.Resource.Id.all;
-			global::XamEffects.Droid.Resource.Id.always = global::FAVAC.Droid.Resource.Id.always;
-			global::XamEffects.Droid.Resource.Id.auto = global::FAVAC.Droid.Resource.Id.auto;
-			global::XamEffects.Droid.Resource.Id.beginning = global::FAVAC.Droid.Resource.Id.beginning;
-			global::XamEffects.Droid.Resource.Id.bottom = global::FAVAC.Droid.Resource.Id.bottom;
-			global::XamEffects.Droid.Resource.Id.buttonPanel = global::FAVAC.Droid.Resource.Id.buttonPanel;
-			global::XamEffects.Droid.Resource.Id.cancel_action = global::FAVAC.Droid.Resource.Id.cancel_action;
-			global::XamEffects.Droid.Resource.Id.center = global::FAVAC.Droid.Resource.Id.center;
-			global::XamEffects.Droid.Resource.Id.center_horizontal = global::FAVAC.Droid.Resource.Id.center_horizontal;
-			global::XamEffects.Droid.Resource.Id.center_vertical = global::FAVAC.Droid.Resource.Id.center_vertical;
-			global::XamEffects.Droid.Resource.Id.checkbox = global::FAVAC.Droid.Resource.Id.checkbox;
-			global::XamEffects.Droid.Resource.Id.chronometer = global::FAVAC.Droid.Resource.Id.chronometer;
-			global::XamEffects.Droid.Resource.Id.clip_horizontal = global::FAVAC.Droid.Resource.Id.clip_horizontal;
-			global::XamEffects.Droid.Resource.Id.clip_vertical = global::FAVAC.Droid.Resource.Id.clip_vertical;
-			global::XamEffects.Droid.Resource.Id.collapseActionView = global::FAVAC.Droid.Resource.Id.collapseActionView;
-			global::XamEffects.Droid.Resource.Id.container = global::FAVAC.Droid.Resource.Id.container;
-			global::XamEffects.Droid.Resource.Id.contentPanel = global::FAVAC.Droid.Resource.Id.contentPanel;
-			global::XamEffects.Droid.Resource.Id.coordinator = global::FAVAC.Droid.Resource.Id.coordinator;
-			global::XamEffects.Droid.Resource.Id.custom = global::FAVAC.Droid.Resource.Id.custom;
-			global::XamEffects.Droid.Resource.Id.customPanel = global::FAVAC.Droid.Resource.Id.customPanel;
-			global::XamEffects.Droid.Resource.Id.decor_content_parent = global::FAVAC.Droid.Resource.Id.decor_content_parent;
-			global::XamEffects.Droid.Resource.Id.default_activity_button = global::FAVAC.Droid.Resource.Id.default_activity_button;
-			global::XamEffects.Droid.Resource.Id.design_bottom_sheet = global::FAVAC.Droid.Resource.Id.design_bottom_sheet;
-			global::XamEffects.Droid.Resource.Id.design_menu_item_action_area_stub = global::FAVAC.Droid.Resource.Id.design_menu_item_action_area_stub;
-			global::XamEffects.Droid.Resource.Id.design_menu_item_text = global::FAVAC.Droid.Resource.Id.design_menu_item_text;
-			global::XamEffects.Droid.Resource.Id.design_navigation_view = global::FAVAC.Droid.Resource.Id.design_navigation_view;
-			global::XamEffects.Droid.Resource.Id.disableHome = global::FAVAC.Droid.Resource.Id.disableHome;
-			global::XamEffects.Droid.Resource.Id.edit_query = global::FAVAC.Droid.Resource.Id.edit_query;
-			global::XamEffects.Droid.Resource.Id.end = global::FAVAC.Droid.Resource.Id.end;
-			global::XamEffects.Droid.Resource.Id.end_padder = global::FAVAC.Droid.Resource.Id.end_padder;
-			global::XamEffects.Droid.Resource.Id.enterAlways = global::FAVAC.Droid.Resource.Id.enterAlways;
-			global::XamEffects.Droid.Resource.Id.enterAlwaysCollapsed = global::FAVAC.Droid.Resource.Id.enterAlwaysCollapsed;
-			global::XamEffects.Droid.Resource.Id.exitUntilCollapsed = global::FAVAC.Droid.Resource.Id.exitUntilCollapsed;
-			global::XamEffects.Droid.Resource.Id.expand_activities_button = global::FAVAC.Droid.Resource.Id.expand_activities_button;
-			global::XamEffects.Droid.Resource.Id.expanded_menu = global::FAVAC.Droid.Resource.Id.expanded_menu;
-			global::XamEffects.Droid.Resource.Id.fill = global::FAVAC.Droid.Resource.Id.fill;
-			global::XamEffects.Droid.Resource.Id.fill_horizontal = global::FAVAC.Droid.Resource.Id.fill_horizontal;
-			global::XamEffects.Droid.Resource.Id.fill_vertical = global::FAVAC.Droid.Resource.Id.fill_vertical;
-			global::XamEffects.Droid.Resource.Id.@fixed = global::FAVAC.Droid.Resource.Id.@fixed;
-			global::XamEffects.Droid.Resource.Id.home = global::FAVAC.Droid.Resource.Id.home;
-			global::XamEffects.Droid.Resource.Id.homeAsUp = global::FAVAC.Droid.Resource.Id.homeAsUp;
-			global::XamEffects.Droid.Resource.Id.icon = global::FAVAC.Droid.Resource.Id.icon;
-			global::XamEffects.Droid.Resource.Id.icon_group = global::FAVAC.Droid.Resource.Id.icon_group;
-			global::XamEffects.Droid.Resource.Id.ifRoom = global::FAVAC.Droid.Resource.Id.ifRoom;
-			global::XamEffects.Droid.Resource.Id.image = global::FAVAC.Droid.Resource.Id.image;
-			global::XamEffects.Droid.Resource.Id.info = global::FAVAC.Droid.Resource.Id.info;
-			global::XamEffects.Droid.Resource.Id.item_touch_helper_previous_elevation = global::FAVAC.Droid.Resource.Id.item_touch_helper_previous_elevation;
-			global::XamEffects.Droid.Resource.Id.largeLabel = global::FAVAC.Droid.Resource.Id.largeLabel;
-			global::XamEffects.Droid.Resource.Id.left = global::FAVAC.Droid.Resource.Id.left;
-			global::XamEffects.Droid.Resource.Id.line1 = global::FAVAC.Droid.Resource.Id.line1;
-			global::XamEffects.Droid.Resource.Id.line3 = global::FAVAC.Droid.Resource.Id.line3;
-			global::XamEffects.Droid.Resource.Id.listMode = global::FAVAC.Droid.Resource.Id.listMode;
-			global::XamEffects.Droid.Resource.Id.list_item = global::FAVAC.Droid.Resource.Id.list_item;
-			global::XamEffects.Droid.Resource.Id.masked = global::FAVAC.Droid.Resource.Id.masked;
-			global::XamEffects.Droid.Resource.Id.media_actions = global::FAVAC.Droid.Resource.Id.media_actions;
-			global::XamEffects.Droid.Resource.Id.middle = global::FAVAC.Droid.Resource.Id.middle;
-			global::XamEffects.Droid.Resource.Id.mini = global::FAVAC.Droid.Resource.Id.mini;
-			global::XamEffects.Droid.Resource.Id.multiply = global::FAVAC.Droid.Resource.Id.multiply;
-			global::XamEffects.Droid.Resource.Id.navigation_header_container = global::FAVAC.Droid.Resource.Id.navigation_header_container;
-			global::XamEffects.Droid.Resource.Id.never = global::FAVAC.Droid.Resource.Id.never;
-			global::XamEffects.Droid.Resource.Id.none = global::FAVAC.Droid.Resource.Id.none;
-			global::XamEffects.Droid.Resource.Id.normal = global::FAVAC.Droid.Resource.Id.normal;
-			global::XamEffects.Droid.Resource.Id.notification_background = global::FAVAC.Droid.Resource.Id.notification_background;
-			global::XamEffects.Droid.Resource.Id.notification_main_column = global::FAVAC.Droid.Resource.Id.notification_main_column;
-			global::XamEffects.Droid.Resource.Id.notification_main_column_container = global::FAVAC.Droid.Resource.Id.notification_main_column_container;
-			global::XamEffects.Droid.Resource.Id.parallax = global::FAVAC.Droid.Resource.Id.parallax;
-			global::XamEffects.Droid.Resource.Id.parentPanel = global::FAVAC.Droid.Resource.Id.parentPanel;
-			global::XamEffects.Droid.Resource.Id.pin = global::FAVAC.Droid.Resource.Id.pin;
-			global::XamEffects.Droid.Resource.Id.progress_circular = global::FAVAC.Droid.Resource.Id.progress_circular;
-			global::XamEffects.Droid.Resource.Id.progress_horizontal = global::FAVAC.Droid.Resource.Id.progress_horizontal;
-			global::XamEffects.Droid.Resource.Id.radio = global::FAVAC.Droid.Resource.Id.radio;
-			global::XamEffects.Droid.Resource.Id.right = global::FAVAC.Droid.Resource.Id.right;
-			global::XamEffects.Droid.Resource.Id.right_icon = global::FAVAC.Droid.Resource.Id.right_icon;
-			global::XamEffects.Droid.Resource.Id.right_side = global::FAVAC.Droid.Resource.Id.right_side;
-			global::XamEffects.Droid.Resource.Id.screen = global::FAVAC.Droid.Resource.Id.screen;
-			global::XamEffects.Droid.Resource.Id.scroll = global::FAVAC.Droid.Resource.Id.scroll;
-			global::XamEffects.Droid.Resource.Id.scrollIndicatorDown = global::FAVAC.Droid.Resource.Id.scrollIndicatorDown;
-			global::XamEffects.Droid.Resource.Id.scrollIndicatorUp = global::FAVAC.Droid.Resource.Id.scrollIndicatorUp;
-			global::XamEffects.Droid.Resource.Id.scrollView = global::FAVAC.Droid.Resource.Id.scrollView;
-			global::XamEffects.Droid.Resource.Id.scrollable = global::FAVAC.Droid.Resource.Id.scrollable;
-			global::XamEffects.Droid.Resource.Id.search_badge = global::FAVAC.Droid.Resource.Id.search_badge;
-			global::XamEffects.Droid.Resource.Id.search_bar = global::FAVAC.Droid.Resource.Id.search_bar;
-			global::XamEffects.Droid.Resource.Id.search_button = global::FAVAC.Droid.Resource.Id.search_button;
-			global::XamEffects.Droid.Resource.Id.search_close_btn = global::FAVAC.Droid.Resource.Id.search_close_btn;
-			global::XamEffects.Droid.Resource.Id.search_edit_frame = global::FAVAC.Droid.Resource.Id.search_edit_frame;
-			global::XamEffects.Droid.Resource.Id.search_go_btn = global::FAVAC.Droid.Resource.Id.search_go_btn;
-			global::XamEffects.Droid.Resource.Id.search_mag_icon = global::FAVAC.Droid.Resource.Id.search_mag_icon;
-			global::XamEffects.Droid.Resource.Id.search_plate = global::FAVAC.Droid.Resource.Id.search_plate;
-			global::XamEffects.Droid.Resource.Id.search_src_text = global::FAVAC.Droid.Resource.Id.search_src_text;
-			global::XamEffects.Droid.Resource.Id.search_voice_btn = global::FAVAC.Droid.Resource.Id.search_voice_btn;
-			global::XamEffects.Droid.Resource.Id.select_dialog_listview = global::FAVAC.Droid.Resource.Id.select_dialog_listview;
-			global::XamEffects.Droid.Resource.Id.shortcut = global::FAVAC.Droid.Resource.Id.shortcut;
-			global::XamEffects.Droid.Resource.Id.showCustom = global::FAVAC.Droid.Resource.Id.showCustom;
-			global::XamEffects.Droid.Resource.Id.showHome = global::FAVAC.Droid.Resource.Id.showHome;
-			global::XamEffects.Droid.Resource.Id.showTitle = global::FAVAC.Droid.Resource.Id.showTitle;
-			global::XamEffects.Droid.Resource.Id.smallLabel = global::FAVAC.Droid.Resource.Id.smallLabel;
-			global::XamEffects.Droid.Resource.Id.snackbar_action = global::FAVAC.Droid.Resource.Id.snackbar_action;
-			global::XamEffects.Droid.Resource.Id.snackbar_text = global::FAVAC.Droid.Resource.Id.snackbar_text;
-			global::XamEffects.Droid.Resource.Id.snap = global::FAVAC.Droid.Resource.Id.snap;
-			global::XamEffects.Droid.Resource.Id.spacer = global::FAVAC.Droid.Resource.Id.spacer;
-			global::XamEffects.Droid.Resource.Id.split_action_bar = global::FAVAC.Droid.Resource.Id.split_action_bar;
-			global::XamEffects.Droid.Resource.Id.src_atop = global::FAVAC.Droid.Resource.Id.src_atop;
-			global::XamEffects.Droid.Resource.Id.src_in = global::FAVAC.Droid.Resource.Id.src_in;
-			global::XamEffects.Droid.Resource.Id.src_over = global::FAVAC.Droid.Resource.Id.src_over;
-			global::XamEffects.Droid.Resource.Id.start = global::FAVAC.Droid.Resource.Id.start;
-			global::XamEffects.Droid.Resource.Id.status_bar_latest_event_content = global::FAVAC.Droid.Resource.Id.status_bar_latest_event_content;
-			global::XamEffects.Droid.Resource.Id.submenuarrow = global::FAVAC.Droid.Resource.Id.submenuarrow;
-			global::XamEffects.Droid.Resource.Id.submit_area = global::FAVAC.Droid.Resource.Id.submit_area;
-			global::XamEffects.Droid.Resource.Id.tabMode = global::FAVAC.Droid.Resource.Id.tabMode;
-			global::XamEffects.Droid.Resource.Id.text = global::FAVAC.Droid.Resource.Id.text;
-			global::XamEffects.Droid.Resource.Id.text2 = global::FAVAC.Droid.Resource.Id.text2;
-			global::XamEffects.Droid.Resource.Id.textSpacerNoButtons = global::FAVAC.Droid.Resource.Id.textSpacerNoButtons;
-			global::XamEffects.Droid.Resource.Id.textSpacerNoTitle = global::FAVAC.Droid.Resource.Id.textSpacerNoTitle;
-			global::XamEffects.Droid.Resource.Id.text_input_password_toggle = global::FAVAC.Droid.Resource.Id.text_input_password_toggle;
-			global::XamEffects.Droid.Resource.Id.textinput_counter = global::FAVAC.Droid.Resource.Id.textinput_counter;
-			global::XamEffects.Droid.Resource.Id.textinput_error = global::FAVAC.Droid.Resource.Id.textinput_error;
-			global::XamEffects.Droid.Resource.Id.time = global::FAVAC.Droid.Resource.Id.time;
-			global::XamEffects.Droid.Resource.Id.title = global::FAVAC.Droid.Resource.Id.title;
-			global::XamEffects.Droid.Resource.Id.titleDividerNoCustom = global::FAVAC.Droid.Resource.Id.titleDividerNoCustom;
-			global::XamEffects.Droid.Resource.Id.title_template = global::FAVAC.Droid.Resource.Id.title_template;
-			global::XamEffects.Droid.Resource.Id.top = global::FAVAC.Droid.Resource.Id.top;
-			global::XamEffects.Droid.Resource.Id.topPanel = global::FAVAC.Droid.Resource.Id.topPanel;
-			global::XamEffects.Droid.Resource.Id.touch_outside = global::FAVAC.Droid.Resource.Id.touch_outside;
-			global::XamEffects.Droid.Resource.Id.transition_current_scene = global::FAVAC.Droid.Resource.Id.transition_current_scene;
-			global::XamEffects.Droid.Resource.Id.transition_scene_layoutid_cache = global::FAVAC.Droid.Resource.Id.transition_scene_layoutid_cache;
-			global::XamEffects.Droid.Resource.Id.up = global::FAVAC.Droid.Resource.Id.up;
-			global::XamEffects.Droid.Resource.Id.useLogo = global::FAVAC.Droid.Resource.Id.useLogo;
-			global::XamEffects.Droid.Resource.Id.view_offset_helper = global::FAVAC.Droid.Resource.Id.view_offset_helper;
-			global::XamEffects.Droid.Resource.Id.visible = global::FAVAC.Droid.Resource.Id.visible;
-			global::XamEffects.Droid.Resource.Id.withText = global::FAVAC.Droid.Resource.Id.withText;
-			global::XamEffects.Droid.Resource.Id.wrap_content = global::FAVAC.Droid.Resource.Id.wrap_content;
-			global::XamEffects.Droid.Resource.Integer.abc_config_activityDefaultDur = global::FAVAC.Droid.Resource.Integer.abc_config_activityDefaultDur;
-			global::XamEffects.Droid.Resource.Integer.abc_config_activityShortDur = global::FAVAC.Droid.Resource.Integer.abc_config_activityShortDur;
-			global::XamEffects.Droid.Resource.Integer.app_bar_elevation_anim_duration = global::FAVAC.Droid.Resource.Integer.app_bar_elevation_anim_duration;
-			global::XamEffects.Droid.Resource.Integer.bottom_sheet_slide_duration = global::FAVAC.Droid.Resource.Integer.bottom_sheet_slide_duration;
-			global::XamEffects.Droid.Resource.Integer.cancel_button_image_alpha = global::FAVAC.Droid.Resource.Integer.cancel_button_image_alpha;
-			global::XamEffects.Droid.Resource.Integer.design_snackbar_text_max_lines = global::FAVAC.Droid.Resource.Integer.design_snackbar_text_max_lines;
-			global::XamEffects.Droid.Resource.Integer.hide_password_duration = global::FAVAC.Droid.Resource.Integer.hide_password_duration;
-			global::XamEffects.Droid.Resource.Integer.show_password_duration = global::FAVAC.Droid.Resource.Integer.show_password_duration;
-			global::XamEffects.Droid.Resource.Integer.status_bar_notification_info_maxnum = global::FAVAC.Droid.Resource.Integer.status_bar_notification_info_maxnum;
-			global::XamEffects.Droid.Resource.Layout.abc_action_bar_title_item = global::FAVAC.Droid.Resource.Layout.abc_action_bar_title_item;
-			global::XamEffects.Droid.Resource.Layout.abc_action_bar_up_container = global::FAVAC.Droid.Resource.Layout.abc_action_bar_up_container;
-			global::XamEffects.Droid.Resource.Layout.abc_action_menu_item_layout = global::FAVAC.Droid.Resource.Layout.abc_action_menu_item_layout;
-			global::XamEffects.Droid.Resource.Layout.abc_action_menu_layout = global::FAVAC.Droid.Resource.Layout.abc_action_menu_layout;
-			global::XamEffects.Droid.Resource.Layout.abc_action_mode_bar = global::FAVAC.Droid.Resource.Layout.abc_action_mode_bar;
-			global::XamEffects.Droid.Resource.Layout.abc_action_mode_close_item_material = global::FAVAC.Droid.Resource.Layout.abc_action_mode_close_item_material;
-			global::XamEffects.Droid.Resource.Layout.abc_activity_chooser_view = global::FAVAC.Droid.Resource.Layout.abc_activity_chooser_view;
-			global::XamEffects.Droid.Resource.Layout.abc_activity_chooser_view_list_item = global::FAVAC.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
-			global::XamEffects.Droid.Resource.Layout.abc_alert_dialog_button_bar_material = global::FAVAC.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
-			global::XamEffects.Droid.Resource.Layout.abc_alert_dialog_material = global::FAVAC.Droid.Resource.Layout.abc_alert_dialog_material;
-			global::XamEffects.Droid.Resource.Layout.abc_alert_dialog_title_material = global::FAVAC.Droid.Resource.Layout.abc_alert_dialog_title_material;
-			global::XamEffects.Droid.Resource.Layout.abc_dialog_title_material = global::FAVAC.Droid.Resource.Layout.abc_dialog_title_material;
-			global::XamEffects.Droid.Resource.Layout.abc_expanded_menu_layout = global::FAVAC.Droid.Resource.Layout.abc_expanded_menu_layout;
-			global::XamEffects.Droid.Resource.Layout.abc_list_menu_item_checkbox = global::FAVAC.Droid.Resource.Layout.abc_list_menu_item_checkbox;
-			global::XamEffects.Droid.Resource.Layout.abc_list_menu_item_icon = global::FAVAC.Droid.Resource.Layout.abc_list_menu_item_icon;
-			global::XamEffects.Droid.Resource.Layout.abc_list_menu_item_layout = global::FAVAC.Droid.Resource.Layout.abc_list_menu_item_layout;
-			global::XamEffects.Droid.Resource.Layout.abc_list_menu_item_radio = global::FAVAC.Droid.Resource.Layout.abc_list_menu_item_radio;
-			global::XamEffects.Droid.Resource.Layout.abc_popup_menu_header_item_layout = global::FAVAC.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
-			global::XamEffects.Droid.Resource.Layout.abc_popup_menu_item_layout = global::FAVAC.Droid.Resource.Layout.abc_popup_menu_item_layout;
-			global::XamEffects.Droid.Resource.Layout.abc_screen_content_include = global::FAVAC.Droid.Resource.Layout.abc_screen_content_include;
-			global::XamEffects.Droid.Resource.Layout.abc_screen_simple = global::FAVAC.Droid.Resource.Layout.abc_screen_simple;
-			global::XamEffects.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode = global::FAVAC.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
-			global::XamEffects.Droid.Resource.Layout.abc_screen_toolbar = global::FAVAC.Droid.Resource.Layout.abc_screen_toolbar;
-			global::XamEffects.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line = global::FAVAC.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
-			global::XamEffects.Droid.Resource.Layout.abc_search_view = global::FAVAC.Droid.Resource.Layout.abc_search_view;
-			global::XamEffects.Droid.Resource.Layout.abc_select_dialog_material = global::FAVAC.Droid.Resource.Layout.abc_select_dialog_material;
-			global::XamEffects.Droid.Resource.Layout.design_bottom_navigation_item = global::FAVAC.Droid.Resource.Layout.design_bottom_navigation_item;
-			global::XamEffects.Droid.Resource.Layout.design_bottom_sheet_dialog = global::FAVAC.Droid.Resource.Layout.design_bottom_sheet_dialog;
-			global::XamEffects.Droid.Resource.Layout.design_layout_snackbar = global::FAVAC.Droid.Resource.Layout.design_layout_snackbar;
-			global::XamEffects.Droid.Resource.Layout.design_layout_snackbar_include = global::FAVAC.Droid.Resource.Layout.design_layout_snackbar_include;
-			global::XamEffects.Droid.Resource.Layout.design_layout_tab_icon = global::FAVAC.Droid.Resource.Layout.design_layout_tab_icon;
-			global::XamEffects.Droid.Resource.Layout.design_layout_tab_text = global::FAVAC.Droid.Resource.Layout.design_layout_tab_text;
-			global::XamEffects.Droid.Resource.Layout.design_menu_item_action_area = global::FAVAC.Droid.Resource.Layout.design_menu_item_action_area;
-			global::XamEffects.Droid.Resource.Layout.design_navigation_item = global::FAVAC.Droid.Resource.Layout.design_navigation_item;
-			global::XamEffects.Droid.Resource.Layout.design_navigation_item_header = global::FAVAC.Droid.Resource.Layout.design_navigation_item_header;
-			global::XamEffects.Droid.Resource.Layout.design_navigation_item_separator = global::FAVAC.Droid.Resource.Layout.design_navigation_item_separator;
-			global::XamEffects.Droid.Resource.Layout.design_navigation_item_subheader = global::FAVAC.Droid.Resource.Layout.design_navigation_item_subheader;
-			global::XamEffects.Droid.Resource.Layout.design_navigation_menu = global::FAVAC.Droid.Resource.Layout.design_navigation_menu;
-			global::XamEffects.Droid.Resource.Layout.design_navigation_menu_item = global::FAVAC.Droid.Resource.Layout.design_navigation_menu_item;
-			global::XamEffects.Droid.Resource.Layout.design_text_input_password_icon = global::FAVAC.Droid.Resource.Layout.design_text_input_password_icon;
-			global::XamEffects.Droid.Resource.Layout.notification_action = global::FAVAC.Droid.Resource.Layout.notification_action;
-			global::XamEffects.Droid.Resource.Layout.notification_action_tombstone = global::FAVAC.Droid.Resource.Layout.notification_action_tombstone;
-			global::XamEffects.Droid.Resource.Layout.notification_media_action = global::FAVAC.Droid.Resource.Layout.notification_media_action;
-			global::XamEffects.Droid.Resource.Layout.notification_media_cancel_action = global::FAVAC.Droid.Resource.Layout.notification_media_cancel_action;
-			global::XamEffects.Droid.Resource.Layout.notification_template_big_media = global::FAVAC.Droid.Resource.Layout.notification_template_big_media;
-			global::XamEffects.Droid.Resource.Layout.notification_template_big_media_custom = global::FAVAC.Droid.Resource.Layout.notification_template_big_media_custom;
-			global::XamEffects.Droid.Resource.Layout.notification_template_big_media_narrow = global::FAVAC.Droid.Resource.Layout.notification_template_big_media_narrow;
-			global::XamEffects.Droid.Resource.Layout.notification_template_big_media_narrow_custom = global::FAVAC.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
-			global::XamEffects.Droid.Resource.Layout.notification_template_custom_big = global::FAVAC.Droid.Resource.Layout.notification_template_custom_big;
-			global::XamEffects.Droid.Resource.Layout.notification_template_icon_group = global::FAVAC.Droid.Resource.Layout.notification_template_icon_group;
-			global::XamEffects.Droid.Resource.Layout.notification_template_lines_media = global::FAVAC.Droid.Resource.Layout.notification_template_lines_media;
-			global::XamEffects.Droid.Resource.Layout.notification_template_media = global::FAVAC.Droid.Resource.Layout.notification_template_media;
-			global::XamEffects.Droid.Resource.Layout.notification_template_media_custom = global::FAVAC.Droid.Resource.Layout.notification_template_media_custom;
-			global::XamEffects.Droid.Resource.Layout.notification_template_part_chronometer = global::FAVAC.Droid.Resource.Layout.notification_template_part_chronometer;
-			global::XamEffects.Droid.Resource.Layout.notification_template_part_time = global::FAVAC.Droid.Resource.Layout.notification_template_part_time;
-			global::XamEffects.Droid.Resource.Layout.select_dialog_item_material = global::FAVAC.Droid.Resource.Layout.select_dialog_item_material;
-			global::XamEffects.Droid.Resource.Layout.select_dialog_multichoice_material = global::FAVAC.Droid.Resource.Layout.select_dialog_multichoice_material;
-			global::XamEffects.Droid.Resource.Layout.select_dialog_singlechoice_material = global::FAVAC.Droid.Resource.Layout.select_dialog_singlechoice_material;
-			global::XamEffects.Droid.Resource.Layout.support_simple_spinner_dropdown_item = global::FAVAC.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
-			global::XamEffects.Droid.Resource.String.ApplicationName = global::FAVAC.Droid.Resource.String.ApplicationName;
-			global::XamEffects.Droid.Resource.String.Hello = global::FAVAC.Droid.Resource.String.Hello;
-			global::XamEffects.Droid.Resource.String.abc_action_bar_home_description = global::FAVAC.Droid.Resource.String.abc_action_bar_home_description;
-			global::XamEffects.Droid.Resource.String.abc_action_bar_up_description = global::FAVAC.Droid.Resource.String.abc_action_bar_up_description;
-			global::XamEffects.Droid.Resource.String.abc_action_menu_overflow_description = global::FAVAC.Droid.Resource.String.abc_action_menu_overflow_description;
-			global::XamEffects.Droid.Resource.String.abc_action_mode_done = global::FAVAC.Droid.Resource.String.abc_action_mode_done;
-			global::XamEffects.Droid.Resource.String.abc_activity_chooser_view_see_all = global::FAVAC.Droid.Resource.String.abc_activity_chooser_view_see_all;
-			global::XamEffects.Droid.Resource.String.abc_activitychooserview_choose_application = global::FAVAC.Droid.Resource.String.abc_activitychooserview_choose_application;
-			global::XamEffects.Droid.Resource.String.abc_capital_off = global::FAVAC.Droid.Resource.String.abc_capital_off;
-			global::XamEffects.Droid.Resource.String.abc_capital_on = global::FAVAC.Droid.Resource.String.abc_capital_on;
-			global::XamEffects.Droid.Resource.String.abc_font_family_body_1_material = global::FAVAC.Droid.Resource.String.abc_font_family_body_1_material;
-			global::XamEffects.Droid.Resource.String.abc_font_family_body_2_material = global::FAVAC.Droid.Resource.String.abc_font_family_body_2_material;
-			global::XamEffects.Droid.Resource.String.abc_font_family_button_material = global::FAVAC.Droid.Resource.String.abc_font_family_button_material;
-			global::XamEffects.Droid.Resource.String.abc_font_family_caption_material = global::FAVAC.Droid.Resource.String.abc_font_family_caption_material;
-			global::XamEffects.Droid.Resource.String.abc_font_family_display_1_material = global::FAVAC.Droid.Resource.String.abc_font_family_display_1_material;
-			global::XamEffects.Droid.Resource.String.abc_font_family_display_2_material = global::FAVAC.Droid.Resource.String.abc_font_family_display_2_material;
-			global::XamEffects.Droid.Resource.String.abc_font_family_display_3_material = global::FAVAC.Droid.Resource.String.abc_font_family_display_3_material;
-			global::XamEffects.Droid.Resource.String.abc_font_family_display_4_material = global::FAVAC.Droid.Resource.String.abc_font_family_display_4_material;
-			global::XamEffects.Droid.Resource.String.abc_font_family_headline_material = global::FAVAC.Droid.Resource.String.abc_font_family_headline_material;
-			global::XamEffects.Droid.Resource.String.abc_font_family_menu_material = global::FAVAC.Droid.Resource.String.abc_font_family_menu_material;
-			global::XamEffects.Droid.Resource.String.abc_font_family_subhead_material = global::FAVAC.Droid.Resource.String.abc_font_family_subhead_material;
-			global::XamEffects.Droid.Resource.String.abc_font_family_title_material = global::FAVAC.Droid.Resource.String.abc_font_family_title_material;
-			global::XamEffects.Droid.Resource.String.abc_search_hint = global::FAVAC.Droid.Resource.String.abc_search_hint;
-			global::XamEffects.Droid.Resource.String.abc_searchview_description_clear = global::FAVAC.Droid.Resource.String.abc_searchview_description_clear;
-			global::XamEffects.Droid.Resource.String.abc_searchview_description_query = global::FAVAC.Droid.Resource.String.abc_searchview_description_query;
-			global::XamEffects.Droid.Resource.String.abc_searchview_description_search = global::FAVAC.Droid.Resource.String.abc_searchview_description_search;
-			global::XamEffects.Droid.Resource.String.abc_searchview_description_submit = global::FAVAC.Droid.Resource.String.abc_searchview_description_submit;
-			global::XamEffects.Droid.Resource.String.abc_searchview_description_voice = global::FAVAC.Droid.Resource.String.abc_searchview_description_voice;
-			global::XamEffects.Droid.Resource.String.abc_shareactionprovider_share_with = global::FAVAC.Droid.Resource.String.abc_shareactionprovider_share_with;
-			global::XamEffects.Droid.Resource.String.abc_shareactionprovider_share_with_application = global::FAVAC.Droid.Resource.String.abc_shareactionprovider_share_with_application;
-			global::XamEffects.Droid.Resource.String.abc_toolbar_collapse_description = global::FAVAC.Droid.Resource.String.abc_toolbar_collapse_description;
-			global::XamEffects.Droid.Resource.String.appbar_scrolling_view_behavior = global::FAVAC.Droid.Resource.String.appbar_scrolling_view_behavior;
-			global::XamEffects.Droid.Resource.String.bottom_sheet_behavior = global::FAVAC.Droid.Resource.String.bottom_sheet_behavior;
-			global::XamEffects.Droid.Resource.String.character_counter_pattern = global::FAVAC.Droid.Resource.String.character_counter_pattern;
-			global::XamEffects.Droid.Resource.String.password_toggle_content_description = global::FAVAC.Droid.Resource.String.password_toggle_content_description;
-			global::XamEffects.Droid.Resource.String.path_password_eye = global::FAVAC.Droid.Resource.String.path_password_eye;
-			global::XamEffects.Droid.Resource.String.path_password_eye_mask_strike_through = global::FAVAC.Droid.Resource.String.path_password_eye_mask_strike_through;
-			global::XamEffects.Droid.Resource.String.path_password_eye_mask_visible = global::FAVAC.Droid.Resource.String.path_password_eye_mask_visible;
-			global::XamEffects.Droid.Resource.String.path_password_strike_through = global::FAVAC.Droid.Resource.String.path_password_strike_through;
-			global::XamEffects.Droid.Resource.String.search_menu_title = global::FAVAC.Droid.Resource.String.search_menu_title;
-			global::XamEffects.Droid.Resource.String.status_bar_notification_info_overflow = global::FAVAC.Droid.Resource.String.status_bar_notification_info_overflow;
-			global::XamEffects.Droid.Resource.Style.AlertDialog_AppCompat = global::FAVAC.Droid.Resource.Style.AlertDialog_AppCompat;
-			global::XamEffects.Droid.Resource.Style.AlertDialog_AppCompat_Light = global::FAVAC.Droid.Resource.Style.AlertDialog_AppCompat_Light;
-			global::XamEffects.Droid.Resource.Style.Animation_AppCompat_Dialog = global::FAVAC.Droid.Resource.Style.Animation_AppCompat_Dialog;
-			global::XamEffects.Droid.Resource.Style.Animation_AppCompat_DropDownUp = global::FAVAC.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
-			global::XamEffects.Droid.Resource.Style.Animation_Design_BottomSheetDialog = global::FAVAC.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
-			global::XamEffects.Droid.Resource.Style.Base_AlertDialog_AppCompat = global::FAVAC.Droid.Resource.Style.Base_AlertDialog_AppCompat;
-			global::XamEffects.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light = global::FAVAC.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
-			global::XamEffects.Droid.Resource.Style.Base_Animation_AppCompat_Dialog = global::FAVAC.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
-			global::XamEffects.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::FAVAC.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
-			global::XamEffects.Droid.Resource.Style.Base_CardView = global::FAVAC.Droid.Resource.Style.Base_CardView;
-			global::XamEffects.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat = global::FAVAC.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
-			global::XamEffects.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::FAVAC.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
-			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat = global::FAVAC.Droid.Resource.Style.Base_TextAppearance_AppCompat;
-			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::FAVAC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
-			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::FAVAC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
-			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button = global::FAVAC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
-			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::FAVAC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
-			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::FAVAC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
-			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::FAVAC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
-			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::FAVAC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
-			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::FAVAC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
-			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::FAVAC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
-			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::FAVAC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
-			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large = global::FAVAC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
-			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::FAVAC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
-			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::FAVAC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
-			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::FAVAC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
-			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::FAVAC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
-			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::FAVAC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
-			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::FAVAC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
-			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::FAVAC.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
-			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::FAVAC.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
-			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::FAVAC.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
-			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small = global::FAVAC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
-			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::FAVAC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
-			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::FAVAC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
-			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::FAVAC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
-			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title = global::FAVAC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
-			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::FAVAC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
-			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::FAVAC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
-			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::FAVAC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
-			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::FAVAC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
-			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::FAVAC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
-			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::FAVAC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
-			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::FAVAC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
-			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::FAVAC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
-			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::FAVAC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
-			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::FAVAC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
-			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::FAVAC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
-			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::FAVAC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
-			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::FAVAC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
-			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::FAVAC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
-			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::FAVAC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
-			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::FAVAC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
-			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::FAVAC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
-			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::FAVAC.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
-			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::FAVAC.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
-			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::FAVAC.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
-			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::FAVAC.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
-			global::XamEffects.Droid.Resource.Style.Base_Theme_AppCompat = global::FAVAC.Droid.Resource.Style.Base_Theme_AppCompat;
-			global::XamEffects.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::FAVAC.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
-			global::XamEffects.Droid.Resource.Style.Base_Theme_AppCompat_Dialog = global::FAVAC.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
-			global::XamEffects.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::FAVAC.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
-			global::XamEffects.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::FAVAC.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
-			global::XamEffects.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::FAVAC.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
-			global::XamEffects.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::FAVAC.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
-			global::XamEffects.Droid.Resource.Style.Base_Theme_AppCompat_Light = global::FAVAC.Droid.Resource.Style.Base_Theme_AppCompat_Light;
-			global::XamEffects.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::FAVAC.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
-			global::XamEffects.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::FAVAC.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
-			global::XamEffects.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::FAVAC.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
-			global::XamEffects.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::FAVAC.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
-			global::XamEffects.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::FAVAC.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
-			global::XamEffects.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::FAVAC.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
-			global::XamEffects.Droid.Resource.Style.Base_ThemeOverlay_AppCompat = global::FAVAC.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
-			global::XamEffects.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::FAVAC.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
-			global::XamEffects.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::FAVAC.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
-			global::XamEffects.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::FAVAC.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
-			global::XamEffects.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::FAVAC.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
-			global::XamEffects.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::FAVAC.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
-			global::XamEffects.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::FAVAC.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
-			global::XamEffects.Droid.Resource.Style.Base_V21_Theme_AppCompat = global::FAVAC.Droid.Resource.Style.Base_V21_Theme_AppCompat;
-			global::XamEffects.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::FAVAC.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
-			global::XamEffects.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light = global::FAVAC.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
-			global::XamEffects.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::FAVAC.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
-			global::XamEffects.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::FAVAC.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
-			global::XamEffects.Droid.Resource.Style.Base_V22_Theme_AppCompat = global::FAVAC.Droid.Resource.Style.Base_V22_Theme_AppCompat;
-			global::XamEffects.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light = global::FAVAC.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
-			global::XamEffects.Droid.Resource.Style.Base_V23_Theme_AppCompat = global::FAVAC.Droid.Resource.Style.Base_V23_Theme_AppCompat;
-			global::XamEffects.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light = global::FAVAC.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
-			global::XamEffects.Droid.Resource.Style.Base_V7_Theme_AppCompat = global::FAVAC.Droid.Resource.Style.Base_V7_Theme_AppCompat;
-			global::XamEffects.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::FAVAC.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
-			global::XamEffects.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light = global::FAVAC.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
-			global::XamEffects.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::FAVAC.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
-			global::XamEffects.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::FAVAC.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
-			global::XamEffects.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::FAVAC.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
-			global::XamEffects.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::FAVAC.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
-			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar = global::FAVAC.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
-			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::FAVAC.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
-			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::FAVAC.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
-			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::FAVAC.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
-			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::FAVAC.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
-			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton = global::FAVAC.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
-			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::FAVAC.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
-			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::FAVAC.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
-			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode = global::FAVAC.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
-			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::FAVAC.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
-			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::FAVAC.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
-			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_Button = global::FAVAC.Droid.Resource.Style.Base_Widget_AppCompat_Button;
-			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::FAVAC.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
-			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::FAVAC.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
-			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::FAVAC.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
-			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::FAVAC.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
-			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small = global::FAVAC.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
-			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::FAVAC.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
-			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::FAVAC.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
-			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::FAVAC.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
-			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::FAVAC.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
-			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::FAVAC.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
-			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::FAVAC.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
-			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::FAVAC.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
-			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::FAVAC.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
-			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_EditText = global::FAVAC.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
-			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton = global::FAVAC.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
-			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::FAVAC.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
-			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::FAVAC.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
-			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::FAVAC.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
-			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::FAVAC.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
-			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::FAVAC.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
-			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::FAVAC.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
-			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::FAVAC.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
-			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::FAVAC.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
-			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::FAVAC.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
-			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::FAVAC.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
-			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_ListView = global::FAVAC.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
-			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::FAVAC.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
-			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::FAVAC.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
-			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::FAVAC.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
-			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::FAVAC.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
-			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::FAVAC.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
-			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::FAVAC.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
-			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::FAVAC.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
-			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar = global::FAVAC.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
-			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::FAVAC.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
-			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::FAVAC.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
-			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_SearchView = global::FAVAC.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
-			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::FAVAC.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
-			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar = global::FAVAC.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
-			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::FAVAC.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
-			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_Spinner = global::FAVAC.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
-			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::FAVAC.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
-			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::FAVAC.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
-			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar = global::FAVAC.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
-			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::FAVAC.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
-			global::XamEffects.Droid.Resource.Style.Base_Widget_Design_TabLayout = global::FAVAC.Droid.Resource.Style.Base_Widget_Design_TabLayout;
-			global::XamEffects.Droid.Resource.Style.CardView = global::FAVAC.Droid.Resource.Style.CardView;
-			global::XamEffects.Droid.Resource.Style.CardView_Dark = global::FAVAC.Droid.Resource.Style.CardView_Dark;
-			global::XamEffects.Droid.Resource.Style.CardView_Light = global::FAVAC.Droid.Resource.Style.CardView_Light;
-			global::XamEffects.Droid.Resource.Style.Platform_AppCompat = global::FAVAC.Droid.Resource.Style.Platform_AppCompat;
-			global::XamEffects.Droid.Resource.Style.Platform_AppCompat_Light = global::FAVAC.Droid.Resource.Style.Platform_AppCompat_Light;
-			global::XamEffects.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat = global::FAVAC.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
-			global::XamEffects.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::FAVAC.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
-			global::XamEffects.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::FAVAC.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
-			global::XamEffects.Droid.Resource.Style.Platform_V21_AppCompat = global::FAVAC.Droid.Resource.Style.Platform_V21_AppCompat;
-			global::XamEffects.Droid.Resource.Style.Platform_V21_AppCompat_Light = global::FAVAC.Droid.Resource.Style.Platform_V21_AppCompat_Light;
-			global::XamEffects.Droid.Resource.Style.Platform_V25_AppCompat = global::FAVAC.Droid.Resource.Style.Platform_V25_AppCompat;
-			global::XamEffects.Droid.Resource.Style.Platform_V25_AppCompat_Light = global::FAVAC.Droid.Resource.Style.Platform_V25_AppCompat_Light;
-			global::XamEffects.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner = global::FAVAC.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
-			global::XamEffects.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::FAVAC.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
-			global::XamEffects.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::FAVAC.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
-			global::XamEffects.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::FAVAC.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
-			global::XamEffects.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::FAVAC.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
-			global::XamEffects.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::FAVAC.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
-			global::XamEffects.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::FAVAC.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
-			global::XamEffects.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::FAVAC.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
-			global::XamEffects.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::FAVAC.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
-			global::XamEffects.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::FAVAC.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
-			global::XamEffects.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::FAVAC.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
-			global::XamEffects.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::FAVAC.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
-			global::XamEffects.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::FAVAC.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
-			global::XamEffects.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::FAVAC.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
-			global::XamEffects.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::FAVAC.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
-			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat = global::FAVAC.Droid.Resource.Style.TextAppearance_AppCompat;
-			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Body1 = global::FAVAC.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
-			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Body2 = global::FAVAC.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
-			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Button = global::FAVAC.Droid.Resource.Style.TextAppearance_AppCompat_Button;
-			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Caption = global::FAVAC.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
-			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Display1 = global::FAVAC.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
-			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Display2 = global::FAVAC.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
-			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Display3 = global::FAVAC.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
-			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Display4 = global::FAVAC.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
-			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Headline = global::FAVAC.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
-			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Inverse = global::FAVAC.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
-			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Large = global::FAVAC.Droid.Resource.Style.TextAppearance_AppCompat_Large;
-			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::FAVAC.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
-			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::FAVAC.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
-			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::FAVAC.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
-			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::FAVAC.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
-			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::FAVAC.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
-			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Medium = global::FAVAC.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
-			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::FAVAC.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
-			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Menu = global::FAVAC.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
-			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::FAVAC.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
-			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::FAVAC.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
-			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Small = global::FAVAC.Droid.Resource.Style.TextAppearance_AppCompat_Small;
-			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::FAVAC.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
-			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Subhead = global::FAVAC.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
-			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::FAVAC.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
-			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Title = global::FAVAC.Droid.Resource.Style.TextAppearance_AppCompat_Title;
-			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::FAVAC.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
-			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::FAVAC.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
-			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::FAVAC.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
-			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::FAVAC.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
-			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::FAVAC.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
-			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::FAVAC.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
-			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::FAVAC.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
-			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::FAVAC.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
-			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::FAVAC.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
-			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::FAVAC.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
-			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::FAVAC.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
-			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::FAVAC.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
-			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::FAVAC.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
-			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::FAVAC.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
-			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::FAVAC.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
-			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::FAVAC.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
-			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::FAVAC.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
-			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::FAVAC.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
-			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::FAVAC.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
-			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::FAVAC.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
-			global::XamEffects.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::FAVAC.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
-			global::XamEffects.Droid.Resource.Style.TextAppearance_Design_Counter = global::FAVAC.Droid.Resource.Style.TextAppearance_Design_Counter;
-			global::XamEffects.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow = global::FAVAC.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
-			global::XamEffects.Droid.Resource.Style.TextAppearance_Design_Error = global::FAVAC.Droid.Resource.Style.TextAppearance_Design_Error;
-			global::XamEffects.Droid.Resource.Style.TextAppearance_Design_Hint = global::FAVAC.Droid.Resource.Style.TextAppearance_Design_Hint;
-			global::XamEffects.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message = global::FAVAC.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
-			global::XamEffects.Droid.Resource.Style.TextAppearance_Design_Tab = global::FAVAC.Droid.Resource.Style.TextAppearance_Design_Tab;
-			global::XamEffects.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::FAVAC.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
-			global::XamEffects.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::FAVAC.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
-			global::XamEffects.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::FAVAC.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
-			global::XamEffects.Droid.Resource.Style.Theme_AppCompat = global::FAVAC.Droid.Resource.Style.Theme_AppCompat;
-			global::XamEffects.Droid.Resource.Style.Theme_AppCompat_CompactMenu = global::FAVAC.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
-			global::XamEffects.Droid.Resource.Style.Theme_AppCompat_DayNight = global::FAVAC.Droid.Resource.Style.Theme_AppCompat_DayNight;
-			global::XamEffects.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::FAVAC.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
-			global::XamEffects.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::FAVAC.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
-			global::XamEffects.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::FAVAC.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
-			global::XamEffects.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::FAVAC.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
-			global::XamEffects.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::FAVAC.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
-			global::XamEffects.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::FAVAC.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
-			global::XamEffects.Droid.Resource.Style.Theme_AppCompat_Dialog = global::FAVAC.Droid.Resource.Style.Theme_AppCompat_Dialog;
-			global::XamEffects.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert = global::FAVAC.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
-			global::XamEffects.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::FAVAC.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
-			global::XamEffects.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::FAVAC.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
-			global::XamEffects.Droid.Resource.Style.Theme_AppCompat_Light = global::FAVAC.Droid.Resource.Style.Theme_AppCompat_Light;
-			global::XamEffects.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::FAVAC.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
-			global::XamEffects.Droid.Resource.Style.Theme_AppCompat_Light_Dialog = global::FAVAC.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
-			global::XamEffects.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::FAVAC.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
-			global::XamEffects.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::FAVAC.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
-			global::XamEffects.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::FAVAC.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
-			global::XamEffects.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::FAVAC.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
-			global::XamEffects.Droid.Resource.Style.Theme_AppCompat_NoActionBar = global::FAVAC.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
-			global::XamEffects.Droid.Resource.Style.Theme_Design = global::FAVAC.Droid.Resource.Style.Theme_Design;
-			global::XamEffects.Droid.Resource.Style.Theme_Design_BottomSheetDialog = global::FAVAC.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
-			global::XamEffects.Droid.Resource.Style.Theme_Design_Light = global::FAVAC.Droid.Resource.Style.Theme_Design_Light;
-			global::XamEffects.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::FAVAC.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
-			global::XamEffects.Droid.Resource.Style.Theme_Design_Light_NoActionBar = global::FAVAC.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
-			global::XamEffects.Droid.Resource.Style.Theme_Design_NoActionBar = global::FAVAC.Droid.Resource.Style.Theme_Design_NoActionBar;
-			global::XamEffects.Droid.Resource.Style.ThemeOverlay_AppCompat = global::FAVAC.Droid.Resource.Style.ThemeOverlay_AppCompat;
-			global::XamEffects.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::FAVAC.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
-			global::XamEffects.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark = global::FAVAC.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
-			global::XamEffects.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::FAVAC.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
-			global::XamEffects.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::FAVAC.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
-			global::XamEffects.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::FAVAC.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
-			global::XamEffects.Droid.Resource.Style.ThemeOverlay_AppCompat_Light = global::FAVAC.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
-			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_ActionBar = global::FAVAC.Droid.Resource.Style.Widget_AppCompat_ActionBar;
-			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::FAVAC.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
-			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::FAVAC.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
-			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::FAVAC.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
-			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::FAVAC.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
-			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_ActionButton = global::FAVAC.Droid.Resource.Style.Widget_AppCompat_ActionButton;
-			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::FAVAC.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
-			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::FAVAC.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
-			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_ActionMode = global::FAVAC.Droid.Resource.Style.Widget_AppCompat_ActionMode;
-			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView = global::FAVAC.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
-			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::FAVAC.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
-			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_Button = global::FAVAC.Droid.Resource.Style.Widget_AppCompat_Button;
-			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_Button_Borderless = global::FAVAC.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
-			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::FAVAC.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
-			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::FAVAC.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
-			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_Button_Colored = global::FAVAC.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
-			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_Button_Small = global::FAVAC.Droid.Resource.Style.Widget_AppCompat_Button_Small;
-			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_ButtonBar = global::FAVAC.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
-			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::FAVAC.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
-			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::FAVAC.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
-			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::FAVAC.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
-			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::FAVAC.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
-			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::FAVAC.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
-			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::FAVAC.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
-			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_EditText = global::FAVAC.Droid.Resource.Style.Widget_AppCompat_EditText;
-			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_ImageButton = global::FAVAC.Droid.Resource.Style.Widget_AppCompat_ImageButton;
-			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar = global::FAVAC.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
-			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::FAVAC.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
-			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::FAVAC.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
-			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::FAVAC.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
-			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::FAVAC.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
-			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::FAVAC.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
-			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::FAVAC.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
-			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::FAVAC.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
-			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::FAVAC.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
-			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton = global::FAVAC.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
-			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::FAVAC.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
-			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::FAVAC.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
-			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::FAVAC.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
-			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::FAVAC.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
-			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::FAVAC.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
-			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::FAVAC.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
-			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::FAVAC.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
-			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::FAVAC.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
-			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::FAVAC.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
-			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::FAVAC.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
-			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_Light_SearchView = global::FAVAC.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
-			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::FAVAC.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
-			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_ListMenuView = global::FAVAC.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
-			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow = global::FAVAC.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
-			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_ListView = global::FAVAC.Droid.Resource.Style.Widget_AppCompat_ListView;
-			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown = global::FAVAC.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
-			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_ListView_Menu = global::FAVAC.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
-			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_PopupMenu = global::FAVAC.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
-			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::FAVAC.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
-			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_PopupWindow = global::FAVAC.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
-			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_ProgressBar = global::FAVAC.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
-			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::FAVAC.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
-			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_RatingBar = global::FAVAC.Droid.Resource.Style.Widget_AppCompat_RatingBar;
-			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::FAVAC.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
-			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small = global::FAVAC.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
-			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_SearchView = global::FAVAC.Droid.Resource.Style.Widget_AppCompat_SearchView;
-			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::FAVAC.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
-			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_SeekBar = global::FAVAC.Droid.Resource.Style.Widget_AppCompat_SeekBar;
-			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::FAVAC.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
-			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_Spinner = global::FAVAC.Droid.Resource.Style.Widget_AppCompat_Spinner;
-			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::FAVAC.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
-			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::FAVAC.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
-			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::FAVAC.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
-			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::FAVAC.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
-			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_Toolbar = global::FAVAC.Droid.Resource.Style.Widget_AppCompat_Toolbar;
-			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::FAVAC.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
-			global::XamEffects.Droid.Resource.Style.Widget_Design_AppBarLayout = global::FAVAC.Droid.Resource.Style.Widget_Design_AppBarLayout;
-			global::XamEffects.Droid.Resource.Style.Widget_Design_BottomNavigationView = global::FAVAC.Droid.Resource.Style.Widget_Design_BottomNavigationView;
-			global::XamEffects.Droid.Resource.Style.Widget_Design_BottomSheet_Modal = global::FAVAC.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
-			global::XamEffects.Droid.Resource.Style.Widget_Design_CollapsingToolbar = global::FAVAC.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
-			global::XamEffects.Droid.Resource.Style.Widget_Design_FloatingActionButton = global::FAVAC.Droid.Resource.Style.Widget_Design_FloatingActionButton;
-			global::XamEffects.Droid.Resource.Style.Widget_Design_NavigationView = global::FAVAC.Droid.Resource.Style.Widget_Design_NavigationView;
-			global::XamEffects.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::FAVAC.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
-			global::XamEffects.Droid.Resource.Style.Widget_Design_Snackbar = global::FAVAC.Droid.Resource.Style.Widget_Design_Snackbar;
-			global::XamEffects.Droid.Resource.Style.Widget_Design_TabLayout = global::FAVAC.Droid.Resource.Style.Widget_Design_TabLayout;
-			global::XamEffects.Droid.Resource.Style.Widget_Design_TextInputLayout = global::FAVAC.Droid.Resource.Style.Widget_Design_TextInputLayout;
-			global::XamEffects.Droid.Resource.Styleable.ActionBar = global::FAVAC.Droid.Resource.Styleable.ActionBar;
-			global::XamEffects.Droid.Resource.Styleable.ActionBar_background = global::FAVAC.Droid.Resource.Styleable.ActionBar_background;
-			global::XamEffects.Droid.Resource.Styleable.ActionBar_backgroundSplit = global::FAVAC.Droid.Resource.Styleable.ActionBar_backgroundSplit;
-			global::XamEffects.Droid.Resource.Styleable.ActionBar_backgroundStacked = global::FAVAC.Droid.Resource.Styleable.ActionBar_backgroundStacked;
-			global::XamEffects.Droid.Resource.Styleable.ActionBar_contentInsetEnd = global::FAVAC.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
-			global::XamEffects.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::FAVAC.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
-			global::XamEffects.Droid.Resource.Styleable.ActionBar_contentInsetLeft = global::FAVAC.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
-			global::XamEffects.Droid.Resource.Styleable.ActionBar_contentInsetRight = global::FAVAC.Droid.Resource.Styleable.ActionBar_contentInsetRight;
-			global::XamEffects.Droid.Resource.Styleable.ActionBar_contentInsetStart = global::FAVAC.Droid.Resource.Styleable.ActionBar_contentInsetStart;
-			global::XamEffects.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::FAVAC.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
-			global::XamEffects.Droid.Resource.Styleable.ActionBar_customNavigationLayout = global::FAVAC.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
-			global::XamEffects.Droid.Resource.Styleable.ActionBar_displayOptions = global::FAVAC.Droid.Resource.Styleable.ActionBar_displayOptions;
-			global::XamEffects.Droid.Resource.Styleable.ActionBar_divider = global::FAVAC.Droid.Resource.Styleable.ActionBar_divider;
-			global::XamEffects.Droid.Resource.Styleable.ActionBar_elevation = global::FAVAC.Droid.Resource.Styleable.ActionBar_elevation;
-			global::XamEffects.Droid.Resource.Styleable.ActionBar_height = global::FAVAC.Droid.Resource.Styleable.ActionBar_height;
-			global::XamEffects.Droid.Resource.Styleable.ActionBar_hideOnContentScroll = global::FAVAC.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
-			global::XamEffects.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator = global::FAVAC.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
-			global::XamEffects.Droid.Resource.Styleable.ActionBar_homeLayout = global::FAVAC.Droid.Resource.Styleable.ActionBar_homeLayout;
-			global::XamEffects.Droid.Resource.Styleable.ActionBar_icon = global::FAVAC.Droid.Resource.Styleable.ActionBar_icon;
-			global::XamEffects.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::FAVAC.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
-			global::XamEffects.Droid.Resource.Styleable.ActionBar_itemPadding = global::FAVAC.Droid.Resource.Styleable.ActionBar_itemPadding;
-			global::XamEffects.Droid.Resource.Styleable.ActionBar_logo = global::FAVAC.Droid.Resource.Styleable.ActionBar_logo;
-			global::XamEffects.Droid.Resource.Styleable.ActionBar_navigationMode = global::FAVAC.Droid.Resource.Styleable.ActionBar_navigationMode;
-			global::XamEffects.Droid.Resource.Styleable.ActionBar_popupTheme = global::FAVAC.Droid.Resource.Styleable.ActionBar_popupTheme;
-			global::XamEffects.Droid.Resource.Styleable.ActionBar_progressBarPadding = global::FAVAC.Droid.Resource.Styleable.ActionBar_progressBarPadding;
-			global::XamEffects.Droid.Resource.Styleable.ActionBar_progressBarStyle = global::FAVAC.Droid.Resource.Styleable.ActionBar_progressBarStyle;
-			global::XamEffects.Droid.Resource.Styleable.ActionBar_subtitle = global::FAVAC.Droid.Resource.Styleable.ActionBar_subtitle;
-			global::XamEffects.Droid.Resource.Styleable.ActionBar_subtitleTextStyle = global::FAVAC.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
-			global::XamEffects.Droid.Resource.Styleable.ActionBar_title = global::FAVAC.Droid.Resource.Styleable.ActionBar_title;
-			global::XamEffects.Droid.Resource.Styleable.ActionBar_titleTextStyle = global::FAVAC.Droid.Resource.Styleable.ActionBar_titleTextStyle;
-			global::XamEffects.Droid.Resource.Styleable.ActionBarLayout = global::FAVAC.Droid.Resource.Styleable.ActionBarLayout;
-			global::XamEffects.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::FAVAC.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
-			global::XamEffects.Droid.Resource.Styleable.ActionMenuItemView = global::FAVAC.Droid.Resource.Styleable.ActionMenuItemView;
-			global::XamEffects.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth = global::FAVAC.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
-			global::XamEffects.Droid.Resource.Styleable.ActionMenuView = global::FAVAC.Droid.Resource.Styleable.ActionMenuView;
-			global::XamEffects.Droid.Resource.Styleable.ActionMode = global::FAVAC.Droid.Resource.Styleable.ActionMode;
-			global::XamEffects.Droid.Resource.Styleable.ActionMode_background = global::FAVAC.Droid.Resource.Styleable.ActionMode_background;
-			global::XamEffects.Droid.Resource.Styleable.ActionMode_backgroundSplit = global::FAVAC.Droid.Resource.Styleable.ActionMode_backgroundSplit;
-			global::XamEffects.Droid.Resource.Styleable.ActionMode_closeItemLayout = global::FAVAC.Droid.Resource.Styleable.ActionMode_closeItemLayout;
-			global::XamEffects.Droid.Resource.Styleable.ActionMode_height = global::FAVAC.Droid.Resource.Styleable.ActionMode_height;
-			global::XamEffects.Droid.Resource.Styleable.ActionMode_subtitleTextStyle = global::FAVAC.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
-			global::XamEffects.Droid.Resource.Styleable.ActionMode_titleTextStyle = global::FAVAC.Droid.Resource.Styleable.ActionMode_titleTextStyle;
-			global::XamEffects.Droid.Resource.Styleable.ActivityChooserView = global::FAVAC.Droid.Resource.Styleable.ActivityChooserView;
-			global::XamEffects.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::FAVAC.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
-			global::XamEffects.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount = global::FAVAC.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
-			global::XamEffects.Droid.Resource.Styleable.AlertDialog = global::FAVAC.Droid.Resource.Styleable.AlertDialog;
-			global::XamEffects.Droid.Resource.Styleable.AlertDialog_android_layout = global::FAVAC.Droid.Resource.Styleable.AlertDialog_android_layout;
-			global::XamEffects.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::FAVAC.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
-			global::XamEffects.Droid.Resource.Styleable.AlertDialog_listItemLayout = global::FAVAC.Droid.Resource.Styleable.AlertDialog_listItemLayout;
-			global::XamEffects.Droid.Resource.Styleable.AlertDialog_listLayout = global::FAVAC.Droid.Resource.Styleable.AlertDialog_listLayout;
-			global::XamEffects.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::FAVAC.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
-			global::XamEffects.Droid.Resource.Styleable.AlertDialog_showTitle = global::FAVAC.Droid.Resource.Styleable.AlertDialog_showTitle;
-			global::XamEffects.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::FAVAC.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
-			global::XamEffects.Droid.Resource.Styleable.AppBarLayout = global::FAVAC.Droid.Resource.Styleable.AppBarLayout;
-			global::XamEffects.Droid.Resource.Styleable.AppBarLayout_android_background = global::FAVAC.Droid.Resource.Styleable.AppBarLayout_android_background;
-			global::XamEffects.Droid.Resource.Styleable.AppBarLayout_elevation = global::FAVAC.Droid.Resource.Styleable.AppBarLayout_elevation;
-			global::XamEffects.Droid.Resource.Styleable.AppBarLayout_expanded = global::FAVAC.Droid.Resource.Styleable.AppBarLayout_expanded;
-			global::XamEffects.Droid.Resource.Styleable.AppBarLayoutStates = global::FAVAC.Droid.Resource.Styleable.AppBarLayoutStates;
-			global::XamEffects.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::FAVAC.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
-			global::XamEffects.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::FAVAC.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
-			global::XamEffects.Droid.Resource.Styleable.AppBarLayout_Layout = global::FAVAC.Droid.Resource.Styleable.AppBarLayout_Layout;
-			global::XamEffects.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::FAVAC.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
-			global::XamEffects.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::FAVAC.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatImageView = global::FAVAC.Droid.Resource.Styleable.AppCompatImageView;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatImageView_android_src = global::FAVAC.Droid.Resource.Styleable.AppCompatImageView_android_src;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatImageView_srcCompat = global::FAVAC.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatImageView_tint = global::FAVAC.Droid.Resource.Styleable.AppCompatImageView_tint;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatImageView_tintMode = global::FAVAC.Droid.Resource.Styleable.AppCompatImageView_tintMode;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatSeekBar = global::FAVAC.Droid.Resource.Styleable.AppCompatSeekBar;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb = global::FAVAC.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatSeekBar_tickMark = global::FAVAC.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::FAVAC.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::FAVAC.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTextHelper = global::FAVAC.Droid.Resource.Styleable.AppCompatTextHelper;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::FAVAC.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::FAVAC.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::FAVAC.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::FAVAC.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::FAVAC.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::FAVAC.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::FAVAC.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTextView = global::FAVAC.Droid.Resource.Styleable.AppCompatTextView;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance = global::FAVAC.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTextView_textAllCaps = global::FAVAC.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_actionBarSize = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_buttonStyle = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_colorAccent = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_colorPrimary = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_controlBackground = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_dialogTheme = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_dividerVertical = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_editTextBackground = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_editTextColor = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_editTextStyle = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_panelBackground = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_switchStyle = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_windowActionBar = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
-			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle = global::FAVAC.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
-			global::XamEffects.Droid.Resource.Styleable.BottomNavigationView = global::FAVAC.Droid.Resource.Styleable.BottomNavigationView;
-			global::XamEffects.Droid.Resource.Styleable.BottomNavigationView_elevation = global::FAVAC.Droid.Resource.Styleable.BottomNavigationView_elevation;
-			global::XamEffects.Droid.Resource.Styleable.BottomNavigationView_itemBackground = global::FAVAC.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
-			global::XamEffects.Droid.Resource.Styleable.BottomNavigationView_itemIconTint = global::FAVAC.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
-			global::XamEffects.Droid.Resource.Styleable.BottomNavigationView_itemTextColor = global::FAVAC.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
-			global::XamEffects.Droid.Resource.Styleable.BottomNavigationView_menu = global::FAVAC.Droid.Resource.Styleable.BottomNavigationView_menu;
-			global::XamEffects.Droid.Resource.Styleable.BottomSheetBehavior_Layout = global::FAVAC.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
-			global::XamEffects.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::FAVAC.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
-			global::XamEffects.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::FAVAC.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
-			global::XamEffects.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::FAVAC.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
-			global::XamEffects.Droid.Resource.Styleable.ButtonBarLayout = global::FAVAC.Droid.Resource.Styleable.ButtonBarLayout;
-			global::XamEffects.Droid.Resource.Styleable.ButtonBarLayout_allowStacking = global::FAVAC.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
-			global::XamEffects.Droid.Resource.Styleable.CardView = global::FAVAC.Droid.Resource.Styleable.CardView;
-			global::XamEffects.Droid.Resource.Styleable.CardView_android_minHeight = global::FAVAC.Droid.Resource.Styleable.CardView_android_minHeight;
-			global::XamEffects.Droid.Resource.Styleable.CardView_android_minWidth = global::FAVAC.Droid.Resource.Styleable.CardView_android_minWidth;
-			global::XamEffects.Droid.Resource.Styleable.CardView_cardBackgroundColor = global::FAVAC.Droid.Resource.Styleable.CardView_cardBackgroundColor;
-			global::XamEffects.Droid.Resource.Styleable.CardView_cardCornerRadius = global::FAVAC.Droid.Resource.Styleable.CardView_cardCornerRadius;
-			global::XamEffects.Droid.Resource.Styleable.CardView_cardElevation = global::FAVAC.Droid.Resource.Styleable.CardView_cardElevation;
-			global::XamEffects.Droid.Resource.Styleable.CardView_cardMaxElevation = global::FAVAC.Droid.Resource.Styleable.CardView_cardMaxElevation;
-			global::XamEffects.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap = global::FAVAC.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
-			global::XamEffects.Droid.Resource.Styleable.CardView_cardUseCompatPadding = global::FAVAC.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
-			global::XamEffects.Droid.Resource.Styleable.CardView_contentPadding = global::FAVAC.Droid.Resource.Styleable.CardView_contentPadding;
-			global::XamEffects.Droid.Resource.Styleable.CardView_contentPaddingBottom = global::FAVAC.Droid.Resource.Styleable.CardView_contentPaddingBottom;
-			global::XamEffects.Droid.Resource.Styleable.CardView_contentPaddingLeft = global::FAVAC.Droid.Resource.Styleable.CardView_contentPaddingLeft;
-			global::XamEffects.Droid.Resource.Styleable.CardView_contentPaddingRight = global::FAVAC.Droid.Resource.Styleable.CardView_contentPaddingRight;
-			global::XamEffects.Droid.Resource.Styleable.CardView_contentPaddingTop = global::FAVAC.Droid.Resource.Styleable.CardView_contentPaddingTop;
-			global::XamEffects.Droid.Resource.Styleable.CollapsingToolbarLayout = global::FAVAC.Droid.Resource.Styleable.CollapsingToolbarLayout;
-			global::XamEffects.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::FAVAC.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
-			global::XamEffects.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::FAVAC.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
-			global::XamEffects.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::FAVAC.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
-			global::XamEffects.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::FAVAC.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
-			global::XamEffects.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::FAVAC.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
-			global::XamEffects.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::FAVAC.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
-			global::XamEffects.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::FAVAC.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
-			global::XamEffects.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::FAVAC.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
-			global::XamEffects.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::FAVAC.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
-			global::XamEffects.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::FAVAC.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
-			global::XamEffects.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::FAVAC.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
-			global::XamEffects.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::FAVAC.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
-			global::XamEffects.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::FAVAC.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
-			global::XamEffects.Droid.Resource.Styleable.CollapsingToolbarLayout_title = global::FAVAC.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
-			global::XamEffects.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::FAVAC.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
-			global::XamEffects.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::FAVAC.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
-			global::XamEffects.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout = global::FAVAC.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
-			global::XamEffects.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::FAVAC.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
-			global::XamEffects.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::FAVAC.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
-			global::XamEffects.Droid.Resource.Styleable.ColorStateListItem = global::FAVAC.Droid.Resource.Styleable.ColorStateListItem;
-			global::XamEffects.Droid.Resource.Styleable.ColorStateListItem_alpha = global::FAVAC.Droid.Resource.Styleable.ColorStateListItem_alpha;
-			global::XamEffects.Droid.Resource.Styleable.ColorStateListItem_android_alpha = global::FAVAC.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
-			global::XamEffects.Droid.Resource.Styleable.ColorStateListItem_android_color = global::FAVAC.Droid.Resource.Styleable.ColorStateListItem_android_color;
-			global::XamEffects.Droid.Resource.Styleable.CompoundButton = global::FAVAC.Droid.Resource.Styleable.CompoundButton;
-			global::XamEffects.Droid.Resource.Styleable.CompoundButton_android_button = global::FAVAC.Droid.Resource.Styleable.CompoundButton_android_button;
-			global::XamEffects.Droid.Resource.Styleable.CompoundButton_buttonTint = global::FAVAC.Droid.Resource.Styleable.CompoundButton_buttonTint;
-			global::XamEffects.Droid.Resource.Styleable.CompoundButton_buttonTintMode = global::FAVAC.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
-			global::XamEffects.Droid.Resource.Styleable.CoordinatorLayout = global::FAVAC.Droid.Resource.Styleable.CoordinatorLayout;
-			global::XamEffects.Droid.Resource.Styleable.CoordinatorLayout_keylines = global::FAVAC.Droid.Resource.Styleable.CoordinatorLayout_keylines;
-			global::XamEffects.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::FAVAC.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
-			global::XamEffects.Droid.Resource.Styleable.CoordinatorLayout_Layout = global::FAVAC.Droid.Resource.Styleable.CoordinatorLayout_Layout;
-			global::XamEffects.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::FAVAC.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
-			global::XamEffects.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::FAVAC.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
-			global::XamEffects.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::FAVAC.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
-			global::XamEffects.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::FAVAC.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
-			global::XamEffects.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::FAVAC.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
-			global::XamEffects.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::FAVAC.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
-			global::XamEffects.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::FAVAC.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
-			global::XamEffects.Droid.Resource.Styleable.DesignTheme = global::FAVAC.Droid.Resource.Styleable.DesignTheme;
-			global::XamEffects.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::FAVAC.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
-			global::XamEffects.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle = global::FAVAC.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
-			global::XamEffects.Droid.Resource.Styleable.DrawerArrowToggle = global::FAVAC.Droid.Resource.Styleable.DrawerArrowToggle;
-			global::XamEffects.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::FAVAC.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
-			global::XamEffects.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::FAVAC.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
-			global::XamEffects.Droid.Resource.Styleable.DrawerArrowToggle_barLength = global::FAVAC.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
-			global::XamEffects.Droid.Resource.Styleable.DrawerArrowToggle_color = global::FAVAC.Droid.Resource.Styleable.DrawerArrowToggle_color;
-			global::XamEffects.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize = global::FAVAC.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
-			global::XamEffects.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::FAVAC.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
-			global::XamEffects.Droid.Resource.Styleable.DrawerArrowToggle_spinBars = global::FAVAC.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
-			global::XamEffects.Droid.Resource.Styleable.DrawerArrowToggle_thickness = global::FAVAC.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
-			global::XamEffects.Droid.Resource.Styleable.FloatingActionButton = global::FAVAC.Droid.Resource.Styleable.FloatingActionButton;
-			global::XamEffects.Droid.Resource.Styleable.FloatingActionButton_backgroundTint = global::FAVAC.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
-			global::XamEffects.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::FAVAC.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
-			global::XamEffects.Droid.Resource.Styleable.FloatingActionButton_borderWidth = global::FAVAC.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
-			global::XamEffects.Droid.Resource.Styleable.FloatingActionButton_elevation = global::FAVAC.Droid.Resource.Styleable.FloatingActionButton_elevation;
-			global::XamEffects.Droid.Resource.Styleable.FloatingActionButton_fabSize = global::FAVAC.Droid.Resource.Styleable.FloatingActionButton_fabSize;
-			global::XamEffects.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::FAVAC.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
-			global::XamEffects.Droid.Resource.Styleable.FloatingActionButton_rippleColor = global::FAVAC.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
-			global::XamEffects.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding = global::FAVAC.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
-			global::XamEffects.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::FAVAC.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
-			global::XamEffects.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::FAVAC.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
-			global::XamEffects.Droid.Resource.Styleable.ForegroundLinearLayout = global::FAVAC.Droid.Resource.Styleable.ForegroundLinearLayout;
-			global::XamEffects.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::FAVAC.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
-			global::XamEffects.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::FAVAC.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
-			global::XamEffects.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::FAVAC.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
-			global::XamEffects.Droid.Resource.Styleable.LinearLayoutCompat = global::FAVAC.Droid.Resource.Styleable.LinearLayoutCompat;
-			global::XamEffects.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::FAVAC.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
-			global::XamEffects.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::FAVAC.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
-			global::XamEffects.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity = global::FAVAC.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
-			global::XamEffects.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation = global::FAVAC.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
-			global::XamEffects.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::FAVAC.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
-			global::XamEffects.Droid.Resource.Styleable.LinearLayoutCompat_divider = global::FAVAC.Droid.Resource.Styleable.LinearLayoutCompat_divider;
-			global::XamEffects.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::FAVAC.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
-			global::XamEffects.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::FAVAC.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
-			global::XamEffects.Droid.Resource.Styleable.LinearLayoutCompat_showDividers = global::FAVAC.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
-			global::XamEffects.Droid.Resource.Styleable.LinearLayoutCompat_Layout = global::FAVAC.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
-			global::XamEffects.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::FAVAC.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
-			global::XamEffects.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::FAVAC.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
-			global::XamEffects.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::FAVAC.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
-			global::XamEffects.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::FAVAC.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
-			global::XamEffects.Droid.Resource.Styleable.ListPopupWindow = global::FAVAC.Droid.Resource.Styleable.ListPopupWindow;
-			global::XamEffects.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::FAVAC.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
-			global::XamEffects.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::FAVAC.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
-			global::XamEffects.Droid.Resource.Styleable.MenuGroup = global::FAVAC.Droid.Resource.Styleable.MenuGroup;
-			global::XamEffects.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior = global::FAVAC.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
-			global::XamEffects.Droid.Resource.Styleable.MenuGroup_android_enabled = global::FAVAC.Droid.Resource.Styleable.MenuGroup_android_enabled;
-			global::XamEffects.Droid.Resource.Styleable.MenuGroup_android_id = global::FAVAC.Droid.Resource.Styleable.MenuGroup_android_id;
-			global::XamEffects.Droid.Resource.Styleable.MenuGroup_android_menuCategory = global::FAVAC.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
-			global::XamEffects.Droid.Resource.Styleable.MenuGroup_android_orderInCategory = global::FAVAC.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
-			global::XamEffects.Droid.Resource.Styleable.MenuGroup_android_visible = global::FAVAC.Droid.Resource.Styleable.MenuGroup_android_visible;
-			global::XamEffects.Droid.Resource.Styleable.MenuItem = global::FAVAC.Droid.Resource.Styleable.MenuItem;
-			global::XamEffects.Droid.Resource.Styleable.MenuItem_actionLayout = global::FAVAC.Droid.Resource.Styleable.MenuItem_actionLayout;
-			global::XamEffects.Droid.Resource.Styleable.MenuItem_actionProviderClass = global::FAVAC.Droid.Resource.Styleable.MenuItem_actionProviderClass;
-			global::XamEffects.Droid.Resource.Styleable.MenuItem_actionViewClass = global::FAVAC.Droid.Resource.Styleable.MenuItem_actionViewClass;
-			global::XamEffects.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::FAVAC.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
-			global::XamEffects.Droid.Resource.Styleable.MenuItem_android_checkable = global::FAVAC.Droid.Resource.Styleable.MenuItem_android_checkable;
-			global::XamEffects.Droid.Resource.Styleable.MenuItem_android_checked = global::FAVAC.Droid.Resource.Styleable.MenuItem_android_checked;
-			global::XamEffects.Droid.Resource.Styleable.MenuItem_android_enabled = global::FAVAC.Droid.Resource.Styleable.MenuItem_android_enabled;
-			global::XamEffects.Droid.Resource.Styleable.MenuItem_android_icon = global::FAVAC.Droid.Resource.Styleable.MenuItem_android_icon;
-			global::XamEffects.Droid.Resource.Styleable.MenuItem_android_id = global::FAVAC.Droid.Resource.Styleable.MenuItem_android_id;
-			global::XamEffects.Droid.Resource.Styleable.MenuItem_android_menuCategory = global::FAVAC.Droid.Resource.Styleable.MenuItem_android_menuCategory;
-			global::XamEffects.Droid.Resource.Styleable.MenuItem_android_numericShortcut = global::FAVAC.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
-			global::XamEffects.Droid.Resource.Styleable.MenuItem_android_onClick = global::FAVAC.Droid.Resource.Styleable.MenuItem_android_onClick;
-			global::XamEffects.Droid.Resource.Styleable.MenuItem_android_orderInCategory = global::FAVAC.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
-			global::XamEffects.Droid.Resource.Styleable.MenuItem_android_title = global::FAVAC.Droid.Resource.Styleable.MenuItem_android_title;
-			global::XamEffects.Droid.Resource.Styleable.MenuItem_android_titleCondensed = global::FAVAC.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
-			global::XamEffects.Droid.Resource.Styleable.MenuItem_android_visible = global::FAVAC.Droid.Resource.Styleable.MenuItem_android_visible;
-			global::XamEffects.Droid.Resource.Styleable.MenuItem_showAsAction = global::FAVAC.Droid.Resource.Styleable.MenuItem_showAsAction;
-			global::XamEffects.Droid.Resource.Styleable.MenuView = global::FAVAC.Droid.Resource.Styleable.MenuView;
-			global::XamEffects.Droid.Resource.Styleable.MenuView_android_headerBackground = global::FAVAC.Droid.Resource.Styleable.MenuView_android_headerBackground;
-			global::XamEffects.Droid.Resource.Styleable.MenuView_android_horizontalDivider = global::FAVAC.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
-			global::XamEffects.Droid.Resource.Styleable.MenuView_android_itemBackground = global::FAVAC.Droid.Resource.Styleable.MenuView_android_itemBackground;
-			global::XamEffects.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::FAVAC.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
-			global::XamEffects.Droid.Resource.Styleable.MenuView_android_itemTextAppearance = global::FAVAC.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
-			global::XamEffects.Droid.Resource.Styleable.MenuView_android_verticalDivider = global::FAVAC.Droid.Resource.Styleable.MenuView_android_verticalDivider;
-			global::XamEffects.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle = global::FAVAC.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
-			global::XamEffects.Droid.Resource.Styleable.MenuView_preserveIconSpacing = global::FAVAC.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
-			global::XamEffects.Droid.Resource.Styleable.MenuView_subMenuArrow = global::FAVAC.Droid.Resource.Styleable.MenuView_subMenuArrow;
-			global::XamEffects.Droid.Resource.Styleable.NavigationView = global::FAVAC.Droid.Resource.Styleable.NavigationView;
-			global::XamEffects.Droid.Resource.Styleable.NavigationView_android_background = global::FAVAC.Droid.Resource.Styleable.NavigationView_android_background;
-			global::XamEffects.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::FAVAC.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
-			global::XamEffects.Droid.Resource.Styleable.NavigationView_android_maxWidth = global::FAVAC.Droid.Resource.Styleable.NavigationView_android_maxWidth;
-			global::XamEffects.Droid.Resource.Styleable.NavigationView_elevation = global::FAVAC.Droid.Resource.Styleable.NavigationView_elevation;
-			global::XamEffects.Droid.Resource.Styleable.NavigationView_headerLayout = global::FAVAC.Droid.Resource.Styleable.NavigationView_headerLayout;
-			global::XamEffects.Droid.Resource.Styleable.NavigationView_itemBackground = global::FAVAC.Droid.Resource.Styleable.NavigationView_itemBackground;
-			global::XamEffects.Droid.Resource.Styleable.NavigationView_itemIconTint = global::FAVAC.Droid.Resource.Styleable.NavigationView_itemIconTint;
-			global::XamEffects.Droid.Resource.Styleable.NavigationView_itemTextAppearance = global::FAVAC.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
-			global::XamEffects.Droid.Resource.Styleable.NavigationView_itemTextColor = global::FAVAC.Droid.Resource.Styleable.NavigationView_itemTextColor;
-			global::XamEffects.Droid.Resource.Styleable.NavigationView_menu = global::FAVAC.Droid.Resource.Styleable.NavigationView_menu;
-			global::XamEffects.Droid.Resource.Styleable.PopupWindow = global::FAVAC.Droid.Resource.Styleable.PopupWindow;
-			global::XamEffects.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::FAVAC.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
-			global::XamEffects.Droid.Resource.Styleable.PopupWindow_android_popupBackground = global::FAVAC.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
-			global::XamEffects.Droid.Resource.Styleable.PopupWindow_overlapAnchor = global::FAVAC.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
-			global::XamEffects.Droid.Resource.Styleable.PopupWindowBackgroundState = global::FAVAC.Droid.Resource.Styleable.PopupWindowBackgroundState;
-			global::XamEffects.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::FAVAC.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
-			global::XamEffects.Droid.Resource.Styleable.RecycleListView = global::FAVAC.Droid.Resource.Styleable.RecycleListView;
-			global::XamEffects.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::FAVAC.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
-			global::XamEffects.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::FAVAC.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
-			global::XamEffects.Droid.Resource.Styleable.RecyclerView = global::FAVAC.Droid.Resource.Styleable.RecyclerView;
-			global::XamEffects.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability = global::FAVAC.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
-			global::XamEffects.Droid.Resource.Styleable.RecyclerView_android_orientation = global::FAVAC.Droid.Resource.Styleable.RecyclerView_android_orientation;
-			global::XamEffects.Droid.Resource.Styleable.RecyclerView_layoutManager = global::FAVAC.Droid.Resource.Styleable.RecyclerView_layoutManager;
-			global::XamEffects.Droid.Resource.Styleable.RecyclerView_reverseLayout = global::FAVAC.Droid.Resource.Styleable.RecyclerView_reverseLayout;
-			global::XamEffects.Droid.Resource.Styleable.RecyclerView_spanCount = global::FAVAC.Droid.Resource.Styleable.RecyclerView_spanCount;
-			global::XamEffects.Droid.Resource.Styleable.RecyclerView_stackFromEnd = global::FAVAC.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
-			global::XamEffects.Droid.Resource.Styleable.ScrimInsetsFrameLayout = global::FAVAC.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
-			global::XamEffects.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::FAVAC.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
-			global::XamEffects.Droid.Resource.Styleable.ScrollingViewBehavior_Layout = global::FAVAC.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
-			global::XamEffects.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::FAVAC.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
-			global::XamEffects.Droid.Resource.Styleable.SearchView = global::FAVAC.Droid.Resource.Styleable.SearchView;
-			global::XamEffects.Droid.Resource.Styleable.SearchView_android_focusable = global::FAVAC.Droid.Resource.Styleable.SearchView_android_focusable;
-			global::XamEffects.Droid.Resource.Styleable.SearchView_android_imeOptions = global::FAVAC.Droid.Resource.Styleable.SearchView_android_imeOptions;
-			global::XamEffects.Droid.Resource.Styleable.SearchView_android_inputType = global::FAVAC.Droid.Resource.Styleable.SearchView_android_inputType;
-			global::XamEffects.Droid.Resource.Styleable.SearchView_android_maxWidth = global::FAVAC.Droid.Resource.Styleable.SearchView_android_maxWidth;
-			global::XamEffects.Droid.Resource.Styleable.SearchView_closeIcon = global::FAVAC.Droid.Resource.Styleable.SearchView_closeIcon;
-			global::XamEffects.Droid.Resource.Styleable.SearchView_commitIcon = global::FAVAC.Droid.Resource.Styleable.SearchView_commitIcon;
-			global::XamEffects.Droid.Resource.Styleable.SearchView_defaultQueryHint = global::FAVAC.Droid.Resource.Styleable.SearchView_defaultQueryHint;
-			global::XamEffects.Droid.Resource.Styleable.SearchView_goIcon = global::FAVAC.Droid.Resource.Styleable.SearchView_goIcon;
-			global::XamEffects.Droid.Resource.Styleable.SearchView_iconifiedByDefault = global::FAVAC.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
-			global::XamEffects.Droid.Resource.Styleable.SearchView_layout = global::FAVAC.Droid.Resource.Styleable.SearchView_layout;
-			global::XamEffects.Droid.Resource.Styleable.SearchView_queryBackground = global::FAVAC.Droid.Resource.Styleable.SearchView_queryBackground;
-			global::XamEffects.Droid.Resource.Styleable.SearchView_queryHint = global::FAVAC.Droid.Resource.Styleable.SearchView_queryHint;
-			global::XamEffects.Droid.Resource.Styleable.SearchView_searchHintIcon = global::FAVAC.Droid.Resource.Styleable.SearchView_searchHintIcon;
-			global::XamEffects.Droid.Resource.Styleable.SearchView_searchIcon = global::FAVAC.Droid.Resource.Styleable.SearchView_searchIcon;
-			global::XamEffects.Droid.Resource.Styleable.SearchView_submitBackground = global::FAVAC.Droid.Resource.Styleable.SearchView_submitBackground;
-			global::XamEffects.Droid.Resource.Styleable.SearchView_suggestionRowLayout = global::FAVAC.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
-			global::XamEffects.Droid.Resource.Styleable.SearchView_voiceIcon = global::FAVAC.Droid.Resource.Styleable.SearchView_voiceIcon;
-			global::XamEffects.Droid.Resource.Styleable.SnackbarLayout = global::FAVAC.Droid.Resource.Styleable.SnackbarLayout;
-			global::XamEffects.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth = global::FAVAC.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
-			global::XamEffects.Droid.Resource.Styleable.SnackbarLayout_elevation = global::FAVAC.Droid.Resource.Styleable.SnackbarLayout_elevation;
-			global::XamEffects.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::FAVAC.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
-			global::XamEffects.Droid.Resource.Styleable.Spinner = global::FAVAC.Droid.Resource.Styleable.Spinner;
-			global::XamEffects.Droid.Resource.Styleable.Spinner_android_dropDownWidth = global::FAVAC.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
-			global::XamEffects.Droid.Resource.Styleable.Spinner_android_entries = global::FAVAC.Droid.Resource.Styleable.Spinner_android_entries;
-			global::XamEffects.Droid.Resource.Styleable.Spinner_android_popupBackground = global::FAVAC.Droid.Resource.Styleable.Spinner_android_popupBackground;
-			global::XamEffects.Droid.Resource.Styleable.Spinner_android_prompt = global::FAVAC.Droid.Resource.Styleable.Spinner_android_prompt;
-			global::XamEffects.Droid.Resource.Styleable.Spinner_popupTheme = global::FAVAC.Droid.Resource.Styleable.Spinner_popupTheme;
-			global::XamEffects.Droid.Resource.Styleable.SwitchCompat = global::FAVAC.Droid.Resource.Styleable.SwitchCompat;
-			global::XamEffects.Droid.Resource.Styleable.SwitchCompat_android_textOff = global::FAVAC.Droid.Resource.Styleable.SwitchCompat_android_textOff;
-			global::XamEffects.Droid.Resource.Styleable.SwitchCompat_android_textOn = global::FAVAC.Droid.Resource.Styleable.SwitchCompat_android_textOn;
-			global::XamEffects.Droid.Resource.Styleable.SwitchCompat_android_thumb = global::FAVAC.Droid.Resource.Styleable.SwitchCompat_android_thumb;
-			global::XamEffects.Droid.Resource.Styleable.SwitchCompat_showText = global::FAVAC.Droid.Resource.Styleable.SwitchCompat_showText;
-			global::XamEffects.Droid.Resource.Styleable.SwitchCompat_splitTrack = global::FAVAC.Droid.Resource.Styleable.SwitchCompat_splitTrack;
-			global::XamEffects.Droid.Resource.Styleable.SwitchCompat_switchMinWidth = global::FAVAC.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
-			global::XamEffects.Droid.Resource.Styleable.SwitchCompat_switchPadding = global::FAVAC.Droid.Resource.Styleable.SwitchCompat_switchPadding;
-			global::XamEffects.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance = global::FAVAC.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
-			global::XamEffects.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding = global::FAVAC.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
-			global::XamEffects.Droid.Resource.Styleable.SwitchCompat_thumbTint = global::FAVAC.Droid.Resource.Styleable.SwitchCompat_thumbTint;
-			global::XamEffects.Droid.Resource.Styleable.SwitchCompat_thumbTintMode = global::FAVAC.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
-			global::XamEffects.Droid.Resource.Styleable.SwitchCompat_track = global::FAVAC.Droid.Resource.Styleable.SwitchCompat_track;
-			global::XamEffects.Droid.Resource.Styleable.SwitchCompat_trackTint = global::FAVAC.Droid.Resource.Styleable.SwitchCompat_trackTint;
-			global::XamEffects.Droid.Resource.Styleable.SwitchCompat_trackTintMode = global::FAVAC.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
-			global::XamEffects.Droid.Resource.Styleable.TabItem = global::FAVAC.Droid.Resource.Styleable.TabItem;
-			global::XamEffects.Droid.Resource.Styleable.TabItem_android_icon = global::FAVAC.Droid.Resource.Styleable.TabItem_android_icon;
-			global::XamEffects.Droid.Resource.Styleable.TabItem_android_layout = global::FAVAC.Droid.Resource.Styleable.TabItem_android_layout;
-			global::XamEffects.Droid.Resource.Styleable.TabItem_android_text = global::FAVAC.Droid.Resource.Styleable.TabItem_android_text;
-			global::XamEffects.Droid.Resource.Styleable.TabLayout = global::FAVAC.Droid.Resource.Styleable.TabLayout;
-			global::XamEffects.Droid.Resource.Styleable.TabLayout_tabBackground = global::FAVAC.Droid.Resource.Styleable.TabLayout_tabBackground;
-			global::XamEffects.Droid.Resource.Styleable.TabLayout_tabContentStart = global::FAVAC.Droid.Resource.Styleable.TabLayout_tabContentStart;
-			global::XamEffects.Droid.Resource.Styleable.TabLayout_tabGravity = global::FAVAC.Droid.Resource.Styleable.TabLayout_tabGravity;
-			global::XamEffects.Droid.Resource.Styleable.TabLayout_tabIndicatorColor = global::FAVAC.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
-			global::XamEffects.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight = global::FAVAC.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
-			global::XamEffects.Droid.Resource.Styleable.TabLayout_tabMaxWidth = global::FAVAC.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
-			global::XamEffects.Droid.Resource.Styleable.TabLayout_tabMinWidth = global::FAVAC.Droid.Resource.Styleable.TabLayout_tabMinWidth;
-			global::XamEffects.Droid.Resource.Styleable.TabLayout_tabMode = global::FAVAC.Droid.Resource.Styleable.TabLayout_tabMode;
-			global::XamEffects.Droid.Resource.Styleable.TabLayout_tabPadding = global::FAVAC.Droid.Resource.Styleable.TabLayout_tabPadding;
-			global::XamEffects.Droid.Resource.Styleable.TabLayout_tabPaddingBottom = global::FAVAC.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
-			global::XamEffects.Droid.Resource.Styleable.TabLayout_tabPaddingEnd = global::FAVAC.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
-			global::XamEffects.Droid.Resource.Styleable.TabLayout_tabPaddingStart = global::FAVAC.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
-			global::XamEffects.Droid.Resource.Styleable.TabLayout_tabPaddingTop = global::FAVAC.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
-			global::XamEffects.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor = global::FAVAC.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
-			global::XamEffects.Droid.Resource.Styleable.TabLayout_tabTextAppearance = global::FAVAC.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
-			global::XamEffects.Droid.Resource.Styleable.TabLayout_tabTextColor = global::FAVAC.Droid.Resource.Styleable.TabLayout_tabTextColor;
-			global::XamEffects.Droid.Resource.Styleable.TextAppearance = global::FAVAC.Droid.Resource.Styleable.TextAppearance;
-			global::XamEffects.Droid.Resource.Styleable.TextAppearance_android_shadowColor = global::FAVAC.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
-			global::XamEffects.Droid.Resource.Styleable.TextAppearance_android_shadowDx = global::FAVAC.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
-			global::XamEffects.Droid.Resource.Styleable.TextAppearance_android_shadowDy = global::FAVAC.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
-			global::XamEffects.Droid.Resource.Styleable.TextAppearance_android_shadowRadius = global::FAVAC.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
-			global::XamEffects.Droid.Resource.Styleable.TextAppearance_android_textColor = global::FAVAC.Droid.Resource.Styleable.TextAppearance_android_textColor;
-			global::XamEffects.Droid.Resource.Styleable.TextAppearance_android_textColorHint = global::FAVAC.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
-			global::XamEffects.Droid.Resource.Styleable.TextAppearance_android_textSize = global::FAVAC.Droid.Resource.Styleable.TextAppearance_android_textSize;
-			global::XamEffects.Droid.Resource.Styleable.TextAppearance_android_textStyle = global::FAVAC.Droid.Resource.Styleable.TextAppearance_android_textStyle;
-			global::XamEffects.Droid.Resource.Styleable.TextAppearance_android_typeface = global::FAVAC.Droid.Resource.Styleable.TextAppearance_android_typeface;
-			global::XamEffects.Droid.Resource.Styleable.TextAppearance_textAllCaps = global::FAVAC.Droid.Resource.Styleable.TextAppearance_textAllCaps;
-			global::XamEffects.Droid.Resource.Styleable.TextInputLayout = global::FAVAC.Droid.Resource.Styleable.TextInputLayout;
-			global::XamEffects.Droid.Resource.Styleable.TextInputLayout_android_hint = global::FAVAC.Droid.Resource.Styleable.TextInputLayout_android_hint;
-			global::XamEffects.Droid.Resource.Styleable.TextInputLayout_android_textColorHint = global::FAVAC.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
-			global::XamEffects.Droid.Resource.Styleable.TextInputLayout_counterEnabled = global::FAVAC.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
-			global::XamEffects.Droid.Resource.Styleable.TextInputLayout_counterMaxLength = global::FAVAC.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
-			global::XamEffects.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::FAVAC.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
-			global::XamEffects.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance = global::FAVAC.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
-			global::XamEffects.Droid.Resource.Styleable.TextInputLayout_errorEnabled = global::FAVAC.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
-			global::XamEffects.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance = global::FAVAC.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
-			global::XamEffects.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::FAVAC.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
-			global::XamEffects.Droid.Resource.Styleable.TextInputLayout_hintEnabled = global::FAVAC.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
-			global::XamEffects.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance = global::FAVAC.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
-			global::XamEffects.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::FAVAC.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
-			global::XamEffects.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::FAVAC.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
-			global::XamEffects.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::FAVAC.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
-			global::XamEffects.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint = global::FAVAC.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
-			global::XamEffects.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::FAVAC.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
-			global::XamEffects.Droid.Resource.Styleable.Toolbar = global::FAVAC.Droid.Resource.Styleable.Toolbar;
-			global::XamEffects.Droid.Resource.Styleable.Toolbar_android_gravity = global::FAVAC.Droid.Resource.Styleable.Toolbar_android_gravity;
-			global::XamEffects.Droid.Resource.Styleable.Toolbar_android_minHeight = global::FAVAC.Droid.Resource.Styleable.Toolbar_android_minHeight;
-			global::XamEffects.Droid.Resource.Styleable.Toolbar_buttonGravity = global::FAVAC.Droid.Resource.Styleable.Toolbar_buttonGravity;
-			global::XamEffects.Droid.Resource.Styleable.Toolbar_collapseContentDescription = global::FAVAC.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
-			global::XamEffects.Droid.Resource.Styleable.Toolbar_collapseIcon = global::FAVAC.Droid.Resource.Styleable.Toolbar_collapseIcon;
-			global::XamEffects.Droid.Resource.Styleable.Toolbar_contentInsetEnd = global::FAVAC.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
-			global::XamEffects.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::FAVAC.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
-			global::XamEffects.Droid.Resource.Styleable.Toolbar_contentInsetLeft = global::FAVAC.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
-			global::XamEffects.Droid.Resource.Styleable.Toolbar_contentInsetRight = global::FAVAC.Droid.Resource.Styleable.Toolbar_contentInsetRight;
-			global::XamEffects.Droid.Resource.Styleable.Toolbar_contentInsetStart = global::FAVAC.Droid.Resource.Styleable.Toolbar_contentInsetStart;
-			global::XamEffects.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::FAVAC.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
-			global::XamEffects.Droid.Resource.Styleable.Toolbar_logo = global::FAVAC.Droid.Resource.Styleable.Toolbar_logo;
-			global::XamEffects.Droid.Resource.Styleable.Toolbar_logoDescription = global::FAVAC.Droid.Resource.Styleable.Toolbar_logoDescription;
-			global::XamEffects.Droid.Resource.Styleable.Toolbar_maxButtonHeight = global::FAVAC.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
-			global::XamEffects.Droid.Resource.Styleable.Toolbar_navigationContentDescription = global::FAVAC.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
-			global::XamEffects.Droid.Resource.Styleable.Toolbar_navigationIcon = global::FAVAC.Droid.Resource.Styleable.Toolbar_navigationIcon;
-			global::XamEffects.Droid.Resource.Styleable.Toolbar_popupTheme = global::FAVAC.Droid.Resource.Styleable.Toolbar_popupTheme;
-			global::XamEffects.Droid.Resource.Styleable.Toolbar_subtitle = global::FAVAC.Droid.Resource.Styleable.Toolbar_subtitle;
-			global::XamEffects.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance = global::FAVAC.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
-			global::XamEffects.Droid.Resource.Styleable.Toolbar_subtitleTextColor = global::FAVAC.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
-			global::XamEffects.Droid.Resource.Styleable.Toolbar_title = global::FAVAC.Droid.Resource.Styleable.Toolbar_title;
-			global::XamEffects.Droid.Resource.Styleable.Toolbar_titleMargin = global::FAVAC.Droid.Resource.Styleable.Toolbar_titleMargin;
-			global::XamEffects.Droid.Resource.Styleable.Toolbar_titleMarginBottom = global::FAVAC.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
-			global::XamEffects.Droid.Resource.Styleable.Toolbar_titleMarginEnd = global::FAVAC.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
-			global::XamEffects.Droid.Resource.Styleable.Toolbar_titleMarginStart = global::FAVAC.Droid.Resource.Styleable.Toolbar_titleMarginStart;
-			global::XamEffects.Droid.Resource.Styleable.Toolbar_titleMarginTop = global::FAVAC.Droid.Resource.Styleable.Toolbar_titleMarginTop;
-			global::XamEffects.Droid.Resource.Styleable.Toolbar_titleMargins = global::FAVAC.Droid.Resource.Styleable.Toolbar_titleMargins;
-			global::XamEffects.Droid.Resource.Styleable.Toolbar_titleTextAppearance = global::FAVAC.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
-			global::XamEffects.Droid.Resource.Styleable.Toolbar_titleTextColor = global::FAVAC.Droid.Resource.Styleable.Toolbar_titleTextColor;
-			global::XamEffects.Droid.Resource.Styleable.View = global::FAVAC.Droid.Resource.Styleable.View;
-			global::XamEffects.Droid.Resource.Styleable.View_android_focusable = global::FAVAC.Droid.Resource.Styleable.View_android_focusable;
-			global::XamEffects.Droid.Resource.Styleable.View_android_theme = global::FAVAC.Droid.Resource.Styleable.View_android_theme;
-			global::XamEffects.Droid.Resource.Styleable.View_paddingEnd = global::FAVAC.Droid.Resource.Styleable.View_paddingEnd;
-			global::XamEffects.Droid.Resource.Styleable.View_paddingStart = global::FAVAC.Droid.Resource.Styleable.View_paddingStart;
-			global::XamEffects.Droid.Resource.Styleable.View_theme = global::FAVAC.Droid.Resource.Styleable.View_theme;
-			global::XamEffects.Droid.Resource.Styleable.ViewBackgroundHelper = global::FAVAC.Droid.Resource.Styleable.ViewBackgroundHelper;
-			global::XamEffects.Droid.Resource.Styleable.ViewBackgroundHelper_android_background = global::FAVAC.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
-			global::XamEffects.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::FAVAC.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
-			global::XamEffects.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::FAVAC.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
-			global::XamEffects.Droid.Resource.Styleable.ViewStubCompat = global::FAVAC.Droid.Resource.Styleable.ViewStubCompat;
-			global::XamEffects.Droid.Resource.Styleable.ViewStubCompat_android_id = global::FAVAC.Droid.Resource.Styleable.ViewStubCompat_android_id;
-			global::XamEffects.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId = global::FAVAC.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
-			global::XamEffects.Droid.Resource.Styleable.ViewStubCompat_android_layout = global::FAVAC.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::ZXing.Net.Mobile.Forms.Android.Resource.Layout.zxingscanneractivitylayout = global::FAVAC.Droid.Resource.Layout.zxingscanneractivitylayout;
+			global::ZXing.Net.Mobile.Forms.Android.Resource.Layout.zxingscannerfragmentlayout = global::FAVAC.Droid.Resource.Layout.zxingscannerfragmentlayout;
+			global::ZXing.Net.Mobile.Forms.Android.Resource.String.library_name = global::FAVAC.Droid.Resource.String.library_name;
+			global::ZXing.Mobile.Resource.Id.contentFrame = global::FAVAC.Droid.Resource.Id.contentFrame;
+			global::ZXing.Mobile.Resource.Layout.zxingscanneractivitylayout = global::FAVAC.Droid.Resource.Layout.zxingscanneractivitylayout;
+			global::ZXing.Mobile.Resource.Layout.zxingscannerfragmentlayout = global::FAVAC.Droid.Resource.Layout.zxingscannerfragmentlayout;
 		}
 		
 		public partial class Animation
@@ -11379,10 +9571,10 @@ namespace FAVAC.Droid
 			public const int always = 2131230743;
 			
 			// aapt resource value: 0x7F080018
-			public const int application_name = 2131230744;
+			public const int APPLICATION_NAME = 2131230744;
 			
 			// aapt resource value: 0x7F080019
-			public const int APPLICATION_NAME = 2131230745;
+			public const int application_name = 2131230745;
 			
 			// aapt resource value: 0x7F08001A
 			public const int async = 2131230746;
@@ -11487,475 +9679,478 @@ namespace FAVAC.Droid
 			public const int content = 2131230779;
 			
 			// aapt resource value: 0x7F08003C
-			public const int contentPanel = 2131230780;
+			public const int contentFrame = 2131230780;
 			
 			// aapt resource value: 0x7F08003D
-			public const int coordinator = 2131230781;
+			public const int contentPanel = 2131230781;
 			
 			// aapt resource value: 0x7F08003E
-			public const int CTRL = 2131230782;
+			public const int coordinator = 2131230782;
 			
 			// aapt resource value: 0x7F08003F
-			public const int custom = 2131230783;
+			public const int CTRL = 2131230783;
 			
 			// aapt resource value: 0x7F080040
-			public const int customPanel = 2131230784;
+			public const int custom = 2131230784;
 			
 			// aapt resource value: 0x7F080041
-			public const int decor_content_parent = 2131230785;
+			public const int customPanel = 2131230785;
 			
 			// aapt resource value: 0x7F080042
-			public const int default_activity_button = 2131230786;
+			public const int decor_content_parent = 2131230786;
 			
 			// aapt resource value: 0x7F080043
-			public const int design_bottom_sheet = 2131230787;
+			public const int default_activity_button = 2131230787;
 			
 			// aapt resource value: 0x7F080044
-			public const int design_menu_item_action_area_stub = 2131230788;
+			public const int design_bottom_sheet = 2131230788;
 			
 			// aapt resource value: 0x7F080045
-			public const int design_menu_item_text = 2131230789;
+			public const int design_menu_item_action_area_stub = 2131230789;
 			
 			// aapt resource value: 0x7F080046
-			public const int design_navigation_view = 2131230790;
+			public const int design_menu_item_text = 2131230790;
 			
 			// aapt resource value: 0x7F080047
-			public const int disableHome = 2131230791;
+			public const int design_navigation_view = 2131230791;
 			
 			// aapt resource value: 0x7F080048
-			public const int edit_query = 2131230792;
+			public const int disableHome = 2131230792;
 			
 			// aapt resource value: 0x7F080049
-			public const int end = 2131230793;
+			public const int edit_query = 2131230793;
 			
 			// aapt resource value: 0x7F08004A
-			public const int end_padder = 2131230794;
+			public const int end = 2131230794;
 			
 			// aapt resource value: 0x7F08004B
-			public const int enterAlways = 2131230795;
+			public const int end_padder = 2131230795;
 			
 			// aapt resource value: 0x7F08004C
-			public const int enterAlwaysCollapsed = 2131230796;
+			public const int enterAlways = 2131230796;
 			
 			// aapt resource value: 0x7F08004D
-			public const int exitUntilCollapsed = 2131230797;
+			public const int enterAlwaysCollapsed = 2131230797;
 			
 			// aapt resource value: 0x7F08004E
-			public const int expanded_menu = 2131230798;
+			public const int exitUntilCollapsed = 2131230798;
 			
 			// aapt resource value: 0x7F08004F
-			public const int expand_activities_button = 2131230799;
+			public const int expanded_menu = 2131230799;
 			
 			// aapt resource value: 0x7F080050
-			public const int fill = 2131230800;
+			public const int expand_activities_button = 2131230800;
 			
 			// aapt resource value: 0x7F080051
-			public const int filled = 2131230801;
+			public const int fill = 2131230801;
 			
 			// aapt resource value: 0x7F080052
-			public const int fill_horizontal = 2131230802;
+			public const int filled = 2131230802;
 			
 			// aapt resource value: 0x7F080053
-			public const int fill_vertical = 2131230803;
+			public const int fill_horizontal = 2131230803;
 			
 			// aapt resource value: 0x7F080054
-			public const int @fixed = 2131230804;
+			public const int fill_vertical = 2131230804;
 			
 			// aapt resource value: 0x7F080055
-			public const int flyoutcontent_appbar = 2131230805;
+			public const int @fixed = 2131230805;
 			
 			// aapt resource value: 0x7F080056
-			public const int flyoutcontent_recycler = 2131230806;
+			public const int flyoutcontent_appbar = 2131230806;
 			
 			// aapt resource value: 0x7F080057
-			public const int forever = 2131230807;
+			public const int flyoutcontent_recycler = 2131230807;
 			
 			// aapt resource value: 0x7F080058
-			public const int FUNCTION = 2131230808;
+			public const int forever = 2131230808;
 			
 			// aapt resource value: 0x7F080059
-			public const int ghost_view = 2131230809;
+			public const int FUNCTION = 2131230809;
 			
 			// aapt resource value: 0x7F08005A
-			public const int group_divider = 2131230810;
+			public const int ghost_view = 2131230810;
 			
 			// aapt resource value: 0x7F08005B
-			public const int home = 2131230811;
+			public const int group_divider = 2131230811;
 			
 			// aapt resource value: 0x7F08005C
-			public const int homeAsUp = 2131230812;
+			public const int home = 2131230812;
 			
 			// aapt resource value: 0x7F08005D
-			public const int icon = 2131230813;
+			public const int homeAsUp = 2131230813;
 			
 			// aapt resource value: 0x7F08005E
-			public const int icon_group = 2131230814;
+			public const int icon = 2131230814;
 			
 			// aapt resource value: 0x7F08005F
-			public const int ifRoom = 2131230815;
+			public const int icon_group = 2131230815;
 			
 			// aapt resource value: 0x7F080060
-			public const int image = 2131230816;
+			public const int ifRoom = 2131230816;
 			
 			// aapt resource value: 0x7F080061
-			public const int info = 2131230817;
+			public const int image = 2131230817;
 			
 			// aapt resource value: 0x7F080062
-			public const int italic = 2131230818;
+			public const int info = 2131230818;
 			
 			// aapt resource value: 0x7F080063
-			public const int item_touch_helper_previous_elevation = 2131230819;
+			public const int italic = 2131230819;
 			
 			// aapt resource value: 0x7F080064
-			public const int labeled = 2131230820;
+			public const int item_touch_helper_previous_elevation = 2131230820;
 			
 			// aapt resource value: 0x7F080065
-			public const int largeLabel = 2131230821;
+			public const int labeled = 2131230821;
 			
 			// aapt resource value: 0x7F080066
-			public const int left = 2131230822;
+			public const int largeLabel = 2131230822;
 			
 			// aapt resource value: 0x7F080067
-			public const int line1 = 2131230823;
+			public const int left = 2131230823;
 			
 			// aapt resource value: 0x7F080068
-			public const int line3 = 2131230824;
+			public const int line1 = 2131230824;
 			
 			// aapt resource value: 0x7F080069
-			public const int listMode = 2131230825;
+			public const int line3 = 2131230825;
 			
 			// aapt resource value: 0x7F08006A
-			public const int list_item = 2131230826;
+			public const int listMode = 2131230826;
 			
 			// aapt resource value: 0x7F08006B
-			public const int main_appbar = 2131230827;
+			public const int list_item = 2131230827;
 			
 			// aapt resource value: 0x7F08006C
-			public const int main_tablayout = 2131230828;
+			public const int main_appbar = 2131230828;
 			
 			// aapt resource value: 0x7F08006D
-			public const int main_toolbar = 2131230829;
+			public const int main_tablayout = 2131230829;
 			
 			// aapt resource value: 0x7F08006E
-			public const int main_viewpager = 2131230830;
+			public const int main_toolbar = 2131230830;
 			
 			// aapt resource value: 0x7F08006F
-			public const int masked = 2131230831;
+			public const int main_viewpager = 2131230831;
 			
 			// aapt resource value: 0x7F080070
-			public const int media_actions = 2131230832;
+			public const int masked = 2131230832;
 			
 			// aapt resource value: 0x7F080071
-			public const int message = 2131230833;
+			public const int media_actions = 2131230833;
 			
 			// aapt resource value: 0x7F080072
-			public const int META = 2131230834;
+			public const int message = 2131230834;
 			
 			// aapt resource value: 0x7F080073
-			public const int middle = 2131230835;
+			public const int META = 2131230835;
 			
 			// aapt resource value: 0x7F080074
-			public const int mini = 2131230836;
+			public const int middle = 2131230836;
 			
 			// aapt resource value: 0x7F080075
-			public const int mtrl_child_content_container = 2131230837;
+			public const int mini = 2131230837;
 			
 			// aapt resource value: 0x7F080076
-			public const int mtrl_internal_children_alpha_tag = 2131230838;
+			public const int mtrl_child_content_container = 2131230838;
 			
 			// aapt resource value: 0x7F080077
-			public const int multiply = 2131230839;
+			public const int mtrl_internal_children_alpha_tag = 2131230839;
 			
 			// aapt resource value: 0x7F080078
-			public const int navigation_header_container = 2131230840;
+			public const int multiply = 2131230840;
 			
 			// aapt resource value: 0x7F080079
-			public const int never = 2131230841;
+			public const int navigation_header_container = 2131230841;
 			
 			// aapt resource value: 0x7F08007A
-			public const int none = 2131230842;
+			public const int never = 2131230842;
 			
 			// aapt resource value: 0x7F08007B
-			public const int normal = 2131230843;
+			public const int none = 2131230843;
 			
 			// aapt resource value: 0x7F08007C
-			public const int notification_background = 2131230844;
+			public const int normal = 2131230844;
 			
 			// aapt resource value: 0x7F08007D
-			public const int notification_main_column = 2131230845;
+			public const int notification_background = 2131230845;
 			
 			// aapt resource value: 0x7F08007E
-			public const int notification_main_column_container = 2131230846;
+			public const int notification_main_column = 2131230846;
 			
 			// aapt resource value: 0x7F08007F
-			public const int outline = 2131230847;
+			public const int notification_main_column_container = 2131230847;
 			
 			// aapt resource value: 0x7F080080
-			public const int parallax = 2131230848;
+			public const int outline = 2131230848;
 			
 			// aapt resource value: 0x7F080081
-			public const int parentPanel = 2131230849;
+			public const int parallax = 2131230849;
 			
 			// aapt resource value: 0x7F080082
-			public const int parent_matrix = 2131230850;
+			public const int parentPanel = 2131230850;
 			
 			// aapt resource value: 0x7F080083
-			public const int pin = 2131230851;
+			public const int parent_matrix = 2131230851;
 			
 			// aapt resource value: 0x7F080084
-			public const int progress_circular = 2131230852;
+			public const int pin = 2131230852;
 			
 			// aapt resource value: 0x7F080085
-			public const int progress_horizontal = 2131230853;
+			public const int progress_circular = 2131230853;
 			
 			// aapt resource value: 0x7F080086
-			public const int radio = 2131230854;
+			public const int progress_horizontal = 2131230854;
 			
 			// aapt resource value: 0x7F080087
-			public const int right = 2131230855;
+			public const int radio = 2131230855;
 			
 			// aapt resource value: 0x7F080088
-			public const int right_icon = 2131230856;
+			public const int right = 2131230856;
 			
 			// aapt resource value: 0x7F080089
-			public const int right_side = 2131230857;
+			public const int right_icon = 2131230857;
 			
 			// aapt resource value: 0x7F08008A
-			public const int save_image_matrix = 2131230858;
+			public const int right_side = 2131230858;
 			
 			// aapt resource value: 0x7F08008B
-			public const int save_non_transition_alpha = 2131230859;
+			public const int save_image_matrix = 2131230859;
 			
 			// aapt resource value: 0x7F08008C
-			public const int save_scale_type = 2131230860;
+			public const int save_non_transition_alpha = 2131230860;
 			
 			// aapt resource value: 0x7F08008D
-			public const int screen = 2131230861;
+			public const int save_scale_type = 2131230861;
 			
 			// aapt resource value: 0x7F08008E
-			public const int scroll = 2131230862;
+			public const int screen = 2131230862;
 			
 			// aapt resource value: 0x7F08008F
-			public const int scrollable = 2131230863;
+			public const int scroll = 2131230863;
 			
 			// aapt resource value: 0x7F080090
-			public const int scrollIndicatorDown = 2131230864;
+			public const int scrollable = 2131230864;
 			
 			// aapt resource value: 0x7F080091
-			public const int scrollIndicatorUp = 2131230865;
+			public const int scrollIndicatorDown = 2131230865;
 			
 			// aapt resource value: 0x7F080092
-			public const int scrollView = 2131230866;
+			public const int scrollIndicatorUp = 2131230866;
 			
 			// aapt resource value: 0x7F080093
-			public const int search_badge = 2131230867;
+			public const int scrollView = 2131230867;
 			
 			// aapt resource value: 0x7F080094
-			public const int search_bar = 2131230868;
+			public const int search_badge = 2131230868;
 			
 			// aapt resource value: 0x7F080095
-			public const int search_button = 2131230869;
+			public const int search_bar = 2131230869;
 			
 			// aapt resource value: 0x7F080096
-			public const int search_close_btn = 2131230870;
+			public const int search_button = 2131230870;
 			
 			// aapt resource value: 0x7F080097
-			public const int search_edit_frame = 2131230871;
+			public const int search_close_btn = 2131230871;
 			
 			// aapt resource value: 0x7F080098
-			public const int search_go_btn = 2131230872;
+			public const int search_edit_frame = 2131230872;
 			
 			// aapt resource value: 0x7F080099
-			public const int search_mag_icon = 2131230873;
+			public const int search_go_btn = 2131230873;
 			
 			// aapt resource value: 0x7F08009A
-			public const int search_plate = 2131230874;
+			public const int search_mag_icon = 2131230874;
 			
 			// aapt resource value: 0x7F08009B
-			public const int search_src_text = 2131230875;
+			public const int search_plate = 2131230875;
 			
 			// aapt resource value: 0x7F08009C
-			public const int search_voice_btn = 2131230876;
+			public const int search_src_text = 2131230876;
 			
 			// aapt resource value: 0x7F08009D
-			public const int selected = 2131230877;
+			public const int search_voice_btn = 2131230877;
 			
 			// aapt resource value: 0x7F08009E
-			public const int select_dialog_listview = 2131230878;
+			public const int selected = 2131230878;
 			
 			// aapt resource value: 0x7F08009F
-			public const int shellcontent_appbar = 2131230879;
+			public const int select_dialog_listview = 2131230879;
 			
 			// aapt resource value: 0x7F0800A0
-			public const int shellcontent_toolbar = 2131230880;
+			public const int shellcontent_appbar = 2131230880;
 			
 			// aapt resource value: 0x7F0800A1
-			public const int SHIFT = 2131230881;
+			public const int shellcontent_toolbar = 2131230881;
 			
 			// aapt resource value: 0x7F0800A2
-			public const int shortcut = 2131230882;
+			public const int SHIFT = 2131230882;
 			
 			// aapt resource value: 0x7F0800A3
-			public const int showCustom = 2131230883;
+			public const int shortcut = 2131230883;
 			
 			// aapt resource value: 0x7F0800A4
-			public const int showHome = 2131230884;
+			public const int showCustom = 2131230884;
 			
 			// aapt resource value: 0x7F0800A5
-			public const int showTitle = 2131230885;
+			public const int showHome = 2131230885;
 			
 			// aapt resource value: 0x7F0800A6
-			public const int sliding_tabs = 2131230886;
+			public const int showTitle = 2131230886;
 			
 			// aapt resource value: 0x7F0800A7
-			public const int smallLabel = 2131230887;
+			public const int sliding_tabs = 2131230887;
 			
 			// aapt resource value: 0x7F0800A8
-			public const int snackbar_action = 2131230888;
+			public const int smallLabel = 2131230888;
 			
 			// aapt resource value: 0x7F0800A9
-			public const int snackbar_text = 2131230889;
+			public const int snackbar_action = 2131230889;
 			
 			// aapt resource value: 0x7F0800AA
-			public const int snap = 2131230890;
+			public const int snackbar_text = 2131230890;
 			
 			// aapt resource value: 0x7F0800AB
-			public const int snapMargins = 2131230891;
+			public const int snap = 2131230891;
 			
 			// aapt resource value: 0x7F0800AC
-			public const int spacer = 2131230892;
+			public const int snapMargins = 2131230892;
 			
 			// aapt resource value: 0x7F0800AD
-			public const int split_action_bar = 2131230893;
+			public const int spacer = 2131230893;
 			
 			// aapt resource value: 0x7F0800AE
-			public const int src_atop = 2131230894;
+			public const int split_action_bar = 2131230894;
 			
 			// aapt resource value: 0x7F0800AF
-			public const int src_in = 2131230895;
+			public const int src_atop = 2131230895;
 			
 			// aapt resource value: 0x7F0800B0
-			public const int src_over = 2131230896;
+			public const int src_in = 2131230896;
 			
 			// aapt resource value: 0x7F0800B1
-			public const int start = 2131230897;
+			public const int src_over = 2131230897;
 			
 			// aapt resource value: 0x7F0800B2
-			public const int status_bar_latest_event_content = 2131230898;
+			public const int start = 2131230898;
 			
 			// aapt resource value: 0x7F0800B3
-			public const int stretch = 2131230899;
+			public const int status_bar_latest_event_content = 2131230899;
 			
 			// aapt resource value: 0x7F0800B4
-			public const int submenuarrow = 2131230900;
+			public const int stretch = 2131230900;
 			
 			// aapt resource value: 0x7F0800B5
-			public const int submit_area = 2131230901;
+			public const int submenuarrow = 2131230901;
 			
 			// aapt resource value: 0x7F0800B6
-			public const int SYM = 2131230902;
+			public const int submit_area = 2131230902;
 			
 			// aapt resource value: 0x7F0800B7
-			public const int tabMode = 2131230903;
+			public const int SYM = 2131230903;
 			
 			// aapt resource value: 0x7F0800B8
-			public const int tag_transition_group = 2131230904;
+			public const int tabMode = 2131230904;
 			
 			// aapt resource value: 0x7F0800B9
-			public const int tag_unhandled_key_event_manager = 2131230905;
+			public const int tag_transition_group = 2131230905;
 			
 			// aapt resource value: 0x7F0800BA
-			public const int tag_unhandled_key_listeners = 2131230906;
+			public const int tag_unhandled_key_event_manager = 2131230906;
 			
 			// aapt resource value: 0x7F0800BB
-			public const int text = 2131230907;
+			public const int tag_unhandled_key_listeners = 2131230907;
 			
 			// aapt resource value: 0x7F0800BC
-			public const int text2 = 2131230908;
+			public const int text = 2131230908;
 			
 			// aapt resource value: 0x7F0800BD
-			public const int textinput_counter = 2131230909;
+			public const int text2 = 2131230909;
 			
 			// aapt resource value: 0x7F0800BE
-			public const int textinput_error = 2131230910;
+			public const int textinput_counter = 2131230910;
 			
 			// aapt resource value: 0x7F0800BF
-			public const int textinput_helper_text = 2131230911;
+			public const int textinput_error = 2131230911;
 			
 			// aapt resource value: 0x7F0800C0
-			public const int textSpacerNoButtons = 2131230912;
+			public const int textinput_helper_text = 2131230912;
 			
 			// aapt resource value: 0x7F0800C1
-			public const int textSpacerNoTitle = 2131230913;
+			public const int textSpacerNoButtons = 2131230913;
 			
 			// aapt resource value: 0x7F0800C2
-			public const int textStart = 2131230914;
+			public const int textSpacerNoTitle = 2131230914;
 			
 			// aapt resource value: 0x7F0800C3
-			public const int text_input_password_toggle = 2131230915;
+			public const int textStart = 2131230915;
 			
 			// aapt resource value: 0x7F0800C4
-			public const int time = 2131230916;
+			public const int text_input_password_toggle = 2131230916;
 			
 			// aapt resource value: 0x7F0800C5
-			public const int title = 2131230917;
+			public const int time = 2131230917;
 			
 			// aapt resource value: 0x7F0800C6
-			public const int titleDividerNoCustom = 2131230918;
+			public const int title = 2131230918;
 			
 			// aapt resource value: 0x7F0800C7
-			public const int title_template = 2131230919;
+			public const int titleDividerNoCustom = 2131230919;
 			
 			// aapt resource value: 0x7F0800C8
-			public const int toolbar = 2131230920;
+			public const int title_template = 2131230920;
 			
 			// aapt resource value: 0x7F0800C9
-			public const int top = 2131230921;
+			public const int toolbar = 2131230921;
 			
 			// aapt resource value: 0x7F0800CA
-			public const int topPanel = 2131230922;
+			public const int top = 2131230922;
 			
 			// aapt resource value: 0x7F0800CB
-			public const int touch_outside = 2131230923;
+			public const int topPanel = 2131230923;
 			
 			// aapt resource value: 0x7F0800CC
-			public const int transition_current_scene = 2131230924;
+			public const int touch_outside = 2131230924;
 			
 			// aapt resource value: 0x7F0800CD
-			public const int transition_layout_save = 2131230925;
+			public const int transition_current_scene = 2131230925;
 			
 			// aapt resource value: 0x7F0800CE
-			public const int transition_position = 2131230926;
+			public const int transition_layout_save = 2131230926;
 			
 			// aapt resource value: 0x7F0800CF
-			public const int transition_scene_layoutid_cache = 2131230927;
+			public const int transition_position = 2131230927;
 			
 			// aapt resource value: 0x7F0800D0
-			public const int transition_transform = 2131230928;
+			public const int transition_scene_layoutid_cache = 2131230928;
 			
 			// aapt resource value: 0x7F0800D1
-			public const int uniform = 2131230929;
+			public const int transition_transform = 2131230929;
 			
 			// aapt resource value: 0x7F0800D2
-			public const int unlabeled = 2131230930;
+			public const int uniform = 2131230930;
 			
 			// aapt resource value: 0x7F0800D3
-			public const int up = 2131230931;
+			public const int unlabeled = 2131230931;
 			
 			// aapt resource value: 0x7F0800D4
-			public const int useLogo = 2131230932;
+			public const int up = 2131230932;
 			
 			// aapt resource value: 0x7F0800D5
-			public const int view_offset_helper = 2131230933;
+			public const int useLogo = 2131230933;
 			
 			// aapt resource value: 0x7F0800D6
-			public const int visible = 2131230934;
+			public const int view_offset_helper = 2131230934;
 			
 			// aapt resource value: 0x7F0800D7
-			public const int withText = 2131230935;
+			public const int visible = 2131230935;
 			
 			// aapt resource value: 0x7F0800D8
-			public const int wrap_content = 2131230936;
+			public const int withText = 2131230936;
+			
+			// aapt resource value: 0x7F0800D9
+			public const int wrap_content = 2131230937;
 			
 			static Id()
 			{
@@ -12281,6 +10476,12 @@ namespace FAVAC.Droid
 			// aapt resource value: 0x7F0B004B
 			public const int Toolbar = 2131427403;
 			
+			// aapt resource value: 0x7F0B004C
+			public const int zxingscanneractivitylayout = 2131427404;
+			
+			// aapt resource value: 0x7F0B004D
+			public const int zxingscannerfragmentlayout = 2131427405;
+			
 			static Layout()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -12437,58 +10638,52 @@ namespace FAVAC.Droid
 			public const int appbar_scrolling_view_behavior = 2131558439;
 			
 			// aapt resource value: 0x7F0D0028
-			public const int ApplicationName = 2131558440;
+			public const int app_name = 2131558440;
 			
 			// aapt resource value: 0x7F0D0029
-			public const int app_name = 2131558441;
+			public const int bottom_sheet_behavior = 2131558441;
 			
 			// aapt resource value: 0x7F0D002A
-			public const int bottom_sheet_behavior = 2131558442;
+			public const int character_counter_content_description = 2131558442;
 			
 			// aapt resource value: 0x7F0D002B
-			public const int character_counter_content_description = 2131558443;
+			public const int character_counter_pattern = 2131558443;
 			
 			// aapt resource value: 0x7F0D002C
-			public const int character_counter_pattern = 2131558444;
+			public const int fab_transformation_scrim_behavior = 2131558444;
 			
 			// aapt resource value: 0x7F0D002D
-			public const int fab_transformation_scrim_behavior = 2131558445;
+			public const int fab_transformation_sheet_behavior = 2131558445;
 			
 			// aapt resource value: 0x7F0D002E
-			public const int fab_transformation_sheet_behavior = 2131558446;
+			public const int hide_bottom_view_on_scroll_behavior = 2131558446;
 			
 			// aapt resource value: 0x7F0D002F
-			public const int Hello = 2131558447;
+			public const int library_name = 2131558447;
 			
 			// aapt resource value: 0x7F0D0030
-			public const int hide_bottom_view_on_scroll_behavior = 2131558448;
+			public const int mtrl_chip_close_icon_content_description = 2131558448;
 			
 			// aapt resource value: 0x7F0D0031
-			public const int library_name = 2131558449;
+			public const int password_toggle_content_description = 2131558449;
 			
 			// aapt resource value: 0x7F0D0032
-			public const int mtrl_chip_close_icon_content_description = 2131558450;
+			public const int path_password_eye = 2131558450;
 			
 			// aapt resource value: 0x7F0D0033
-			public const int password_toggle_content_description = 2131558451;
+			public const int path_password_eye_mask_strike_through = 2131558451;
 			
 			// aapt resource value: 0x7F0D0034
-			public const int path_password_eye = 2131558452;
+			public const int path_password_eye_mask_visible = 2131558452;
 			
 			// aapt resource value: 0x7F0D0035
-			public const int path_password_eye_mask_strike_through = 2131558453;
+			public const int path_password_strike_through = 2131558453;
 			
 			// aapt resource value: 0x7F0D0036
-			public const int path_password_eye_mask_visible = 2131558454;
+			public const int search_menu_title = 2131558454;
 			
 			// aapt resource value: 0x7F0D0037
-			public const int path_password_strike_through = 2131558455;
-			
-			// aapt resource value: 0x7F0D0038
-			public const int search_menu_title = 2131558456;
-			
-			// aapt resource value: 0x7F0D0039
-			public const int status_bar_notification_info_overflow = 2131558457;
+			public const int status_bar_notification_info_overflow = 2131558455;
 			
 			static String()
 			{

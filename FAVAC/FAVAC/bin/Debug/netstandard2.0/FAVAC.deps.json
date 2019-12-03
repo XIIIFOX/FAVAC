@@ -13,10 +13,11 @@
           "LH.BottomNavigationBar.XF": "1.0.42",
           "NETStandard.Library": "2.0.3",
           "Xam.Plugins.Settings": "3.1.1",
-          "XamEffects": "1.6.3",
           "Xamarin.Essentials": "1.3.1",
           "Xamarin.Forms": "4.3.0.991211",
-          "XamarinForms.CardView.NetStandard": "1.1.1.5"
+          "XamarinForms.CardView.NetStandard": "1.1.1.5",
+          "ZXing.Net.Mobile": "2.4.1",
+          "ZXing.Net.Mobile.Forms": "2.4.1"
         },
         "runtime": {
           "FAVAC.dll": {}
@@ -671,14 +672,31 @@
           }
         }
       },
-      "XamEffects/1.6.3": {
+      "ZXing.Net.Mobile/2.4.1": {
+        "runtime": {
+          "lib/netstandard1.0/ZXing.Net.Mobile.Core.dll": {
+            "assemblyVersion": "2.4.1.0",
+            "fileVersion": "2.4.1.0"
+          },
+          "lib/netstandard1.0/ZXingNetMobile.dll": {
+            "assemblyVersion": "2.4.1.0",
+            "fileVersion": "2.4.1.0"
+          },
+          "lib/netstandard1.0/zxing.portable.dll": {
+            "assemblyVersion": "0.16.2.0",
+            "fileVersion": "0.16.2.0"
+          }
+        }
+      },
+      "ZXing.Net.Mobile.Forms/2.4.1": {
         "dependencies": {
-          "Xamarin.Forms": "4.3.0.991211"
+          "Xamarin.Forms": "4.3.0.991211",
+          "ZXing.Net.Mobile": "2.4.1"
         },
         "runtime": {
-          "lib/netstandard1.0/XamEffects.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
+          "lib/netstandard1.0/ZXing.Net.Mobile.Forms.dll": {
+            "assemblyVersion": "2.4.1.0",
+            "fileVersion": "2.4.1.0"
           }
         }
       }
@@ -1138,12 +1156,19 @@
       "path": "xamarinforms.cardview.netstandard/1.1.1.5",
       "hashPath": "xamarinforms.cardview.netstandard.1.1.1.5.nupkg.sha512"
     },
-    "XamEffects/1.6.3": {
+    "ZXing.Net.Mobile/2.4.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-XcoxG/ugnmrh+j7q0dhFaU8ouUIIFrBwJvc0FtXrhusvSNov5L8gtynf0hfiu3Ey1Z3R39J1qp8tYCovhuJFRQ==",
-      "path": "xameffects/1.6.3",
-      "hashPath": "xameffects.1.6.3.nupkg.sha512"
+      "sha512": "sha512-iCL2WcqOyUnC1iFFdzXijk0EXfoLMDqW88MyhoTZigSyhJZM2C5hKgSZVyfx9E35tgkde/IZwHkk8cVDnbQlYg==",
+      "path": "zxing.net.mobile/2.4.1",
+      "hashPath": "zxing.net.mobile.2.4.1.nupkg.sha512"
+    },
+    "ZXing.Net.Mobile.Forms/2.4.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7z+MfL8TbfE36s1GGvrnlkhLUOV5dgdn1gYhUb3GU2W6YXzpfF39k6EqkmFsyNm1O07evTaKFgh7UTOqcWub3g==",
+      "path": "zxing.net.mobile.forms/2.4.1",
+      "hashPath": "zxing.net.mobile.forms.2.4.1.nupkg.sha512"
     }
   }
 }

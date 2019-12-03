@@ -9,6 +9,8 @@
 //        _____\///____\/////////_____\///___________________\/////_______\///_______\///__
 using Plugin.Settings;
 using Plugin.Settings.Abstractions;
+using System.Collections.Generic;
+
 namespace FAVAC
 {
     public static class Settings 
@@ -23,6 +25,48 @@ namespace FAVAC
         public static string ChartURL
         {
             get { return (Mode) ? $"https://www.tradingview.com/widgetembed/?frameElementId=tradingview_131313&symbol={Symbols}&interval={Interval}&hidesidetoolbar={DrawerPanel}&symboledit=1&saveimage={SaveImageButton}&toolbarbg={ToolBarBg}&theme={Theme}&style={StyleOfBars}&timezone=Europe%2FMoscow&locale={Language}" + ((News == 0) ? "" : "&news=1&newsvendors=stocktwits") + ((Hotlist == 0) ? "" : "&hotlist=1") + ((NewsCalendar == 0) ? "" : "&calendar=1") + ((Publish) ? "" : "&enablepublishing=true") : $"https://www.tradingview.com/chart/?symbol={Symbols}&inteval={Interval}&theme={Theme}"; }
+        }
+
+        //Chart DATA
+        public static string ChartDATA
+        {
+            get {
+                Dictionary<int, string> _data = new Dictionary<int, string>();
+
+                _data.Add(0, Mode.ToString());
+                _data.Add(1, Symbols.ToString());
+                _data.Add(2, Interval.ToString());
+                _data.Add(3, Language.ToString());
+                _data.Add(4, StyleOfBars.ToString());
+                _data.Add(5, DrawerPanel.ToString());
+                _data.Add(6, SaveImageButton.ToString());
+                _data.Add(7, News.ToString());
+                _data.Add(8, NewsCalendar.ToString());
+                _data.Add(9, Hotlist.ToString());
+                _data.Add(10, Publish.ToString());
+                _data.Add(11, Theme.ToString());
+                _data.Add(12, ToolBarBg.ToString());
+
+                string _main1 = null;
+                for(int i =0;i<13; i++)
+                {
+                    if (_main1 == null) {
+                        _main1 = _data[i];
+                    }
+                    else
+                    {
+                        _main1 += "|" + _data[i];
+                    }
+                }
+
+                return _main1 + "_" + Settings.ChartURL; }
+            set {
+                string[] DATAandURL = value.Split('_');
+                string URL = DATAandURL[0];
+                string[] DATA = DATAandURL[1].Split('|');
+                Mode = (DATA[0] == "true") ? true : false;
+                Symbols = DATA[1];
+            }
         }
 
         //main

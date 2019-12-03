@@ -2,6 +2,7 @@ C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.Android\obj\Debug\90\android\assets
 C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.Android\obj\Debug\90\android\assets\BottomBar.Droid.dll
 C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.Android\obj\Debug\90\android\assets\BottomNavigationBar.dll
 C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.Android\obj\Debug\90\android\assets\CardViewNetStandard.dll
+C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.Android\obj\Debug\90\android\assets\FastAndroidCamera.dll
 C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.Android\obj\Debug\90\android\assets\FAVAC.dll
 C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.Android\obj\Debug\90\android\assets\FormsViewGroup.dll
 C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.Android\obj\Debug\90\android\assets\HtmlAgilityPack.dll
@@ -62,8 +63,11 @@ C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.Android\obj\Debug\90\android\assets
 C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.Android\obj\Debug\90\android\assets\Xamarin.Forms.Platform.Android.dll
 C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.Android\obj\Debug\90\android\assets\Xamarin.Forms.Platform.dll
 C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.Android\obj\Debug\90\android\assets\Xamarin.Forms.Xaml.dll
-C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.Android\obj\Debug\90\android\assets\XamEffects.dll
-C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.Android\obj\Debug\90\android\assets\XamEffects.Droid.dll
+C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.Android\obj\Debug\90\android\assets\ZXing.Net.Mobile.Core.dll
+C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.Android\obj\Debug\90\android\assets\ZXing.Net.Mobile.Forms.Android.dll
+C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.Android\obj\Debug\90\android\assets\ZXing.Net.Mobile.Forms.dll
+C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.Android\obj\Debug\90\android\assets\zxing.portable.dll
+C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.Android\obj\Debug\90\android\assets\ZXingNetMobile.dll
 C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.Android\obj\Debug\90\android\assets\netstandard.dll
 C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.Android\obj\Debug\90\android\assets\System.Data.dll
 C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.Android\obj\Debug\90\android\assets\System.Transactions.dll

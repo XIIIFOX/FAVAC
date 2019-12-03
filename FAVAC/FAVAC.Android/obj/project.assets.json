@@ -25,6 +25,15 @@
           "lib/MonoAndroid403/BottomNavigationBar.dll": {}
         }
       },
+      "FastAndroidCamera/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/MonoAndroid403/FastAndroidCamera.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid403/FastAndroidCamera.dll": {}
+        }
+      },
       "HtmlAgilityPack/1.11.17": {
         "type": "package",
         "dependencies": {
@@ -933,18 +942,36 @@
           "lib/netstandard2.0/CardViewNetStandard.dll": {}
         }
       },
-      "XamEffects/1.6.3": {
+      "ZXing.Net.Mobile/2.4.1": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Forms": "2.5.0.77107"
+          "FastAndroidCamera": "2.0.0",
+          "Xamarin.Android.Support.v4": "25.4.0.1"
         },
         "compile": {
-          "lib/MonoAndroid/XamEffects.Droid.dll": {},
-          "lib/MonoAndroid/XamEffects.dll": {}
+          "lib/MonoAndroid71/ZXing.Net.Mobile.Core.dll": {},
+          "lib/MonoAndroid71/ZXingNetMobile.dll": {},
+          "lib/MonoAndroid71/zxing.portable.dll": {}
         },
         "runtime": {
-          "lib/MonoAndroid/XamEffects.Droid.dll": {},
-          "lib/MonoAndroid/XamEffects.dll": {}
+          "lib/MonoAndroid71/ZXing.Net.Mobile.Core.dll": {},
+          "lib/MonoAndroid71/ZXingNetMobile.dll": {},
+          "lib/MonoAndroid71/zxing.portable.dll": {}
+        }
+      },
+      "ZXing.Net.Mobile.Forms/2.4.1": {
+        "type": "package",
+        "dependencies": {
+          "FastAndroidCamera": "2.0.0",
+          "Xamarin.Android.Support.v4": "25.4.0.2"
+        },
+        "compile": {
+          "lib/MonoAndroid71/ZXing.Net.Mobile.Forms.Android.dll": {},
+          "lib/MonoAndroid71/ZXing.Net.Mobile.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid71/ZXing.Net.Mobile.Forms.Android.dll": {},
+          "lib/MonoAndroid71/ZXing.Net.Mobile.Forms.dll": {}
         }
       },
       "FAVAC/0.1.0": {
@@ -954,10 +981,11 @@
           "HtmlAgilityPack": "1.11.17",
           "LH.BottomNavigationBar.XF": "1.0.42",
           "Xam.Plugins.Settings": "3.1.1",
-          "XamEffects": "1.6.3",
           "Xamarin.Essentials": "1.3.1",
           "Xamarin.Forms": "4.3.0.991211",
-          "XamarinForms.CardView.NetStandard": "1.1.1.5"
+          "XamarinForms.CardView.NetStandard": "1.1.1.5",
+          "ZXing.Net.Mobile": "2.4.1",
+          "ZXing.Net.Mobile.Forms": "2.4.1"
         },
         "compile": {
           "bin/placeholder/FAVAC.dll": {}
@@ -980,6 +1008,22 @@
         "bottomnavigationbar.nuspec",
         "lib/MonoAndroid403/BottomNavigationBar.dll",
         "lib/MonoAndroid403/BottomNavigationBar.xml"
+      ]
+    },
+    "FastAndroidCamera/2.0.0": {
+      "sha512": "RQix6VHmVyQXVdP3Y4+Khw1F7HirONNCa5ubGng58gUkmSAhlS4t1Qf1Biyfakx/LjCYJ3SZ99rWSjQgV15uVQ==",
+      "type": "package",
+      "path": "fastandroidcamera/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fastandroidcamera.2.0.0.nupkg.sha512",
+        "fastandroidcamera.nuspec",
+        "lib/MonoAndroid403/FastAndroidCamera.dll",
+        "lib/MonoAndroid403/FastAndroidCamera.xml",
+        "src/CameraExtensions.cs",
+        "src/FastJavaByteArray.cs",
+        "src/FastJavaByteArrayEnumerator.cs"
       ]
     },
     "HtmlAgilityPack/1.11.17": {
@@ -2414,29 +2458,48 @@
         "xamarinforms.cardview.netstandard.nuspec"
       ]
     },
-    "XamEffects/1.6.3": {
-      "sha512": "XcoxG/ugnmrh+j7q0dhFaU8ouUIIFrBwJvc0FtXrhusvSNov5L8gtynf0hfiu3Ey1Z3R39J1qp8tYCovhuJFRQ==",
+    "ZXing.Net.Mobile/2.4.1": {
+      "sha512": "iCL2WcqOyUnC1iFFdzXijk0EXfoLMDqW88MyhoTZigSyhJZM2C5hKgSZVyfx9E35tgkde/IZwHkk8cVDnbQlYg==",
       "type": "package",
-      "path": "xameffects/1.6.3",
+      "path": "zxing.net.mobile/2.4.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "lib/MonoAndroid/XamEffects.Droid.dll",
-        "lib/MonoAndroid/XamEffects.Droid.pdb",
-        "lib/MonoAndroid/XamEffects.dll",
-        "lib/MonoAndroid/XamEffects.pdb",
-        "lib/MonoTouch/XamEffects.dll",
-        "lib/MonoTouch/XamEffects.iOS.dll",
-        "lib/MonoTouch/XamEffects.iOS.pdb",
-        "lib/MonoTouch/XamEffects.pdb",
-        "lib/Xamarin.IOS/XamEffects.dll",
-        "lib/Xamarin.IOS/XamEffects.iOS.dll",
-        "lib/Xamarin.IOS/XamEffects.iOS.pdb",
-        "lib/Xamarin.IOS/XamEffects.pdb",
-        "lib/netstandard1.0/XamEffects.dll",
-        "lib/netstandard1.0/XamEffects.pdb",
-        "xameffects.1.6.3.nupkg.sha512",
-        "xameffects.nuspec"
+        "lib/MonoAndroid71/ZXing.Net.Mobile.Core.dll",
+        "lib/MonoAndroid71/ZXingNetMobile.dll",
+        "lib/MonoAndroid71/zxing.portable.dll",
+        "lib/UAP10/ZXing.Net.Mobile.Core.dll",
+        "lib/UAP10/ZXingNetMobile.dll",
+        "lib/UAP10/ZXingNetMobile.pri",
+        "lib/UAP10/ZXingNetMobile/ZXingNetMobile.xr.xml",
+        "lib/UAP10/zxing.portable.dll",
+        "lib/Xamarin.iOS10/ZXing.Net.Mobile.Core.dll",
+        "lib/Xamarin.iOS10/ZXingNetMobile.dll",
+        "lib/Xamarin.iOS10/zxing.portable.dll",
+        "lib/netstandard1.0/ZXing.Net.Mobile.Core.dll",
+        "lib/netstandard1.0/ZXingNetMobile.dll",
+        "lib/netstandard1.0/zxing.portable.dll",
+        "zxing.net.mobile.2.4.1.nupkg.sha512",
+        "zxing.net.mobile.nuspec"
+      ]
+    },
+    "ZXing.Net.Mobile.Forms/2.4.1": {
+      "sha512": "7z+MfL8TbfE36s1GGvrnlkhLUOV5dgdn1gYhUb3GU2W6YXzpfF39k6EqkmFsyNm1O07evTaKFgh7UTOqcWub3g==",
+      "type": "package",
+      "path": "zxing.net.mobile.forms/2.4.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid71/ZXing.Net.Mobile.Forms.Android.dll",
+        "lib/MonoAndroid71/ZXing.Net.Mobile.Forms.dll",
+        "lib/UAP10/ZXing.Net.Mobile.Forms.WindowsUniversal.dll",
+        "lib/UAP10/ZXing.Net.Mobile.Forms.WindowsUniversal.pri",
+        "lib/UAP10/ZXing.Net.Mobile.Forms.dll",
+        "lib/Xamarin.iOS10/ZXing.Net.Mobile.Forms.dll",
+        "lib/Xamarin.iOS10/ZXing.Net.Mobile.Forms.iOS.dll",
+        "lib/netstandard1.0/ZXing.Net.Mobile.Forms.dll",
+        "zxing.net.mobile.forms.2.4.1.nupkg.sha512",
+        "zxing.net.mobile.forms.nuspec"
       ]
     },
     "FAVAC/0.1.0": {
@@ -2452,11 +2515,12 @@
       "HtmlAgilityPack >= 1.11.17",
       "LH.BottomNavigationBar.XF >= 1.0.42",
       "Xam.Plugins.Settings >= 3.1.1",
-      "XamEffects >= 1.6.3",
       "Xamarin.Android.Support.Core.Utils >= 28.0.0.3",
       "Xamarin.Essentials >= 1.3.1",
       "Xamarin.Forms >= 4.3.0.991211",
-      "XamarinForms.CardView.NetStandard >= 1.1.1.5"
+      "XamarinForms.CardView.NetStandard >= 1.1.1.5",
+      "ZXing.Net.Mobile >= 2.4.1",
+      "ZXing.Net.Mobile.Forms >= 2.4.1"
     ]
   },
   "packageFolders": {
@@ -2517,10 +2581,6 @@
             "target": "Package",
             "version": "[3.1.1, )"
           },
-          "XamEffects": {
-            "target": "Package",
-            "version": "[1.6.3, )"
-          },
           "Xamarin.Android.Support.Core.Utils": {
             "target": "Package",
             "version": "[28.0.0.3, )"
@@ -2536,6 +2596,14 @@
           "XamarinForms.CardView.NetStandard": {
             "target": "Package",
             "version": "[1.1.1.5, )"
+          },
+          "ZXing.Net.Mobile": {
+            "target": "Package",
+            "version": "[2.4.1, )"
+          },
+          "ZXing.Net.Mobile.Forms": {
+            "target": "Package",
+            "version": "[2.4.1, )"
           }
         }
       }
