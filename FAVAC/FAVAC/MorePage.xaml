@@ -18,12 +18,14 @@
               HasUnevenRows="True"
                   SeparatorVisibility="None"
                   BackgroundColor="#212121"
+                  HorizontalOptions="FillAndExpand"
+                  VerticalOptions="StartAndExpand"
               ItemsSource="{Binding Elements}"
               ItemTapped="itemsList_ItemTapped">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
-                        <StackLayout Orientation="Horizontal" HeightRequest ="48">
+                        <StackLayout Orientation="Horizontal" HeightRequest ="48" Spacing="0">
                             <Image Source="{Binding ImagePath}" HeightRequest="38"/>
                             <Label Text="{Binding Title}" FontSize="18" VerticalOptions="Center" TextColor="WhiteSmoke"/>
                         </StackLayout>

@@ -9,6 +9,7 @@
 //        _____\///____\/////////_____\///___________________\/////_______\///_______\///__
 using Plugin.Settings;
 using Plugin.Settings.Abstractions;
+using System;
 using System.Collections.Generic;
 
 namespace FAVAC
@@ -59,13 +60,22 @@ namespace FAVAC
                     }
                 }
 
-                return _main1 + "_" + Settings.ChartURL; }
+                return _main1 + "*" + ChartURL; }
             set {
-                string[] DATAandURL = value.Split('_');
-                string URL = DATAandURL[0];
-                string[] DATA = DATAandURL[1].Split('|');
-                Mode = (DATA[0] == "true") ? true : false;
+                string[] DATA = value.Split('*')[0].Split('|');
+                Mode = (DATA[0] == "true") ? false : true;
                 Symbols = DATA[1];
+                Interval = DATA[2];
+                Language = DATA[3];
+                StyleOfBars = Convert.ToInt32(DATA[4]);
+                DrawerPanel = Convert.ToInt32(DATA[5]);
+                SaveImageButton = Convert.ToInt32(DATA[6]);
+                News = Convert.ToInt32(DATA[7]);
+                NewsCalendar = Convert.ToInt32(DATA[8]);
+                Hotlist = Convert.ToInt32(DATA[9]);
+                Publish = (DATA[10] == "true") ? true : false; ;
+                Theme = DATA[11];
+                ToolBarBg = DATA[12];
             }
         }
 

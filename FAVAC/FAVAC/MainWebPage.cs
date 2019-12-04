@@ -14,6 +14,7 @@ using System.Text;
 using System.Threading;
 using Xamarin.Essentials;
 using Xamarin.Forms;
+using Xamarin.Forms.Internals;
 
 namespace FAVAC
 {
@@ -35,10 +36,10 @@ namespace FAVAC
         readonly StackLayout stackLayout = new StackLayout { VerticalOptions = LayoutOptions.FillAndExpand, HorizontalOptions = LayoutOptions.FillAndExpand};
         public MainWebPage()
         {
-            webView.Navigating += WebView_Navigating;
-            webView.Navigated += WebView_Navigated;
             stackLayout.Children.Add(webView);
             stackLayout.Children.Add(progress);
+            webView.Navigating += WebView_Navigating;
+            webView.Navigated += WebView_Navigated;
             SetValue(NavigationPage.HasNavigationBarProperty, false);
             //  MessagingCenter.Unsubscribe<string>(this, "ChangeWebViewKey");
             Content = stackLayout;
@@ -73,11 +74,17 @@ namespace FAVAC
         protected override async void OnAppearing()
         {
             base.OnAppearing();
-            await progress.ProgressTo(0.9, 900, Easing.SpringIn);
-            MessagingCenter.Subscribe<object>(this, "ChangeWebViewKey", _ => Device.BeginInvokeOnMainThread(() =>
+            MessagingCenter.Subscribe<string>(this, "ChangeWebViewKey", webUrl => Device.BeginInvokeOnMainThread(() =>
             {
-                webView.Source = Settings.ChartURL;
+                webView.Source = webUrl;
             }));
+            try
+            {
+                await progress.ProgressTo(0.9, 900, Easing.SpringIn);
+            } catch (Exception e)
+            {
+                Log.Warning("low", e.ToString());
+            }
         }
     }
 }

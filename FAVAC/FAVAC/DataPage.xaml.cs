@@ -36,8 +36,8 @@ namespace FAVAC
             };
             toolbarItemScan.Clicked += ToolbarItemScan_Clicked;
             ToolbarItems.Add(toolbarItemScan);
-
-            qr_image.Children.Add(GenerateQR(Settings.ChartURL));
+            m_url.Text = Settings.ChartURL;
+            qr_image.Children.Add(GenerateQR(Settings.ChartDATA));
         }
 
         private async void ToolbarItemScan_Clicked(object sender, EventArgs e)
@@ -54,7 +54,7 @@ namespace FAVAC
                     Device.BeginInvokeOnMainThread(() =>
                     {
                         Navigation.PopAsync();
-                        m_url_data.Text = result.Text;
+                        resultOfQRScanning(result.Text);
                     });
                 };
 
@@ -79,10 +79,23 @@ namespace FAVAC
                 VerticalOptions = LayoutOptions.CenterAndExpand,
                 HorizontalOptions = LayoutOptions.CenterAndExpand
             };
-            // Workaround for iOS
             qrCode.WidthRequest = 350;
             qrCode.HeightRequest = 350;
             return qrCode;
+        }
+
+        async void resultOfQRScanning(string result)
+        {
+            var option = await DisplayAlert("Succes!", "Do you want try this chart or set settings?" + result, "Set settings", "Try");
+            if (option)
+            {
+                Settings.ChartDATA = result;
+            }
+            else
+            {
+                await Navigation.PushAsync(new MainWebPage());
+                MessagingCenter.Send<string>(result.Split('*')[1], "ChangeWebViewKey");
+            }
         }
     }
 }

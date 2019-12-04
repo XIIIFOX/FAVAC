@@ -9,6 +9,7 @@
 //        _____\///____\/////////_____\///___________________\/////_______\///_______\///__
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -43,7 +44,8 @@ namespace FAVAC
                 IconImageSource = "ic_share.png"
             };
 
-            toolbarItemShare.Clicked += (s, e) => {
+            toolbarItemShare.Clicked += (s, e) =>
+            {
                 Share.RequestAsync(new ShareTextRequest
                 {
                     Uri = "https://play.google.com/store/apps/dev?id=8434535627357546284",
@@ -74,7 +76,7 @@ namespace FAVAC
             public string Title { get; set; }
             public string ImagePath { get; set; }
         }
-        
+
         private async void itemsList_ItemTapped(object sender, ItemTappedEventArgs e)
         {
             if (e.Item != null)
@@ -104,7 +106,8 @@ namespace FAVAC
 
         private async void itemsListOther_ItemTapped(object sender, ItemTappedEventArgs e)
         {
-            if(e.Item != null) {
+            if (e.Item != null)
+            {
                 ((ListView)sender).SelectedItem = null;
                 switch (e.ItemIndex)
                 {
@@ -123,11 +126,10 @@ namespace FAVAC
                 }
             }
         }
-    
+
         private async void TapGestureRecognizer_Tapped(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new DataPage());
         }
-
     }
 }

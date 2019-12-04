@@ -7,14 +7,15 @@
              mc:Ignorable="d"
              x:Class="FAVAC.DataPage">
     <ContentPage.Content>
+        <ScrollView VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
         <StackLayout Padding="8, 5, 5, 5" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
             <cardView:CardView CardViewOutlineColor="#1E222D">
                 <cardView:CardView.CardViewContent>
-                    <StackLayout Orientation="Vertical" Padding="20,10,5,10">
+                        <StackLayout Orientation="Vertical" Padding="20,10,5,10" IsClippedToBounds="True">
                         <Label Text="COOMMON DATA" FontSize="Title" FontAttributes="Bold" TextColor="#2196F3"/>
                         <StackLayout Orientation="Horizontal" >
                             <Label Text="MAIN CHART" FontSize="Subtitle" VerticalOptions="Center"/>
-                            <Entry x:Name="m_url_data" VerticalOptions="Center" ClearButtonVisibility="WhileEditing"/>
+                            <Entry x:Name="m_url" VerticalOptions="Center" ClearButtonVisibility="WhileEditing" MaxLength="84"/>
                         </StackLayout>
                         <StackLayout Orientation="Vertical" >
                             <BoxView BackgroundColor="#2196F3" HeightRequest="1"/>
@@ -36,5 +37,6 @@
                 </cardView:CardView.CardViewContent>
             </cardView:CardView>
         </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

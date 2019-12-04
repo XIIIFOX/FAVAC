@@ -45,7 +45,7 @@ namespace FAVAC
             Main_side_save(true);
             Detailed_side_save(true);
             Design_side_save(true);
-            MessagingCenter.Send(this, "ChangeWebViewKey");
+            MessagingCenter.Send<string>(Settings.ChartURL, "ChangeWebViewKey");
         }
         void Loader()
         {
@@ -88,7 +88,7 @@ namespace FAVAC
                 Settings.News = (d_news.IsToggled) ? 1 : 0;
                 Settings.NewsCalendar = (d_economiccalendar.IsToggled) ? 1 : 0;
                 Settings.Hotlist = (d_hotlist.IsToggled) ? 1 : 0;
-                Settings.Publish = d_publish.IsChecked;
+                Settings.Publish = !d_publish.IsChecked;
             }
             else
             {
@@ -97,7 +97,7 @@ namespace FAVAC
                 d_news.IsToggled = (Settings.News == 1) ? true : false;
                 d_economiccalendar.IsToggled = (Settings.NewsCalendar == 1) ? true : false;
                 d_hotlist.IsToggled = (Settings.Hotlist == 1) ? true : false;
-                d_publish.IsChecked = Settings.Publish;
+                d_publish.IsChecked = !Settings.Publish;
             }
         }
         void Design_side_save(bool _yes)
