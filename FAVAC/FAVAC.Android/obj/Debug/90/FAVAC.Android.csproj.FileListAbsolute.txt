@@ -730,3 +730,5 @@ C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.Android\obj\Debug\90\android\assets
 C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.Android\obj\Debug\90\android\assets\ZXing.Net.Mobile.Forms.dll
 C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.Android\obj\Debug\90\android\src\md508a116ab629a9168c5f121b9962d8ce6\ZXingBarcodeImageViewRenderer.java
 C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.Android\obj\Debug\90\android\src\md508a116ab629a9168c5f121b9962d8ce6\ZXingScannerViewRenderer.java
+C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.Android\obj\Debug\90\res\drawable\ic_reload.png
+C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.Android\obj\Debug\90\res\drawable\ic_qrcode_scan.png

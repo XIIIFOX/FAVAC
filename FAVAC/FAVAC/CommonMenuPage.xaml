@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:cardView="clr-namespace:CardViewNetStandard;assembly=CardViewNetStandard"
+             mc:Ignorable="d"
+             x:Class="FAVAC.CommonMenuPage">
+    <ContentPage.Content>
+        <StackLayout Padding="8, 8, 8, 8">
+            <cardView:CardView CardViewOutlineColor="#1E222D">
+                <cardView:CardView.CardViewContent>
+                    <StackLayout Orientation="Vertical" Padding="20,10,5,10">
+                        <Label Text="Main" FontSize="Title" TextColor="LightBlue"/>
+                        <!--<StackLayout Orientation="Horizontal" >
+                            <Label Text="Trading View full or mod" VerticalOptions="Center"/>
+                            <Switch IsToggled="True" x:Name="m_mode" Toggled="m_mode_Toggled" VerticalOptions="Center"/>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal" >
+                            <Label Text="Interval" VerticalOptions="Center"/>
+                            <Entry x:Name="m_interval" Text="D" VerticalOptions="Center"/>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal" >
+                            <Label Text="Crypto mode" VerticalOptions="Center"/>
+                            <Entry x:Name="m_interval" Text="D" VerticalOptions="Center"/>
+                        </StackLayout>-->
+                        <StackLayout Orientation="Horizontal" >
+                            <Label Text="Symbol" VerticalOptions="Center"/>
+                            <Entry x:Name="m_symbols"  Text="EURUSD" VerticalOptions="Center"/>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal"  x:Name="m_stackoflang">
+                            <Label Text="Language" VerticalOptions="Center"/>
+                            <Entry x:Name="m_lang" Text="en" VerticalOptions="Center"/>
+                        </StackLayout>
+                        <!--<StackLayout Orientation="Horizontal" IsVisible="False" x:Name="m_stackofdesign">
+                            <Label Text="Dark" VerticalOptions="Center"/>
+                            <Switch IsToggled="True" x:Name="m_theme" VerticalOptions="Center" Toggled="m_theme_Toggled"/>
+                        </StackLayout>-->
+                        <StackLayout Orientation="Vertical" >
+                            <BoxView BackgroundColor="LightBlue" HeightRequest="1"/>
+                            <Button Text="RESET" BackgroundColor="Transparent" Clicked="Button_Clicked" HorizontalOptions="StartAndExpand"/>
+                        </StackLayout>
+                    </StackLayout>
+                </cardView:CardView.CardViewContent>
+            </cardView:CardView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

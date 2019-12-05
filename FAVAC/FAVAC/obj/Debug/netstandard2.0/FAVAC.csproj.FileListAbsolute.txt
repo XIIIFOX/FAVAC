@@ -16,3 +16,4 @@ C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC\obj\Debug\netstandard2.0\FAVAC.dll
 C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC\obj\Debug\netstandard2.0\ref\FAVAC.dll
 C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC\obj\Debug\netstandard2.0\FAVAC.pdb
 C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC\obj\Debug\netstandard2.0\CommonMenuPage.xaml.g.cs

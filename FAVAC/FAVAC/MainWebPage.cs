@@ -15,6 +15,7 @@ using System.Threading;
 using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Internals;
+using ZXing.Net.Mobile.Forms;
 
 namespace FAVAC
 {
@@ -30,6 +31,7 @@ namespace FAVAC
         {
             HorizontalOptions = LayoutOptions.FillAndExpand,
             Progress = 0.2,
+            BackgroundColor = Color.Transparent,
             HeightRequest = 2,
             IsVisible = true
         };
@@ -47,6 +49,20 @@ namespace FAVAC
             {
                 IconImageSource = "ic_tune.png",
                 Text = "Settings",
+                Priority = 3,
+                Order = ToolbarItemOrder.Primary
+            };
+            ToolbarItem toolbarItem_scan = new ToolbarItem
+            {
+                IconImageSource = "ic_qrcode_scan.png",
+                Text = "Scan",
+                Priority = 2,
+                Order = ToolbarItemOrder.Primary
+            };
+            ToolbarItem toolbarItem_reload = new ToolbarItem
+            {
+                IconImageSource = "ic_reload.png",
+                Text = "Reload",
                 Priority = 1,
                 Order = ToolbarItemOrder.Primary
             };
@@ -58,10 +74,41 @@ namespace FAVAC
                 Order = ToolbarItemOrder.Primary
             };
             toolbarItem_settings.Clicked += async (s, v) => await Navigation.PushAsync(new ChartSettingsPage());
+            toolbarItem_scan.Clicked += ToolbarItem_scan_Clicked;
+            toolbarItem_reload.Clicked += (s, v) => webView.Source = Settings.ChartURL;
             toolbarItem_fullscreen.Clicked += async (s, v) => await Navigation.PushAsync(new MainWebPage());
             ToolbarItems.Add(toolbarItem_settings);
             ToolbarItems.Add(toolbarItem_fullscreen);
+            ToolbarItems.Add(toolbarItem_reload);
+            ToolbarItems.Add(toolbarItem_scan);
         }
+
+        private async void ToolbarItem_scan_Clicked(object sender, EventArgs e)
+        {
+            try
+            {
+                var scannerPage = new ZXingScannerPage();
+
+                scannerPage.Title = "Scan QR";
+                scannerPage.OnScanResult += (result) =>
+                {
+                    scannerPage.IsScanning = false;
+
+                    Device.BeginInvokeOnMainThread(() =>
+                    {
+                        Navigation.PopAsync();
+                        ResultOfQRScanning(result.Text);
+                    });
+                };
+
+                await Navigation.PushAsync(scannerPage);
+            }
+            catch (Exception ex)
+            {
+                Log.Warning("Middle", ex.Message);
+            }
+        }
+
         private void WebView_Navigated(object sender, WebNavigatedEventArgs e)
         {
             progress.IsVisible = false;
@@ -81,9 +128,23 @@ namespace FAVAC
             try
             {
                 await progress.ProgressTo(0.9, 900, Easing.SpringIn);
-            } catch (Exception e)
+            }
+            catch (Exception e)
             {
                 Log.Warning("low", e.ToString());
+            }
+        }
+        async void ResultOfQRScanning(string result)
+        {
+            var option = await DisplayAlert("Succes!", "Do you want try this chart or set settings?" + result, "Set settings", "Try");
+            if (option)
+            {
+                Settings.ChartDATA = result;
+                webView.Source = Settings.ChartURL;
+            }
+            else
+            {
+                MessagingCenter.Send<string>(result.Split('*')[1], "ChangeWebViewKey");
             }
         }
     }

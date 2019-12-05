@@ -44,6 +44,7 @@ namespace FAVAC
                 IconImageSource = "ic_share.png"
             };
 
+            toolbarItemSettings.Clicked += async (s, e) => await Navigation.PushAsync(new CommonMenuPage());
             toolbarItemShare.Clicked += (s, e) =>
             {
                 Share.RequestAsync(new ShareTextRequest

@@ -14,6 +14,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 using Xamarin.Forms;
+using Xamarin.Forms.Internals;
 using Xamarin.Forms.Xaml;
 using ZXing;
 using ZXing.Net.Mobile.Forms;
@@ -32,6 +33,7 @@ namespace FAVAC
             {
                 Text = "SCAN",
                 Priority = 0,
+                IconImageSource = "ic_qrcode_scan.png",
                 Order = ToolbarItemOrder.Primary
             };
             toolbarItemScan.Clicked += ToolbarItemScan_Clicked;
@@ -54,15 +56,15 @@ namespace FAVAC
                     Device.BeginInvokeOnMainThread(() =>
                     {
                         Navigation.PopAsync();
-                        resultOfQRScanning(result.Text);
+                        ResultOfQRScanning(result.Text);
                     });
                 };
 
                 await Navigation.PushAsync(scannerPage);
             }
             catch (Exception ex)
-            { 
-                throw;
+            {
+                Log.Warning("Middle", ex.Message);
             }
         }
         ZXingBarcodeImageView GenerateQR(string codeValue)
@@ -84,7 +86,7 @@ namespace FAVAC
             return qrCode;
         }
 
-        async void resultOfQRScanning(string result)
+        async void ResultOfQRScanning(string result)
         {
             var option = await DisplayAlert("Succes!", "Do you want try this chart or set settings?" + result, "Set settings", "Try");
             if (option)
