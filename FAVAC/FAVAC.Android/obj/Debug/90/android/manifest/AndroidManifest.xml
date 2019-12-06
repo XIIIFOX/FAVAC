@@ -8,8 +8,9 @@
   <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.CAMERA" />
-  <application android:label="FAVAC" android:theme="@android:style/Theme.Material" android:name="android.app.Application" android:allowBackup="true" android:icon="@mipmap/icon" android:debuggable="true">
-    <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:icon="@mipmap/icon" android:label="FAVAC" android:theme="@style/MainTheme" android:name="md5d3060196ed1645b423bcfbd4fdd52cef.MainActivity">
+  <application android:label="FAVAC" android:theme="@android:style/Theme.Material" android:icon="@mipmap/ic_launcher" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true">
+    <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:icon="@mipmap/ic_launcher" android:label="FAVAC" android:theme="@style/MainTheme" android:name="md5d3060196ed1645b423bcfbd4fdd52cef.MainActivity" />
+    <activity android:noHistory="true" android:theme="@style/MyTheme.Splash" android:name="md5d3060196ed1645b423bcfbd4fdd52cef.SplashActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />

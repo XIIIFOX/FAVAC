@@ -27,4 +27,9 @@
   <style name="AppCompatDialogStyle" parent="Theme.AppCompat.Dialog">
     <item name="colorAccent">@color/colorAccent</item>
   </style>
+
+  <style name="MyTheme.Splash" parent="Theme.AppCompat">
+    <item name="android:windowBackground">@drawable/splash_screen</item>
+    <item name="android:windowNoTitle">true</item>
+  </style>
 </resources>

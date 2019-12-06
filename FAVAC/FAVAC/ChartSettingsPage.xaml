@@ -34,7 +34,7 @@
                             <Label Text="Main" FontSize="Title" TextColor="LightBlue"/>
                             <StackLayout Orientation="Horizontal" >
                                 <Label Text="Trading View mod widget chart" VerticalOptions="Center"/>
-                                <Switch IsToggled="True" x:Name="m_mode" Toggled="m_mode_Toggled" VerticalOptions="Center"/>
+                                <Switch IsToggled="True" x:Name="m_mode" Toggled="Mode_Toggled" VerticalOptions="Center"/>
                             </StackLayout>
                             <StackLayout Orientation="Horizontal" >
                                 <Label Text="Symbols" VerticalOptions="Center"/>
@@ -50,7 +50,7 @@
                             </StackLayout>
                             <StackLayout Orientation="Horizontal" IsVisible="False" x:Name="m_stackofdesign">
                                 <Label Text="Dark" VerticalOptions="Center"/>
-                                <Switch IsToggled="True" x:Name="m_theme" VerticalOptions="Center" Toggled="m_theme_Toggled"/>
+                                <Switch IsToggled="True" x:Name="m_theme" VerticalOptions="Center" Toggled="Theme_Toggled"/>
                             </StackLayout>
                             <StackLayout Orientation="Horizontal" x:Name="m_stackofbars">
                                 <Label Text="Style of bars" VerticalOptions="Center"/>
@@ -123,7 +123,7 @@
                             <Label Text="Theme" FontSize="Title" TextColor="LightBlue"/>
                             <StackLayout Orientation="Horizontal" >
                                 <Label Text="Dark" VerticalOptions="Center"/>
-                                <Switch IsToggled="True" x:Name="o_theme" VerticalOptions="Center" Toggled="m_theme_Toggled"/>
+                                <Switch IsToggled="True" x:Name="o_theme" VerticalOptions="Center" Toggled="Theme_Toggled"/>
                             </StackLayout>
                             <StackLayout Orientation="Vertical"  >
                                 <BoxView BackgroundColor="LightBlue" HeightRequest="1" />

@@ -7,7 +7,7 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="7e34f2e3-31d5-4867-af89-de679067fa68" Publisher="CN=8fafeafc-6073-4e5f-b545-aecb59603178" Version="1.0.0.0" ProcessorArchitecture="x86" />
+  <Identity Name="7e34f2e3-31d5-4867-af89-de679067fa68" Publisher="CN=8fafeafc-6073-4e5f-b545-aecb59603178" Version="0.1.0.0" ProcessorArchitecture="x86" />
   <mp:PhoneIdentity PhoneProductId="ec0cc741-fd3e-485c-81be-68815c480690" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>FAVAC.UWP</DisplayName>
@@ -26,15 +26,15 @@
   </Resources>
   <Applications>
     <Application Id="App" Executable="FAVAC.UWP.exe" EntryPoint="FAVAC.UWP.App">
-      <uap:VisualElements DisplayName="FAVAC.UWP" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="FAVAC.UWP" BackgroundColor="transparent">
-        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" Square310x310Logo="Assets\LargeTile.png" Square71x71Logo="Assets\SmallTile.png">
+      <uap:VisualElements DisplayName="FAVAC" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="FAVAC.UWP" BackgroundColor="#0F4C81">
+        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" Square310x310Logo="Assets\LargeTile.png" Square71x71Logo="Assets\SmallTile.png" ShortName="FAVAC">
           <uap:ShowNameOnTiles>
-            <uap:ShowOn Tile="square150x150Logo" />
             <uap:ShowOn Tile="wide310x150Logo" />
             <uap:ShowOn Tile="square310x310Logo" />
+            <uap:ShowOn Tile="square150x150Logo" />
           </uap:ShowNameOnTiles>
         </uap:DefaultTile>
-        <uap:SplashScreen Image="Assets\SplashScreen.png" />
+        <uap:SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="#0F4C81" />
       </uap:VisualElements>
     </Application>
   </Applications>

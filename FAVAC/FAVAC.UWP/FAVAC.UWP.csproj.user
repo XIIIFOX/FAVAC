@@ -5,4 +5,14 @@
     <AuthenticationMode>None</AuthenticationMode>
     <RemoteDebugEnabled>false</RemoteDebugEnabled>
   </PropertyGroup>
+  <PropertyGroup>
+    <Source>C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\Assets\FAVAC_IC_APP.png</Source>
+    <SmallTileSource>C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\Assets\FAVAC_IC_APP.png</SmallTileSource>
+    <MediumTileSource>C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\Assets\FAVAC_IC_APP.png</MediumTileSource>
+    <WideTileSource>C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\Assets\FAVAC_IC_APP.png</WideTileSource>
+    <LargeTileSource>C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\Assets\FAVAC_IC_APP.png</LargeTileSource>
+    <AppIconSource>C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\Assets\FAVAC_IC_APP.png</AppIconSource>
+    <SplashScreenSource>C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\Assets\FAVAC_IC_APP.png</SplashScreenSource>
+    <PackageLogoSource>C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\Assets\FAVAC_IC_APP.png</PackageLogoSource>
+  </PropertyGroup>
 </Project>

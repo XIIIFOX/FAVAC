@@ -138,7 +138,7 @@ namespace FAVAC
             }
         }
 
-        private void m_mode_Toggled(object sender, ToggledEventArgs e)
+        private void Mode_Toggled(object sender, ToggledEventArgs e)
         {
             detailed_card.IsVisible = m_mode.IsToggled;
             theme_card.IsVisible = m_mode.IsToggled;
@@ -146,7 +146,7 @@ namespace FAVAC
             m_stackofdesign.IsVisible = !m_mode.IsToggled;
             m_stackoflang.IsVisible = m_mode.IsToggled;
         }
-        private void m_theme_Toggled(object sender, ToggledEventArgs e)
+        private void Theme_Toggled(object sender, ToggledEventArgs e)
         {
             if (sender == m_theme) o_theme.IsToggled = m_theme.IsToggled; else m_theme.IsToggled = o_theme.IsToggled;
         }
