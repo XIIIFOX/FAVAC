@@ -727,3 +727,5 @@ C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.Android\obj\Debug\90\res\mipmap-xxx
 C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.Android\obj\Debug\90\res\mipmap-hdpi\ic_launcher.png
 C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.Android\obj\Debug\90\res\drawable\splash_screen.xml
 C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.Android\obj\Debug\90\android\src\md5d3060196ed1645b423bcfbd4fdd52cef\SplashActivity.java
+C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.Android\obj\Debug\90\res\drawable\unselected_circle.png
+C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.Android\obj\Debug\90\res\drawable\selected_circle.png

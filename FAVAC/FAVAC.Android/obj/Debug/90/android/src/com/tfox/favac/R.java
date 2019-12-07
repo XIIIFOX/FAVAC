@@ -4613,12 +4613,14 @@ public final class R {
     public static final int round_show_chart_white_24=0x7f07009b;
     public static final int round_show_chart_white_36=0x7f07009c;
     public static final int round_show_chart_white_48=0x7f07009d;
-    public static final int splash_screen=0x7f07009e;
-    public static final int telegram=0x7f07009f;
-    public static final int tfox_logo=0x7f0700a0;
-    public static final int tooltip_frame_dark=0x7f0700a1;
-    public static final int tooltip_frame_light=0x7f0700a2;
-    public static final int vk=0x7f0700a3;
+    public static final int selected_circle=0x7f07009e;
+    public static final int splash_screen=0x7f07009f;
+    public static final int telegram=0x7f0700a0;
+    public static final int tfox_logo=0x7f0700a1;
+    public static final int tooltip_frame_dark=0x7f0700a2;
+    public static final int tooltip_frame_light=0x7f0700a3;
+    public static final int unselected_circle=0x7f0700a4;
+    public static final int vk=0x7f0700a5;
   }
   public static final class id {
     public static final int ALT=0x7f080000;

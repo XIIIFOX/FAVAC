@@ -28,7 +28,7 @@
     <Import Project="$(NuGetPackageRoot)microsoft.net.uwpcoreruntimesdk\2.2.9\build\Microsoft.Net.UWPCoreRuntimeSdk.props" Condition="Exists('$(NuGetPackageRoot)microsoft.net.uwpcoreruntimesdk\2.2.9\build\Microsoft.Net.UWPCoreRuntimeSdk.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.net.native.compiler\2.2.7-rel-27913-00\build\Microsoft.Net.Native.Compiler.props" Condition="Exists('$(NuGetPackageRoot)microsoft.net.native.compiler\2.2.7-rel-27913-00\build\Microsoft.Net.Native.Compiler.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.netcore.universalwindowsplatform\6.2.9\build\Microsoft.NETCore.UniversalWindowsPlatform.props" Condition="Exists('$(NuGetPackageRoot)microsoft.netcore.universalwindowsplatform\6.2.9\build\Microsoft.NETCore.UniversalWindowsPlatform.props')" />
-    <Import Project="$(NuGetPackageRoot)xamarin.forms\4.3.0.991211\build\Xamarin.Forms.props" Condition="Exists('$(NuGetPackageRoot)xamarin.forms\4.3.0.991211\build\Xamarin.Forms.props')" />
+    <Import Project="$(NuGetPackageRoot)xamarin.forms\4.3.0.991221\build\Xamarin.Forms.props" Condition="Exists('$(NuGetPackageRoot)xamarin.forms\4.3.0.991221\build\Xamarin.Forms.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Pkgruntime_win10-x86_Microsoft_Net_UWPCoreRuntimeSdk Condition=" '$(Pkgruntime_win10-x86_Microsoft_Net_UWPCoreRuntimeSdk)' == '' ">C:\Users\pvbk\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9</Pkgruntime_win10-x86_Microsoft_Net_UWPCoreRuntimeSdk>

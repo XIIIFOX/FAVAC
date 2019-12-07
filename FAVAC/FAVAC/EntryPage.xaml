@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+              xmlns:cutomControl="clr-namespace:FAVAC"
+             x:Class="FAVAC.EntryPage">
+    <ContentPage.Content>
+        <StackLayout  Padding="0,0,0,5" BackgroundColor="#d8d8d8" >
+            <CarouselView x:Name="cview" ItemsSource="{Binding Elements}" Position="{Binding Position, Mode=TwoWay}">
+                <CarouselView.ItemTemplate>
+                    <DataTemplate>
+                        <Image  Aspect="AspectFill" HorizontalOptions="Center" VerticalOptions="Center" Source="{Binding PickedImage}" />
+                    </DataTemplate>
+                </CarouselView.ItemTemplate>
+            </CarouselView>
+            <cutomControl:CarouselIndicators IndicatorHeight="16" IndicatorWidth="16" UnselectedIndicator="unselected_circle.png" SelectedIndicator="selected_circle.png" Position="{Binding Position}" ItemsSource="{Binding Elements}" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

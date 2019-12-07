@@ -7,6 +7,7 @@ using Windows.ApplicationModel;
 using Windows.ApplicationModel.Activation;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.UI.ViewManagement;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -39,7 +40,23 @@ namespace FAVAC.UWP
         /// <param name="e">Details about the launch request and process.</param>
         protected override void OnLaunched(LaunchActivatedEventArgs e)
         {
+            //var titleBar = ApplicationView.GetForCurrentView().TitleBar;
 
+            //// Set active window colors
+            //titleBar.ForegroundColor = Windows.UI.Colors.White;
+            //titleBar.BackgroundColor = Windows.UI.Colors.Green;
+            //titleBar.ButtonForegroundColor = Windows.UI.Colors.White;
+            //titleBar.ButtonBackgroundColor = Windows.UI.Colors.SeaGreen;
+            //titleBar.ButtonHoverForegroundColor = Windows.UI.Colors.White;
+            //titleBar.ButtonHoverBackgroundColor = Windows.UI.Colors.DarkSeaGreen;
+            //titleBar.ButtonPressedForegroundColor = Windows.UI.Colors.Gray;
+            //titleBar.ButtonPressedBackgroundColor = Windows.UI.Colors.LightGreen;
+
+            //// Set inactive window colors
+            //titleBar.InactiveForegroundColor = Windows.UI.Colors.Gray;
+            //titleBar.InactiveBackgroundColor = Windows.UI.Colors.SeaGreen;
+            //titleBar.ButtonInactiveForegroundColor = Windows.UI.Colors.Gray;
+            //titleBar.ButtonInactiveBackgroundColor = Windows.UI.Colors.SeaGreen;
 
             Frame rootFrame = Window.Current.Content as Frame;
 

@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-12-06T18:48:39.383</Modified>
+      <Modified>2019-12-07T18:23:22.349</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\bin\x86\Debug\FAVAC.UWP.exe">
       <PackagePath>entrypoint\FAVAC.UWP.exe</PackagePath>
-      <Modified>2019-12-06T18:19:59.549</Modified>
+      <Modified>2019-12-07T18:23:17.289</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pvbk\.nuget\packages\htmlagilitypack\1.11.17\lib\uap10.0\HtmlAgilityPack.dll">
       <PackagePath>HtmlAgilityPack.dll</PackagePath>
@@ -70,21 +70,21 @@
       <PackagePath>Xamarin.Essentials.dll</PackagePath>
       <Modified>2019-09-18T21:33:26.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pvbk\.nuget\packages\xamarin.forms\4.3.0.991211\lib\uap10.0\Xamarin.Forms.Core.dll">
+    <AppxPackagedFile Include="C:\Users\pvbk\.nuget\packages\xamarin.forms\4.3.0.991221\lib\uap10.0\Xamarin.Forms.Core.dll">
       <PackagePath>Xamarin.Forms.Core.dll</PackagePath>
-      <Modified>2019-11-12T01:16:00.000</Modified>
+      <Modified>2019-12-03T00:05:32.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pvbk\.nuget\packages\xamarin.forms\4.3.0.991211\lib\uap10.0\Xamarin.Forms.Platform.UAP.dll">
+    <AppxPackagedFile Include="C:\Users\pvbk\.nuget\packages\xamarin.forms\4.3.0.991221\lib\uap10.0\Xamarin.Forms.Platform.UAP.dll">
       <PackagePath>Xamarin.Forms.Platform.UAP.dll</PackagePath>
-      <Modified>2019-11-12T01:16:02.000</Modified>
+      <Modified>2019-12-03T00:05:32.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pvbk\.nuget\packages\xamarin.forms\4.3.0.991211\lib\uap10.0\Xamarin.Forms.Platform.dll">
+    <AppxPackagedFile Include="C:\Users\pvbk\.nuget\packages\xamarin.forms\4.3.0.991221\lib\uap10.0\Xamarin.Forms.Platform.dll">
       <PackagePath>Xamarin.Forms.Platform.dll</PackagePath>
-      <Modified>2019-11-12T01:16:02.000</Modified>
+      <Modified>2019-12-03T00:05:32.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pvbk\.nuget\packages\xamarin.forms\4.3.0.991211\lib\uap10.0\Xamarin.Forms.Xaml.dll">
+    <AppxPackagedFile Include="C:\Users\pvbk\.nuget\packages\xamarin.forms\4.3.0.991221\lib\uap10.0\Xamarin.Forms.Xaml.dll">
       <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
-      <Modified>2019-11-12T01:16:02.000</Modified>
+      <Modified>2019-12-03T00:05:34.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pvbk\.nuget\packages\xamarinforms.cardview.netstandard\1.1.1.5\lib\netstandard2.0\CardViewNetStandard.dll">
       <PackagePath>CardViewNetStandard.dll</PackagePath>
@@ -112,7 +112,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC\bin\Debug\netstandard2.0\FAVAC.dll">
       <PackagePath>FAVAC.dll</PackagePath>
-      <Modified>2019-12-06T18:08:17.097</Modified>
+      <Modified>2019-12-07T18:14:47.815</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pvbk\.nuget\packages\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
@@ -457,15 +457,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\bin\x86\Debug\Microsoft.UI.Xaml\DensityStyles\Compact.xbf">
       <PackagePath>Microsoft.UI.Xaml\DensityStyles\Compact.xbf</PackagePath>
-      <Modified>2019-12-06T16:31:59.909</Modified>
+      <Modified>2019-12-07T18:23:16.819</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-12-06T16:31:59.910</Modified>
+      <Modified>2019-12-07T18:23:16.820</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-12-06T16:31:59.911</Modified>
+      <Modified>2019-12-07T18:23:16.820</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.17763.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -479,9 +479,9 @@
       <PackagePath>WinMetadata\Microsoft.UI.Xaml.winmd</PackagePath>
       <Modified>2019-06-07T08:59:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pvbk\.nuget\packages\xamarin.forms\4.3.0.991211\lib\uap10.0\Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml">
+    <AppxPackagedFile Include="C:\Users\pvbk\.nuget\packages\xamarin.forms\4.3.0.991221\lib\uap10.0\Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml">
       <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>
-      <Modified>2019-11-12T01:15:56.000</Modified>
+      <Modified>2019-12-03T00:05:28.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pvbk\.nuget\packages\zxing.net.mobile\2.4.1\lib\UAP10\ZXingNetMobile\ZXingNetMobile.xr.xml">
       <PackagePath>ZXingNetMobile\ZXingNetMobile.xr.xml</PackagePath>
@@ -489,11 +489,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-12-06T18:48:37.318</Modified>
+      <Modified>2019-12-07T18:23:19.114</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\bin\x86\Debug\Core\FAVAC.UWP.exe">
       <PackagePath>FAVAC.UWP.exe</PackagePath>
-      <Modified>2019-12-06T18:48:39.368</Modified>
+      <Modified>2019-12-07T18:23:22.288</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

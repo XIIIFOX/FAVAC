@@ -110,7 +110,7 @@
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/4.3.0.991211": {
+      "Xamarin.Forms/4.3.0.991221": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -281,7 +281,7 @@
           "LH.BottomNavigationBar.XF": "1.0.42",
           "Xam.Plugins.Settings": "3.1.1",
           "Xamarin.Essentials": "1.3.1",
-          "Xamarin.Forms": "4.3.0.991211",
+          "Xamarin.Forms": "4.3.0.991221",
           "XamarinForms.CardView.NetStandard": "1.1.1.5",
           "ZXing.Net.Mobile": "2.4.1",
           "ZXing.Net.Mobile.Forms": "2.4.1"
@@ -393,7 +393,7 @@
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/4.3.0.991211": {
+      "Xamarin.Forms/4.3.0.991221": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -564,7 +564,7 @@
           "LH.BottomNavigationBar.XF": "1.0.42",
           "Xam.Plugins.Settings": "3.1.1",
           "Xamarin.Essentials": "1.3.1",
-          "Xamarin.Forms": "4.3.0.991211",
+          "Xamarin.Forms": "4.3.0.991221",
           "XamarinForms.CardView.NetStandard": "1.1.1.5",
           "ZXing.Net.Mobile": "2.4.1",
           "ZXing.Net.Mobile.Forms": "2.4.1"
@@ -676,7 +676,7 @@
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/4.3.0.991211": {
+      "Xamarin.Forms/4.3.0.991221": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -847,7 +847,7 @@
           "LH.BottomNavigationBar.XF": "1.0.42",
           "Xam.Plugins.Settings": "3.1.1",
           "Xamarin.Essentials": "1.3.1",
-          "Xamarin.Forms": "4.3.0.991211",
+          "Xamarin.Forms": "4.3.0.991221",
           "XamarinForms.CardView.NetStandard": "1.1.1.5",
           "ZXing.Net.Mobile": "2.4.1",
           "ZXing.Net.Mobile.Forms": "2.4.1"
@@ -959,7 +959,7 @@
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/4.3.0.991211": {
+      "Xamarin.Forms/4.3.0.991221": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -1130,7 +1130,7 @@
           "LH.BottomNavigationBar.XF": "1.0.42",
           "Xam.Plugins.Settings": "3.1.1",
           "Xamarin.Essentials": "1.3.1",
-          "Xamarin.Forms": "4.3.0.991211",
+          "Xamarin.Forms": "4.3.0.991221",
           "XamarinForms.CardView.NetStandard": "1.1.1.5",
           "ZXing.Net.Mobile": "2.4.1",
           "ZXing.Net.Mobile.Forms": "2.4.1"
@@ -1535,10 +1535,10 @@
         "xamarin.essentials.nuspec"
       ]
     },
-    "Xamarin.Forms/4.3.0.991211": {
-      "sha512": "cWbxRKy6oPbFvpw2K6Du3bSo34LDyVKYSR6jCDSbB3Ieyj6549bWQbBLUEptRGQQ8fhDTcJQ/ezqwGwxd+7bkg==",
+    "Xamarin.Forms/4.3.0.991221": {
+      "sha512": "Yh3kxXj+fnERLZfh8gNbcFWflSL0PvPh3aHtq2tpXInInVNeWDUb0qitChUm2hgJSSOpn3MBa/55nxcqPM4Kog==",
       "type": "package",
-      "path": "xamarin.forms/4.3.0.991211",
+      "path": "xamarin.forms/4.3.0.991221",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1780,7 +1780,7 @@
         "lib/uap10.0/Xamarin.Forms.Xaml.dll",
         "lib/uap10.0/Xamarin.Forms.Xaml.pdb",
         "lib/uap10.0/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.4.3.0.991211.nupkg.sha512",
+        "xamarin.forms.4.3.0.991221.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
     },
@@ -1853,7 +1853,7 @@
       "LH.BottomNavigationBar.XF >= 1.0.42",
       "Xam.Plugins.Settings >= 3.1.1",
       "Xamarin.Essentials >= 1.3.1",
-      "Xamarin.Forms >= 4.3.0.991211",
+      "Xamarin.Forms >= 4.3.0.991221",
       "XamarinForms.CardView.NetStandard >= 1.1.1.5",
       "ZXing.Net.Mobile >= 2.4.1",
       "ZXing.Net.Mobile.Forms >= 2.4.1"
@@ -1919,7 +1919,7 @@
           },
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "[4.3.0.991211, )"
+            "version": "[4.3.0.991221, )"
           },
           "XamarinForms.CardView.NetStandard": {
             "target": "Package",

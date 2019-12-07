@@ -16,6 +16,7 @@ using Android.Views;
 using Android.Widget;
 using Android.OS;
 using Android.Content.Res;
+using Xamarin.Forms;
 
 namespace FAVAC.Droid
 {
@@ -30,6 +31,7 @@ namespace FAVAC.Droid
             base.OnCreate(savedInstanceState);
 
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
+            Forms.SetFlags("CollectionView_Experimental");
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
             LoadApplication(new App());
             Window.SetNavigationBarColor(Android.Graphics.Color.ParseColor("#212121"));

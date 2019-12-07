@@ -12,7 +12,7 @@
     <PackageReference Include="HtmlAgilityPack" Version="1.11.17" />
     <PackageReference Include="LH.BottomNavigationBar.XF" Version="1.0.42" />
     <PackageReference Include="Xam.Plugins.Settings" Version="3.1.1" />
-    <PackageReference Include="Xamarin.Forms" Version="4.3.0.991211" />
+    <PackageReference Include="Xamarin.Forms" Version="4.3.0.991221" />
     <PackageReference Include="Xamarin.Essentials" Version="1.3.1" />
     <PackageReference Include="XamarinForms.CardView.NetStandard" Version="1.1.1.5" />
     <PackageReference Include="ZXing.Net.Mobile" Version="2.4.1" />
@@ -33,6 +33,9 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="DataPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="EntryPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="MorePage.xaml">
