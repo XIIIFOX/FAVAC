@@ -12,16 +12,14 @@
             <cardView:CardView CardViewOutlineColor="#1E222D">
                 <cardView:CardView.CardViewContent>
                         <StackLayout Orientation="Vertical" Padding="20,10,5,10" IsClippedToBounds="True">
-                        <Label Text="COOMMON DATA" FontSize="Title" FontAttributes="Bold" TextColor="#2196F3"/>
-                        <StackLayout Orientation="Horizontal" >
-                            <Label Text="MAIN CHART" FontSize="Subtitle" VerticalOptions="Center"/>
-                            <Entry x:Name="m_url" VerticalOptions="Center" ClearButtonVisibility="WhileEditing" MaxLength="84"/>
-                        </StackLayout>
-                        <StackLayout Orientation="Vertical" >
+                            <Label Text="COOMMON DATA" FontSize="Title" FontAttributes="Bold" TextColor="#2196F3"/>
+                            <Label Text="MAIN CHART" FontSize="Subtitle" VerticalOptions="CenterAndExpand"/>
+                            <Editor x:Name="m_url" VerticalOptions="FillAndExpand" AutoSize="TextChanges" IsSpellCheckEnabled="false" IsReadOnly="True"/>
+                            <StackLayout Orientation="Vertical" >
                             <BoxView BackgroundColor="#2196F3" HeightRequest="1"/>
                             <StackLayout Orientation="Horizontal">
-                                <Button Text="COPY" BackgroundColor="Transparent"  HorizontalOptions="StartAndExpand"/>
-                                <Button Text="SHARE" BackgroundColor="Transparent"  HorizontalOptions="StartAndExpand"/>
+                                <Button Text="COPY" BackgroundColor="Transparent"  HorizontalOptions="StartAndExpand" Clicked="Button_Clicked"/>
+                                <Button Text="SHARE" BackgroundColor="Transparent"  HorizontalOptions="StartAndExpand" Clicked="Button_Clicked_1"/>
                             </StackLayout>
                         </StackLayout>
                     </StackLayout>

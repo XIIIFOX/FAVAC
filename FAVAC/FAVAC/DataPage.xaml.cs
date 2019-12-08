@@ -12,7 +12,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Internals;
 using Xamarin.Forms.Xaml;
@@ -92,12 +92,28 @@ namespace FAVAC
             if (option)
             {
                 Settings.ChartDATA = result;
+                m_url.Text = Settings.ChartURL;
+                GenerateQR(Settings.ChartDATA);
             }
             else
             {
                 await Navigation.PushAsync(new MainWebPage());
                 MessagingCenter.Send<string>(result.Split('*')[1], "ChangeWebViewKey");
             }
+        }
+
+        private async void Button_Clicked(object sender, EventArgs e)
+        {
+            await Clipboard.SetTextAsync(m_url.Text);
+        }
+
+        private void Button_Clicked_1(object sender, EventArgs e)
+        {
+            Share.RequestAsync(new ShareTextRequest
+            {
+                Uri = m_url.Text,
+                Title = "Share This Url"
+            });
         }
     }
 }

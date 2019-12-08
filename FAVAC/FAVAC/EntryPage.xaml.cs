@@ -41,7 +41,6 @@ namespace FAVAC
             new CommonViewItem {PickedImage="vk.png"}
             };
 
-
             this.BindingContext = this;
         }
 

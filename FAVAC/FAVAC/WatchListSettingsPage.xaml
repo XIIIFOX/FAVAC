@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:cardView="clr-namespace:CardViewNetStandard;assembly=CardViewNetStandard"
+             mc:Ignorable="d"
+             x:Class="FAVAC.WatchListSettingsPage">
+    <ContentPage.Content>
+        <StackLayout Padding="8, 5, 5, 5" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+            <cardView:CardView CardViewOutlineColor="#1E222D">
+                <cardView:CardView.CardViewContent>
+                    <StackLayout Orientation="Vertical" Padding="20,10,5,10">
+                        <Label Text="MAIN" FontSize="Title" FontAttributes="Bold" TextColor="#2196F3"/>
+                        <StackLayout Orientation="Horizontal" >
+                            <Label Text="Language" FontSize="Subtitle" VerticalOptions="Center"/>
+                            <Entry x:Name="lang" VerticalOptions="Center" ClearButtonVisibility="WhileEditing" />
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal" >
+                            <Label Text="Interval" FontSize="Subtitle" VerticalOptions="Center"/>
+                            <Entry x:Name="interval" VerticalOptions="Center" ClearButtonVisibility="WhileEditing"/>
+                        </StackLayout>
+                        <StackLayout Orientation="Vertical" >
+                            <BoxView BackgroundColor="#2196F3" HeightRequest="1"/>
+                            <Button Text="RESET" BackgroundColor="Transparent" HorizontalOptions="StartAndExpand"/>
+                        </StackLayout>
+                    </StackLayout>
+                </cardView:CardView.CardViewContent>
+            </cardView:CardView>
+
+            <CarouselView x:Name="cview" ItemsSource="{Binding Elements}" Position="{Binding Position, Mode=TwoWay}">
+                <CarouselView.ItemTemplate>
+                    <DataTemplate>
+                        <cardView:CardView CardViewOutlineColor="#1E222D">
+                            <cardView:CardView.CardViewContent>
+                                <StackLayout Orientation="Vertical" Padding="20,10,5,10">
+                                    <Entry Keyboard="Text" HorizontalOptions="Center" VerticalOptions="Center" Text="{Binding Label}" MaxLength="20" ReturnType="Send" IsSpellCheckEnabled="false"/>
+                                    <Editor Keyboard="Text" HorizontalOptions="Center" VerticalOptions="FillAndExpand" Text="{Binding Symbols}" IsSpellCheckEnabled="false" Placeholder="EURUSD\nEURCAD\nGBPUSD" />
+                                </StackLayout>
+                            </cardView:CardView.CardViewContent>
+                        </cardView:CardView>
+                    </DataTemplate>
+                </CarouselView.ItemTemplate>
+            </CarouselView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

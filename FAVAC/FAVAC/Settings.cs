@@ -63,7 +63,7 @@ namespace FAVAC
                 return _main1 + "*" + ChartURL; }
             set {
                 string[] DATA = value.Split('*')[0].Split('|');
-                Mode = (DATA[0] == "true") ? false : true;
+                Mode = (DATA[0] == "true") ? true : false;
                 Symbols = DATA[1];
                 Interval = DATA[2];
                 Language = DATA[3];
@@ -153,6 +153,11 @@ namespace FAVAC
         {
             get { return AppSettings.GetValueOrDefault("watchlist_url", ""); }
             set { AppSettings.AddOrUpdateValue("watchlist_url", value);}
+        }
+        public static string Watchlist_Data
+        {
+            get { return AppSettings.GetValueOrDefault("watchlist_data", $"wwwd\nww\nd|ee\ndd\ndd"); }
+            set { AppSettings.AddOrUpdateValue("watchlist_data", value);}
         }
     }
 }
