@@ -16,7 +16,7 @@
                                 <Label Text="SYMBOL INFO" FontSize="Title" FontAttributes="Bold" TextColor="#2196F3"/>
                                 <StackLayout Orientation="Horizontal" >
                                     <Label Text="SYMBOL" FontSize="Subtitle" VerticalOptions="Center"/>
-                                    <Entry x:Name="m_symbols" VerticalOptions="Center" ClearButtonVisibility="WhileEditing" Completed="m_symbols_Completed"/>
+                                    <Entry x:Name="m_symbols" VerticalOptions="Center" ClearButtonVisibility="WhileEditing" Completed="m_symbols_Completed"  IsSpellCheckEnabled="false" Keyboard="Text"/>
                                 </StackLayout>
                                 <StackLayout Orientation="Vertical" >
                                     <BoxView BackgroundColor="#2196F3" HeightRequest="1"/>

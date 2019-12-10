@@ -1,6 +1,130 @@
 <html>
 <body style="padding: 0; margin: 0; background-color: #2196F3;">
  
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://uk.tradingview.com" rel="noopener" target="_blank"><span class="blue-text">Market Data</span></a> by TradingView</div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
+  {
+  "colorTheme": "dark",
+  "dateRange": "12m",
+  "showChart": true,
+  "locale": "uk",
+  "width": "400",
+  "height": "660",
+  "largeChartUrl": "https://_/{tvexchange}:{tvsymbol}",
+  "isTransparent": false,
+  "plotLineColorGrowing": "rgba(25, 118, 210, 1)",
+  "plotLineColorFalling": "rgba(25, 118, 210, 1)",
+  "gridLineColor": "rgba(42, 46, 57, 1)",
+  "scaleFontColor": "rgba(120, 123, 134, 1)",
+  "belowLineFillColorGrowing": "rgba(33, 150, 243, 0.12)",
+  "belowLineFillColorFalling": "rgba(33, 150, 243, 0.12)",
+  "symbolActiveColor": "rgba(33, 150, 243, 0.12)",
+  "tabs": [
+    {
+      "title": "Indices",
+      "symbols": [
+        {
+          "s": "OANDA:SPX500USD"
+        },
+        {
+          "s": "OANDA:NAS100USD"
+        },
+        {
+          "s": "FOREXCOM:DJI"
+        },
+        {
+          "s": "INDEX:NKY"
+        },
+        {
+          "s": "INDEX:DEU30"
+        },
+        {
+          "s": "OANDA:UK100GBP"
+        }
+      ],
+      "originalTitle": "Indices"
+    },
+    {
+      "title": "Commodities",
+      "symbols": [
+        {
+          "s": "CME_MINI:ES1!"
+        },
+        {
+          "s": "CME:6E1!"
+        },
+        {
+          "s": "COMEX:GC1!"
+        },
+        {
+          "s": "NYMEX:CL1!"
+        },
+        {
+          "s": "NYMEX:NG1!"
+        },
+        {
+          "s": "CBOT:ZC1!"
+        }
+      ],
+      "originalTitle": "Commodities"
+    },
+    {
+      "title": "Bonds",
+      "symbols": [
+        {
+          "s": "CME:GE1!\t"
+        },
+        {
+          "s": "CBOT:ZB1!\t"
+        },
+        {
+          "s": "CBOT:UB1!"
+        },
+        {
+          "s": "EUREX:FGBL1!"
+        },
+        {
+          "s": "EUREX:FBTP1!"
+        },
+        {
+          "s": "EUREX:FGBM1!"
+        }
+      ],
+      "originalTitle": "Bonds"
+    },
+    {
+      "title": "Forex",
+      "symbols": [
+        {
+          "s": "FX:EURUSD"
+        },
+        {
+          "s": "FX:GBPUSD"
+        },
+        {
+          "s": "FX:USDJPY"
+        },
+        {
+          "s": "FX:USDCHF"
+        },
+        {
+          "s": "FX:AUDUSD"
+        },
+        {
+          "s": "FX:USDCAD"
+        }
+      ],
+      "originalTitle": "Forex"
+    }
+  ]
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->
+
  <!-- TradingView Widget BEGIN -->
 <div class="tradingview-widget-container">
   <div class="tradingview-widget-container__widget"></div>

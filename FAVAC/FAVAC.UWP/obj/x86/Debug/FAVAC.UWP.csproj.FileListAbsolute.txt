@@ -81,3 +81,5 @@ C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\obj\x86\Debug\ZXing.Net.Mobile.
 C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\obj\x86\Debug\.winmd_cache\$Microsoft.Graphics.Canvas.winmd_636160607180000000.json
 C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636758444200000000.json
+C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\bin\x86\Debug\Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml
+C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\bin\x86\Debug\ZXingNetMobile\ZXingNetMobile.xr.xml
