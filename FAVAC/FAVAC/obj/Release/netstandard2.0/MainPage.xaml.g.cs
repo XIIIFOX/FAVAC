@@ -23,22 +23,22 @@ namespace FAVAC {
         private global::FAVAC.MainWebPage chart_page;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::FAVAC.MainWebPage news_ideas_page;
+        private global::FAVAC.NewsIdeasPage news_ideas_page;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::FAVAC.AnylazePage signals_page;
+        private global::FAVAC.AnalyzePage signals_page;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::FAVAC.MainWebPage more_page;
+        private global::FAVAC.MorePage more_page;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(MainPage));
             quotes_page = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::FAVAC.WatchListPage>(this, "quotes_page");
             chart_page = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::FAVAC.MainWebPage>(this, "chart_page");
-            news_ideas_page = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::FAVAC.MainWebPage>(this, "news_ideas_page");
-            signals_page = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::FAVAC.AnylazePage>(this, "signals_page");
-            more_page = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::FAVAC.MainWebPage>(this, "more_page");
+            news_ideas_page = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::FAVAC.NewsIdeasPage>(this, "news_ideas_page");
+            signals_page = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::FAVAC.AnalyzePage>(this, "signals_page");
+            more_page = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::FAVAC.MorePage>(this, "more_page");
         }
     }
 }

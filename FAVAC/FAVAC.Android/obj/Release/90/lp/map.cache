@@ -1,5 +1,6 @@
 BottomBar.Droid
 BottomNavigationBar
+FastAndroidCamera
 FormsViewGroup
 Plugin.Settings
 Xamarin.Android.Arch.Core.Common
@@ -42,4 +43,5 @@ Xamarin.Android.Support.ViewPager
 Xamarin.Essentials
 Xamarin.Forms.Platform.Android
 Xamarin.Forms.Platform
-XamEffects.Droid
+ZXing.Net.Mobile.Forms.Android
+ZXingNetMobile
