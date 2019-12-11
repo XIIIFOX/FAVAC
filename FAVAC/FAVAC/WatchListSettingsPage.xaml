@@ -22,7 +22,7 @@
                         </StackLayout>
                         <StackLayout Orientation="Vertical" >
                             <BoxView BackgroundColor="#2196F3" HeightRequest="1"/>
-                            <Button Text="RESET" BackgroundColor="Transparent" HorizontalOptions="StartAndExpand"/>
+                            <Button Text="RESET" BackgroundColor="Transparent" HorizontalOptions="StartAndExpand" Clicked="Button_Clicked_2"/>
                         </StackLayout>
                     </StackLayout>
                 </cardView:CardView.CardViewContent>

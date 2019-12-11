@@ -14,14 +14,14 @@ using System.Collections.Generic;
 
 namespace FAVAC
 {
-    public static class Settings 
+    public static class Settings
     {
         private static ISettings AppSettings
         {
             get { return CrossSettings.Current; }
         }
 
- 
+
         //Chart URL
         public static string ChartURL
         {
@@ -31,7 +31,8 @@ namespace FAVAC
         //Chart DATA
         public static string ChartDATA
         {
-            get {
+            get
+            {
                 Dictionary<int, string> _data = new Dictionary<int, string>();
 
                 _data.Add(0, Mode.ToString());
@@ -49,9 +50,10 @@ namespace FAVAC
                 _data.Add(12, ToolBarBg.ToString());
 
                 string _main1 = null;
-                for(int i =0;i<13; i++)
+                for (int i = 0; i < 13; i++)
                 {
-                    if (_main1 == null) {
+                    if (_main1 == null)
+                    {
                         _main1 = _data[i];
                     }
                     else
@@ -60,8 +62,10 @@ namespace FAVAC
                     }
                 }
 
-                return _main1 + "*" + ChartURL; }
-            set {
+                return _main1 + "*" + ChartURL;
+            }
+            set
+            {
                 string[] DATA = value.Split('*')[0].Split('|');
                 Mode = (DATA[0] == "true") ? true : false;
                 Symbols = DATA[1];
@@ -151,23 +155,15 @@ namespace FAVAC
         //watchlist
         public static string Watchlist_Url
         {
-            get {
-     //         string readyUrl =  $"https://s.tradingview.com/embed-widget/market-overview/?locale=uk#%7B%22colorTheme%22%3A%22dark%22%2C%22dateRange%22%3A%2212m%22%2C%22showChart%22%3Atrue%2C%22width%22%3A%22100%25%22%2C%22height%22%3A%22100%25%22%2C%22largeChartUrl%22%3A%22%22%2C%22isTransparent%22%3Afalse%2C%22plotLineColorGrowing%22%3A%22rgba(25%2C%20118%2C%20210%2C%201)%22%2C%22plotLineColorFalling%22%3A%22rgba(25%2C%20118%2C%20210%2C%201)%22%2C%22gridLineColor%22%3A%22rgba(42%2C%2046%2C%2057%2C%201)%22%2C%22scaleFontColor%22%3A%22rgba(120%2C%20123%2C%20134%2C%201)%22%2C%22belowLineFillColorGrowing%22%3A%22rgba(33%2C%20150%2C%20243%2C%200.12)%22%2C%22belowLineFillColorFalling%22%3A%22rgba(33%2C%20150%2C%20243%2C%200.12)%22%2C%22symbolActiveColor%22%3A%22rgba(33%2C%20150%2C%20243%2C%200.12)" +
-     //               $"%22%2C%22tabs%22%3A%5B%7B%22title%22%3A%22Forex%22%2C%22symbols%22%3A%5B%7B%22s%22%3A%22FX%3AEURUSD%22%7D%2C%7B%22s%22%3A%22FX%3AGBPUSD%22%7D%2C%7B%22s%22%3A%22FX%3AUSDJPY%22%7D%2C%7B%22s%22%3A%22FX%3AUSDCHF%22%7D%2C%7B%22s%22%3A%22FX%3AAUDUSD%22%7D%2C%7B%22s%22%3A%22FX%3AUSDCAD%22%7D%2C%7B%22s%22%3A%22FX%3AEURUSD%22%7D%5D%2C%22originalTitle%22%3A%22Forex%22%7D%5D%2C%22" +
-     //               $"utm_source%22%3A%22%22%2C%22utm_medium%22%3A%22widget_new%22%2C%22utm_campaign%22%3A%22market-overview%22%7D";
-     string readyUrl =  $"https://s.tradingview.com/embed-widget/market-overview/?locale=uk#%7B%22colorTheme%22%3A%22dark%22%2C%22dateRange%22%3A%2212m%22%2C%22showChart%22%3Atrue%2C%22width%22%3A%22400%22%2C%22height%22%3A%22660%22%2C%22largeChartUrl%22%3A%22https%3A%2F%2F_%2F%7Btvexchange%7D%3A%7Btvsymbol%7D%22%2C%22isTransparent%22%3Afalse%2C%22plotLineColorGrowing%22%3A%22rgba(25%2C%20118%2C%20210%2C%201)%22%2C%22plotLineColorFalling%22%3A%22rgba(25%2C%20118%2C%20210%2C%201)%22%2C%22gridLineColor%22%3A%22rgba(42%2C%2046%2C%2057%2C%201)%22%2C%22scaleFontColor%22%3A%22rgba(120%2C%20123%2C%20134%2C%201)%22%2C%22belowLineFillColorGrowing%22%3A%22rgba(33%2C%20150%2C%20243%2C%200.12)%22%2C%22belowLineFillColorFalling%22%3A%22rgba(33%2C%20150%2C%20243%2C%200.12)%22%2C%22symbolActiveColor%22%3A%22rgba(33%2C%20150%2C%20243%2C%200.12)%22%2C%22tabs" +
-                    $"%22%3A%5B%7B%22title%22%3A%22Indices%22%2C%22" +
-                    $"symbols%22%3A%5B%7B%22s" +
-                    $"%22%3A%22OANDA%3ASPX500USD%22%7D%2C%7B%22s%22%3A%22OANDA%3ANAS100USD%22%7D%2C%7B%22s%22%3A%22FOREXCOM%3ADJI%22%7D%2C%7B%22s%22%3A%22INDEX%3ANKY%22%7D%2C%7B%22s%22%3A%22INDEX%3ADEU30%22%7D%2C%7B%22s%22%3A%22OANDA%3AUK100GBP%22%7D%5D%2C%22" +
-                    $"originalTitle%22%3A%22Indices%22%7D%2C%7B%22title%22%3A%22Commodities%22%2C%22symbols%22%3A%5B%7B%22s%22%3A%22CME_MINI%3AES1!%22%7D%2C%7B%22s%22%3A%22CME%3A6E1!%22%7D%2C%7B%22s%22%3A%22COMEX%3AGC1!%22%7D%2C%7B%22s%22%3A%22NYMEX%3ACL1!%22%7D%2C%7B%22s%22%3A%22NYMEX%3ANG1!%22%7D%2C%7B%22s%22%3A%22CBOT%3AZC1!%22%7D%5D%2C%22originalTitle%22%3A%22Commodities%22%7D%2C%7B%22title%22%3A%22Bonds%22%2C%22symbols%22%3A%5B%7B%22s%22%3A%22CME%3AGE1!%5Ct%22%7D%2C%7B%22s%22%3A%22CBOT%3AZB1!%5Ct%22%7D%2C%7B%22s%22%3A%22CBOT%3AUB1!%22%7D%2C%7B%22s%22%3A%22EUREX%3AFGBL1!%22%7D%2C%7B%22s%22%3A%22EUREX%3AFBTP1!%22%7D%2C%7B%22s%22%3A%22EUREX%3AFGBM1!%22%7D%5D%2C%22originalTitle%22%3A%22Bonds%22%7D%2C%7B%22title%22%3A%22Forex%22%2C%22symbols%22%3A%5B%7B%22s%22%3A%22FX%3AEURUSD%22%7D%2C%7B%22s%22%3A%22FX%3AGBPUSD%22%7D%2C%7B%22s%22%3A%22FX%3AUSDJPY%22%7D%2C%7B%22s%22%3A%22FX%3AUSDCHF%22%7D%2C%7B%22s%22%3A%22FX%3AAUDUSD%22%7D%2C%7B%22s%22%3A%22FX%3AUSDCAD%22%7D%5D%2C%22originalTitle%22%3A%22Forex%22%7D%5D%2C%22" +
-                    $"utm_source%22%3A%22%22%2C%22utm_medium%22%3A%22widget_new%22%2C%22utm_campaign%22%3A%22market-overview%22%7D";
+            get
+            {
                 string[] labels = Watchlist_Label.Split('|');
                 int index = 0;
                 string symbolAdder = null;
-                foreach(string label in labels)
+                foreach (string label in labels)
                 {
-                    symbolAdder += $"%22%3A%5B%7B%22title%22%3A%22{label}%22%2C%22symbols%22%3A%5B%7B%22s";
-                
+                    symbolAdder += $"%7B%22title%22%3A%22{label}%22%2C%22symbols%22%3A%5B%7B%22s";
+
                     foreach (string data in Watchlist_Data.Split('|')[index].Split('\n'))
                     {
                         try
@@ -180,21 +176,33 @@ namespace FAVAC
                         }
                     }
 
-                    symbolAdder += symbolAdder.Remove(symbolAdder.Length - 1, 1) + "%22%7D%5D%2C%22";
-                    index -= -1;//originaly
+                    symbolAdder = symbolAdder.Remove(symbolAdder.Length - 16) + "%22%7D%5D%2C%22";
+                    symbolAdder += $"originalTitle%22%3A%22{label}%22%7D%2C";
+                    index++;
                 }
+                symbolAdder = symbolAdder.Remove(symbolAdder.Length - 9) + "%22%7D%5D%2C%22";
+
+                string readyUrl = $"https://s.tradingview.com/embed-widget/market-overview/?locale={Language}#%7B%22colorTheme%22%3A%22{Theme}%22%2C%22dateRange%22%3A%22{Watchlist_Interval}%22%2C%22showChart%22%3Atrue%2C%22width%22%3A%22400%22%2C%22height%22%3A%22660%22%2C%22largeChartUrl%22%3A%22https%3A%2F%2F_%2F%7Btvexchange%7D%3A%7Btvsymbol%7D%22%2C%22isTransparent%22%3Afalse%2C%22plotLineColorGrowing%22%3A%22rgba(25%2C%20118%2C%20210%2C%201)%22%2C%22plotLineColorFalling%22%3A%22rgba(25%2C%20118%2C%20210%2C%201)%22%2C%22gridLineColor%22%3A%22rgba(42%2C%2046%2C%2057%2C%201)%22%2C%22scaleFontColor%22%3A%22rgba(120%2C%20123%2C%20134%2C%201)%22%2C%22belowLineFillColorGrowing%22%3A%22rgba(33%2C%20150%2C%20243%2C%200.12)%22%2C%22belowLineFillColorFalling%22%3A%22rgba(33%2C%20150%2C%20243%2C%200.12)%22%2C%22symbolActiveColor%22%3A%22rgba(33%2C%20150%2C%20243%2C%200.12)%22%2C%22tabs%22%3A%5B" +
+                  symbolAdder +
+                    $"utm_source%22%3A%22%22%2C%22utm_medium%22%3A%22widget_new%22%2C%22utm_campaign%22%3A%22market-overview%22%7D";
+
                 return readyUrl;
             }
         }
         public static string Watchlist_Label
         {
             get { return AppSettings.GetValueOrDefault("watchlist_label", $"Indices|Commodities|Bonds|Forex"); }
-            set { AppSettings.AddOrUpdateValue("watchlist_label", value);}
+            set { AppSettings.AddOrUpdateValue("watchlist_label", value); }
         }
         public static string Watchlist_Data
         {
-            get { return AppSettings.GetValueOrDefault("watchlist_data", $"FX:EURUSD\nFX:EURUSD\nFX:USDJPY\nFX:USDCHF\nFX:AUDUSD\nFX:USDCAD\nFX:EURUSD|dd|dd|dd"); }
-            set { AppSettings.AddOrUpdateValue("watchlist_data", value);}
+            get { return AppSettings.GetValueOrDefault("watchlist_data", $"OANDA:SPX500USD\nOANDA:NAS100USD\nFOREXCOM:DJI\nINDEX:NKY\nINDEX:DEU30\nOANDA:UK100GBP|CME_MINI:ES1!\nCME:6E1!\nCOMEX:GC1!\nNYMEX:CL1!\nNYMEX:NG1!\nCBOT:ZC1!|CME:GE1!\nCBOT:ZB1!\nCBOT:UB1!\nEUREX:FGBL1!\nEUREX:FBTP1!\nEUREX:FGBM1!|FX:EURUSD\nFX:USDJPY\nFX:USDCHF\nFX:AUDUSD\nFX:USDCAD"); }
+            set { AppSettings.AddOrUpdateValue("watchlist_data", value); }
+        }
+        public static string Watchlist_Interval
+        {
+            get { return AppSettings.GetValueOrDefault("watchlist_interval", "12m"); }
+            set { AppSettings.AddOrUpdateValue("watchlist_interval", value); }
         }
     }
 }
