@@ -20,6 +20,6 @@
 /Lib:"C:\Users\pvbk\.nuget\packages\runtime.win10-x86.microsoft.net.native.compiler\2.2.7-rel-27913-00\tools\x86\ilc\lib\Private"
 /WinMD:"C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\obj\x86\Release\ilc\in\WinMetadata\Microsoft.UI.Xaml.winmd"
 /WinMD:"C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\obj\x86\Release\ilc\in\WinMetadata\Windows.winmd"
-/VSTelemetrySessionSettings:"{"IsOptedIn":true,"HostName":"Dev14","AppInsightsInstrumentationKey":"f144292e-e3b2-4011-ac90-20e5c03fbce5","AsimovInstrumentationKey":"AIF-312cbd79-9dbb-4c48-a7da-3cc2a931cb70","AppId":1001,"UserId":"056bd5a5-1e91-475b-a9ad-3c3c6979e368","Id":"615fd36f-692e-4ba3-82dd-a03a16c0bf45","ProcessStartTime":637116666605013158}"
+/VSTelemetrySessionSettings:"{"IsOptedIn":true,"HostName":"Dev14","AppInsightsInstrumentationKey":"f144292e-e3b2-4011-ac90-20e5c03fbce5","AsimovInstrumentationKey":"AIF-312cbd79-9dbb-4c48-a7da-3cc2a931cb70","AppId":1001,"UserId":"056bd5a5-1e91-475b-a9ad-3c3c6979e368","Id":"c7e9c5a7-c8bb-4081-bdb9-ab1d38b7156e","ProcessStartTime":637117594066334212}"
 /RdXmlPath:"C:\Users\pvbk\.nuget\packages\microsoft.net.native.compiler\2.2.7-rel-27913-00\tools\LibraryXML"
 /RunOnlyPreDR

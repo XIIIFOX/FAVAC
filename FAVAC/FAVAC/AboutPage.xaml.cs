@@ -8,10 +8,6 @@
 //       _____\/\\\_\///\\\\\\\\\/___\/\\\________________\///\\\\\/______/\\\/___\///\\\_                                                                                                                                                                            
 //        _____\///____\/////////_____\///___________________\/////_______\///_______\///__
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -30,20 +26,20 @@ namespace FAVAC
         {
             switch (((ImageButton)sender).TabIndex) {
                 case 0:
-                    openUrl("https://t.me/tfox_comp");
+                    OpenUrl("https://t.me/tfox_comp");
                     break;
                 case 1:
-                    openUrl("https://vk.com/13fox_comp");
+                    OpenUrl("https://vk.com/13fox_comp");
                     break;
                 case 2:
-                    openUrl("https://github.com/XIIFOX");
+                    OpenUrl("https://github.com/XIIFOX");
                     break;
                 case 3:
-                    openUrl("https://dev.azure.com/13fox/FAVAC/");
+                    OpenUrl("https://dev.azure.com/13fox/FAVAC/");
                     break;
             }
         }
-        private async void openUrl(string uri)
+        private async void OpenUrl(string uri)
         {
             await Browser.OpenAsync(new Uri(uri), new BrowserLaunchOptions
             {

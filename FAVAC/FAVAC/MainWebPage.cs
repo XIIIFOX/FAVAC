@@ -8,11 +8,6 @@
 //       _____\/\\\_\///\\\\\\\\\/___\/\\\________________\///\\\\\/______/\\\/___\///\\\_                                                                                                                                                                            
 //        _____\///____\/////////_____\///___________________\/////_______\///_______\///__       
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading;
-using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Internals;
 using ZXing.Net.Mobile.Forms;
@@ -87,9 +82,10 @@ namespace FAVAC
         {
             try
             {
-                var scannerPage = new ZXingScannerPage();
-
-                scannerPage.Title = "Scan QR";
+                var scannerPage = new ZXingScannerPage
+                {
+                    Title = "Scan QR"
+                };
                 scannerPage.OnScanResult += (result) =>
                 {
                     scannerPage.IsScanning = false;

@@ -8,12 +8,7 @@
 //       _____\/\\\_\///\\\\\\\\\/___\/\\\________________\///\\\\\/______/\\\/___\///\\\_                                                                                                                                                                            
 //        _____\///____\/////////_____\///___________________\/////_______\///_______\///__        
 using BottomBar.XamarinForms;
-using System;
-using System.Collections.Generic;
 using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Xamarin.Essentials;
 using Xamarin.Forms;
 
@@ -54,8 +49,8 @@ namespace FAVAC
             switch (Device.Idiom)
             {
                 case TargetIdiom.Phone:
-                    if (DeviceDisplay.MainDisplayInfo.Orientation == DisplayOrientation.Landscape) {; }
-                    else;
+                    //if (DeviceDisplay.MainDisplayInfo.Orientation == DisplayOrientation.Landscape) {; }
+                    //else;
                     break;
                 case TargetIdiom.Tablet:
                     break;

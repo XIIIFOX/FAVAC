@@ -2,7 +2,6 @@ C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC\bin\Release\netstandard2.0\FAVAC.de
 C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC\bin\Release\netstandard2.0\FAVAC.dll
 C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC\bin\Release\netstandard2.0\ref\FAVAC.dll
 C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC\bin\Release\netstandard2.0\FAVAC.pdb
-C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC\obj\Release\netstandard2.0\FAVAC.csprojAssemblyReference.cache
 C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC\obj\Release\netstandard2.0\AboutPage.xaml.g.cs
 C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC\obj\Release\netstandard2.0\AnalyzePage.xaml.g.cs
 C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC\obj\Release\netstandard2.0\App.xaml.g.cs
@@ -19,3 +18,4 @@ C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC\obj\Release\netstandard2.0\XamlC.st
 C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC\obj\Release\netstandard2.0\FAVAC.dll
 C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC\obj\Release\netstandard2.0\ref\FAVAC.dll
 C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC\obj\Release\netstandard2.0\FAVAC.pdb
+C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC\obj\Release\netstandard2.0\FAVAC.csprojAssemblyReference.cache

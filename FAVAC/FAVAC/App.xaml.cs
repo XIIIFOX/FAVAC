@@ -7,9 +7,7 @@
 //      _____\/\\\__/\\\______/\\\__\/\\\______________\///\\\__/\\\_______/\\\////\\\___                                                                                                                                                                             
 //       _____\/\\\_\///\\\\\\\\\/___\/\\\________________\///\\\\\/______/\\\/___\///\\\_                                                                                                                                                                            
 //        _____\///____\/////////_____\///___________________\/////_______\///_______\///__
-using System;
 using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
 
 namespace FAVAC
 {
@@ -20,6 +18,7 @@ namespace FAVAC
             InitializeComponent();
 
             MainPage = new NavigationPage(new MainPage());
+            //new EntryPage()s
         }
 
         protected override void OnStart()
