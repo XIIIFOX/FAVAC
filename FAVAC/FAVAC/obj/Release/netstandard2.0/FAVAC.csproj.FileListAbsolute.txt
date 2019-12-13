@@ -18,4 +18,3 @@ C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC\obj\Release\netstandard2.0\XamlC.st
 C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC\obj\Release\netstandard2.0\FAVAC.dll
 C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC\obj\Release\netstandard2.0\ref\FAVAC.dll
 C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC\obj\Release\netstandard2.0\FAVAC.pdb
-C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC\obj\Release\netstandard2.0\FAVAC.csprojAssemblyReference.cache
