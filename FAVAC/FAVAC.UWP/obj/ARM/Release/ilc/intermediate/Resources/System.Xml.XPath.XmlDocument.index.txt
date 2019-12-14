@@ -1,0 +1,2 @@
+System.Xml.XPath.XmlDocument, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+  FxResources.System.Xml.XPath.XmlDocument.SR.resources

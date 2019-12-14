@@ -1,0 +1,6 @@
+MainPackage=C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\bin\ARM\Release\FAVAC.UWP_0.1.0.0_ARM.appx
+SymbolPackage=C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\obj\ARM\Release\Symbols\FAVAC.UWP_0.1.0.0_ARM.appxsym
+ResourcePack=C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\bin\ARM\Release\FAVAC.UWP_0.1.0.0_scale-100.appx
+ResourcePack=C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\bin\ARM\Release\FAVAC.UWP_0.1.0.0_scale-125.appx
+ResourcePack=C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\bin\ARM\Release\FAVAC.UWP_0.1.0.0_scale-150.appx
+ResourcePack=C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\bin\ARM\Release\FAVAC.UWP_0.1.0.0_scale-400.appx

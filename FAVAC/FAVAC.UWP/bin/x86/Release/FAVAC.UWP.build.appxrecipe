@@ -277,26 +277,32 @@
     <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\bin\x86\Release\ilc\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\bin\x86\Release\ilc\round_change_history_white_24.png">
-      <PackagePath>round_change_history_white_24.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\bin\x86\Release\ilc\round_change_history_24.png">
+      <PackagePath>round_change_history_24.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\bin\x86\Release\ilc\round_donut_large_white_24.png">
-      <PackagePath>round_donut_large_white_24.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\bin\x86\Release\ilc\round_donut_large_24.png">
+      <PackagePath>round_donut_large_24.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\bin\x86\Release\ilc\round_receipt_white_24.png">
-      <PackagePath>round_receipt_white_24.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\bin\x86\Release\ilc\round_receipt_24.png">
+      <PackagePath>round_receipt_24.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\bin\x86\Release\ilc\round_reorder_white_24.png">
-      <PackagePath>round_reorder_white_24.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\bin\x86\Release\ilc\round_reorder_24.png">
+      <PackagePath>round_reorder_24.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\bin\x86\Release\ilc\round_show_chart_white_24.png">
-      <PackagePath>round_show_chart_white_24.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\bin\x86\Release\ilc\round_show_chart_24.png">
+      <PackagePath>round_show_chart_24.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\bin\x86\Release\ilc\selected_circle.png">
+      <PackagePath>selected_circle.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\bin\x86\Release\ilc\telegram.png">
       <PackagePath>telegram.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\bin\x86\Release\ilc\tfox_logo.png">
       <PackagePath>tfox_logo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\bin\x86\Release\ilc\unselected_circle.png">
+      <PackagePath>unselected_circle.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\bin\x86\Release\ilc\vk.png">
       <PackagePath>vk.png</PackagePath>

@@ -1,0 +1,2 @@
+MainPackage=C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\bin\x86\Release\FAVAC.UWP_0.1.0.0_x86.appx
+SymbolPackage=C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\obj\x86\Release\Symbols\FAVAC.UWP_0.1.0.0_x86.appxsym

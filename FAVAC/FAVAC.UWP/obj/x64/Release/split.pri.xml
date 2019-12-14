@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="7e34f2e3-31d5-4867-af89-de679067fa68" version="1.0" primary="true">
+		<Qualifiers>
+			<AlternateForm>UNPLATED</AlternateForm>
+			<Scale>200</Scale>
+			<TargetSize>256,16,24,32,48</TargetSize>
+		</Qualifiers>
+		<ResourceMapSubtree name="Files">
+			<NamedResource name="App.xbf" uri="ms-resource://7e34f2e3-31d5-4867-af89-de679067fa68/Files/App.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="azure.png" uri="ms-resource://7e34f2e3-31d5-4867-af89-de679067fa68/Files/azure.png">
+				<Candidate type="Path">
+					<Value>azure.png</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="FAVAC.UWP.xr.xml" uri="ms-resource://7e34f2e3-31d5-4867-af89-de679067fa68/Files/FAVAC.UWP.xr.xml">
+				<Candidate type="Path">
+					<Value>FAVAC.UWP.xr.xml</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="github.png" uri="ms-resource://7e34f2e3-31d5-4867-af89-de679067fa68/Files/github.png">
+				<Candidate type="Path">
+					<Value>github.png</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ic_bitcoin.png" uri="ms-resource://7e34f2e3-31d5-4867-af89-de679067fa68/Files/ic_bitcoin.png">
+				<Candidate type="Path">
+					<Value>ic_bitcoin.png</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ic_chart_gantt.png" uri="ms-resource://7e34f2e3-31d5-4867-af89-de679067fa68/Files/ic_chart_gantt.png">
+				<Candidate type="Path">
+					<Value>ic_chart_gantt.png</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ic_chart_scatter_plot.png" uri="ms-resource://7e34f2e3-31d5-4867-af89-de679067fa68/Files/ic_chart_scatter_plot.png">
+				<Candidate type="Path">
+					<Value>ic_chart_scatter_plot.png</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ic_checkerboard.png" uri="ms-resource://7e34f2e3-31d5-4867-af89-de679067fa68/Files/ic_checkerboard.png">
+				<Candidate type="Path">
+					<Value>ic_checkerboard.png</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ic_chevron_double_up.png" uri="ms-resource://7e34f2e3-31d5-4867-af89-de679067fa68/Files/ic_chevron_double_up.png">
+				<Candidate type="Path">
+					<Value>ic_chevron_double_up.png</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ic_fullscreen.png" uri="ms-resource://7e34f2e3-31d5-4867-af89-de679067fa68/Files/ic_fullscreen.png">
+				<Candidate type="Path">
+					<Value>ic_fullscreen.png</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ic_information.png" uri="ms-resource://7e34f2e3-31d5-4867-af89-de679067fa68/Files/ic_information.png">
+				<Candidate type="Path">
+					<Value>ic_information.png</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ic_qrcode_edit.png" uri="ms-resource://7e34f2e3-31d5-4867-af89-de679067fa68/Files/ic_qrcode_edit.png">
+				<Candidate type="Path">
+					<Value>ic_qrcode_edit.png</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ic_qrcode_scan.png" uri="ms-resource://7e34f2e3-31d5-4867-af89-de679067fa68/Files/ic_qrcode_scan.png">
+				<Candidate type="Path">
+					<Value>ic_qrcode_scan.png</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ic_reload.png" uri="ms-resource://7e34f2e3-31d5-4867-af89-de679067fa68/Files/ic_reload.png">
+				<Candidate type="Path">
+					<Value>ic_reload.png</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ic_select.png" uri="ms-resource://7e34f2e3-31d5-4867-af89-de679067fa68/Files/ic_select.png">
+				<Candidate type="Path">
+					<Value>ic_select.png</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ic_settings.png" uri="ms-resource://7e34f2e3-31d5-4867-af89-de679067fa68/Files/ic_settings.png">
+				<Candidate type="Path">
+					<Value>ic_settings.png</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ic_share.png" uri="ms-resource://7e34f2e3-31d5-4867-af89-de679067fa68/Files/ic_share.png">
+				<Candidate type="Path">
+					<Value>ic_share.png</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ic_tune.png" uri="ms-resource://7e34f2e3-31d5-4867-af89-de679067fa68/Files/ic_tune.png">
+				<Candidate type="Path">
+					<Value>ic_tune.png</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MainPage.xbf" uri="ms-resource://7e34f2e3-31d5-4867-af89-de679067fa68/Files/MainPage.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="round_change_history_white_24.png" uri="ms-resource://7e34f2e3-31d5-4867-af89-de679067fa68/Files/round_change_history_white_24.png">
+				<Candidate type="Path">
+					<Value>round_change_history_white_24.png</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="round_donut_large_white_24.png" uri="ms-resource://7e34f2e3-31d5-4867-af89-de679067fa68/Files/round_donut_large_white_24.png">
+				<Candidate type="Path">
+					<Value>round_donut_large_white_24.png</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="round_receipt_white_24.png" uri="ms-resource://7e34f2e3-31d5-4867-af89-de679067fa68/Files/round_receipt_white_24.png">
+				<Candidate type="Path">
+					<Value>round_receipt_white_24.png</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="round_reorder_white_24.png" uri="ms-resource://7e34f2e3-31d5-4867-af89-de679067fa68/Files/round_reorder_white_24.png">
+				<Candidate type="Path">
+					<Value>round_reorder_white_24.png</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="round_show_chart_white_24.png" uri="ms-resource://7e34f2e3-31d5-4867-af89-de679067fa68/Files/round_show_chart_white_24.png">
+				<Candidate type="Path">
+					<Value>round_show_chart_white_24.png</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="telegram.png" uri="ms-resource://7e34f2e3-31d5-4867-af89-de679067fa68/Files/telegram.png">
+				<Candidate type="Path">
+					<Value>telegram.png</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="tfox_logo.png" uri="ms-resource://7e34f2e3-31d5-4867-af89-de679067fa68/Files/tfox_logo.png">
+				<Candidate type="Path">
+					<Value>tfox_logo.png</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="vk.png" uri="ms-resource://7e34f2e3-31d5-4867-af89-de679067fa68/Files/vk.png">
+				<Candidate type="Path">
+					<Value>vk.png</Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="Assets">
+				<NamedResource name="FAVAC_IC_APP.png" uri="ms-resource://7e34f2e3-31d5-4867-af89-de679067fa68/Files/Assets/FAVAC_IC_APP.png">
+					<Candidate type="Path">
+						<Value>Assets\FAVAC_IC_APP.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="LargeTile.png" uri="ms-resource://7e34f2e3-31d5-4867-af89-de679067fa68/Files/Assets/LargeTile.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\LargeTile.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SmallTile.png" uri="ms-resource://7e34f2e3-31d5-4867-af89-de679067fa68/Files/Assets/SmallTile.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\SmallTile.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SplashScreen.png" uri="ms-resource://7e34f2e3-31d5-4867-af89-de679067fa68/Files/Assets/SplashScreen.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\SplashScreen.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square150x150Logo.png" uri="ms-resource://7e34f2e3-31d5-4867-af89-de679067fa68/Files/Assets/Square150x150Logo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\Square150x150Logo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square44x44Logo.png" uri="ms-resource://7e34f2e3-31d5-4867-af89-de679067fa68/Files/Assets/Square44x44Logo.png">
+					<Candidate qualifiers="TargetSize-48, AlternateForm-UNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-48" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo.targetsize-48.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-32, AlternateForm-UNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.altform-unplated_targetsize-32.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-32" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo.targetsize-32.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-256, AlternateForm-UNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-256" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo.targetsize-256.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-24, AlternateForm-UNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.altform-unplated_targetsize-24.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-24" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo.targetsize-24.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-16, AlternateForm-UNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-16" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo.targetsize-16.png</Value>
+					</Candidate>
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="StoreLogo.png" uri="ms-resource://7e34f2e3-31d5-4867-af89-de679067fa68/Files/Assets/StoreLogo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\StoreLogo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Wide310x150Logo.png" uri="ms-resource://7e34f2e3-31d5-4867-af89-de679067fa68/Files/Assets/Wide310x150Logo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\Wide310x150Logo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Microsoft.UI.Xaml">
+				<ResourceMapSubtree name="DensityStyles">
+					<NamedResource name="Compact.xbf" uri="ms-resource://7e34f2e3-31d5-4867-af89-de679067fa68/Files/Microsoft.UI.Xaml/DensityStyles/Compact.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Properties">
+				<NamedResource name="Default.rd.xml" uri="ms-resource://7e34f2e3-31d5-4867-af89-de679067fa68/Files/Properties/Default.rd.xml">
+					<Candidate type="Path">
+						<Value>Properties\Default.rd.xml</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="WinMetadata">
+				<NamedResource name="Windows.winmd" uri="ms-resource://7e34f2e3-31d5-4867-af89-de679067fa68/Files/WinMetadata/Windows.winmd">
+					<Candidate type="Path">
+						<Value>WinMetadata\Windows.winmd</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Xamarin.Forms.Platform.UAP">
+				<NamedResource name="AutoSuggestStyle.xbf" uri="ms-resource://7e34f2e3-31d5-4867-af89-de679067fa68/Files/Xamarin.Forms.Platform.UAP/AutoSuggestStyle.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="FormsCheckBoxStyle.xbf" uri="ms-resource://7e34f2e3-31d5-4867-af89-de679067fa68/Files/Xamarin.Forms.Platform.UAP/FormsCheckBoxStyle.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="FormsCommandBarStyle.xbf" uri="ms-resource://7e34f2e3-31d5-4867-af89-de679067fa68/Files/Xamarin.Forms.Platform.UAP/FormsCommandBarStyle.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="FormsEmbeddedPageWrapper.xbf" uri="ms-resource://7e34f2e3-31d5-4867-af89-de679067fa68/Files/Xamarin.Forms.Platform.UAP/FormsEmbeddedPageWrapper.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="FormsFlyout.xbf" uri="ms-resource://7e34f2e3-31d5-4867-af89-de679067fa68/Files/Xamarin.Forms.Platform.UAP/FormsFlyout.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="FormsProgressBarStyle.xbf" uri="ms-resource://7e34f2e3-31d5-4867-af89-de679067fa68/Files/Xamarin.Forms.Platform.UAP/FormsProgressBarStyle.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="FormsTextBoxStyle.xbf" uri="ms-resource://7e34f2e3-31d5-4867-af89-de679067fa68/Files/Xamarin.Forms.Platform.UAP/FormsTextBoxStyle.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="MasterDetailControlStyle.xbf" uri="ms-resource://7e34f2e3-31d5-4867-af89-de679067fa68/Files/Xamarin.Forms.Platform.UAP/MasterDetailControlStyle.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PageControlStyle.xbf" uri="ms-resource://7e34f2e3-31d5-4867-af89-de679067fa68/Files/Xamarin.Forms.Platform.UAP/PageControlStyle.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PickerStyle.xbf" uri="ms-resource://7e34f2e3-31d5-4867-af89-de679067fa68/Files/Xamarin.Forms.Platform.UAP/PickerStyle.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Resources.xbf" uri="ms-resource://7e34f2e3-31d5-4867-af89-de679067fa68/Files/Xamarin.Forms.Platform.UAP/Resources.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SliderStyle.xbf" uri="ms-resource://7e34f2e3-31d5-4867-af89-de679067fa68/Files/Xamarin.Forms.Platform.UAP/SliderStyle.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="StepperControl.xbf" uri="ms-resource://7e34f2e3-31d5-4867-af89-de679067fa68/Files/Xamarin.Forms.Platform.UAP/StepperControl.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="TabbedPageStyle.xbf" uri="ms-resource://7e34f2e3-31d5-4867-af89-de679067fa68/Files/Xamarin.Forms.Platform.UAP/TabbedPageStyle.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Xamarin.Forms.Platform.UAP.xr.xml" uri="ms-resource://7e34f2e3-31d5-4867-af89-de679067fa68/Files/Xamarin.Forms.Platform.UAP/Xamarin.Forms.Platform.UAP.xr.xml">
+					<Candidate type="Path">
+						<Value>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="CollectionView">
+					<NamedResource name="ItemsViewStyles.xbf" uri="ms-resource://7e34f2e3-31d5-4867-af89-de679067fa68/Files/Xamarin.Forms.Platform.UAP/CollectionView/ItemsViewStyles.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="Microsoft.UI.Xaml">
+					<ResourceMapSubtree name="DensityStyles">
+						<NamedResource name="Compact.xbf" uri="ms-resource://7e34f2e3-31d5-4867-af89-de679067fa68/Files/Xamarin.Forms.Platform.UAP/Microsoft.UI.Xaml/DensityStyles/Compact.xbf">
+							<Candidate type="EmbeddedData">
+								<Base64Value>[Embedded Binary Data]</Base64Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="Shell">
+					<NamedResource name="ShellStyles.xbf" uri="ms-resource://7e34f2e3-31d5-4867-af89-de679067fa68/Files/Xamarin.Forms.Platform.UAP/Shell/ShellStyles.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="ZXingNetMobile">
+				<NamedResource name="ScanPage.xbf" uri="ms-resource://7e34f2e3-31d5-4867-af89-de679067fa68/Files/ZXingNetMobile/ScanPage.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ZXingNetMobile.xr.xml" uri="ms-resource://7e34f2e3-31d5-4867-af89-de679067fa68/Files/ZXingNetMobile/ZXingNetMobile.xr.xml">
+					<Candidate type="Path">
+						<Value>ZXingNetMobile\ZXingNetMobile.xr.xml</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ZXingScannerControl.xbf" uri="ms-resource://7e34f2e3-31d5-4867-af89-de679067fa68/Files/ZXingNetMobile/ZXingScannerControl.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>
