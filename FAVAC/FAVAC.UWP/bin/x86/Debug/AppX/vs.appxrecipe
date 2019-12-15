@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-12-11T18:30:11.640</Modified>
+      <Modified>2019-12-15T11:26:44.577</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\bin\x86\Debug\FAVAC.UWP.exe">
       <PackagePath>entrypoint\FAVAC.UWP.exe</PackagePath>
-      <Modified>2019-12-11T18:30:06.561</Modified>
+      <Modified>2019-12-15T11:26:38.799</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pvbk\.nuget\packages\htmlagilitypack\1.11.17\lib\uap10.0\HtmlAgilityPack.dll">
       <PackagePath>HtmlAgilityPack.dll</PackagePath>
@@ -70,21 +70,21 @@
       <PackagePath>Xamarin.Essentials.dll</PackagePath>
       <Modified>2019-09-18T21:33:26.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pvbk\.nuget\packages\xamarin.forms\4.3.0.991221\lib\uap10.0\Xamarin.Forms.Core.dll">
+    <AppxPackagedFile Include="C:\Users\pvbk\.nuget\packages\xamarin.forms\4.4.0.991265\lib\uap10.0\Xamarin.Forms.Core.dll">
       <PackagePath>Xamarin.Forms.Core.dll</PackagePath>
-      <Modified>2019-12-03T00:05:32.000</Modified>
+      <Modified>2019-12-09T21:29:38.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pvbk\.nuget\packages\xamarin.forms\4.3.0.991221\lib\uap10.0\Xamarin.Forms.Platform.UAP.dll">
+    <AppxPackagedFile Include="C:\Users\pvbk\.nuget\packages\xamarin.forms\4.4.0.991265\lib\uap10.0\Xamarin.Forms.Platform.UAP.dll">
       <PackagePath>Xamarin.Forms.Platform.UAP.dll</PackagePath>
-      <Modified>2019-12-03T00:05:32.000</Modified>
+      <Modified>2019-12-09T21:29:38.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pvbk\.nuget\packages\xamarin.forms\4.3.0.991221\lib\uap10.0\Xamarin.Forms.Platform.dll">
+    <AppxPackagedFile Include="C:\Users\pvbk\.nuget\packages\xamarin.forms\4.4.0.991265\lib\uap10.0\Xamarin.Forms.Platform.dll">
       <PackagePath>Xamarin.Forms.Platform.dll</PackagePath>
-      <Modified>2019-12-03T00:05:32.000</Modified>
+      <Modified>2019-12-09T21:29:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pvbk\.nuget\packages\xamarin.forms\4.3.0.991221\lib\uap10.0\Xamarin.Forms.Xaml.dll">
+    <AppxPackagedFile Include="C:\Users\pvbk\.nuget\packages\xamarin.forms\4.4.0.991265\lib\uap10.0\Xamarin.Forms.Xaml.dll">
       <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
-      <Modified>2019-12-03T00:05:34.000</Modified>
+      <Modified>2019-12-09T21:29:40.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pvbk\.nuget\packages\xamarinforms.cardview.netstandard\1.1.1.5\lib\netstandard2.0\CardViewNetStandard.dll">
       <PackagePath>CardViewNetStandard.dll</PackagePath>
@@ -112,7 +112,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC\bin\Debug\netstandard2.0\FAVAC.dll">
       <PackagePath>FAVAC.dll</PackagePath>
-      <Modified>2019-12-11T18:35:18.917</Modified>
+      <Modified>2019-12-15T11:21:41.209</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pvbk\.nuget\packages\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
@@ -122,9 +122,9 @@
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2018-10-22T22:33:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pvbk\.nuget\packages\xamarin.forms\4.3.0.991221\lib\uap10.0\Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml">
+    <AppxPackagedFile Include="C:\Users\pvbk\.nuget\packages\xamarin.forms\4.4.0.991265\lib\uap10.0\Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml">
       <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>
-      <Modified>2019-12-03T00:05:28.000</Modified>
+      <Modified>2019-12-09T21:29:32.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pvbk\.nuget\packages\zxing.net.mobile\2.4.1\lib\UAP10\ZXingNetMobile\ZXingNetMobile.xr.xml">
       <PackagePath>ZXingNetMobile\ZXingNetMobile.xr.xml</PackagePath>
@@ -361,99 +361,107 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\ic_tune.png">
       <PackagePath>ic_tune.png</PackagePath>
-      <Modified>2019-12-06T18:46:20.350</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\ic_share.png">
-      <PackagePath>ic_share.png</PackagePath>
-      <Modified>2019-12-06T18:46:20.363</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\ic_settings.png">
-      <PackagePath>ic_settings.png</PackagePath>
-      <Modified>2019-12-06T18:46:20.372</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\ic_select.png">
-      <PackagePath>ic_select.png</PackagePath>
-      <Modified>2019-12-06T18:46:20.387</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\ic_reload.png">
-      <PackagePath>ic_reload.png</PackagePath>
-      <Modified>2019-12-06T18:46:20.404</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\ic_qrcode_scan.png">
-      <PackagePath>ic_qrcode_scan.png</PackagePath>
-      <Modified>2019-12-06T18:46:20.415</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\ic_qrcode_edit.png">
-      <PackagePath>ic_qrcode_edit.png</PackagePath>
-      <Modified>2019-12-06T18:46:20.425</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\ic_information.png">
-      <PackagePath>ic_information.png</PackagePath>
-      <Modified>2019-12-06T18:46:20.439</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\ic_fullscreen.png">
-      <PackagePath>ic_fullscreen.png</PackagePath>
-      <Modified>2019-12-06T18:46:20.537</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\ic_chevron_double_up.png">
-      <PackagePath>ic_chevron_double_up.png</PackagePath>
-      <Modified>2019-12-06T18:46:20.629</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\ic_checkerboard.png">
-      <PackagePath>ic_checkerboard.png</PackagePath>
-      <Modified>2019-12-06T18:46:20.713</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\ic_chart_scatter_plot.png">
-      <PackagePath>ic_chart_scatter_plot.png</PackagePath>
-      <Modified>2019-12-06T18:46:20.744</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\ic_chart_gantt.png">
-      <PackagePath>ic_chart_gantt.png</PackagePath>
-      <Modified>2019-12-06T18:46:20.758</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\ic_bitcoin.png">
-      <PackagePath>ic_bitcoin.png</PackagePath>
-      <Modified>2019-12-06T18:46:20.799</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\github.png">
-      <PackagePath>github.png</PackagePath>
-      <Modified>2019-12-06T18:46:20.816</Modified>
+      <Modified>2019-12-14T10:12:09.944</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\azure.png">
       <PackagePath>azure.png</PackagePath>
-      <Modified>2019-12-06T18:46:20.830</Modified>
+      <Modified>2019-12-14T10:12:09.960</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\round_change_history_white_24.png">
-      <PackagePath>round_change_history_white_24.png</PackagePath>
-      <Modified>2019-10-31T15:13:57.122</Modified>
+    <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\github.png">
+      <PackagePath>github.png</PackagePath>
+      <Modified>2019-12-14T10:12:09.969</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\round_donut_large_white_24.png">
-      <PackagePath>round_donut_large_white_24.png</PackagePath>
-      <Modified>2019-10-31T15:13:57.132</Modified>
+    <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\ic_bitcoin.png">
+      <PackagePath>ic_bitcoin.png</PackagePath>
+      <Modified>2019-12-14T10:12:09.979</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\round_receipt_white_24.png">
-      <PackagePath>round_receipt_white_24.png</PackagePath>
-      <Modified>2019-10-31T15:13:57.142</Modified>
+    <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\ic_chart_gantt.png">
+      <PackagePath>ic_chart_gantt.png</PackagePath>
+      <Modified>2019-12-14T10:12:09.990</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\round_reorder_white_24.png">
-      <PackagePath>round_reorder_white_24.png</PackagePath>
-      <Modified>2019-10-31T15:13:57.152</Modified>
+    <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\ic_chart_scatter_plot.png">
+      <PackagePath>ic_chart_scatter_plot.png</PackagePath>
+      <Modified>2019-12-14T10:12:10.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\round_show_chart_white_24.png">
-      <PackagePath>round_show_chart_white_24.png</PackagePath>
-      <Modified>2019-10-31T15:13:57.112</Modified>
+    <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\ic_checkerboard.png">
+      <PackagePath>ic_checkerboard.png</PackagePath>
+      <Modified>2019-12-14T10:12:10.013</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\vk.png">
-      <PackagePath>vk.png</PackagePath>
-      <Modified>2019-12-06T18:46:20.301</Modified>
+    <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\ic_chevron_double_up.png">
+      <PackagePath>ic_chevron_double_up.png</PackagePath>
+      <Modified>2019-12-14T10:12:10.023</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\ic_fullscreen.png">
+      <PackagePath>ic_fullscreen.png</PackagePath>
+      <Modified>2019-12-14T10:12:10.030</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\ic_information.png">
+      <PackagePath>ic_information.png</PackagePath>
+      <Modified>2019-12-14T10:12:10.038</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\ic_qrcode_edit.png">
+      <PackagePath>ic_qrcode_edit.png</PackagePath>
+      <Modified>2019-12-14T10:12:10.045</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\ic_qrcode_scan.png">
+      <PackagePath>ic_qrcode_scan.png</PackagePath>
+      <Modified>2019-12-14T10:12:10.053</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\ic_reload.png">
+      <PackagePath>ic_reload.png</PackagePath>
+      <Modified>2019-12-14T10:12:10.061</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\ic_select.png">
+      <PackagePath>ic_select.png</PackagePath>
+      <Modified>2019-12-14T10:12:10.069</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\ic_settings.png">
+      <PackagePath>ic_settings.png</PackagePath>
+      <Modified>2019-12-14T10:12:10.077</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\ic_share.png">
+      <PackagePath>ic_share.png</PackagePath>
+      <Modified>2019-12-14T10:12:10.085</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\round_show_chart_24.png">
+      <PackagePath>round_show_chart_24.png</PackagePath>
+      <Modified>2019-12-14T11:01:17.916</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\round_receipt_24.png">
+      <PackagePath>round_receipt_24.png</PackagePath>
+      <Modified>2019-12-14T11:01:17.927</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\round_donut_large_24.png">
+      <PackagePath>round_donut_large_24.png</PackagePath>
+      <Modified>2019-12-14T11:01:17.936</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\round_change_history_24.png">
+      <PackagePath>round_change_history_24.png</PackagePath>
+      <Modified>2019-12-14T11:01:17.945</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\round_reorder_24.png">
+      <PackagePath>round_reorder_24.png</PackagePath>
+      <Modified>2019-12-14T11:01:17.953</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\selected_circle.png">
+      <PackagePath>selected_circle.png</PackagePath>
+      <Modified>2019-12-14T10:12:10.093</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\telegram.png">
       <PackagePath>telegram.png</PackagePath>
-      <Modified>2019-12-06T18:46:20.315</Modified>
+      <Modified>2019-12-14T10:12:10.103</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\tfox_logo.png">
       <PackagePath>tfox_logo.png</PackagePath>
-      <Modified>2019-12-06T18:46:20.326</Modified>
+      <Modified>2019-12-14T10:12:10.136</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\unselected_circle.png">
+      <PackagePath>unselected_circle.png</PackagePath>
+      <Modified>2019-12-14T10:12:10.165</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\vk.png">
+      <PackagePath>vk.png</PackagePath>
+      <Modified>2019-12-14T10:12:10.222</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
@@ -465,15 +473,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\bin\x86\Debug\Microsoft.UI.Xaml\DensityStyles\Compact.xbf">
       <PackagePath>Microsoft.UI.Xaml\DensityStyles\Compact.xbf</PackagePath>
-      <Modified>2019-12-11T18:30:05.986</Modified>
+      <Modified>2019-12-15T11:26:38.252</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-12-11T18:30:05.986</Modified>
+      <Modified>2019-12-15T11:26:38.253</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-12-11T18:30:05.987</Modified>
+      <Modified>2019-12-15T11:26:38.253</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.17763.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -489,11 +497,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-12-09T16:14:03.849</Modified>
+      <Modified>2019-12-15T11:26:41.267</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pvbk\source\repos\FAVAC\FAVAC\FAVAC.UWP\bin\x86\Debug\Core\FAVAC.UWP.exe">
       <PackagePath>FAVAC.UWP.exe</PackagePath>
-      <Modified>2019-12-11T18:30:11.572</Modified>
+      <Modified>2019-12-15T11:26:44.514</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

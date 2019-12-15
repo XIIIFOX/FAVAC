@@ -20,7 +20,8 @@ namespace FAVAC
         {
             Source = Settings.ChartURL,
             VerticalOptions = LayoutOptions.FillAndExpand,
-            HorizontalOptions = LayoutOptions.FillAndExpand
+            HorizontalOptions = LayoutOptions.FillAndExpand,
+            BackgroundColor = Color.FromHex("#212121")
         };
         readonly ProgressBar progress = new ProgressBar
         {
@@ -30,7 +31,7 @@ namespace FAVAC
             HeightRequest = 2,
             IsVisible = true
         };
-        readonly StackLayout stackLayout = new StackLayout { VerticalOptions = LayoutOptions.FillAndExpand, HorizontalOptions = LayoutOptions.FillAndExpand};
+        readonly StackLayout stackLayout = new StackLayout { VerticalOptions = LayoutOptions.FillAndExpand, HorizontalOptions = LayoutOptions.FillAndExpand, BackgroundColor= Color.FromHex("#212121")};
         public MainWebPage()
         {
             stackLayout.Children.Add(webView);

@@ -18,7 +18,6 @@ namespace FAVAC
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class MorePage : ContentPage
     {
-        public List<CommonMenuItem> ElementsOthers { get; set; }
         public List<CommonMenuItem> Elements { get; set; }
 
         public MorePage()
@@ -56,25 +55,14 @@ namespace FAVAC
             new CommonMenuItem {Title="Stock Market", ImagePath="ic_chart_gantt.png" },
             new CommonMenuItem {Title="Forex Cross Rates", ImagePath="ic_checkerboard.png" },
             new CommonMenuItem {Title="Forex Heat Map", ImagePath="ic_chart_scatter_plot.png" },
-            new CommonMenuItem {Title="Screener", ImagePath="ic_chevron_double_up.pngg" },
+            new CommonMenuItem {Title="Screener", ImagePath="ic_chevron_double_up.png" },
             new CommonMenuItem {Title="Cryptocurrency Market", ImagePath="ic_bitcoin.png" }
             };
 
-            ElementsOthers = new List<CommonMenuItem>
-            {
-                  new CommonMenuItem {Title="Site", ImagePath="ic_select.png" },
-            new CommonMenuItem {Title="About", ImagePath="ic_information.png" }
-            };
             this.BindingContext = this;
         }
 
-        public class CommonMenuItem
-        {
-            public string Title { get; set; }
-            public string ImagePath { get; set; }
-        }
-
-        private async void itemsList_ItemTapped(object sender, ItemTappedEventArgs e)
+        private async void ItemsList_ItemTapped(object sender, ItemTappedEventArgs e)
         {
             if (e.Item != null)
             {
@@ -101,32 +89,19 @@ namespace FAVAC
             }
         }
 
-        private async void itemsListOther_ItemTapped(object sender, ItemTappedEventArgs e)
-        {
-            if (e.Item != null)
-            {
-                ((ListView)sender).SelectedItem = null;
-                switch (e.ItemIndex)
-                {
-                    case 0:
-                        await Browser.OpenAsync(new Uri("https://vk.com"), new BrowserLaunchOptions
-                        {
-                            LaunchMode = BrowserLaunchMode.SystemPreferred,
-                            TitleMode = BrowserTitleMode.Show,
-                            PreferredToolbarColor = Color.AliceBlue,
-                            PreferredControlColor = Color.Violet
-                        });
-                        break;
-                    case 1:
-                        await Navigation.PushAsync(new AboutPage());
-                        break;
-                }
-            }
-        }
-
         private async void TapGestureRecognizer_Tapped(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new DataPage());
         }
+
+        private async void Button_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new AboutPage());
+        }
+    }
+    public class CommonMenuItem
+    {
+        public string Title { get; set; }
+        public string ImagePath { get; set; }
     }
 }

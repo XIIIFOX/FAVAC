@@ -1080,6 +1080,15 @@
           "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.dll": {}
         }
       },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/uap10.0.16299/_._": {}
+        },
+        "runtime": {
+          "lib/uap10.0.16299/_._": {}
+        }
+      },
       "System.Xml.ReaderWriter/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -1215,12 +1224,13 @@
           "lib/uap10.0.16299/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/4.3.0.991221": {
+      "Xamarin.Forms/4.4.0.991265": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.UniversalWindowsPlatform": "6.0.12",
           "Microsoft.UI.Xaml": "2.1.190606001",
           "NETStandard.Library": "2.0.1",
+          "System.ValueTuple": "4.5.0",
           "Win2D.uwp": "1.20.0"
         },
         "compile": {
@@ -1288,7 +1298,7 @@
           "LH.BottomNavigationBar.XF": "1.0.42",
           "Xam.Plugins.Settings": "3.1.1",
           "Xamarin.Essentials": "1.3.1",
-          "Xamarin.Forms": "4.3.0.991221",
+          "Xamarin.Forms": "4.4.0.991265",
           "XamarinForms.CardView.NetStandard": "1.1.1.5",
           "ZXing.Net.Mobile": "2.4.1",
           "ZXing.Net.Mobile.Forms": "2.4.1"
@@ -2732,6 +2742,15 @@
           "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.dll": {}
         }
       },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/uap10.0.16299/_._": {}
+        },
+        "runtime": {
+          "lib/uap10.0.16299/_._": {}
+        }
+      },
       "System.Xml.ReaderWriter/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -2856,12 +2875,13 @@
           "lib/uap10.0.16299/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/4.3.0.991221": {
+      "Xamarin.Forms/4.4.0.991265": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.UniversalWindowsPlatform": "6.0.12",
           "Microsoft.UI.Xaml": "2.1.190606001",
           "NETStandard.Library": "2.0.1",
+          "System.ValueTuple": "4.5.0",
           "Win2D.uwp": "1.20.0"
         },
         "compile": {
@@ -2929,7 +2949,7 @@
           "LH.BottomNavigationBar.XF": "1.0.42",
           "Xam.Plugins.Settings": "3.1.1",
           "Xamarin.Essentials": "1.3.1",
-          "Xamarin.Forms": "4.3.0.991221",
+          "Xamarin.Forms": "4.4.0.991265",
           "XamarinForms.CardView.NetStandard": "1.1.1.5",
           "ZXing.Net.Mobile": "2.4.1",
           "ZXing.Net.Mobile.Forms": "2.4.1"
@@ -4472,6 +4492,15 @@
           "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.dll": {}
         }
       },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/uap10.0.16299/_._": {}
+        },
+        "runtime": {
+          "lib/uap10.0.16299/_._": {}
+        }
+      },
       "System.Xml.ReaderWriter/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -4596,12 +4625,13 @@
           "lib/uap10.0.16299/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/4.3.0.991221": {
+      "Xamarin.Forms/4.4.0.991265": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.UniversalWindowsPlatform": "6.0.12",
           "Microsoft.UI.Xaml": "2.1.190606001",
           "NETStandard.Library": "2.0.1",
+          "System.ValueTuple": "4.5.0",
           "Win2D.uwp": "1.20.0"
         },
         "compile": {
@@ -4669,7 +4699,7 @@
           "LH.BottomNavigationBar.XF": "1.0.42",
           "Xam.Plugins.Settings": "3.1.1",
           "Xamarin.Essentials": "1.3.1",
-          "Xamarin.Forms": "4.3.0.991221",
+          "Xamarin.Forms": "4.4.0.991265",
           "XamarinForms.CardView.NetStandard": "1.1.1.5",
           "ZXing.Net.Mobile": "2.4.1",
           "ZXing.Net.Mobile.Forms": "2.4.1"
@@ -6212,6 +6242,15 @@
           "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.dll": {}
         }
       },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/uap10.0.16299/_._": {}
+        },
+        "runtime": {
+          "lib/uap10.0.16299/_._": {}
+        }
+      },
       "System.Xml.ReaderWriter/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -6333,12 +6372,13 @@
           "lib/uap10.0.16299/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/4.3.0.991221": {
+      "Xamarin.Forms/4.4.0.991265": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.UniversalWindowsPlatform": "6.0.12",
           "Microsoft.UI.Xaml": "2.1.190606001",
           "NETStandard.Library": "2.0.1",
+          "System.ValueTuple": "4.5.0",
           "Win2D.uwp": "1.20.0"
         },
         "compile": {
@@ -6406,7 +6446,7 @@
           "LH.BottomNavigationBar.XF": "1.0.42",
           "Xam.Plugins.Settings": "3.1.1",
           "Xamarin.Essentials": "1.3.1",
-          "Xamarin.Forms": "4.3.0.991221",
+          "Xamarin.Forms": "4.4.0.991265",
           "XamarinForms.CardView.NetStandard": "1.1.1.5",
           "ZXing.Net.Mobile": "2.4.1",
           "ZXing.Net.Mobile.Forms": "2.4.1"
@@ -7850,6 +7890,15 @@
           "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.dll": {}
         }
       },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/uap10.0.16299/_._": {}
+        },
+        "runtime": {
+          "lib/uap10.0.16299/_._": {}
+        }
+      },
       "System.Xml.ReaderWriter/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -7974,12 +8023,13 @@
           "lib/uap10.0.16299/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/4.3.0.991221": {
+      "Xamarin.Forms/4.4.0.991265": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.UniversalWindowsPlatform": "6.0.12",
           "Microsoft.UI.Xaml": "2.1.190606001",
           "NETStandard.Library": "2.0.1",
+          "System.ValueTuple": "4.5.0",
           "Win2D.uwp": "1.20.0"
         },
         "compile": {
@@ -8047,7 +8097,7 @@
           "LH.BottomNavigationBar.XF": "1.0.42",
           "Xam.Plugins.Settings": "3.1.1",
           "Xamarin.Essentials": "1.3.1",
-          "Xamarin.Forms": "4.3.0.991221",
+          "Xamarin.Forms": "4.4.0.991265",
           "XamarinForms.CardView.NetStandard": "1.1.1.5",
           "ZXing.Net.Mobile": "2.4.1",
           "ZXing.Net.Mobile.Forms": "2.4.1"
@@ -9590,6 +9640,15 @@
           "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.dll": {}
         }
       },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/uap10.0.16299/_._": {}
+        },
+        "runtime": {
+          "lib/uap10.0.16299/_._": {}
+        }
+      },
       "System.Xml.ReaderWriter/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -9714,12 +9773,13 @@
           "lib/uap10.0.16299/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/4.3.0.991221": {
+      "Xamarin.Forms/4.4.0.991265": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.UniversalWindowsPlatform": "6.0.12",
           "Microsoft.UI.Xaml": "2.1.190606001",
           "NETStandard.Library": "2.0.1",
+          "System.ValueTuple": "4.5.0",
           "Win2D.uwp": "1.20.0"
         },
         "compile": {
@@ -9787,7 +9847,7 @@
           "LH.BottomNavigationBar.XF": "1.0.42",
           "Xam.Plugins.Settings": "3.1.1",
           "Xamarin.Essentials": "1.3.1",
-          "Xamarin.Forms": "4.3.0.991221",
+          "Xamarin.Forms": "4.4.0.991265",
           "XamarinForms.CardView.NetStandard": "1.1.1.5",
           "ZXing.Net.Mobile": "2.4.1",
           "ZXing.Net.Mobile.Forms": "2.4.1"
@@ -11231,6 +11291,15 @@
           "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.dll": {}
         }
       },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/uap10.0.16299/_._": {}
+        },
+        "runtime": {
+          "lib/uap10.0.16299/_._": {}
+        }
+      },
       "System.Xml.ReaderWriter/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -11355,12 +11424,13 @@
           "lib/uap10.0.16299/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/4.3.0.991221": {
+      "Xamarin.Forms/4.4.0.991265": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.UniversalWindowsPlatform": "6.0.12",
           "Microsoft.UI.Xaml": "2.1.190606001",
           "NETStandard.Library": "2.0.1",
+          "System.ValueTuple": "4.5.0",
           "Win2D.uwp": "1.20.0"
         },
         "compile": {
@@ -11428,7 +11498,7 @@
           "LH.BottomNavigationBar.XF": "1.0.42",
           "Xam.Plugins.Settings": "3.1.1",
           "Xamarin.Essentials": "1.3.1",
-          "Xamarin.Forms": "4.3.0.991221",
+          "Xamarin.Forms": "4.4.0.991265",
           "XamarinForms.CardView.NetStandard": "1.1.1.5",
           "ZXing.Net.Mobile": "2.4.1",
           "ZXing.Net.Mobile.Forms": "2.4.1"
@@ -12971,6 +13041,15 @@
           "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.dll": {}
         }
       },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/uap10.0.16299/_._": {}
+        },
+        "runtime": {
+          "lib/uap10.0.16299/_._": {}
+        }
+      },
       "System.Xml.ReaderWriter/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -13095,12 +13174,13 @@
           "lib/uap10.0.16299/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/4.3.0.991221": {
+      "Xamarin.Forms/4.4.0.991265": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.UniversalWindowsPlatform": "6.0.12",
           "Microsoft.UI.Xaml": "2.1.190606001",
           "NETStandard.Library": "2.0.1",
+          "System.ValueTuple": "4.5.0",
           "Win2D.uwp": "1.20.0"
         },
         "compile": {
@@ -13168,7 +13248,7 @@
           "LH.BottomNavigationBar.XF": "1.0.42",
           "Xam.Plugins.Settings": "3.1.1",
           "Xamarin.Essentials": "1.3.1",
-          "Xamarin.Forms": "4.3.0.991221",
+          "Xamarin.Forms": "4.4.0.991265",
           "XamarinForms.CardView.NetStandard": "1.1.1.5",
           "ZXing.Net.Mobile": "2.4.1",
           "ZXing.Net.Mobile.Forms": "2.4.1"
@@ -20926,6 +21006,50 @@
         "system.threading.tasks.extensions.nuspec"
       ]
     },
+    "System.ValueTuple/4.5.0": {
+      "sha512": "okurQJO6NRE/apDIP23ajJ0hpiNmJ+f0BwOlB/cSqTLQlw5upkf+5+96+iG2Jw40G1fCVCyPz/FhIABUjMR+RQ==",
+      "type": "package",
+      "path": "system.valuetuple/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net461/System.ValueTuple.dll",
+        "lib/net461/System.ValueTuple.xml",
+        "lib/net47/System.ValueTuple.dll",
+        "lib/net47/System.ValueTuple.xml",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.0/System.ValueTuple.dll",
+        "lib/netstandard1.0/System.ValueTuple.xml",
+        "lib/netstandard2.0/_._",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.xml",
+        "lib/uap10.0.16299/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net461/System.ValueTuple.dll",
+        "ref/net47/System.ValueTuple.dll",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard2.0/_._",
+        "ref/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "ref/uap10.0.16299/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.valuetuple.4.5.0.nupkg.sha512",
+        "system.valuetuple.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
     "System.Xml.ReaderWriter/4.3.0": {
       "sha512": "GrprA+Z0RUXaR4N7/eW71j1rgMnEnEVlgii49GZyAjTH7uliMnrOU3HNFBr6fEDBCJCIdlVNq9hHbaDR621XBA==",
       "type": "package",
@@ -21256,10 +21380,10 @@
         "xamarin.essentials.nuspec"
       ]
     },
-    "Xamarin.Forms/4.3.0.991221": {
-      "sha512": "Yh3kxXj+fnERLZfh8gNbcFWflSL0PvPh3aHtq2tpXInInVNeWDUb0qitChUm2hgJSSOpn3MBa/55nxcqPM4Kog==",
+    "Xamarin.Forms/4.4.0.991265": {
+      "sha512": "FhG5Sq2wzY8A6IzW3iMVVKqQf4G3hry0joDDGnw1SWBQ5cfW6YNpOiuh2wB/BRPoVnO0SuUBY+b1NPXve72NDQ==",
       "type": "package",
-      "path": "xamarin.forms/4.3.0.991221",
+      "path": "xamarin.forms/4.4.0.991265",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -21488,6 +21612,7 @@
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsTextBoxStyle.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/MasterDetailControlStyle.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/Microsoft.UI.Xaml/DensityStyles/Compact.xbf",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/Microsoft.UI.Xaml/Themes/generic.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/PageControlStyle.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/PickerStyle.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/Properties/Xamarin.Forms.Platform.UAP.rd.xml",
@@ -21501,7 +21626,7 @@
         "lib/uap10.0/Xamarin.Forms.Xaml.dll",
         "lib/uap10.0/Xamarin.Forms.Xaml.pdb",
         "lib/uap10.0/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.4.3.0.991221.nupkg.sha512",
+        "xamarin.forms.4.4.0.991265.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
     },
@@ -21575,7 +21700,7 @@
       "Microsoft.NETCore.UniversalWindowsPlatform >= 6.2.9",
       "Xam.Plugins.Settings >= 3.1.1",
       "Xamarin.Essentials >= 1.3.1",
-      "Xamarin.Forms >= 4.3.0.991221",
+      "Xamarin.Forms >= 4.4.0.991265",
       "XamarinForms.CardView.NetStandard >= 1.1.1.5",
       "ZXing.Net.Mobile >= 2.4.1",
       "ZXing.Net.Mobile.Forms >= 2.4.1"
@@ -21647,7 +21772,7 @@
           },
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "[4.3.0.991221, )"
+            "version": "[4.4.0.991265, )"
           },
           "XamarinForms.CardView.NetStandard": {
             "target": "Package",

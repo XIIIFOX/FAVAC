@@ -94,6 +94,13 @@
 							</Candidate>
 						</NamedResource>
 					</ResourceMapSubtree>
+					<ResourceMapSubtree name="Themes">
+						<NamedResource name="generic.xbf" uri="ms-resource://Xamarin.Forms.Platform.UAP/Files/Xamarin.Forms.Platform.UAP/Microsoft.UI.Xaml/Themes/generic.xbf">
+							<Candidate type="EmbeddedData">
+								<Base64Value>[Embedded Binary Data]</Base64Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
 				</ResourceMapSubtree>
 				<ResourceMapSubtree name="Shell">
 					<NamedResource name="ShellStyles.xbf" uri="ms-resource://Xamarin.Forms.Platform.UAP/Files/Xamarin.Forms.Platform.UAP/Shell/ShellStyles.xbf">

@@ -9,7 +9,6 @@ public class MonoPackageManager_Resources {
 		"FastAndroidCamera.dll",
 		"FAVAC.dll",
 		"FormsViewGroup.dll",
-		"HtmlAgilityPack.dll",
 		"LH.BottomBar.XamarinForms.dll",
 		"Newtonsoft.Json.dll",
 		"Plugin.Settings.Abstractions.dll",
