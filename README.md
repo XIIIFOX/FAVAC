@@ -1,1 +1,2 @@
-"# FAVAC" 
+# FAVAC
+Open source project.
